@@ -9,7 +9,7 @@ Echohearts becomes great when players feel three things:
 3. My choices changed Rebearth.
 
 ## Source-of-Truth Rule
-All new Echohearts work routes into this workflow. No duplicate canon, duplicate Dex, duplicate GDD, duplicate technical runtime, or parallel art pipeline.
+All new Echohearts work routes into this workflow. No duplicate canon, duplicate Dex, duplicate GDD, duplicate technical runtime, duplicate public website data source, or parallel art pipeline.
 
 ## Current Project Pillars
 - Living planet restoration.
@@ -20,9 +20,16 @@ All new Echohearts work routes into this workflow. No duplicate canon, duplicate
 - Player choices visibly change Rebearth.
 
 ## Production Runtime
-- Unreal Engine 5.8 is the sole production runtime target.
+- Unreal Engine 5.8 is the sole production game-runtime target.
 - Godot, Unity, and standalone code examples may be studied only as references, not maintained as parallel implementations.
 - Prefer Data Assets/Data Tables, Gameplay Tags, Blueprint configuration, and UI specifications before adding unnecessary C++.
+
+## Public Website Runtime
+- The public project website lives under `/web`.
+- Website stack: Next.js App Router, React, TypeScript, and Tailwind CSS v4.
+- Public Eco-Kin cards and profiles must render from structured data rather than duplicate hard-coded JSX records.
+- Public pages must distinguish `CANON`, `APPROVED-PENDING`, and `IN DEVELOPMENT` material.
+- Unverified game-engine claims must not be presented publicly as completed features.
 
 ## Folder Routing
 - `00_Canon_Lock`: finalized rules, protected terms, no-capture/no-fusion/no-selling laws.
@@ -35,9 +42,10 @@ All new Echohearts work routes into this workflow. No duplicate canon, duplicate
 - `07_Art_Animation`: visual identity, animation priorities, art QC.
 - `08_Technical`: implementation notes, data architecture, Unreal tasks, code-intake audits, transaction contracts.
 - `09_QA_Playtests`: testing plans, survey answers, improvement ratings.
-- `10_Marketing_Publication`: pitch, creator strategy, store-page language.
+- `10_Marketing_Publication`: pitch, creator strategy, store-page language, public website product specifications.
 - `11_Daily_Assignments`: daily task board and review packets.
 - `99_Reference_Retired_Needs_Redesign`: retired terms and incompatible drafts.
+- `web`: public Next.js website implementation.
 
 ## Current Technical Authority Chain
 `owned request → server validation → atomic commit → authoritative event ID → replication/save/progression → local presentation`
@@ -49,6 +57,14 @@ For building/crafting, the expanded contract is:
 - `08_Technical/BCT-001_BUILDING_CRAFTING_TRANSACTION_CONTRACT.md`
 - `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
 
+## Current Website Documents
+- `10_Marketing_Publication/WEBSITE_ECOKIN_BESTIARY.md`
+- `web/app/page.tsx`
+- `web/app/eco-kin/page.tsx`
+- `web/app/eco-kin/[slug]/page.tsx`
+- `web/components/EcoKinExplorer.tsx`
+- `web/data/ecoKin.ts`
+
 ## Current Technical Execution Order
 1. Build `EchoheartsEditor` under UE 5.8.
 2. Run `Echohearts.Partners.CommandBuffer`.
@@ -58,8 +74,17 @@ For building/crafting, the expanded contract is:
 
 These steps remain NOT YET VERIFIED until evidence is produced from the actual Unreal project.
 
+## Current Website Execution Order
+1. Install `/web` dependencies.
+2. Run the production build.
+3. Test `/`, `/eco-kin`, and every seeded profile route.
+4. Run keyboard, reduced-motion, mobile-width, and empty-filter-state QA.
+5. Replace seed records with exported authoritative EcoDex data once that source is available in-repo.
+
+Website runtime/build status remains NOT YET VERIFIED until install/build/browser evidence exists.
+
 ## Production Rule
-Every new asset, system, mission, Eco-Kin, item, UI feature, story beat, art concept, animation, or code change must:
+Every new asset, system, mission, Eco-Kin, item, UI feature, story beat, art concept, animation, website feature, or code change must:
 1. identify its target folder,
 2. declare its canon status,
 3. list dependencies,
