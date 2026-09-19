@@ -53,6 +53,23 @@ Assignments:
 
 Legacy Reverb/Shadow-Sound/Neon Drift/Wooflet-Chaos Howler/CW-004 material remains PROPOSAL until these reviews resolve it.
 
+### P1: Leonix Canon & Character Integration
+Use:
+- `02_EcoKin_Dex/LEONIX_CANON_INTEGRATION.md`
+- `07_Art_Animation/LEONIX_VISUAL_REFERENCE_AND_QA.md`
+- `99_Reference_Retired_Needs_Redesign/LEONIX_LEGACY_CARD_PROPOSALS.md`
+
+Current lock: **LEONIX**. Original artwork remains primary visual reference. Preserve the celestial/prismatic lion-warrior baseline while reviewing unapproved generated-card details.
+
+Assignments:
+1. `EH-EK-LEO-001` Canon Classification: lock class, Guardian status, current twelve-element typing, EcoDex ID, habitat, ecology, and story function.
+2. `EH-EK-LEO-002` Visual Identity Sheet: front/side/back, scale, wing-fold and full-spread poses, crown/face detail, tail/energy structure, material notes, anatomy QC, hero pose.
+3. `EH-EK-LEO-003` Behavior Sheet: calm, watchful, warning, defensive, protective, injured, recovery, social, flight, landing, landmark interaction, and player-recognition states.
+4. `EH-EK-LEO-004` Combat & World Role: one frontline guardian role, one protective ability family, one traversal/world interaction, one restoration interaction, and one major story consequence.
+5. `EH-EK-LEO-005` QA: originality, silhouette, wing/anatomy consistency, element readability, naming, VFX accessibility, animation feasibility, Guardian-agency compliance, and overlap risk with Nature/Sol-Spectra/other high-order guardians.
+
+Generated-card `Cosmic`, `Spirit`, `Celestial Humanoid-Kin`, exact measurement/weight, Mythic rarity, origin and signature-ability details remain PROPOSAL or REJECTED DATA until these reviews resolve them. `Light-aligned` is a continuity descriptor pending mapping through the current twelve-element system, not a new core element.
+
 ### P1: First Playable Slice
 - Chapter 1 opening flow.
 - First Eco-Kin rescue/bond decision.
