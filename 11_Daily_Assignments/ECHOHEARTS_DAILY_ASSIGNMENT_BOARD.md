@@ -36,6 +36,23 @@ Current execution order is fixed until evidence changes it:
 
 Do not skip directly into large gameplay modules before these gates pass.
 
+### P1: Pupular Canon & Character Integration
+Use:
+- `02_EcoKin_Dex/PUPULAR_CHAOS_WOOF_CANON_INTEGRATION.md`
+- `07_Art_Animation/PUPULAR_VISUAL_REFERENCE_AND_QA.md`
+- `99_Reference_Retired_Needs_Redesign/CHAOS_WOOF_LEGACY_PROPOSAL.md`
+
+Current lock: `Chaos Woof → Pupular`. Do not create a second Chaos Woof species.
+
+Assignments:
+1. `EH-EK-PUP-001` Canon Classification: class, twelve-element typing, EcoDex ID, habitat, ecology, combat/world role.
+2. `EH-EK-PUP-002` Visual Identity Sheet: front/side/back, scale, expressions, material notes, anatomy QC, franchise-ready key pose.
+3. `EH-EK-PUP-003` Behavior Sheet: calm, curious, fear, defensive, social, Sanctuary, urban, recovery states.
+4. `EH-EK-PUP-004` Gameplay Integration: one world interaction, one combat role, one restoration use, one Sanctuary interaction, one quest consequence.
+5. `EH-EK-PUP-005` QA: originality, silhouette, element readability, naming, animation feasibility, accessibility, duplicate-role risk.
+
+Legacy Reverb/Shadow-Sound/Neon Drift/Wooflet-Chaos Howler/CW-004 material remains PROPOSAL until these reviews resolve it.
+
 ### P1: First Playable Slice
 - Chapter 1 opening flow.
 - First Eco-Kin rescue/bond decision.
