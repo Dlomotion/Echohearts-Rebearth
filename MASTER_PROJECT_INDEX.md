@@ -28,17 +28,17 @@ All new Echohearts work routes into this workflow. No duplicate canon, duplicate
 ## Folder Routing
 - `00_Canon_Lock`: finalized rules, protected terms, no-capture/no-fusion/no-selling laws.
 - `01_Game_Bible`: full GDD, tone, player loop, region structure.
-- `02_EcoKin_Dex`: Eco-Kin entries, behavior, stats, art notes.
+- `02_EcoKin_Dex`: Eco-Kin entries, behavior, stats, art notes, historical batch intake.
 - `03_Story_Missions`: chapters, missions, dialogue, cutscenes.
 - `04_Systems`: gameplay systems, progression, seasons, Havenlink, Sanctuary, integrated mini-games.
 - `05_Items_Economy`: item ledgers, crafting, resources, rewards.
 - `06_UI_UX`: Journey Journal, A.E.G.I.S. quick wheel, HUD, menus.
-- `07_Art_Animation`: visual identity, animation priorities, art QC.
+- `07_Art_Animation`: visual identity, animation priorities, art QC, historical art recovery.
 - `08_Technical`: implementation notes, data architecture, Unreal tasks, code-intake audits, transaction contracts, rendering integration.
 - `09_QA_Playtests`: testing plans, survey answers, improvement ratings.
 - `10_Marketing_Publication`: pitch, creator strategy, store-page language, public website planning.
 - `11_Daily_Assignments`: daily task board and review packets.
-- `99_Reference_Retired_Needs_Redesign`: retired terms and incompatible drafts.
+- `99_Reference_Retired_Needs_Redesign`: retired terms, duplicate/collision audits, incompatible drafts.
 
 ## Current Technical Authority Chain
 `owned request → server validation → atomic commit → authoritative event ID → replication/save/progression → local presentation`
@@ -60,12 +60,27 @@ For building/crafting, the expanded contract is:
 - `02_EcoKin_Dex/LEONIX_CANON_INTEGRATION.md`
 - `07_Art_Animation/LEONIX_VISUAL_REFERENCE_AND_QA.md`
 - `99_Reference_Retired_Needs_Redesign/LEONIX_LEGACY_CARD_PROPOSALS.md`
+- `02_EcoKin_Dex/HISTORICAL_BATCH_INTAKE_MANIFEST_2026-09-19.md`
+- `07_Art_Animation/HISTORICAL_BATCH_ART_RECOVERY_QUEUE.md`
+- `99_Reference_Retired_Needs_Redesign/ECO_KIN_BATCH_COLLISION_AND_LEGACY_AUDIT.md`
 
 ### Pupular Continuity Lock
 `Chaos Woof → Pupular` is the current identity correction. `Chaos Woof` remains a legacy/source alias only. The old Reverb classification, Shadow/Sound typing, Neon Drift habitat, Wooflet/Chaos Howler progression, CW-004 numbering and proposed abilities remain development proposals until the current EcoDex, twelve-element, ecology, uniqueness and gameplay reviews approve or reject them.
 
 ### Leonix Continuity Lock
 `LEONIX` is the locked identity. The original Leonix artwork is the primary visual reference. Current continuity baseline: celestial/prismatic lion warrior, white/blue-crystal/gold construction, enormous luminous wings, radiant crown structure, energy-bearing tail, and high-order guardian presentation. The generated-card title, Cosmic/Spirit typing, Humanoid-Kin classification, Mythic rarity, origin text, exact measurements, infinite/malformed weight data and generated abilities remain PROPOSAL or REJECTED DATA until formal review resolves them. Historical `Light-aligned` identity should be mapped through the current twelve-element system during canon review rather than treated as a new element; STARZ* remains presentation/VFX language only.
+
+### Historical Eco-Kin Batch Intake Lock
+The large historical `Eco-Kin Creation Batch` archive is now part of the official source workflow as **SOURCE / PROPOSAL material**, not a second roster. Historical batch numbers are archival markers only and are not permanent EcoDex IDs. Every entry must pass duplicate/collision, naming, body-plan/anatomy, current-element, ecology, role, growth/forms, agency, art, originality/IP, and permanent-ID review before promotion.
+
+Required status values for historical entries:
+- CANON
+- APPROVED-PENDING
+- MERGED / RENAMED
+- RETIRED / REFERENCE-ONLY
+- REJECTED
+
+The archive visibly contains duplicate names, repeated ecological roles, old element taxonomies, `Chil-Kin → Mega Kin → Ultimate Kin` language, Ancient-DNA/mutation language, numbering gaps/overlaps, and repeated Legendary/Solar patterns. These must be reconciled rather than copied into canon.
 
 ## Legacy/Prototype Intake Rule
 Unity/C#, generic C++, copied cross-franchise examples, direct client inventory mutation, fake deterministic tick claims, OnGUI debug panels, global tag searches, unguarded dev commands, and unsupported secure/complete/zero-desync claims are reference-only until audited. Useful concepts must be translated into Unreal-native Subsystems, ActorComponents, Enhanced Input, UMG/CommonUI, Gameplay Tags, delegates, authoritative requests, Automation tests and development-only diagnostics.
