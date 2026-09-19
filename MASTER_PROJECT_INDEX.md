@@ -27,7 +27,7 @@ All new Echohearts work routes into this workflow. No duplicate canon, duplicate
 
 ## Folder Routing
 - `00_Canon_Lock`: finalized rules, protected terms, no-capture/no-fusion/no-selling laws.
-- `01_Game_Bible`: full GDD, tone, player loop, region structure.
+- `01_Game_Bible`: full GDD, tone, player loop, region structure, full-story/publication intake.
 - `02_EcoKin_Dex`: Eco-Kin entries, behavior, stats, art notes, historical batch intake.
 - `03_Story_Missions`: chapters, missions, dialogue, cutscenes.
 - `04_Systems`: gameplay systems, progression, seasons, Havenlink, Sanctuary, integrated mini-games.
@@ -53,6 +53,17 @@ For building/crafting, the expanded contract is:
 - `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
 - `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
 
+## Current Story / Publication Documents
+- `01_Game_Bible/FULL_SCALE_STORY_PUBLICATION_INTAKE_2026-09-19.md`
+- `11_Daily_Assignments/FULL_STORY_RECONCILIATION_ASSIGNMENTS.md`
+
+### Full-Story Intake Lock
+The historical full-story/publishing thread is now part of the official source workflow as SOURCE / PROPOSAL material. It does not create a second Bible. Its requested outputs remain connected deliverables: one-page lore summary, cinematic opening, publisher/studio pitch story, act/chapter progression map, anime/graphic-novel outline, and final publication manuscript connecting major NPCs, Eco-Kin, ecosystems, landscapes, landmarks, side quests and backstories.
+
+Historical concepts including Everhour Haven, Chronovore, Hourglass Choir, Astryx, STARZ*, Saviors, Lord Dred, Lost Souls, Deminions, Rad, Bugs, Agents, Blood-Water Spirits, Kinfolk, Humanoids, Great Compression/Echo Rift wording, Meridian Enclave, Sky Archive, Starlight Spires, Umbral Mire, Tri-Core Monolith/Legacy Sector wording and 50 Boss Raid targets must be mapped, merged, renamed, retired or canon-approved against current Rebearth continuity before publication.
+
+The historical final Word manuscript and publishing-pack binaries are NOT YET VERIFIED in this repository until their actual files are available and compared.
+
 ## Current Eco-Kin Continuity Documents
 - `02_EcoKin_Dex/PUPULAR_CHAOS_WOOF_CANON_INTEGRATION.md`
 - `07_Art_Animation/PUPULAR_VISUAL_REFERENCE_AND_QA.md`
@@ -63,12 +74,20 @@ For building/crafting, the expanded contract is:
 - `02_EcoKin_Dex/HISTORICAL_BATCH_INTAKE_MANIFEST_2026-09-19.md`
 - `07_Art_Animation/HISTORICAL_BATCH_ART_RECOVERY_QUEUE.md`
 - `99_Reference_Retired_Needs_Redesign/ECO_KIN_BATCH_COLLISION_AND_LEGACY_AUDIT.md`
+- `07_Art_Animation/AQUATIC_CRYSTALLINE_REFERENCE_SHEET_QA.md`
+- `00_Canon_Lock/CHARACTER_UNIVERSE_SCOPE_LOCK.md`
+- `02_EcoKin_Dex/AQUATIC_CRYSTALLINE_BATCH_CANON_INTAKE.md`
+- `07_Art_Animation/FRANCHISE_CHARACTER_VISUAL_TARGET_AND_QA.md`
+- `11_Daily_Assignments/CHARACTER_UNIVERSE_INTAKE_ASSIGNMENTS.md`
 
 ### Pupular Continuity Lock
 `Chaos Woof → Pupular` is the current identity correction. `Chaos Woof` remains a legacy/source alias only. The old Reverb classification, Shadow/Sound typing, Neon Drift habitat, Wooflet/Chaos Howler progression, CW-004 numbering and proposed abilities remain development proposals until the current EcoDex, twelve-element, ecology, uniqueness and gameplay reviews approve or reject them.
 
 ### Leonix Continuity Lock
 `LEONIX` is the locked identity. The original Leonix artwork is the primary visual reference. Current continuity baseline: celestial/prismatic lion warrior, white/blue-crystal/gold construction, enormous luminous wings, radiant crown structure, energy-bearing tail, and high-order guardian presentation. The generated-card title, Cosmic/Spirit typing, Humanoid-Kin classification, Mythic rarity, origin text, exact measurements, infinite/malformed weight data and generated abilities remain PROPOSAL or REJECTED DATA until formal review resolves them. Historical `Light-aligned` identity should be mapped through the current twelve-element system during canon review rather than treated as a new element; STARZ* remains presentation/VFX language only.
+
+### Aquatic / Crystalline Reference Lock
+The supplied aquatic/crystalline group sheet is reference art. Preserve the source names Bloomtide, Seafoam Dews, Shellara, Coveclaw, Brightgleam, Mirlijaw, Abyssance and the malformed/uncertain Driftide/Seedlina source entry for review. Resolve the two Shellara-like designs as forms/stages/variants/merge/separate species before permanent IDs. No pictured design becomes canon solely because it appears on the sheet.
 
 ### Historical Eco-Kin Batch Intake Lock
 The large historical `Eco-Kin Creation Batch` archive is now part of the official source workflow as **SOURCE / PROPOSAL material**, not a second roster. Historical batch numbers are archival markers only and are not permanent EcoDex IDs. Every entry must pass duplicate/collision, naming, body-plan/anatomy, current-element, ecology, role, growth/forms, agency, art, originality/IP, and permanent-ID review before promotion.
@@ -87,6 +106,8 @@ Unity/C#, generic C++, copied cross-franchise examples, direct client inventory 
 
 ## Rendering Rule
 Use Unreal Engine 5.8 rendering systems first: authored materials/material instances, Niagara, lighting, post-process, animation, World Partition/Data Layers, scalability settings and profiling. Do not build a custom renderer unless project evidence demonstrates a requirement. STARZ* remains a presentation language, not a separate core element.
+
+Historical references to “Nintendo-esque” presentation or Unreal Engine 5.2 are inspiration history only. The production visual target is original Echohearts readability and silhouette clarity with premium biological/crystalline materials, lore-appropriate Ancient Tech/STARZ* detailing and UE5.8 presentation. 8K/ray-traced presentation is a marketing/key-art target, not an assumed runtime requirement.
 
 ## Mini-Game Rule
 Mini-games live inside the main workflow. They must reinforce A.E.G.I.S., Kindling, restoration, purification, Living Soil, Sanctuary care, crafting, traversal, Resonance puzzles, seasonal ecology, EchoDeck, Academy training or ethical Arena simulation. Each mini-game must define input, onboarding, success/failure, accessibility, rewards, save/data hooks, anti-exploit constraints, authority rules, replayability, world consequence and an Unreal implementation path.
