@@ -70,6 +70,26 @@ Assignments:
 
 Generated-card `Cosmic`, `Spirit`, `Celestial Humanoid-Kin`, exact measurement/weight, Mythic rarity, origin and signature-ability details remain PROPOSAL or REJECTED DATA until these reviews resolve them. `Light-aligned` is a continuity descriptor pending mapping through the current twelve-element system, not a new core element.
 
+### P1: Historical Eco-Kin Batch Reconciliation
+Use:
+- `02_EcoKin_Dex/HISTORICAL_BATCH_INTAKE_MANIFEST_2026-09-19.md`
+- `99_Reference_Retired_Needs_Redesign/ECO_KIN_BATCH_COLLISION_AND_LEGACY_AUDIT.md`
+- `07_Art_Animation/HISTORICAL_BATCH_ART_RECOVERY_QUEUE.md`
+
+The historical `Eco-Kin Creation Batch` archive is source/proposal material only. Do not promote batch numbers as EcoDex IDs and do not create a second roster.
+
+Assignments:
+1. `EH-EK-BATCH-001` Build a one-row-per-historical-name intake table with source batch, proposed body plan, habitat, old element labels, role, image-reference availability, and current status.
+2. `EH-EK-BATCH-002` Resolve name collisions beginning with Veripaw, Verithorn, Aerowisp, Shadowfin/Shadowlurk, Glacifin/Frosttusk, Luminix/Lumoray, Solarion/Solrider, and Stonequill.
+3. `EH-EK-BATCH-003` Map valid old element labels into the current twelve-element system without creating new core elements.
+4. `EH-EK-BATCH-004` Audit `Chil-Kin → Mega Kin → Ultimate Kin`, Ancient-DNA, mutation, and evolution wording against current Growth Rite/forms and agency rules.
+5. `EH-EK-BATCH-005` Flag repeated ecological roles and Legendary inflation so each surviving Eco-Kin has a distinct reason to exist.
+6. `EH-EK-BATCH-006` Recover art only for active review targets, then run anatomy, artifact, originality/IP, silhouette, element-readability, accessibility, and animation-feasibility QA.
+7. `EH-EK-BATCH-007` Assign permanent EcoKinID/EchoprintID only after canon approval.
+8. `EH-EK-BATCH-008` For each reviewed entry, record exactly one result: CANON, APPROVED-PENDING, MERGED/RENAMED, RETIRED/REFERENCE-ONLY, or REJECTED.
+
+Do not let this archive intake generate hundreds of new production tasks at once. Process bounded groups and preserve review evidence.
+
 ### P1: First Playable Slice
 - Chapter 1 opening flow.
 - First Eco-Kin rescue/bond decision.
