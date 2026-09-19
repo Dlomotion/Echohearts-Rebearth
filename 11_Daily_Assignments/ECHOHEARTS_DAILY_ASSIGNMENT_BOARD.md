@@ -36,6 +36,17 @@ Current execution order is fixed until evidence changes it:
 
 Do not skip directly into large gameplay modules before these gates pass.
 
+### P0: Public Website / Eco-Kin Bestiary
+- Install dependencies for `/web`.
+- Run `npm run build` and record evidence.
+- Validate the home page, `/eco-kin`, and every current `/eco-kin/[slug]` route.
+- Verify search by canonical name, EcoKinID, and habitat.
+- Verify filters for element, status, and classification.
+- Test keyboard navigation, focus visibility, reduced motion, 320px mobile width, and empty-result recovery.
+- Keep numeric V/D/H/P values hidden until source data explicitly contains approved values.
+- Keep canon-status labels visible so development material cannot be mistaken for locked canon.
+- Replace seed roster records with an authoritative in-repo EcoDex export when available.
+
 ### P1: First Playable Slice
 - Chapter 1 opening flow.
 - First Eco-Kin rescue/bond decision.
@@ -56,7 +67,7 @@ After the Technical Engine Gate:
 ### P1: Technical Hygiene
 - Inspect repository before adding unnecessary C++.
 - Prefer Data Assets/Data Tables, Gameplay Tags, Blueprint configuration, and UI specs when sufficient.
-- Keep Unreal Engine 5.8 as the sole production runtime.
+- Keep Unreal Engine 5.8 as the sole production game runtime.
 - Do not maintain parallel Godot/Unity implementations.
 - Reject copied outside-game code, identities, item catalogs, and game-specific naming.
 - Keep capture spheres/cages/forced work/forced evolution out of active runtime.
@@ -65,6 +76,10 @@ After the Technical Engine Gate:
 ## Current Technical Documents
 - `08_Technical/BCT-001_BUILDING_CRAFTING_TRANSACTION_CONTRACT.md`
 - `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
+
+## Current Website Documents
+- `10_Marketing_Publication/WEBSITE_ECOKIN_BESTIARY.md`
+- `/web` Next.js implementation
 
 ## Assignment Template
 ### Assignment ID
