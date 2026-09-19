@@ -30,7 +30,7 @@ Nothing is marked VERIFIED without evidence.
 Current execution order is fixed until evidence changes it:
 1. Build `EchoheartsEditor` under Unreal Engine 5.8.
 2. Run `Echohearts.Partners.CommandBuffer`.
-3. Test the reload/recovery marker at 150/250/350 ms.
+3. Test the reload/recovery marker at 150/250/350 ms plus travel, reconnect and late join.
 4. Implement `ECO-API-001`, the shared authoritative ability/transaction event contract.
 5. Implement the smallest `BCT-001` reservation/commit/rollback kernel.
 
@@ -53,6 +53,40 @@ After the Technical Engine Gate:
 - Prove no duplicate spend/output under request retry.
 - Persist and reload the committed result.
 
+### P1: Mini-Game Vertical Slice
+Use `04_Systems/MINIGAME_PRODUCTION_TRACK.md`.
+Priority order:
+1. `MG-001 A.E.G.I.S. Signal Trace`
+2. `MG-002 Kindling Rhythm`
+3. `MG-003 Purity Flow`
+
+For each mini-game:
+- define input and tutorial flow,
+- define success, partial and failure states,
+- define accessibility and reduced-motion/audio alternatives,
+- define rewards and anti-exploit limits,
+- define save/data hooks,
+- define multiplayer authority if any,
+- define the visible world/story consequence,
+- choose Data/Blueprint vs C++ based on actual need,
+- keep NOT YET VERIFIED until played in the real UE 5.8 project.
+
+### P1: Rendering / Presentation
+Use `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`.
+First proof target:
+- one Vespera/Whispering Glade damaged state,
+- one restoration event,
+- material/Niagara/lighting/Data Layer transition,
+- Eco-Kin/NPC reaction,
+- save/reload persistence,
+- GPU/profile/scalability evidence.
+
+### P1: Legacy Prototype Intake
+Use `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`.
+- Keep Unity/C# and generic C++ prototypes reference-only.
+- Translate useful intent into Unreal-native Subsystems, ActorComponents, Enhanced Input, UMG/CommonUI, Gameplay Tags, delegates and authoritative requests.
+- Do not port direct client item mutation, fake deterministic tick claims, OnGUI tooling, global tag searches, singleton overreach, unguarded development commands or unsupported security/network claims.
+
 ### P1: Technical Hygiene
 - Inspect repository before adding unnecessary C++.
 - Prefer Data Assets/Data Tables, Gameplay Tags, Blueprint configuration, and UI specs when sufficient.
@@ -60,11 +94,20 @@ After the Technical Engine Gate:
 - Do not maintain parallel Godot/Unity implementations.
 - Reject copied outside-game code, identities, item catalogs, and game-specific naming.
 - Keep capture spheres/cages/forced work/forced evolution out of active runtime.
-- Document compile, test, profile, multiplayer, persistence, and regression evidence.
+- Document compile, test, profile, multiplayer, persistence, rendering and regression evidence.
+
+### P1: Public Website
+- Keep the Eco-Kin Bestiary data-driven.
+- Distinguish CANON, APPROVED-PENDING and IN DEVELOPMENT.
+- Do not advertise unverified engine/network/rendering features as completed.
+- Reuse authoritative Eco-Kin data rather than duplicating public-site values.
 
 ## Current Technical Documents
 - `08_Technical/BCT-001_BUILDING_CRAFTING_TRANSACTION_CONTRACT.md`
 - `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
+- `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`
+- `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
+- `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
 
 ## Assignment Template
 ### Assignment ID
