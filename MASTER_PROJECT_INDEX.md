@@ -57,9 +57,15 @@ For building/crafting, the expanded contract is:
 - `02_EcoKin_Dex/PUPULAR_CHAOS_WOOF_CANON_INTEGRATION.md`
 - `07_Art_Animation/PUPULAR_VISUAL_REFERENCE_AND_QA.md`
 - `99_Reference_Retired_Needs_Redesign/CHAOS_WOOF_LEGACY_PROPOSAL.md`
+- `02_EcoKin_Dex/LEONIX_CANON_INTEGRATION.md`
+- `07_Art_Animation/LEONIX_VISUAL_REFERENCE_AND_QA.md`
+- `99_Reference_Retired_Needs_Redesign/LEONIX_LEGACY_CARD_PROPOSALS.md`
 
 ### Pupular Continuity Lock
 `Chaos Woof → Pupular` is the current identity correction. `Chaos Woof` remains a legacy/source alias only. The old Reverb classification, Shadow/Sound typing, Neon Drift habitat, Wooflet/Chaos Howler progression, CW-004 numbering and proposed abilities remain development proposals until the current EcoDex, twelve-element, ecology, uniqueness and gameplay reviews approve or reject them.
+
+### Leonix Continuity Lock
+`LEONIX` is the locked identity. The original Leonix artwork is the primary visual reference. Current continuity baseline: celestial/prismatic lion warrior, white/blue-crystal/gold construction, enormous luminous wings, radiant crown structure, energy-bearing tail, and high-order guardian presentation. The generated-card title, Cosmic/Spirit typing, Humanoid-Kin classification, Mythic rarity, origin text, exact measurements, infinite/malformed weight data and generated abilities remain PROPOSAL or REJECTED DATA until formal review resolves them. Historical `Light-aligned` identity should be mapped through the current twelve-element system during canon review rather than treated as a new element; STARZ* remains presentation/VFX language only.
 
 ## Legacy/Prototype Intake Rule
 Unity/C#, generic C++, copied cross-franchise examples, direct client inventory mutation, fake deterministic tick claims, OnGUI debug panels, global tag searches, unguarded dev commands, and unsupported secure/complete/zero-desync claims are reference-only until audited. Useful concepts must be translated into Unreal-native Subsystems, ActorComponents, Enhanced Input, UMG/CommonUI, Gameplay Tags, delegates, authoritative requests, Automation tests and development-only diagnostics.
