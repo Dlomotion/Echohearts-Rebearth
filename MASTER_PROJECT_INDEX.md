@@ -53,6 +53,14 @@ For building/crafting, the expanded contract is:
 - `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
 - `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
 
+## Current Eco-Kin Continuity Documents
+- `02_EcoKin_Dex/PUPULAR_CHAOS_WOOF_CANON_INTEGRATION.md`
+- `07_Art_Animation/PUPULAR_VISUAL_REFERENCE_AND_QA.md`
+- `99_Reference_Retired_Needs_Redesign/CHAOS_WOOF_LEGACY_PROPOSAL.md`
+
+### Pupular Continuity Lock
+`Chaos Woof → Pupular` is the current identity correction. `Chaos Woof` remains a legacy/source alias only. The old Reverb classification, Shadow/Sound typing, Neon Drift habitat, Wooflet/Chaos Howler progression, CW-004 numbering and proposed abilities remain development proposals until the current EcoDex, twelve-element, ecology, uniqueness and gameplay reviews approve or reject them.
+
 ## Legacy/Prototype Intake Rule
 Unity/C#, generic C++, copied cross-franchise examples, direct client inventory mutation, fake deterministic tick claims, OnGUI debug panels, global tag searches, unguarded dev commands, and unsupported secure/complete/zero-desync claims are reference-only until audited. Useful concepts must be translated into Unreal-native Subsystems, ActorComponents, Enhanced Input, UMG/CommonUI, Gameplay Tags, delegates, authoritative requests, Automation tests and development-only diagnostics.
 
