@@ -26,6 +26,16 @@ Nothing is marked VERIFIED without evidence.
 - Track persistent world-state flags.
 - Connect region recovery to NPC/Eco-Kin reactions.
 
+### P0: Technical Engine Gate
+Current execution order is fixed until evidence changes it:
+1. Build `EchoheartsEditor` under Unreal Engine 5.8.
+2. Run `Echohearts.Partners.CommandBuffer`.
+3. Test the reload/recovery marker at 150/250/350 ms.
+4. Implement `ECO-API-001`, the shared authoritative ability/transaction event contract.
+5. Implement the smallest `BCT-001` reservation/commit/rollback kernel.
+
+Do not skip directly into large gameplay modules before these gates pass.
+
 ### P1: First Playable Slice
 - Chapter 1 opening flow.
 - First Eco-Kin rescue/bond decision.
@@ -33,11 +43,28 @@ Nothing is marked VERIFIED without evidence.
 - First wild tracking mission.
 - First visible before/after world change.
 
-### P1: Technical
+### P1: Building/Crafting Vertical Slice
+After the Technical Engine Gate:
+- Create one approved BuildPiece definition.
+- Create one approved CraftRecipe definition.
+- Implement one authoritative reservation/commit/rollback path.
+- Add placement/crafting UI feedback.
+- Add ecological veto feedback.
+- Prove no duplicate spend/output under request retry.
+- Persist and reload the committed result.
+
+### P1: Technical Hygiene
 - Inspect repository before adding unnecessary C++.
 - Prefer Data Assets/Data Tables, Gameplay Tags, Blueprint configuration, and UI specs when sufficient.
-- Continue A.E.G.I.S. command-buffer proof only when repository/build evidence supports it.
-- Document compile, test, profile, and regression evidence.
+- Keep Unreal Engine 5.8 as the sole production runtime.
+- Do not maintain parallel Godot/Unity implementations.
+- Reject copied outside-game code, identities, item catalogs, and game-specific naming.
+- Keep capture spheres/cages/forced work/forced evolution out of active runtime.
+- Document compile, test, profile, multiplayer, persistence, and regression evidence.
+
+## Current Technical Documents
+- `08_Technical/BCT-001_BUILDING_CRAFTING_TRANSACTION_CONTRACT.md`
+- `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
 
 ## Assignment Template
 ### Assignment ID
