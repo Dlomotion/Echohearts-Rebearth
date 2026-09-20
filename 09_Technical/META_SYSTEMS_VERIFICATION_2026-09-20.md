@@ -38,7 +38,17 @@ Verified behaviors:
 ## GitHub CI
 `.github/workflows/meta-systems-verify.yml` compiles this target with CMake and runs CTest on Ubuntu for pushes and pull requests that touch the meta-systems core.
 
-CI status must be checked on the feature branch/PR before merge. A successful workflow run verifies only this standalone C++17 core, not the Unreal project.
+Verified workflow evidence on PR #4:
+- workflow: `Meta Systems Verify`
+- run ID: `35525697702`
+- job: `verify`
+- conclusion: `success`
+- Checkout: success
+- Configure: success
+- Build: success
+- Test: success
+
+This CI success verifies the standalone C++17 core only. It does not verify Unreal Engine integration.
 
 ## UE5.8 integration status
 NOT YET VERIFIED.
