@@ -1,0 +1,65 @@
+# Daily Assignment — Bee / Dex / Guardian / Hometown Reconciliation
+
+© 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+Status: ACTIVE DAILY WORK / NOT YET VERIFIED IN RUNTIME
+
+## AI Mistake Patch first
+Before implementation, check:
+- duplicate Eco-Kin identities and alias collisions;
+- generated-image captions falsely treated as canon locks;
+- outside-IP / celebrity / mythology naming risk;
+- non-canon Essences or public stat systems;
+- breeding, capture, storage, trading or forced-labor framing;
+- guardian-role collision with Nature, Nurture and Aevoryn;
+- extra limbs, malformed insect anatomy or duplicated art variants;
+- unsupported claims that historical code/art is compiled, verified or production-ready.
+
+## Content track A — Africanized bee-inspired line
+1. Review `03_EcoKin_Dex/Intake/AFRICANIZED_BEE_LINE_INTAKE_2026-09-20.md`.
+2. Run Bug-Kin duplicate/DNA audit against historical insect field-guide/compendium sources.
+3. Approve or rename Hive Spark / Swarm Guard / Crownsting Matriarch.
+4. Reconcile historical Flora/Aero proposals to the active nine-Essence system and species ecology.
+5. Balance working V/D/H/P profiles.
+6. Define Growth Rite requirements and one restoration encounter.
+7. Produce standalone anatomy-correct art only after identity lock.
+
+Acceptance test: one unique three-stage Bug-Kin line with correct six-leg bee anatomy, no duplicate roster identity, active Essence/stat terminology, ethical Kindling path and a world-restoration purpose.
+
+## Content track B — Legacy Dex V2 + generated image-chat sources
+1. Treat the `185-entry` historical count as source inventory only.
+2. Deduplicate names/aliases against permanent `EcoKinID` / `EchoprintID` identities.
+3. Translate old stat/element/family labels into current canon.
+4. Remove ownership/obedience/storage/trading/forced-work framing.
+5. Preserve reusable ecology, personality, role, ability, art/audio/AI and story fields.
+6. Intake nature-power roster requests, Bug-Kin field-guide/compendium passes, Nerekth, Skullkin, Nectlume, Verdanok and related generated references as SOURCE until individually reviewed.
+7. Do not make “one nature power each” a universal mechanic; map species-appropriate ecological abilities through the active Essence/tag system.
+
+Acceptance test: every promoted entry has a final status and no second Dex architecture is created.
+
+## Content track C — Guardian beast art batch
+1. Deduplicate repeated art and incompatible title/function variants.
+2. Review primary queue: Vaelthundra, Cindervault, Auralyss, Kharuvane, Orokharn, Thalassyr, Zephyrahn, Vharomaw, Astravault, Mycelith, Aquanith, Sylvornith and Lumineth.
+3. Review extended SOURCE queue: Naluvael, Nakuvian, Litharin, Sylvarin, Mirelyn, Lumiquell, Nivalune, Glacirune, Eclipsyre, Nerevalis, Sandhyr, Nerevault, Lumivyre, Aerothane, Lumivyne, Kyrallume, Mirethyl, Luminiscaris, Lumorath and Lumenreed.
+4. Resolve name collisions where one name was reused for incompatible ecology/body-plan/Essence concepts.
+5. Map historical elements into the active nine Rebearth Essences or non-Essence tags.
+6. Protect Nature/Nurture/Aevoryn roles.
+7. Run silhouette/anatomy/originality QA before canon promotion.
+8. Assign one approved canonical silhouette target per promoted creature; historical alternates remain art references rather than separate species.
+
+Acceptance test: one identity per name, current Essence mapping, region/story role, no duplicated guardian role and no generic repeated guardian body plan.
+
+## Story track — Hometown DLC
+1. Place the hometown on the approved timeline/map.
+2. Map the attackers to an existing approved antagonist/faction structure.
+3. Define survivor NPCs and knowledge states.
+4. Convert farming/economic rebuilding into current Living Soil, Havenlink, Sanctuary and economy systems.
+5. Build HT-01 through HT-07 only after continuity placement is approved.
+
+Acceptance test: the arc creates persistent world-state changes, survivor consequences and a scarred-but-living ending without contradicting the main campaign.
+
+## Technical rule
+Do not add speculative C++ for these content tracks before the existing UE5.8 technical gates are satisfied. Use Data Assets/Data Tables, Gameplay Tags, Blueprint-authored content and documentation first where sufficient.
+
+## Carry-forward
+Unfinished tasks stay in the one existing `Echohearts Daily Game Work` workflow. Do not create another schedule, Dex, Bible, roster or art pipeline. The Guardian Beast recurring image-generation task remains paused; art creation resumes only through deliberate production assignments after identity and anatomy locks.
