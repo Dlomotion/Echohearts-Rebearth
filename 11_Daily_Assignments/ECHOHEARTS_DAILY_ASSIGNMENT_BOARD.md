@@ -36,6 +36,33 @@ Current execution order is fixed until evidence changes it:
 
 Do not skip directly into large gameplay modules before these gates pass.
 
+### P1: Resonance Kit / Shard-Arc Integration
+Use:
+- `02_EcoKin_Dex/RESONANCE_KIT_SHARD_ARC_CANON_INTAKE.md`
+- `04_Systems/RESONANCE_SHARD_ARC_ADAPTATION_SYSTEM.md`
+- `11_Daily_Assignments/RESONANCE_KIT_SHARD_ARC_ASSIGNMENTS.md`
+- `99_Reference_Retired_Needs_Redesign/RESONANCE_MUTATION_LEGACY_NAME_AND_SYSTEM_AUDIT.md`
+
+Current lock: Resonance Kit remains the adaptive star-furred fox-like Eco-Kin baseline with `Frequency Shift`. Resonance Shards feed the existing Growth Rite/forms structure through **Shard-Arc Adaptation**. Do not create a duplicate forced-evolution system.
+
+Assignments:
+1. `EH-EK-RKIT-001` Base Canon Lock: classification, scale, body plan, current twelve-element treatment, Frequency Shift behavior and first-story placement.
+2. `EH-EK-RKIT-002` Shard Family Audit: Vineshard, Cinderstone/Ashpulse, Tide-Pearl/Boilreef, Static-Core/Oilstatic and Void-Glass/Voidglitch.
+3. `EH-EK-RKIT-003` Branch Form Review: Sylva-Lynx, Flarevane, Aqua-Drift, Volt-Shifter and Umbra-Soul.
+4. `EH-EK-RKIT-004` Growth Rite / Consent Rules: proceed, defer, refuse, unstable, specialist intervention and Discordance warnings.
+5. `EH-EK-RKIT-005` A.E.G.I.S. UI: compatibility, willingness, Harmony, Purity, biome readiness and accessibility.
+6. `EH-EK-RKIT-006` Persistence & Multiplayer Contract: permanent EcoKinID continuity, form state, authority, reconnect, save migration and idempotency.
+7. `EH-EK-RKIT-007` Legacy Line Triage: Iron-Spark/Ferrumwarden/Magnetarion Ward; Botan-Bug/Grove-Beetle/Canopyrex; Stone-Treader/Basalt-Crusher/Magmaweld Golem; Aether-Wisp/Aetherwing Seraphin/Aurelior Prime.
+8. `EH-EK-RKIT-008` Playtest: confirm players understand Shards as place-memory catalysts rather than coercive evolution items.
+
+Hard rules:
+- no thirteenth core element from old `Null-Aether`/Light/Dark/etc. labels,
+- no forced mutation/evolution,
+- no player/Eco-Kin fusion,
+- no raw Blight growth/crafting,
+- no 'living battery' or forced-work framing,
+- every branch must change world/traversal/restoration gameplay, not only stats.
+
 ### P1: Pupular Canon & Character Integration
 Use:
 - `02_EcoKin_Dex/PUPULAR_CHAOS_WOOF_CANON_INTEGRATION.md`
@@ -162,6 +189,7 @@ Use `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`.
 - `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`
 - `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
 - `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
+- `04_Systems/RESONANCE_SHARD_ARC_ADAPTATION_SYSTEM.md`
 
 ## Assignment Template
 ### Assignment ID
