@@ -27,6 +27,16 @@ Before promoting anything from this repost batch:
 
 Acceptance test: one Glow Worm identity, coherent invertebrate body plan, current element/stat system, ethical Kindling path and one clear Rebearth ecology/story function.
 
+## Content track A2 — historical image-chat Eco-Kin batch
+1. Review `03_EcoKin_Dex/Intake/HISTORICAL_IMAGE_CHAT_ECOKIN_BATCH_2026-09-20.md`.
+2. Merge established identities first: Glow Worm, Unbound, Ghoul, Luna Moth, Skyraxis/Skryaxis, ZebraskA, Dryad and Zora.
+3. Run a dedicated moth/butterfly duplicate-family audit before promoting Moth, Butterfly, Blue Butterfly, Emperor Moth, Chrisma Moth, ChrisMoth, Verdeloth or related variants.
+4. Run naming/originality review before publication for Enki, Hawkeye, Pharoah/Pharaoh, Torturecannon, Thrilla Zombie, Boney Bone and other high-risk/generic concepts.
+5. Reconcile historical Mega/Omega/Mutant/Virus/Unbound-Forms language into the current Growth Rite/form/mastery and Blight/Data Virus architecture.
+6. Continue through remaining named and unnamed historical image concepts without treating generated captions as canon locks.
+
+Acceptance test: every historical concept has one explicit state: CANON / APPROVED-PENDING / MERGED-RENAMED / RETIRED-REFERENCE-ONLY / REJECTED, with no duplicate permanent identity.
+
 ## Systems track B — EchoCode / card system
 1. Review `04_Systems/ECHOCODE_CARD_SYSTEM_RECONCILIATION_2026-09-20.md`.
 2. Keep `cards unlock opportunities, not automatic domination` as the design principle.
