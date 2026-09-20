@@ -103,4 +103,22 @@ The historical `185-entry` count is a source inventory estimate, not a locked ca
 
 Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current 8-roster / 3-active campaign combat contract.
 
+## Glow Worm / EchoCode / image archive / legacy Technical Spine intake: 2026-09-20
+
+This repost batch is integrated into the existing workflow and does not create a second card game, Dex, art library, backend stack, runtime or daily schedule.
+
+- `03_EcoKin_Dex/Named_EcoKin/GLOW_WORM.md` — preserves **Glow Worm** as one approved-pending bioluminescent invertebrate Eco-Kin identity. Historical `Light-Kin` presentation is not a new element; Radiant is the strongest current mapping candidate pending final ecology/balance review. Historical card/art variants attach to this identity rather than generating duplicate species.
+- `04_Systems/ECHOCODE_CARD_SYSTEM_RECONCILIATION_2026-09-20.md` — keeps the physical/digital card, EchoCode, Genesis Bloom, community-card and tabletop ideas while correcting sentient-partner ownership, pay-to-win risk, obsolete stats/elements and campaign-combat conflicts. Cards may unlock opportunities, cosmetics, lore, quests, encounter/Kindling leads and approved simulation content, not ownership of living Eco-Kin.
+- `07_Art/HISTORICAL_ECOKIN_IMAGE_ARCHIVE_INTAKE_2026-09-20.md` — records the requirement to preserve recoverable created images as organized individual PNG assets, while keeping the recovery status honest. Historical URLs/file IDs are source references; a complete raw-PNG archive is not yet verified. Rejected/bad variants route to `99_Reference_Retired_Needs_Redesign` instead of replacing approved art.
+- `09_Technical/LEGACY_TECHNICAL_SPINE_UNITY_SQL_AUDIT_2026-09-20.md` — retires the old Unity/C#/Mecanim/PostgreSQL `production-ready` claim, flags `ActionType.FLE_FLEE`, lifecycle/null/polling issues, schema/canon mismatches and preserves only transferable requirements for future UE5.8/account-service design.
+- `11_Daily_Assignments/GLOW_WORM_CARDS_IMAGE_ARCHIVE_SPINE_RECONCILIATION.md` — carries this packet through the one existing `Echohearts Daily Game Work` workflow without jumping the current technical gates.
+
+### Card / EchoCode ethics rule
+
+An Echo-Kin card represents a sentient partner; it does not contain, sell or transfer that being. EchoCode redemption must remain server-authoritative when implemented and may grant eligible content such as an EchoDeck representation, cosmetic, lore entry, quest, encounter/Kindling opportunity, Sanctuary decoration or balanced technique path. Historical VIT/AGS/VEL/RSN/SYNC and Frost/Light/Storm element families are prototype language, not replacements for V/D/H/P or the locked 12 elements.
+
+### Image archive rule
+
+Recover and preserve original created art when actual source bytes are available. Keep originals and edits separately, use stable identity-based filenames, and record source/provenance/status. Never claim a downloadable complete PNG archive exists until the raw assets have actually been recovered and checked.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
