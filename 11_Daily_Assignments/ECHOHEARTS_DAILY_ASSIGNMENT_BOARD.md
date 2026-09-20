@@ -134,6 +134,43 @@ After the Technical Engine Gate:
 - Prove no duplicate spend/output under request retry.
 - Persist and reload the committed result.
 
+### P1: Legacy Parts 215–255 Hardening
+Use:
+- `08_Technical/LEGACY_PARTS_215_255_CODE_AUDIT_2026-09-19.md`
+- `11_Daily_Assignments/LEGACY_PARTS_215_255_HARDENING_ASSIGNMENTS.md`
+
+This is an audit queue, not permission to paste the old UE5.5 blocks into production.
+
+Priority after the Technical Engine Gate:
+1. `EH-TECH-215255-001` POI/Fast-Travel Authority Contract.
+2. `EH-TECH-215255-002` POI Registry Data Model.
+3. `EH-TECH-215255-003` A.E.G.I.S. Compass Merge.
+4. `EH-TECH-215255-004` BCT-001 Sandbox Reconciliation.
+5. `EH-TECH-215255-005` Swimming/Oxygen Contract.
+6. `EH-TECH-215255-006` Altitude & Flight Capability Contract.
+7. `EH-TECH-215255-007` Partner Command Language Cleanup.
+8. `EH-TECH-215255-008` Save & Settings Consolidation.
+9. `EH-TECH-215255-009` Platform Achievement/Cloud Boundary.
+10. `EH-TECH-215255-010` Deep Root Tunnel / Dungeon Decision.
+11. `EH-TECH-215255-011` Excavation Authority Contract.
+12. `EH-TECH-215255-012` Automation Test Repair.
+
+Hard corrections:
+- UE5.8 is the production target, not UE5.5.
+- no RPC endpoint on a WorldSubsystem.
+- fast travel preloads World Partition destination cells before relocation.
+- clients send bounded intent/stable IDs, never trusted authority data.
+- sandbox/building merges into BCT-001.
+- `FluidFriction` belongs to PhysicsVolume, not CharacterMovement.
+- Z position never grants flight.
+- graphics settings use/extend `UGameUserSettings`.
+- active-play saves use the supported async SaveGame path.
+- platform services stay behind a platform boundary.
+- A.E.G.I.S. commands preserve Eco-Kin agency and the four canonical stats.
+- duration-only pseudo-tests are not verification.
+
+All historical claims of 215–255 being compiled, finalized, hardened, bulletproof, secure, fully optimized or production-ready are RETIRED unless actual project evidence proves them.
+
 ### P1: Mini-Game Vertical Slice
 Use `04_Systems/MINIGAME_PRODUCTION_TRACK.md`.
 Priority order:
@@ -188,6 +225,8 @@ Use `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`.
 - `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
 - `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`
 - `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
+- `08_Technical/LEGACY_PARTS_215_255_CODE_AUDIT_2026-09-19.md`
+- `11_Daily_Assignments/LEGACY_PARTS_215_255_HARDENING_ASSIGNMENTS.md`
 - `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
 - `04_Systems/RESONANCE_SHARD_ARC_ADAPTATION_SYSTEM.md`
 
