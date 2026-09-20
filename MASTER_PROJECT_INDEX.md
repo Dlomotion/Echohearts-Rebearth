@@ -136,4 +136,20 @@ Dark Beasts and Ancient Beasts use the same `EcoKinID` / `EchoprintID`, Kindling
 
 When an already-created Eco-Kin has approved prior art, use that recovered creation-chat image/design record as the source of truth for new images here instead of inventing a different creature under the same name. One Eco-Kin per image by default, coherent anatomy, original Echohearts visual identity, and no accidental redesign merely for novelty.
 
+## Growth Rites / Sovereign encounters / Championship status: 2026-09-20
+
+The reposted mutation, DNA-fusion, hunting/trapping, Alpha-boss, Champion-tier and outside-franchise evolution research has been reconciled into original Echohearts systems rather than copied.
+
+- `04_Systems/GROWTH_RITES_RESONANCE_BRANCHES_AND_CHAMPIONSHIP_STATUS.md` — replaces forced mutation and copied evolution tiers with voluntary **Growth Rites / Resonance Branches**, keeps Kindling and the 12 core elements, replaces DNA splicing with **Resonance Trait Infusion / Bio-Synergy Weaving**, replaces Genetic Instability with **Resonance Strain / Spirit Load**, keeps V/D/H/P as the only public stats, and establishes **Resonance Circuit Standing** where sanctioned championship victories raise competitive status.
+- `04_Systems/SOVEREIGN_ECOKIN_ENCOUNTER_SYSTEM.md` — replaces capture-oriented Alpha boss design with **Sovereign Eco-Kin** encounters focused on protection, ecology, purification, territorial challenges and earned trust. No harpoon/cage/genome-extraction progression.
+- `99_Reference_Retired_Needs_Redesign/LEGACY_MUTATION_FUSION_CAPTURE_REFERENCE_RETIRED_2026-09-20.md` — preserves Aniimo / Digimon / Pokémon material only as broad reference questions while explicitly retiring copied terminology, donor consumption, DNA/body fusion, capture cages, stat replacement tables and raw Python pseudocode claims.
+
+### Championship rule
+
+Winning sanctioned Resonance Arena / Harmony Circuit championship fights increases **Resonance Circuit Standing** through the current ladder: **Qualifier → Challenger → Crestbearer → Champion → Grand Champion → Harmonic Crown**. This standing is separate from biological growth and Kindling. It can unlock titles, cosmetics, invitations, advanced trials and competitive content without forcing evolution or creating pay-to-win stat inflation.
+
+### Current uploaded form-art routing
+
+Current images such as Totemflare Rainforest Strider / Galecrest / Stormbringer, Psylopath Mindcoil / Mirefiend, Marmara Seedling / Verdant / Prime Guardian, Flames Emberling / Cinderstride / Blazewarden, Sandveil Burrowkin / Sandshield / Sandshaper, ZuriStripe variants, Ho-kanko variants and Jazzy & Drako pair art are preserved as visual/source references. They require naming, element, anatomy and story audit before final data lock. Human + Eco-Kin pair imagery represents partnership, never fusion.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
