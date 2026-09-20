@@ -12,6 +12,22 @@
 - Primary corruption language: **The Blight / Data Virus**.
 - Main bond loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**.
 
+## Naming standard
+
+- Use **Eco-Kin** in normal prose for the creature line, whether referring to one creature or the collective species group.
+- Use **EcoKin** for code identifiers, schema keys, enum/type prefixes, asset IDs, and filenames where punctuation is undesirable.
+- Use **Eco-Kin's** only for the singular possessive form when grammar requires it.
+- Do not reintroduce `Eco_kin`, `Ech-kin`, `Echo-Kin`, `Conductor Lattice`, `Lattice creature`, or other replacement umbrella names as the franchise creature term.
+- Project title remains **Echohearts: Rebearth** unless an explicitly approved product subtitle is added.
+
+## Originality and external-reference rule
+
+- Outside games, films, books, toys, and franchises may be studied only for broad design lessons, accessibility, pacing, technical patterns, and market expectations.
+- Do **not** copy another game's named landmarks, animation clips, rigs, keyframe timing, silhouettes, UI layouts, progression formulas, capture devices, creature lines, story beats, or proprietary terminology and then rename them.
+- Requests such as “same animation as Aniimo” are interpreted only as a **quality target**: responsive movement, believable weight, strong anticipation/follow-through, readable creature personality, and polished traversal/combat transitions. Echohearts must author its own rigs, clips, timing, poses, VFX language, and creature-specific behavior.
+- Shared animation is allowed only inside compatible Echohearts-authored rig families through UE5.8 retargeting/IK workflows. Every species still requires species-specific behavior, signature motion, and anatomy-safe validation.
+- `Neural Resonance`, `Organic Hardware`, `Conductor Lattice`, `Synaptic Node Inversion`, `Chrono-Packet`, and similar drift terminology from experimental rewrites are **not the new foundation**. Useful technical ideas may be salvaged only after being translated back into established Echohearts systems.
+
 ## Resonance and Harmony scope
 
 - **Resonance** is a planetary/biological interaction principle. It may present through light, pressure, temperature, electricity, motion, scent, magnetic behavior, vibration, or sound.
@@ -57,6 +73,7 @@
 - Aevoryn remains the Time Guardian tied to the Clockspire of Aevoryn.
 - Existing named villains and factions take precedence over newly pasted duplicates. New material should merge into the established network where possible.
 - Existing regions and chapter grid take precedence over duplicate geography. Historical names may survive as local nicknames, ruins, archive labels, or retired terminology when useful.
+- Rebearth is a **physical living world**. Old purely digital-Grid explanations are legacy drafts, not the current world ontology.
 
 ## Technical truth rule
 
