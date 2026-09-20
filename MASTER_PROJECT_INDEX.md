@@ -52,6 +52,7 @@ For building/crafting, the expanded contract is:
 - `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`
 - `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
 - `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
+- `04_Systems/RESONANCE_SHARD_ARC_ADAPTATION_SYSTEM.md`
 
 ## Current Story / Publication Documents
 - `01_Game_Bible/FULL_SCALE_STORY_PUBLICATION_INTAKE_2026-09-19.md`
@@ -79,6 +80,9 @@ The historical final Word manuscript and publishing-pack binaries are NOT YET VE
 - `02_EcoKin_Dex/AQUATIC_CRYSTALLINE_BATCH_CANON_INTAKE.md`
 - `07_Art_Animation/FRANCHISE_CHARACTER_VISUAL_TARGET_AND_QA.md`
 - `11_Daily_Assignments/CHARACTER_UNIVERSE_INTAKE_ASSIGNMENTS.md`
+- `02_EcoKin_Dex/RESONANCE_KIT_SHARD_ARC_CANON_INTAKE.md`
+- `11_Daily_Assignments/RESONANCE_KIT_SHARD_ARC_ASSIGNMENTS.md`
+- `99_Reference_Retired_Needs_Redesign/RESONANCE_MUTATION_LEGACY_NAME_AND_SYSTEM_AUDIT.md`
 
 ### Pupular Continuity Lock
 `Chaos Woof → Pupular` is the current identity correction. `Chaos Woof` remains a legacy/source alias only. The old Reverb classification, Shadow/Sound typing, Neon Drift habitat, Wooflet/Chaos Howler progression, CW-004 numbering and proposed abilities remain development proposals until the current EcoDex, twelve-element, ecology, uniqueness and gameplay reviews approve or reject them.
@@ -88,6 +92,18 @@ The historical final Word manuscript and publishing-pack binaries are NOT YET VE
 
 ### Aquatic / Crystalline Reference Lock
 The supplied aquatic/crystalline group sheet is reference art. Preserve the source names Bloomtide, Seafoam Dews, Shellara, Coveclaw, Brightgleam, Mirlijaw, Abyssance and the malformed/uncertain Driftide/Seedlina source entry for review. Resolve the two Shellara-like designs as forms/stages/variants/merge/separate species before permanent IDs. No pictured design becomes canon solely because it appears on the sheet.
+
+### Resonance Kit / Shard-Arc Lock
+The Resonance Kit remains the adaptive star-furred fox-like Eco-Kin baseline with `Frequency Shift`. Its historical `Null-Aether` label is a source descriptor, not an automatic new core element. Resonance Shards and Abyssal/pressure-biome triggers are routed through the existing Growth Rite/forms framework as **Shard-Arc Adaptation**, not a duplicate forced-evolution system.
+
+Current branch candidates under review:
+- Sylva-Lynx — proposed Flora / Radiant
+- Flarevane — proposed Magma / Solar
+- Aqua-Drift — proposed Hydro / Radiant
+- Volt-Shifter — proposed Volt / Iron-Tech
+- Umbra-Soul — element pair unresolved between Lunar / Chaos and Chaos / Spirit
+
+No Shard may force a form change. Harmony, Purity, compatible biome restoration, Eco-Kin willingness, A.E.G.I.S. stability checks and safe materials are required. Raw Blight use, forced DNA manipulation, player/Eco-Kin fusion and 'living battery' framing remain disallowed.
 
 ### Historical Eco-Kin Batch Intake Lock
 The large historical `Eco-Kin Creation Batch` archive is now part of the official source workflow as **SOURCE / PROPOSAL material**, not a second roster. Historical batch numbers are archival markers only and are not permanent EcoDex IDs. Every entry must pass duplicate/collision, naming, body-plan/anatomy, current-element, ecology, role, growth/forms, agency, art, originality/IP, and permanent-ID review before promotion.
