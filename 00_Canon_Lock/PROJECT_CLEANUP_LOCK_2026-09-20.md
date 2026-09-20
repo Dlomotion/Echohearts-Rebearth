@@ -130,6 +130,76 @@ The instruction “same animation as Aniimo” is retired. Echohearts will devel
 - A.E.G.I.S.-supported field work
 - visible before/after world change
 
+## Latest code-repost correction batch
+
+The most recent repost adds several more examples that are now explicitly classified so they cannot drift back into production accidentally.
+
+### Standalone `Program.cpp` / generic CMake bootstrap
+
+- The `NeuralResonance::Core::MainEngineFile` hello-world executable is **REFERENCE-ONLY**.
+- It is not an Unreal Engine gameplay module, game target, editor target, subsystem, or production entry point.
+- The generic CMake project may be useful for isolated tools/tests, but it does not replace Unreal Build Tool for the UE5.8 game runtime.
+- `NeuralResonance` is retired as a replacement project namespace. New production code uses the actual Echohearts module namespace/API once that module exists in the repository.
+
+### Cloth / garment shader experiments
+
+- The Unity Shader Graph/HLSL and C# garment scripts are **REFERENCE-ONLY** visual experiments.
+- The old `ComputeStructuralDisplacement` sample contains a real logic defect: `(BaselinePositionOS - BaselinePositionOS)` is always zero, so the stated internal elastic-restoration force never contributes anything.
+- The shader examples do not actually calculate mesh curvature merely by using `NdotV`; view-angle/rim response is not the same thing as concavity or wrinkle curvature.
+- The geometry-deformer example generates procedural waves, but it does not prove the claimed bone-compression or physically based cloth behavior.
+- For UE5.8, garment simulation/rendering must be evaluated through current Unreal material, skeletal, Chaos Cloth/Dataflow, caching, animation, and profiling workflows rather than porting Unity runtime scripts directly.
+- Cosmetic cloth strain is presentation. The server should not receive trusted per-vertex or per-joint cosmetic strain just to prove authority. Gameplay collision/movement remains authoritative; cloth presentation can remain client-side unless a concrete gameplay dependency proves otherwise.
+
+### Garment networking examples
+
+- `FGarmentDeformationPayload* GarmentStates` as a raw pointer is not an approved replicated payload design.
+- A client-supplied `ClientVelocity` cannot be used as proof against speed manipulation. The server must derive or validate movement from authoritative movement state/input constraints.
+- The old garment validation component does not become anti-cheat merely by being named `ServerGarmentValidationComponent`.
+- Networked cosmetic effects must not create a second gameplay truth path.
+
+### Reposted `AEchoKinBase` header
+
+The historical header that used `Fire, Water, Earth, Wind, Light, Dark, Wood, Iron, Thunder, Ice` and public `HP/ATK/DEF` is **RETIRED AS CURRENT DESIGN**.
+
+Corrections:
+
+- use the locked Rebearth Essences instead of creating another elemental enum;
+- preserve public `Vibrance / Density / Harmony / Purity` instead of exposing a second generic RPG stat sheet;
+- do not use a vague forced `Evolve()` contract as the universal growth path;
+- relationship state must preserve agency/refusal and cannot be treated as an ownership score;
+- abilities, damage, replication, save data, tags, movement and AI architecture must be selected from the actual UE5.8 module and tested there, not invented as a detached header;
+- `EcoKin` is correct in identifiers; `Eco-Kin` remains the prose term.
+
+### C# `CS1024` error
+
+The pasted `SummoningSystemBlueprintLogic.cs` error is a source-file hygiene problem, not a reason to preserve the old Unity system. `CS1024` occurs when a line beginning with `#` is not a valid C# preprocessor directive. Markdown headings, copied chat text, code-fence fragments, or malformed directives must never be pasted into `.cs` source files. Historical C# is reference-only because the production game runtime is UE5.8.
+
+### DNA / mutation / synthesis / capture lines
+
+- DNA-fusion or genome-splicing mechanics applied to sentient Eco-Kin remain retired.
+- Node-inversion and somatic-mutation trees from the repost do not become canon by renaming them.
+- Capture apparatus recipes such as cages, anchor traps, pods, tanks, and root tethers remain retired as player ownership mechanics.
+- Rescue/stabilization variants may be redesigned only as welfare tools with clear voluntary/medical use.
+
+### Generated Lattice roster names
+
+`Alloy-Tusk`, `Gravel-Back`, `Volt-Talor`, `Chrono-Leopard`, `Brier-Croc`, `Spore-Fox`, `Basalt-Maw`, `Shard-Back`, `Chrono-Hound`, `Shock-Stinger`, `Thistle-Crown`, and `Mire-Stalker` are not automatically promoted into the Eco-Kin Dex. They remain **REFERENCE / CANDIDATE NAMES** until duplicate, originality, anatomy, Essence, ecology, story, art, and roster reviews pass.
+
+## Weak-line purge rule
+
+The following writing patterns are removed from production-facing Echohearts material unless direct evidence supports them:
+
+- “flawlessly”;
+- “100% original” as an unprovable guarantee;
+- “high-performance” without profiling;
+- “optimized” without benchmark evidence;
+- “server-authoritative” when the code still trusts client state;
+- “production-ready,” “fully implemented,” “secure,” “complete,” or “verified” without build/test/profile evidence;
+- inflated technical wording that makes a simple system harder to understand;
+- renaming generic mechanics only to make them sound proprietary.
+
+Prefer plain engineering truth: what the system does, what it depends on, what was tested, what failed, and what remains unknown.
+
 ## New intake rule
 
 Every future repost is processed as:
