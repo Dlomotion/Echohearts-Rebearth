@@ -20,6 +20,20 @@ The quality target is:
 - strong silhouettes in gameplay camera distance;
 - animation readability at real-time third-person combat speed.
 
+## Visual-fidelity and 8K rule
+
+“Realistic 8K” is a **source-art / render-quality target**, not a requirement that every runtime Eco-Kin material use 8K textures.
+
+Production rules:
+
+- sculpt, bake, scan, paint, and cinematic source assets may use very high resolution where useful;
+- runtime texture resolution is chosen per platform, camera distance, material importance, memory budget, streaming budget, and measured visual benefit;
+- lower LODs, mip streaming, material simplification, reduced bone counts, animation-budget controls, and effect culling are required where profiling shows they are needed;
+- cinematic capture quality and gameplay runtime quality are separate budgets;
+- no asset is labeled “8K-ready” or “optimized” without checking the actual source maps, texture settings, platform cook, GPU memory, frame time, and visual result.
+
+A high-resolution source model does not excuse poor animation, weak silhouette, bad topology, unstable skinning, foot sliding, or excessive runtime cost.
+
 ## Do not use one identical rig for every Eco-Kin
 
 The historical “one universal master rig for all creatures” idea is rejected. A fox, whale-shark, stag, beetle, serpent, stone construct, and humanoid guardian cannot safely share identical skeletal motion without deformation, foot-contact, silhouette, and personality problems.
@@ -56,6 +70,18 @@ Within a compatible rig family, common clips may include:
 - baseline sleep/eat/drink loops.
 
 Each named or gameplay-important Eco-Kin still needs original signature motion. At minimum, a production-ready species should have unique personality idles, alert behavior, bond interaction, primary attack language, signature ability motion, wounded behavior, and one ecology-specific behavior.
+
+## External-game reference policy
+
+Other creature games may be reviewed only for high-level production questions such as:
+
+- how readable locomotion remains at gameplay distance;
+- how anticipation and follow-through communicate weight;
+- how quickly traversal transitions respond;
+- how a creature's personality is communicated without dialogue;
+- how camera, VFX, audio, and animation cooperate without obscuring gameplay.
+
+Do not trace, retarget, recreate, frame-match, mocap-match, or reproduce another title's proprietary clips, timing curves, skeleton, signature pose language, attack choreography, or camera beats. Echohearts must author its own motion library.
 
 ## Required animation state set
 
@@ -159,6 +185,15 @@ Essence does not automatically dictate the creature's whole animation set. It ca
 
 These are optional presentation layers, not universal templates.
 
+## Garment / secondary-motion rule
+
+The historical ink-hatching and procedural wrinkle snippets are not the animation foundation for Eco-Kin. They may survive only as a **selective character-garment visual experiment**.
+
+- Eco-Kin fur, feathers, scales, fins, leaves, membranes, tendrils, plates, and cloth-like accessories each need material-appropriate secondary motion.
+- Human/NPC garments should use UE5.8-appropriate cloth/material workflows and measured LOD budgets.
+- Cosmetic cloth state should not become authoritative gameplay state.
+- Stylized hatching, ink lines, or crease exaggeration may be used only if the approved art direction calls for them on that asset. They are not automatically the global Echohearts rendering style.
+
 ## UE5.8 implementation direction
 
 Use Unreal Engine 5.8 animation tooling according to anatomy and performance needs:
@@ -168,10 +203,11 @@ Use Unreal Engine 5.8 animation tooling according to anatomy and performance nee
 - **Control Rig / IK** for terrain contact, foot placement, head look, procedural corrections, and authored rig controls where appropriate.
 - **Motion Warping** for target-aligned authored moves such as pounces, finish positions, contextual jumps, or large melee contacts.
 - **Motion Matching / Pose Search** may be evaluated for high-value locomotion families after profiling proves the memory/content cost is justified.
+- **Chaos Cloth / Dataflow** may be evaluated for character garments and cloth-like accessories when the visual benefit justifies the simulation cost.
 - Root motion is used for attacks or traversal where authored displacement matters; normal locomotion remains consistent with authoritative movement design.
 - Niagara events are triggered from authored animation events/notifies or gameplay ability state, not by hard-coded per-frame particle spam.
 
-Epic's UE5.8 documentation confirms that IK Rig/IK Retargeter can transfer animations between different skeletal meshes while preserving contact goals, Motion Matching selects poses from a database based on runtime motion queries, and Motion Warping adjusts root motion to align authored animation with targets. These are production tools, not permission to reuse another game's assets.
+Epic's UE5.8 documentation confirms that IK Rig/IK Retargeter can transfer animations between different skeletal meshes while preserving contact goals, Motion Matching selects poses from a database based on runtime motion queries, Motion Warping adjusts root motion to align authored animation with targets, and UE5.8's Chaos Cloth/Dataflow stack is the appropriate current cloth toolset. These are production tools, not permission to reuse another game's assets.
 
 ## Animation data contract
 
