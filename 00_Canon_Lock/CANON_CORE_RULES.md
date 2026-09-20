@@ -4,19 +4,52 @@
 
 - Planet: **Rebearth**.
 - Main city: **Echohearts City**.
-- Player role: **Frequency Tamer / Veridian Keeper**. Historical titles may appear in lore but do not replace this identity.
-- Eco-Kin are autonomous sentient partners.
+- Player profession: **Tamer of Beasts**. **Veridian Keeper** remains the ethical/restoration field tradition. **Frequency Tamer** is legacy terminology and should not be used as the primary front-facing role going forward.
+- Eco-Kin are autonomous sentient partners, never inventory objects, labor units, fuel, ammunition, ingredients, or disposable resources.
 - Main public stats: **Vibrance, Density, Harmony, Purity**.
-- Core elements: Solar, Lunar, Hydro, Magma, Aero, Flora, Volt, Terra, Iron/Tech, Spirit, Chaos, Radiant.
+- Official Rebearth Essence types: **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**.
+- Previous combat-element labels are legacy migration terms only unless retained as non-elemental tags. Examples: Hydro → Torrent, Magma → Pyre, Volt → Voltic, Spirit/Radiant → Aura context, Solar/Lunar → celestial/cycle tags, Iron/Tech → Ancient Tech trait, Chaos → instability/Blight-state language.
 - Primary corruption language: **The Blight / Data Virus**.
 - Main bond loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**.
 
+## Resonance and Harmony scope
+
+- **Resonance** is a planetary/biological interaction principle. It may present through light, pressure, temperature, electricity, motion, scent, magnetic behavior, vibration, or sound.
+- **Harmony** is one of the four public attributes. It does **not** mean every Eco-Kin is music-themed.
+- Sonic, musical, rhythm, choir, acoustic, and song-based abilities are reserved for specific species, characters, locations, relics, or rare variants where the fiction supports them.
+- Most Eco-Kin should express their biology, habitat, Essence, behavior, and ecological role without music motifs.
+
+## Tree of Life main mission
+
+- The **Sovereign Heartroot** is the single landmark commonly called the **Tree of Life**. These are not two separate trees.
+- Healing the Tree of Life is a **main campaign mission spine**, not a one-off checklist quest.
+- Its root network links multiple biomes and restoration states across Rebearth.
+- Progressively restoring Heartroot roots changes world state, reopens ecological pathways, strengthens Sanctuaries, reveals history, and affects endgame outcomes.
+- Restoration never creates a perfect reset. The Tree of Life keeps visible scars and memory of prior damage.
+
 ## Ethical rules
 
-- No capture balls, spheres, cages, harmful restraints, forced ownership, sentient storage-as-items, forced labor, forced evolution, player/Eco-Kin fusion, or Eco-Kin used as fuel/ammunition/ingredients.
-- Rescue and stabilization gear exists to protect, calm, treat, relocate, or create a safe voluntary Kindling opportunity.
-- Villains may use coercive technology such as collars, extraction rigs, or industrial cages to show abuse. Those are antagonist systems, not player progression tools.
+- No capture balls, capture spheres, harmful cages, coercive snares, ownership-by-force, sentient storage-as-items, forced labor, forced evolution, player/Eco-Kin fusion, donor sacrifice, genome extraction, or Eco-Kin used as commodities.
+- Rescue and stabilization gear may protect, calm, treat, relocate, guide, or create a safe voluntary Kindling opportunity.
+- Temporary safety barriers, recovery pens, transport supports, or rescue tethers are welfare tools, not ownership mechanics.
+- Villains may use collars, extraction rigs, industrial cages, poaching traps, or other coercive technology to show abuse. Those are antagonist systems, not player progression tools.
 - Raw Blight Husk is hazardous and must be purified before crafting.
+
+## Tamer progression and contracts
+
+- Tamer reputation measures **documented successful field resolutions**, not how many sentient beings the player owns.
+- A valid field resolution may end in Bond, Release, Defer, Treatment, Relocation, Sanctuary transfer, or safe habitat restoration.
+- Professional ranks may use the working ladder **Tamer of Beasts → Master Tamer → Grand Warden → Apex Tamer**, with exact thresholds and rewards subject to balancing.
+- Guild and settlement contracts may include tracking, rescue, relocation, ecosystem restoration, poacher interception, hazard response, escort, agricultural support, infrastructure aid, and Primal/Titan crisis response.
+- Eco-Kin may assist with work only through established voluntary aptitudes, health, preference, trust, and refusal rules.
+
+## Kin morphology and rare variants
+
+- **Biomimetic Shifts** are biome-driven adaptations/regional forms.
+- **Resonant Morphs** are rare variants whose physiology aligns unusually strongly with Rebearth. They are not automatically musical and do not create a second element system.
+- **Primal Morphs** are ancient/large guardian expressions and may overlap with Titan-scale encounter logic where appropriate.
+- Rare variants must preserve species identity and readable anatomy.
+- Sonic or musical rare variants are a specialized subset only, not a franchise-wide default.
 
 ## Story continuity
 
