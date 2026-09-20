@@ -39,20 +39,33 @@ An Eco-Kin can have one or more authored **Resonance Branches**. Branches are sp
 
 - **Vanguard Branch** — stronger frontline pressure, pursuit, impact and protective aggression.
 - **Bastion Branch** — protection, terrain holding, shielding, counterplay and survival.
-- **Chorus Branch** — support, healing, cleansing, status control, team coordination and ecosystem interaction.
+- **Support Branch** — healing, cleansing, status control, team coordination and ecosystem interaction.
 - **Wayfinder Branch** — traversal, scouting, tracking, stealth, weather reading and exploration utility.
 - **Primal Branch** — rare ancestry-forward adaptation tied to deep ecology or Ancient Beast lineage.
 - **Restored Branch** — recovery from Blight or ecological trauma into a healed but scar-remembering form.
 
-These are design families, not new elements and not universal mandatory slots.
+These are design families, not new Essences and not universal mandatory slots.
 
-### Canon element rule
+A sonic/music-oriented branch may exist for a species whose actual biology or story is acoustic, but **music is not the default meaning of Resonance**.
 
-Every branch still uses only the 12 core elements:
+### Canon Essence rule
 
-**Solar, Lunar, Hydro, Magma, Aero, Flora, Volt, Terra, Iron/Tech, Spirit, Chaos, Radiant.**
+Every branch uses only the active nine Rebearth Essences:
 
-Legacy labels such as Fire, Water, Nature, Earth, Wind, Light, Shadow, Void, Psychic, Aether, Life, Celestial, Bio, Kinetic or Matter may survive only as old art/source language until mapped to canon.
+**Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade.**
+
+Legacy mappings:
+- Hydro → Torrent
+- Magma / Fire → Pyre where appropriate
+- Volt / Electric → Voltic
+- Spirit / Radiant / Light → Aura where appropriate
+- Solar / Lunar → celestial/cycle tags, not primary Essences
+- Iron/Tech → Ancient Tech / synthetic trait
+- Chaos → instability/Blight/behavior state
+- Ice/Frost → Glaze where it is a true Essence expression
+- Dark/Shadow/Void → Shade only when the ecology/ability actually represents Shade; Blight and Gloom remain separate corruption/story states
+
+No second combat taxonomy should be created beside the nine Essences.
 
 ---
 
@@ -86,6 +99,8 @@ Rules:
 - material refund values are a balance variable and are **not yet locked**;
 - major authored forms may be one-way story commitments where appropriate.
 
+`Reharmonization` describes biological/ecological stability, not music.
+
 ---
 
 ## 5. Resonance Trait Infusion
@@ -112,10 +127,11 @@ Bio-Synergy Weaving allows compatible partners to create **temporary cooperative
 
 Examples:
 
-- Hydro + Volt partners create a controlled conductive field;
+- Torrent + Voltic partners create a controlled conductive field;
 - Flora + Terra partners stabilize collapsing terrain;
-- Aero + Solar partners create a thermal lift corridor;
-- Spirit + Radiant partners expose hidden Blight memory traces.
+- Aero + Pyre partners create a thermal lift corridor;
+- Aura partners may expose or stabilize hidden Blight memory traces where authored;
+- Glaze + Aero partners may shape a short-lived snow/wind barrier without becoming a permanent terrain rewrite.
 
 The partners remain separate bodies and separate identities at all times.
 
@@ -147,8 +163,10 @@ The only public Eco-Kin stats are:
 
 - **Vibrance** — vitality, recovery capacity and life-force expression;
 - **Density** — physical presence, impact, resistance and structural strength;
-- **Harmony** — coordination, technique flow, support, control and Resonance recovery;
+- **Harmony** — coordination, relationship stability, technique control and cooperative recovery;
 - **Purity** — stability, cleansing, resistance to corruption and ecological balance.
+
+Harmony is **not** a universal music stat. A non-sonic Eco-Kin can have high Harmony through reliable coordination, calm behavior and ecological stability.
 
 Legacy HP / ATK / Physical DEF / Magic DEF / Regen / Break tables are not public stat replacements.
 
@@ -166,11 +184,11 @@ High pressure, pursuit, combo finishers, guard pressure.
 ### Guardian
 Protection, body-blocking, terrain control, counterplay, ally cover.
 
-### Conductor
-Status control, elemental setup, support, team sequencing.
+### Coordinator
+Status control, Essence setup, support and team sequencing.
 
 ### Restorer
-Healing, cleansing, environmental restoration, rescue utility.
+Healing, cleansing, environmental restoration and rescue utility.
 
 ### Scout
 Tracking, stealth, traversal, discovery and warning behavior.
@@ -234,11 +252,11 @@ No overworld griefing. No permanent injury from simulation matches. No sentient 
 
 ## 12. Existing image-form examples
 
-Current art such as **Totemflare Rainforest Strider / Galecrest / Stormbringer**, **Psylopath Mindcoil / Mirefiend**, **Marmara Seedling / Verdant / Prime Guardian**, **Flames Emberling / Cinderstride / Blazewarden**, and **Sandveil Burrowkin / Sandshield / Sandshaper** may be interpreted as candidate Growth Rite branches or forms after identity, naming, element and anatomy audit.
+Current art such as **Totemflare Rainforest Strider / Galecrest / Stormbringer**, **Psylopath Mindcoil / Mirefiend**, **Marmara Seedling / Verdant / Prime Guardian**, **Flames Emberling / Cinderstride / Blazewarden**, and **Sandveil Burrowkin / Sandshield / Sandshaper** may be interpreted as candidate Growth Rite branches or forms after identity, naming, Essence and anatomy audit.
 
 They are **not** automatically a universal six-stage ladder.
 
-`Ho-kanko Child of the Sun / Celestial King / Solar God` is specifically queued for naming/title audit because "god" and "celestial" can imply cosmology or element claims beyond the locked element system.
+`Ho-kanko Child of the Sun / Celestial King / Solar God` is specifically queued for naming/title audit because "god" and "celestial" can imply cosmology claims beyond the active Essence system. Solar may remain a motif/celestial-cycle tag, not a primary Essence.
 
 `Jazzy & Drako` imagery is treated as a human/Eco-Kin partnership example, not fusion.
 
