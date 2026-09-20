@@ -51,8 +51,25 @@ For building/crafting, the expanded contract is:
 - `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
 - `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`
 - `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
+- `08_Technical/LEGACY_PARTS_215_255_CODE_AUDIT_2026-09-19.md`
+- `11_Daily_Assignments/LEGACY_PARTS_215_255_HARDENING_ASSIGNMENTS.md`
 - `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
 - `04_Systems/RESONANCE_SHARD_ARC_ADAPTATION_SYSTEM.md`
+
+### Legacy Parts 215–255 Intake Lock
+The historical UE5.5 batch covering companion commands, tactical saves, achievements/cloud, procedural dungeons/excavation, swimming/oxygen, altitude, sandbox building, Eco-Kin speed tiers, POIs, fast travel, compass/altimeter/radar UI and smoke tests is now SOURCE / PROPOSAL material only. Historical claims that these systems are compiled, bulletproof, secure, fully optimized, finalized, production-ready or verified are retired unless direct project evidence proves them.
+
+Current correction priorities:
+1. POI/Fast-Travel authority must enter through a player-owned replicated Actor/Component and use World Partition destination preloading before relocation.
+2. Sandbox placement/removal must merge into BCT-001 rather than creating a parallel build authority path.
+3. Swimming must use UE5.8 Physics Volume / CharacterMovement rules; `FluidFriction` is not a CharacterMovement property.
+4. Altitude classification must never grant flight solely from Z position.
+5. Graphics preferences should use/extend `UGameUserSettings`; active-play saves should use Unreal's supported async SaveGame path.
+6. Platform achievement/cloud code must be isolated behind a service boundary rather than hardwired to Steam gameplay classes.
+7. Companion command/task language must preserve Eco-Kin agency and the four canonical public stats.
+8. Historical duration-only smoke tests must be replaced by proof-bearing Unreal Automation/Functional tests.
+
+All Parts 215–255 code remains NOT YET VERIFIED pending actual UE5.8 source integration, UHT/build, dedicated-server, multiplayer, streaming, save/load, platform, performance and regression evidence.
 
 ## Current Story / Publication Documents
 - `01_Game_Bible/FULL_SCALE_STORY_PUBLICATION_INTAKE_2026-09-19.md`
@@ -135,7 +152,8 @@ Mini-games live inside the main workflow. They must reinforce A.E.G.I.S., Kindli
 4. Implement `ECO-API-001`.
 5. Implement the smallest `BCT-001` reservation/commit/rollback kernel.
 6. Prove one BuildPiece and one CraftRecipe end to end.
-7. Begin the first playable mini-game slice only through the approved shared authority/data paths.
+7. Promote the first legacy Parts 215–255 feature only after those gates, starting with POI/Fast-Travel authority + World Partition streaming.
+8. Begin the first playable mini-game slice only through the approved shared authority/data paths.
 
 These steps remain NOT YET VERIFIED until evidence is produced from the actual Unreal project.
 
