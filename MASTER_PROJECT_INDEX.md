@@ -63,4 +63,22 @@ The current story supports four primary ending families: **Heal / Order**, **Bre
 
 The master story and Word templates are publication drafts that summarize and operationalize the existing canon. They do not independently supersede the Master Game Bible. Final public release still requires canon, continuity, rights/provenance, art, layout, and technical-claim review.
 
+## Theater / portal / Dryad / legacy 258–272 intake: 2026-09-20
+
+The reposted dungeon/portal/game-development material is integrated into the existing workflow without creating a second game mode, world map, Dex, or runtime.
+
+- `02_World/ECHO_WARP_NETWORK_RECONCILIATION.md` — routes restored warps/portals across the existing Rebearth map with PortalID, unlock, restoration, safety, save and World Partition requirements.
+- `03_EcoKin_Dex/Named_EcoKin/DRYAD.md` — preserves Dryad as an approved-pending Humanoid-Kin production reference with Flora-first guardian direction and non-extractable resonance symbolism.
+- `05_Levels/THEATER_NETWORK_RECONCILIATION.md` — converts historical dungeon/Theater concepts into current mission/world-state requirements and keeps campaign combat real-time.
+- `09_Technical/LEGACY_PARTS_258_272_CODE_AUDIT_2026-09-20.md` — retires unsupported production claims and audits the historical web exporter, S3, telemetry, companion, stealth, volumetric-cloud, pseudo-test and raw-UDP load-test material.
+- `11_Daily_Assignments/THEATER_PORTAL_DRYAD_LEGACY258_272_ASSIGNMENTS.md` — carries content and technical reconciliation into the existing daily workflow without jumping current technical gates.
+
+### Originality rule for this packet
+
+Historical outside-franchise dungeon names, bosses, tournaments, game structures, copied formulas and branded terminology are REFERENCE-ONLY. Echohearts may study transferable ideas such as route gating, challenge escalation, cooperative raid structure, competitive fairness, boss counterplay and replayable dungeons, but publication-facing names, creatures, mechanics, code and art must remain original to Echohearts.
+
+### Combat/stat correction for this packet
+
+Main campaign combat remains real-time third-person action. Tactical grid or turn-based combat is restricted to approved Resonance Arena / Harmony Circuit / EchoDeck simulation contexts. Public gameplay stats remain **Vibrance, Density, Harmony and Purity**; historical VIT/RSN/SYNC/Hertz/Velocity packs do not replace them.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
