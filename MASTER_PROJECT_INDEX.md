@@ -121,4 +121,19 @@ An Echo-Kin card represents a sentient partner; it does not contain, sell or tra
 
 Recover and preserve original created art when actual source bytes are available. Keep originals and edits separately, use stable identity-based filenames, and record source/provenance/status. Never claim a downloadable complete PNG archive exists until the raw assets have actually been recovered and checked.
 
+## Dark Beasts / Ancient Beasts / creation-chat visual source: 2026-09-20
+
+Dark Beasts and Ancient Beasts are now official Eco-Kin lineup classifications within the **existing** registry, not separate creature systems.
+
+- `03_EcoKin_Dex/DARK_AND_ANCIENT_BEASTS_LINEUP_2026-09-20.md` — defines Dark Beasts as nocturnal / abyssal / spectral / anomaly-associated Eco-Kin without making them inherently evil, distinguishes Blight corruption as a state rather than a species, and defines Ancient Beasts as primordial / heritage lineages tied to Rebearth's deep ecosystems, ruins, relics and pre-war history. Rarity, Legendary/Titan status and Kindling eligibility remain independent authored properties.
+- `07_Art/ECOKIN_CREATION_CHAT_VISUAL_SOURCE_RULE.md` — makes previously approved Eco-Kin Creation / character-design images the visual production source for future images. Preserve approved DNA, anatomy, silhouette, colors, materials, gear, biome and name; correct only actual errors unless the user explicitly orders a redesign.
+
+### Dark / Ancient gameplay correction
+
+Dark Beasts and Ancient Beasts use the same `EcoKinID` / `EchoprintID`, Kindling, V/D/H/P, canonical 12 elements, combat, growth, card, save and QA pipelines as every other Eco-Kin. Historical `capture/taming` wording is reconciled to the current ethical field loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**. Forced mutation/evolution, ownership transfer and sentient storage remain non-canon.
+
+### Image-generation continuity rule
+
+When an already-created Eco-Kin has approved prior art, use that recovered creation-chat image/design record as the source of truth for new images here instead of inventing a different creature under the same name. One Eco-Kin per image by default, coherent anatomy, original Echohearts visual identity, and no accidental redesign merely for novelty.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
