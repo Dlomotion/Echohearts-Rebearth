@@ -81,4 +81,26 @@ Historical outside-franchise dungeon names, bosses, tournaments, game structures
 
 Main campaign combat remains real-time third-person action. Tactical grid or turn-based combat is restricted to approved Resonance Arena / Harmony Circuit / EchoDeck simulation contexts. Public gameplay stats remain **Vibrance, Density, Harmony and Purity**; historical VIT/RSN/SYNC/Hertz/Velocity packs do not replace them.
 
+## Bee / legacy Dex / guardian art / Hometown intake: 2026-09-20
+
+This repost batch is routed into the existing workflow only. It does not create a second Dex, legendary roster, art queue, economy, story bible or daily schedule.
+
+- `03_EcoKin_Dex/Intake/AFRICANIZED_BEE_LINE_INTAKE_2026-09-20.md` — preserves the user's Africanized honey-bee inspiration as an approved-pending Bug-Kin evolution line with current elements/stats, ethical Kindling and strict six-leg insect anatomy.
+- `03_EcoKin_Dex/LEGACY_DEX_V2_RECONCILIATION_2026-09-20.md` — keeps useful identity/ecology/personality/ability/data fields from the historical Dex while retiring conflicting public stats, storage/trading, forced-work, forced-breeding and duplicate-stage architecture.
+- `07_Art/GUARDIAN_BEAST_REPOST_INTAKE_2026-09-20.md` — routes Vaelthundra, Cindervault, Auralyss, Kharuvane, Orokharn, Thalassyr, Zephyrahn, Vharomaw, Astravault, Mycelith, Aquanith, Sylvornith and Lumineth through duplicate-art, element, anatomy, guardian-role and originality review.
+- `01_Story/HOMETOWN_DLC_RECONCILIATION_2026-09-20.md` — preserves the destroyed-hometown/rebuilding story concept as source material while requiring timeline, location, faction and survivor continuity before canon promotion.
+- `11_Daily_Assignments/BEE_DEX_GUARDIAN_HOMETOWN_RECONCILIATION.md` — carries the batch into the one existing daily game-development workflow.
+
+### Bee line working direction
+
+Historical `Hive Spark`, `Swarm Guard`, `Africanized Queen`, displayed stats/requirements and Maat connections remain source labels until review. Current production direction uses a three-stage Bug-Kin concept with Flora/Aero mapping, pollinator restoration, swarm defense, voluntary Sanctuary Aptitudes and no capture/forced evolution. `Crownsting Matriarch` is the current working final-stage name pending naming review.
+
+### Legacy Dex correction
+
+The historical `185-entry` count is a source inventory estimate, not a locked canon roster size. Historical HP/MP/SP/ATK/DEF/etc. public stats and Veridian/Cipher/Hollow-style replacement attribute systems cannot supersede the current public V/D/H/P stats or locked 12 elements. Useful internal fields may be migrated after deduplication and originality review.
+
+### Farm / Hometown correction
+
+Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current 8-roster / 3-active campaign combat contract.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
