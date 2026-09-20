@@ -1,155 +1,224 @@
 # ECHOHEARTS: REBEARTH — MASTER PROJECT INDEX
 
-This file is the routing map for the existing Echohearts project. It does not replace the Master Game Bible, Eco-Kin art manifest, or structured game-data dictionary.
+**Purpose:** one clean routing map for the existing Echohearts project.
 
-## Source-of-truth chain
+This file does not invent new canon. It tells every writer, artist, designer, programmer, and production pass which source wins and where work belongs.
 
-1. `00_Canon_Lock`
-2. `01_Story`
-3. `02_World`
-4. `03_EcoKin_Dex`
-5. `04_Systems`
-6. `05_Levels`
-7. `06_UI_UX`
-8. `07_Art`
-9. `08_Audio`
-10. `09_Technical`
-11. `10_Production`
-12. `11_Publication`
-13. `99_Reference_Retired_Needs_Redesign`
+© 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
 
-## Repost / intake rule
+## 1. Source-of-truth precedence
 
-Every reposted chat, image, document, code block, Eco-Kin concept, NPC, lore fragment, mechanic, or art reference must be:
+When documents conflict, use this order:
 
-`INTAKE → AI MISTAKE PATCH → CONTINUITY CHECK → ORIGINALITY/IP CHECK → CORRECT FOLDER → STATUS → GAME/STORY LINK → IMPLEMENTATION EVIDENCE`
+1. `00_Canon_Lock/ECOKIN_NAMING_STANDARD.md` for Eco-Kin naming and display/data conventions.
+2. `00_Canon_Lock/CANON_CORE_RULES.md` for protected story, ethics, gameplay, stats, and terminology.
+3. `00_Canon_Lock/REBEARTH_ESSENCE_TAMER_VARIANT_CANON_2026-09-20.md` for the active Essence chart, Tamer profession, morphology rules, contracts, and Tree of Life mission.
+4. `MASTER_PROJECT_INDEX.md` for routing and production status.
+5. Active folder documents that explicitly match the files above.
+6. `99_Reference_Retired_Needs_Redesign` and historical chat/source material for reference only.
 
-Do not create a parallel canon or duplicate implementation path.
+A newer active canon file does not make old source material disappear; it prevents old terminology from controlling current production.
 
-## Status vocabulary
+## 2. Canonical naming
+
+Public-facing creature term:
+
+**Eco-Kin**
+
+Internal code/data identifier form:
+
+**EcoKin**
+
+Singular possessive:
+
+**Eco-Kin's**
+
+Public plural is also **Eco-Kin**.
+
+Do not use `Eco-Kins`, `Echo Kin`, `Echo-Kin`, `Eco Kin`, or `Ecokin` as current production terminology unless quoted in historical source material.
+
+## 3. Active top-level project folders
+
+| Folder | Purpose |
+|---|---|
+| `00_Canon_Lock` | protected terminology, active canon rules, continuity locks |
+| `01_Story` | campaign, characters, NPC arcs, lore, endings |
+| `02_World` | regions, cities, biomes, landmarks, world-state changes |
+| `03_EcoKin_Dex` | Eco-Kin registry, biology, identities, forms, intake, Dex records |
+| `04_Systems` | bonding, combat, Sanctuary, progression, contracts, economy, traversal |
+| `05_Levels` | missions, encounters, dungeons, vertical-slice implementation specs |
+| `06_UI_UX` | A.E.G.I.S., EcoDex, HUD, menus, accessibility, card interfaces |
+| `07_Art` | character/Eco-Kin art, manifests, visual-development intake, anatomy QA |
+| `08_Audio` | music, VO, creature audio, environmental and Resonance audio |
+| `09_Technical` | Unreal Engine, C++, Blueprint, networking, saves, tests, profiling |
+| `10_Production` | backlog, daily assignments, provenance, QA, migration, intake tracking |
+| `11_Publication` | approved public-facing story, pitch, marketing, release documentation |
+| `99_Reference_Retired_Needs_Redesign` | historical, conflicting, outside-franchise, retired, or redesign-required material |
+
+Do not create a second numbered folder for a function already represented here.
+
+### Duplicate-folder migration rule
+
+- Historical `01_Game_Bible` material must move into the correct active folder or `99_Reference_Retired_Needs_Redesign`.
+- Historical `11_Daily_Assignments` material belongs under `10_Production/Daily_Assignments`.
+- `11_Publication` remains the only active `11_*` production-stage folder.
+
+## 4. Active canon snapshot
+
+### Project / world
+
+- Game: **Echohearts: Rebearth**
+- Planet: **Rebearth**
+- Main city: **Echohearts City**
+- Living campaign landmark: **Sovereign Heartroot**, commonly called the **Tree of Life**
+- Healing the Tree of Life and its root network is a main campaign spine.
+
+### Player role
+
+- Primary profession: **Tamer of Beasts**
+- Ethical/restoration discipline: **Veridian Keeper**
+- `Frequency Tamer` is legacy terminology, not the primary front-facing profession.
+
+### Eco-Kin relationship rule
+
+Eco-Kin are autonomous sentient partners.
+
+Main field loop:
+
+**Observe → Protect → Calm → Kindle → Bond / Release / Defer**
+
+No normal player progression based on coercive capture, harmful cages, sentient storage-as-items, forced labor, forced evolution, body fusion, ownership trading, or living-resource extraction.
+
+### Public stats
+
+- **Vibrance**
+- **Density**
+- **Harmony**
+- **Purity**
+
+### Active Rebearth Essences
+
+1. **Flora**
+2. **Torrent**
+3. **Pyre**
+4. **Terra**
+5. **Aero**
+6. **Glaze**
+7. **Voltic**
+8. **Aura**
+9. **Shade**
+
+The former 12-element chart is legacy migration language and must not be presented as the active public type system.
+
+### Harmony / Resonance rule
+
+Harmony is a public stat. Resonance is a broad physical/biological principle. Neither means every Eco-Kin is music-themed. Sonic/music mechanics belong only to species, variants, locations, relics, or story situations that genuinely support them.
+
+## 5. Repost / intake pipeline
+
+Every reposted chat, image, document, code block, Eco-Kin concept, NPC, lore fragment, mechanic, or art reference follows:
+
+`INTAKE → AI MISTAKE PATCH → CONTINUITY CHECK → ORIGINALITY/IP CHECK → NAMING NORMALIZATION → CORRECT FOLDER → STATUS → GAME/STORY LINK → IMPLEMENTATION EVIDENCE`
+
+Do not skip directly from a pasted source to CANON.
+
+## 6. Status vocabulary
 
 - **CANON** — approved source-of-truth fact.
 - **APPROVED-PENDING** — accepted direction awaiting implementation/art/data proof.
 - **MERGED/RENAMED** — useful material reconciled into an existing identity/system.
-- **REFERENCE-ONLY** — inspiration or historical material that cannot overwrite canon.
+- **REFERENCE-ONLY** — historical, comparative, or inspiration material that cannot overwrite canon.
 - **RETIRED** — superseded or contradictory material kept for traceability.
-- **NOT YET VERIFIED** — technical claim without build/test/profile evidence.
-- **VERIFIED** — supported by direct evidence.
+- **NOT YET VERIFIED** — technical or production claim without direct evidence.
+- **VERIFIED** — supported by direct repository/build/test/profile evidence.
 
-## Reconciled packet: Shattered Frontier / legacy intake
+## 7. Eco-Kin Dex rule
 
-- Shattered Frontier character cast and NPC roles.
-- Kaelen/Kale + Sherlock Hound merge.
-- Liora, Elder Thorne, Mora, Silas, Nurse Calla, Commander Vex, Ryn, Nature, Ancient Oracle.
-- Void-Scholar merged as an alias/title connected to existing villain continuity instead of a duplicate grand antagonist.
-- Animal-reference Eco-Kin intake: okapi, echidna, coati, Patagonian mara, tarsier, bat-eared fox.
-- Historical Eco-Kin origin/capture drafts reconciled into current Rebearth/Kindling canon.
-- Historical UE5.5 Parts 215–255 preserved as technical proposals under active correction, not as verified production code.
+Every production-ready Eco-Kin record should resolve, at minimum:
 
-## Story / publication consolidation: 2026-09-20
+- `EcoKinID`
+- public display name
+- class/body plan
+- biology / creature basis
+- primary Essence
+- optional secondary Essence
+- Vibrance / Density / Harmony / Purity data
+- region / biome / habitat
+- behavior
+- field role
+- combat role
+- Sanctuary aptitude, if voluntary and species-safe
+- Bond / Kindling method
+- forms / Biomimetic Shifts / rare morphology
+- story connection
+- world/ecological effect
+- art status
+- originality/provenance status
+- implementation status
 
-- `01_Story/ECHOHEARTS_REBEARTH_FINAL_STORY_CONTINUITY_2026-09-20.md` — canon-corrected Six Eras, eight-act campaign, 20-chapter story spine, major cast, four primary endings, five reserved secret-variant slots, and Living Chorus bridge.
-- `03_EcoKin_Dex/ECO_KIN_STORY_INTEGRATION_TEMPLATE.md` — one identity/anatomy/ecology/story/Kindling/production template for permanent roster development.
-- `07_Art/ART_REPOST_ROUTING_AND_QA.md` — image intake, identity matching, anatomy QA, originality review, story connection, and approval-state rules.
-- `10_Production/REPOST_STORY_CONSOLIDATION_QA_2026-09-20.md` — records the corrections applied to legacy story and systems material and the unresolved items kept honest.
-- `11_Publication/WORD_EXPORT_MANIFEST_2026-09-20.md` — publication-facing Word package manifest and release gate.
-- `06_UI_UX/README.md` and `08_Audio/README.md` — complete the repository's intended source-of-truth folder map and define routing boundaries.
+Do not create duplicate identities merely because a historical card, image, variant, or renamed draft exists.
 
-### Ending rule
+## 8. Art rule
 
-The current story supports four primary ending families: **Heal / Order**, **Break / Severance**, **Balance / True Rebirth**, and **Transcend / Star Rewrite**. Five additional secret-variant slots are preserved for faction/boss/Eco-Scar/relationship outcomes. Their individual names and exact condition bundles are not to be fabricated as locked canon until the ending matrix is approved.
+Current art intake belongs in `07_Art` and must point back to the corresponding Eco-Kin identity in `03_EcoKin_Dex`.
 
-### Publication rule
+- preserve approved silhouette, anatomy, colors, materials, and identity;
+- correct errors without redesigning the creature unless redesign is explicitly requested;
+- animal Eco-Kin remain true animal-bodied unless intentionally classified otherwise;
+- rare variants preserve species identity;
+- generated/reference art does not become final canon merely because it exists.
 
-The master story and Word templates are publication drafts that summarize and operationalize the existing canon. They do not independently supersede the Master Game Bible. Final public release still requires canon, continuity, rights/provenance, art, layout, and technical-claim review.
+Current manifest anchor: `07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md`.
 
-## Theater / portal / Dryad / legacy 258–272 intake: 2026-09-20
+## 9. Current ecological restoration wave
 
-The reposted dungeon/portal/game-development material is integrated into the existing workflow without creating a second game mode, world map, Dex, or runtime.
+The 10-creature ecological restoration batch remains routed through:
 
-- `02_World/ECHO_WARP_NETWORK_RECONCILIATION.md` — routes restored warps/portals across the existing Rebearth map with PortalID, unlock, restoration, safety, save and World Partition requirements.
-- `03_EcoKin_Dex/Named_EcoKin/DRYAD.md` — preserves Dryad as an approved-pending Humanoid-Kin production reference with Flora-first guardian direction and non-extractable resonance symbolism.
-- `05_Levels/THEATER_NETWORK_RECONCILIATION.md` — converts historical dungeon/Theater concepts into current mission/world-state requirements and keeps campaign combat real-time.
-- `09_Technical/LEGACY_PARTS_258_272_CODE_AUDIT_2026-09-20.md` — retires unsupported production claims and audits the historical web exporter, S3, telemetry, companion, stealth, volumetric-cloud, pseudo-test and raw-UDP load-test material.
-- `11_Daily_Assignments/THEATER_PORTAL_DRYAD_LEGACY258_272_ASSIGNMENTS.md` — carries content and technical reconciliation into the existing daily workflow without jumping current technical gates.
+`03_EcoKin_Dex/Intake/ECOLOGICAL_RESTORATION_WAVE_10_INTAKE_2026-09-20.md`
 
-### Originality rule for this packet
+Those creature concepts are usable, but card text, IDs, Essences, rarity, abilities, forms, biome tags, stats, art status, and story hooks must match the active canon before final lock.
 
-Historical outside-franchise dungeon names, bosses, tournaments, game structures, copied formulas and branded terminology are REFERENCE-ONLY. Echohearts may study transferable ideas such as route gating, challenge escalation, cooperative raid structure, competitive fairness, boss counterplay and replayable dungeons, but publication-facing names, creatures, mechanics, code and art must remain original to Echohearts.
+Legacy labels such as Water, Earth, Wind/Air, Nature/Verdant, Ice, Harmony, Coastal, Sand, Guardian, Sentinel, or Tracker must be separated into the correct fields:
 
-### Combat/stat correction for this packet
+- active Essence when appropriate;
+- ecology/body/role tag when not an Essence;
+- legacy/reference label when retired.
 
-Main campaign combat remains real-time third-person action. Tactical grid or turn-based combat is restricted to approved Resonance Arena / Harmony Circuit / EchoDeck simulation contexts. Public gameplay stats remain **Vibrance, Density, Harmony and Purity**; historical VIT/RSN/SYNC/Hertz/Velocity packs do not replace them.
+## 10. Story rule
 
-## Bee / legacy Dex / guardian art / Hometown intake: 2026-09-20
+New story material must connect to the existing Rebearth chronology, Tree of Life mission, Blight/Data Virus, cities/regions, factions, and existing named characters before promotion.
 
-This repost batch is routed into the existing workflow only. It does not create a second Dex, legendary roster, art queue, economy, story bible or daily schedule.
+A cool isolated idea is not enough. It must connect:
 
-- `03_EcoKin_Dex/Intake/AFRICANIZED_BEE_LINE_INTAKE_2026-09-20.md` — preserves the user's Africanized honey-bee inspiration as an approved-pending Bug-Kin evolution line with current elements/stats, ethical Kindling and strict six-leg insect anatomy.
-- `03_EcoKin_Dex/LEGACY_DEX_V2_RECONCILIATION_2026-09-20.md` — keeps useful identity/ecology/personality/ability/data fields from the historical Dex while retiring conflicting public stats, storage/trading, forced-work, forced-breeding and duplicate-stage architecture.
-- `07_Art/GUARDIAN_BEAST_REPOST_INTAKE_2026-09-20.md` — routes Vaelthundra, Cindervault, Auralyss, Kharuvane, Orokharn, Thalassyr, Zephyrahn, Vharomaw, Astravault, Mycelith, Aquanith, Sylvornith and Lumineth through duplicate-art, element, anatomy, guardian-role and originality review.
-- `01_Story/HOMETOWN_DLC_RECONCILIATION_2026-09-20.md` — preserves the destroyed-hometown/rebuilding story concept as source material while requiring timeline, location, faction and survivor continuity before canon promotion.
-- `11_Daily_Assignments/BEE_DEX_GUARDIAN_HOMETOWN_RECONCILIATION.md` — carries the batch into the one existing daily game-development workflow.
+**Rebearth → Eco-Kin → ecosystem → player choice → progression → story consequence**
 
-### Bee line working direction
+## 11. Technical rule
 
-Historical `Hive Spark`, `Swarm Guard`, `Africanized Queen`, displayed stats/requirements and Maat connections remain source labels until review. Current production direction uses a three-stage Bug-Kin concept with Flora/Aero mapping, pollinator restoration, swarm defense, voluntary Sanctuary Aptitudes and no capture/forced evolution. `Crownsting Matriarch` is the current working final-stage name pending naming review.
+Production runtime is Unreal Engine. Legacy Unity/C#, browser prototypes, generic pseudocode, and third-party example architectures are reference-only unless intentionally translated into the current Unreal architecture.
 
-### Legacy Dex correction
+No implementation may be called **VERIFIED**, **compiled**, **production-ready**, **secure**, **optimized**, or **finished** without direct build/test/profile evidence.
 
-The historical `185-entry` count is a source inventory estimate, not a locked canon roster size. Historical HP/MP/SP/ATK/DEF/etc. public stats and Veridian/Cipher/Hollow-style replacement attribute systems cannot supersede the current public V/D/H/P stats or locked 12 elements. Useful internal fields may be migrated after deduplication and originality review.
+Prefer data/Blueprint implementation where appropriate. Add C++ only when it solves an actual production requirement.
 
-### Farm / Hometown correction
+## 12. Outside-franchise material
 
-Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current 8-roster / 3-active campaign combat contract.
+Named characters, creatures, systems, branded terminology, copied move sets, copied evolution structures, copyrighted roster entries, or proprietary formulas from other franchises stay in `99_Reference_Retired_Needs_Redesign` unless transformed into original Echohearts material through documented design work.
 
-## Glow Worm / EchoCode / image archive / legacy Technical Spine intake: 2026-09-20
+Reference study may inform design principles. It does not become Echohearts canon by being pasted into a project document.
 
-This repost batch is integrated into the existing workflow and does not create a second card game, Dex, art library, backend stack, runtime or daily schedule.
+## 13. Project-ready acceptance gate
 
-- `03_EcoKin_Dex/Named_EcoKin/GLOW_WORM.md` — preserves **Glow Worm** as one approved-pending bioluminescent invertebrate Eco-Kin identity. Historical `Light-Kin` presentation is not a new element; Radiant is the strongest current mapping candidate pending final ecology/balance review. Historical card/art variants attach to this identity rather than generating duplicate species.
-- `04_Systems/ECHOCODE_CARD_SYSTEM_RECONCILIATION_2026-09-20.md` — keeps the physical/digital card, EchoCode, Genesis Bloom, community-card and tabletop ideas while correcting sentient-partner ownership, pay-to-win risk, obsolete stats/elements and campaign-combat conflicts. Cards may unlock opportunities, cosmetics, lore, quests, encounter/Kindling leads and approved simulation content, not ownership of living Eco-Kin.
-- `07_Art/HISTORICAL_ECOKIN_IMAGE_ARCHIVE_INTAKE_2026-09-20.md` — records the requirement to preserve recoverable created images as organized individual PNG assets, while keeping the recovery status honest. Historical URLs/file IDs are source references; a complete raw-PNG archive is not yet verified. Rejected/bad variants route to `99_Reference_Retired_Needs_Redesign` instead of replacing approved art.
-- `09_Technical/LEGACY_TECHNICAL_SPINE_UNITY_SQL_AUDIT_2026-09-20.md` — retires the old Unity/C#/Mecanim/PostgreSQL `production-ready` claim, flags `ActionType.FLE_FLEE`, lifecycle/null/polling issues, schema/canon mismatches and preserves only transferable requirements for future UE5.8/account-service design.
-- `11_Daily_Assignments/GLOW_WORM_CARDS_IMAGE_ARCHIVE_SPINE_RECONCILIATION.md` — carries this packet through the one existing `Echohearts Daily Game Work` workflow without jumping the current technical gates.
+A file is ready for an active production folder only when:
 
-### Card / EchoCode ethics rule
+1. Eco-Kin naming follows the naming standard.
+2. Active Essences match the nine-Essence canon.
+3. Player profession terminology matches current canon.
+4. Coercive capture/storage/fusion conflicts are removed or clearly marked antagonist/history/reference.
+5. Public stats use Vibrance, Density, Harmony, Purity.
+6. Story/world references do not create duplicate geography or characters.
+7. Art references have identity/provenance/status.
+8. Technical claims have honest evidence state.
+9. Outside-franchise source material is not presented as original Echohearts content.
+10. The file is routed to exactly one primary folder with cross-links rather than duplicated into multiple competing folders.
 
-An Echo-Kin card represents a sentient partner; it does not contain, sell or transfer that being. EchoCode redemption must remain server-authoritative when implemented and may grant eligible content such as an EchoDeck representation, cosmetic, lore entry, quest, encounter/Kindling opportunity, Sanctuary decoration or balanced technique path. Historical VIT/AGS/VEL/RSN/SYNC and Frost/Light/Storm element families are prototype language, not replacements for V/D/H/P or the locked 12 elements.
-
-### Image archive rule
-
-Recover and preserve original created art when actual source bytes are available. Keep originals and edits separately, use stable identity-based filenames, and record source/provenance/status. Never claim a downloadable complete PNG archive exists until the raw assets have actually been recovered and checked.
-
-## Dark Beasts / Ancient Beasts / creation-chat visual source: 2026-09-20
-
-Dark Beasts and Ancient Beasts are now official Eco-Kin lineup classifications within the **existing** registry, not separate creature systems.
-
-- `03_EcoKin_Dex/DARK_AND_ANCIENT_BEASTS_LINEUP_2026-09-20.md` — defines Dark Beasts as nocturnal / abyssal / spectral / anomaly-associated Eco-Kin without making them inherently evil, distinguishes Blight corruption as a state rather than a species, and defines Ancient Beasts as primordial / heritage lineages tied to Rebearth's deep ecosystems, ruins, relics and pre-war history. Rarity, Legendary/Titan status and Kindling eligibility remain independent authored properties.
-- `07_Art/ECOKIN_CREATION_CHAT_VISUAL_SOURCE_RULE.md` — makes previously approved Eco-Kin Creation / character-design images the visual production source for future images. Preserve approved DNA, anatomy, silhouette, colors, materials, gear, biome and name; correct only actual errors unless the user explicitly orders a redesign.
-
-### Dark / Ancient gameplay correction
-
-Dark Beasts and Ancient Beasts use the same `EcoKinID` / `EchoprintID`, Kindling, V/D/H/P, canonical 12 elements, combat, growth, card, save and QA pipelines as every other Eco-Kin. Historical `capture/taming` wording is reconciled to the current ethical field loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**. Forced mutation/evolution, ownership transfer and sentient storage remain non-canon.
-
-### Image-generation continuity rule
-
-When an already-created Eco-Kin has approved prior art, use that recovered creation-chat image/design record as the source of truth for new images here instead of inventing a different creature under the same name. One Eco-Kin per image by default, coherent anatomy, original Echohearts visual identity, and no accidental redesign merely for novelty.
-
-## Growth Rites / Sovereign encounters / Championship status: 2026-09-20
-
-The reposted mutation, DNA-fusion, hunting/trapping, Alpha-boss, Champion-tier and outside-franchise evolution research has been reconciled into original Echohearts systems rather than copied.
-
-- `04_Systems/GROWTH_RITES_RESONANCE_BRANCHES_AND_CHAMPIONSHIP_STATUS.md` — replaces forced mutation and copied evolution tiers with voluntary **Growth Rites / Resonance Branches**, keeps Kindling and the 12 core elements, replaces DNA splicing with **Resonance Trait Infusion / Bio-Synergy Weaving**, replaces Genetic Instability with **Resonance Strain / Spirit Load**, keeps V/D/H/P as the only public stats, and establishes **Resonance Circuit Standing** where sanctioned championship victories raise competitive status.
-- `04_Systems/SOVEREIGN_ECOKIN_ENCOUNTER_SYSTEM.md` — replaces capture-oriented Alpha boss design with **Sovereign Eco-Kin** encounters focused on protection, ecology, purification, territorial challenges and earned trust. No harpoon/cage/genome-extraction progression.
-- `99_Reference_Retired_Needs_Redesign/LEGACY_MUTATION_FUSION_CAPTURE_REFERENCE_RETIRED_2026-09-20.md` — preserves Aniimo / Digimon / Pokémon material only as broad reference questions while explicitly retiring copied terminology, donor consumption, DNA/body fusion, capture cages, stat replacement tables and raw Python pseudocode claims.
-
-### Championship rule
-
-Winning sanctioned Resonance Arena / Harmony Circuit championship fights increases **Resonance Circuit Standing** through the current ladder: **Qualifier → Challenger → Crestbearer → Champion → Grand Champion → Harmonic Crown**. This standing is separate from biological growth and Kindling. It can unlock titles, cosmetics, invitations, advanced trials and competitive content without forcing evolution or creating pay-to-win stat inflation.
-
-### Current uploaded form-art routing
-
-Current images such as Totemflare Rainforest Strider / Galecrest / Stormbringer, Psylopath Mindcoil / Mirefiend, Marmara Seedling / Verdant / Prime Guardian, Flames Emberling / Cinderstride / Blazewarden, Sandveil Burrowkin / Sandshield / Sandshaper, ZuriStripe variants, Ho-kanko variants and Jazzy & Drako pair art are preserved as visual/source references. They require naming, element, anatomy and story audit before final data lock. Human + Eco-Kin pair imagery represents partnership, never fusion.
-
-© 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+This is the active project organization rule going forward.
