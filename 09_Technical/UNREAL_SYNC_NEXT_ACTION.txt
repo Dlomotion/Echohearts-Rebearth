@@ -1,1 +1,0 @@
-NEXT EXACT ACTION: Establish and commit the canonical Unreal Engine 5.8 .uproject plus Source/ module skeleton, then run the first UHT/compile/editor-load verification before activating UE CI or integrating Issue #10 gameplay classes.
