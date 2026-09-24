@@ -1,0 +1,37 @@
+# Echohearts: Rebearth — Git attributes / LFS policy
+# Install Git LFS locally before working with files matched below.
+
+# Unreal binary assets: non-text, non-mergeable, lockable.
+*.uasset filter=lfs diff=lfs merge=lfs -text lockable
+*.umap   filter=lfs diff=lfs merge=lfs -text lockable
+
+# Large source-art / DCC / audio files commonly used by Unreal production.
+*.fbx   filter=lfs diff=lfs merge=lfs -text lockable
+*.blend filter=lfs diff=lfs merge=lfs -text lockable
+*.psd   filter=lfs diff=lfs merge=lfs -text lockable
+*.tga   filter=lfs diff=lfs merge=lfs -text lockable
+*.exr   filter=lfs diff=lfs merge=lfs -text lockable
+*.wav   filter=lfs diff=lfs merge=lfs -text lockable
+
+# Intentionally keep PNG/JPG normal Git objects unless a future asset-volume audit
+# shows that those classes should move to LFS. This avoids forcing every small
+# documentation/reference image into LFS storage.
+
+# Text normalization
+*.md   text eol=lf
+*.txt  text eol=lf
+*.ini  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.h    text eol=lf
+*.hpp  text eol=lf
+*.cpp  text eol=lf
+*.cs   text eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+
+# Windows command files retain CRLF where appropriate.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
