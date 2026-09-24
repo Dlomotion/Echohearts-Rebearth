@@ -20,6 +20,16 @@
 - Do not reintroduce `Eco_kin`, `Ech-kin`, `Echo-Kin`, `Conductor Lattice`, `Lattice creature`, or other replacement umbrella names as the franchise creature term.
 - Project title remains **Echohearts: Rebearth** unless an explicitly approved product subtitle is added.
 
+## Permanent Dex and seasonal expansion
+
+- The **125-ID Permanent Eco-Kin Dex** is the fixed foundational production roster.
+- IDs **001–125** remain the protected core roster and should not be displaced, renumbered, or overwritten by later seasonal additions.
+- **New Eco-Kin are introduced after the original 125 through seasonal content waves.** Permanent additions begin after #125 and must pass canon, originality, anatomy, Essence, gameplay-role, biome, art, naming, and data validation before receiving a production ID.
+- Seasonal creation is the official growth path for the roster. A season may introduce new species, Biomimetic Shifts, Resonant Morphs, Primal Morphs, story-linked guardians, regional discoveries, or other approved variants without rewriting the original 125.
+- The **Master Historical Naming Pool** remains a separate archive of recovered prototypes, evolutions, mutations/forms, alternate spellings, retired names, and batch-created concepts. Historical names are not automatically promoted into the Permanent Dex or a seasonal roster.
+- A historical concept may be revived in a future season only after it is reconciled against current canon and explicitly promoted.
+- Seasonal roster records must preserve provenance and clearly state: Season, Production ID, Name, Canon Status, Creature Base, Essence, Class/Body Family, Biome, Ecological Role, Gameplay Role, Bond Method, Growth/Form Hooks, Art Reference, and verification status.
+
 ## Originality and external-reference rule
 
 - Outside games, films, books, toys, and franchises may be studied only for broad design lessons, accessibility, pacing, technical patterns, and market expectations.
