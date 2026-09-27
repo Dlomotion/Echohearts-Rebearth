@@ -1,0 +1,72 @@
+# Echohearts: Rebearth — Unreal Engine project ignore rules
+# Based on GitHub's UnrealEngine.gitignore pattern set, adapted for this project.
+
+# Visual Studio / IDE local files
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+.vsconfig
+
+# Compiled object / library / executable output
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+
+# Unreal generated binaries
+Binaries/*
+Plugins/**/Binaries/*
+
+# Unreal generated build output.
+# Preserve project-owned Build subfolders/resources where explicitly whitelisted.
+Build/*
+!Build/*/
+Build/*/**
+!Build/**/*.ico
+!Build/**/DefaultPakFileRules.ini
+
+# Generated map build data
+*_BuiltData.uasset
+
+# Editor/generated state
+Saved/*
+Intermediate/*
+Plugins/**/Intermediate/*
+DerivedDataCache/*
+
+# Local logs / crash / temp output
+*.log
+*.tmp
+*.temp
+*.bak
+*.user
+*.userprefs
+
+# OS noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep GitHub workflow/configuration files and project documentation tracked.
+!.github/
+!.github/**
