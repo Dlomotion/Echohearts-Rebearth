@@ -152,4 +152,36 @@ Winning sanctioned Resonance Arena / Harmony Circuit championship fights increas
 
 Current images such as Totemflare Rainforest Strider / Galecrest / Stormbringer, Psylopath Mindcoil / Mirefiend, Marmara Seedling / Verdant / Prime Guardian, Flames Emberling / Cinderstride / Blazewarden, Sandveil Burrowkin / Sandshield / Sandshaper, ZuriStripe variants, Ho-kanko variants and Jazzy & Drako pair art are preserved as visual/source references. They require naming, element, anatomy and story audit before final data lock. Human + Eco-Kin pair imagery represents partnership, never fusion.
 
+## Final universe / creature / PR consolidation: 2026-09-26
+
+This final pass connects the latest project-chat intake to the current repository and open PR/issue dependency chain without creating a new canon track.
+
+- `00_Canon_Lock/FINAL_UNIVERSE_CONSOLIDATION_2026-09-26.md` — final reconciliation for 125-ID creature governance, Aurivelle rename, Geo/Echo interaction tags, Aurelian/Great Somatic Fracture placement, original story/cosmic salvage, faction/trial/automation/growth corrections, infinite-continuation rules, and the technical verification boundary.
+- `10_Production/FINAL_CONSOLIDATION_PR_AND_IMPLEMENTATION_MAP_2026-09-26.md` — maps open PRs #1/#2/#6/#7/#9/#11/#14 and Issues #8/#10/#12/#13 into one execution order from infrastructure through the first UE5.8 body/animation slice and later tactical/online work.
+- `99_Reference_Retired_Needs_Redesign/FINAL_LEGACY_REFERENCE_RETIREMENT_2026-09-26.md` — explicitly retires one-to-one outside-franchise adaptations, forced fusion/ownership drift, unsafe legacy player/body concepts, and unsupported production-ready technical claims while preserving abstract transferable lessons.
+
+### Final naming correction
+
+`Prismana` / `Prusmana` is retired from active Echohearts naming. **Aurivelle Form** is the replacement working name. Current evidence does not establish Hexxin as a permanent 125-ID identity, so `Hexxin — Aurivelle Form` remains a parent-mapping/form candidate and cannot create a 126th permanent species.
+
+### Final element/Essence correction
+
+The current production Essence keys remain **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. `Geo` is a Terra geological specialization and `Echo` is a Harmony-driven Resonance interaction tag. The requested Geo row is preserved: Geo dominates Solar/Aero and is dominated by Flora, Hydro/Torrent, and Echo; Echo retains its authored 1.6× advantage over Geo/Aero and 1.6× weakness to Flora/Hydro-Torrent when the Echo interaction tag applies.
+
+### Final originality rule
+
+Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, tiers, boss structures, capture/fusion logic, code, art, rigs, and animation are reference-only. Only abstract lessons may be re-authored through original Echohearts identities, mechanics, story, art, and code.
+
+### Final production order
+
+1. Review PR #15 canon/production consolidation.
+2. Validate PR #14 infrastructure and resolve overlap with #11.
+3. Establish the real UE5.8 `.uproject` / `Source` foundation and clone/LFS/build evidence.
+4. Execute Issue #10 as the first evidence-backed NPC + Eco-Kin 3D body/animation slice.
+5. Build the 4–6 Eco-Kin funding vertical slice.
+6. Reconcile/validate PR #2 public Bestiary.
+7. Advance PR #6 story/manuscript content only after current-canon terminology review.
+8. Advance #7/#9 and Issue #8 as bounded tactical/online work after the real-time core is proven.
+9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
