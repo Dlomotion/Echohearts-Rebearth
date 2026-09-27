@@ -342,3 +342,56 @@ Runtime status remains subject to the project evidence ladder:
 **Canon → Schema → Implementation → Validation → Evidence → VERIFIED.**
 
 No ending is advertised as playable until the corresponding gameplay and packaged-build evidence exists.
+
+## 11. Infinite Life / Regeneration Continuum
+
+**Core law:** **Life is infinite ♾️ — it keeps going through regeneration, rebirth, memory, adaptation and new generations.**
+
+U.N.I.T.Y. is the end of the main campaign conflict, but it is not the end of life, history, evolution or the Echohearts universe. The canon treats life as a living continuum rather than a straight line with a final stop.
+
+The cycle is:
+
+**Root → Life → Experience → Echo → Evolution / Mutation → Death / Transformation → Memory → Regeneration → New Life → New Bonds → New Worlds → Root again.**
+
+This law connects directly to existing canon:
+
+- the **Tree of Life / Heartroot Network** heals, branches, sheds damaged growth and produces new growth;
+- the **Circle of Life** never becomes permanently “finished”; it must be cared for across generations;
+- Eco-Kin remain living beings with species-specific life cycles, restoration biology, evolution and mutation rather than disposable inventory;
+- when an Eco-Kin life cycle ends through canon-authorized rebirth conditions, its Echo can return through the established Echo-Verse / Eco-Egg regeneration loop rather than making death meaningless or erasing consequences;
+- ecosystems regenerate through soil, water, roots, fungi, pollinators, predators, prey, weather, migration and stewardship;
+- destroyed settlements can be rebuilt, but their history remains part of the world;
+- scars from wars can heal without being forgotten;
+- new generations inherit memories, warnings, discoveries and responsibilities from the generations before them;
+- future seasons and sessions may introduce new Eco-Kin, regions, descendants, cultures, threats and alliances without implying the old world ceased to matter;
+- post-U.N.I.T.Y. stories are continuations of life, not a replacement timeline.
+
+### Regeneration does not erase consequence
+
+“Infinite life” does not mean nothing can be lost. Individuals can die, habitats can collapse, relationships can break, species can be endangered, and choices can permanently change the world. Regeneration means life responds, adapts, remembers and grows from what remains.
+
+The preferred True Rebirth philosophy is therefore:
+
+> **Not saved. Not doomed. Alive.**
+
+Rebearth is never frozen in a perfect final state. Even after the strongest ending, seasons change, new life emerges, old ruins become habitats, descendants ask new questions, Eco-Kin continue evolving, and new worlds can enter the living network.
+
+### Post-U.N.I.T.Y. continuation rule
+
+The ending cinematic should communicate continuation rather than finality:
+
+- seedlings emerge through repaired war ruins;
+- water returns to a formerly fractured channel;
+- an Eco-Egg begins to pulse in a restored Sanctuary;
+- children from different peoples learn together beneath the Heartroot;
+- an older Eco-Kin leaves tracks beside a newly born one;
+- distant star routes illuminate beyond Rebearth;
+- the camera rises through the Tree of Life canopy and reveals branches continuing beyond the visible horizon.
+
+The final thematic sequence becomes:
+
+**LOVE CONQUERS ALL → WE ARE STRONGER TOGETHER → LIFE CONTINUES → REGENERATION → NEW BEGINNINGS → ♾️**
+
+**Final continuum line:**
+
+> **“Life does not end at victory. It changes, remembers, regenerates, and keeps going.”**
