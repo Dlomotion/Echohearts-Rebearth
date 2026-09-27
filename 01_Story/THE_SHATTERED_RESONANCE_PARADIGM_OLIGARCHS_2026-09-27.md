@@ -401,7 +401,7 @@ Potential state keys / design flags:
 - `Paradigm.SylphrenResolution`
 - `Paradigm.MalisResolution`
 - `Paradigm.VermilionResolution`
-- `Paradigm.Vergerestoration`
+- `Paradigm.VergeRestoration`
 - `Paradigm.TruthRecovered`
 - `Paradigm.DistributedSafeguard`
 
@@ -426,7 +426,9 @@ The arc therefore becomes a miniature rehearsal for U.N.I.T.Y.:
 
 The four Paradigm Oligarch fights are **one-time canonical story encounters per save/world state** once their mission triggers are committed.
 
-They use the existing transaction principles established for unique encounters:
+They reuse the existing one-time encounter transaction contract but are **not** reclassified as Sovereign Eco-Kin.
+
+Canonical flow:
 
 **Validate → Reserve → Persist → Spawn → Resolve → Persist → Reward → Archive**
 
@@ -438,7 +440,7 @@ After canonical resolution, combat may be replayed through an A.E.G.I.S./Chrono 
 - rewriting the Oligarch's story choice;
 - reopening the first-spawn transaction.
 
-Because these are character/story bosses, they are not automatically classified as Sovereign Eco-Kin and do not enter the Permanent Dex.
+Because these are character/story bosses, they do not enter the Permanent Eco-Kin Dex unless an entirely separate future canon decision establishes an individual as an Eco-Kin identity.
 
 ---
 
