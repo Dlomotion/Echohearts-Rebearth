@@ -1,0 +1,29 @@
+# Unreal Engine generated / local-only files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.tmp
+*.log
+
+# IDE / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+
+# Local build artifacts
+build/
+BuildArtifacts/
+
+# NOTE:
+# Do not blanket-ignore the project Build/ directory here.
+# Unreal projects may store required packaging resources, icons, platform files,
+# or other source-controlled project data under Build/. Review intentionally.
