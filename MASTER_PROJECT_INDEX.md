@@ -209,4 +209,28 @@ Do not bulk-fill every remaining Eco-Kin now. Future sessions and seasons activa
 
 Pasted C++ or architectural prose is **not** proof that a system is compiled, synchronized, production-ready or present on `main`. Runtime status remains NOT YET VERIFIED until the existing build/package/network/evidence gates are satisfied.
 
+## Environmental puzzles / Weather Pulse / Archive boundary intake: 2026-09-29
+
+This packet is integrated into the same Growth Rite, Event Sovereign, world-state and technical evidence path. It does not create a capture system, second progression stack, alternate world ledger or parallel UE implementation.
+
+- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md` — defines Static Orchard compatibility bands, multiple-solution/accessibility rules, Weather Pulse eligibility, reversible modifier layers, hysteresis, Sanctuary climate-simulation limits and persistence boundaries.
+- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md` — replaces capture/Vessel Disc terminology with nonlethal A.E.G.I.S. Stabilization Boundaries, defines authoritative client-intent/server-state flow, Archive canonical-write isolation, Morrowmire transaction ordering, replay/recovery tests and the no-runtime-evidence boundary.
+
+### 2026-09-29 correction precedence
+
+Where older index text still preserves historical wording, the following newer locks win:
+
+- **Core-Binder** is the authoritative protagonist role; old universal `Tamer of Beasts` / `Frequency Tamer` labels are contextual or retired.
+- Production Essences are exactly **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. Older references to a “locked 12 elements” set are historical and do not override this nine-Essence authority.
+- The five secret ending variants are now canonically named **Rooted Together**, **Starbound Accord**, **Order Without Accord**, **Ascension Alone**, and **Alone in the Echo**, under the newer U.N.I.T.Y. ending lock.
+- `capture field`, `Vessel Disc`, capture percentages and sentient storage are not active Eco-Kin relationship mechanics.
+- Weather Pulse Forms never create new Permanent Dex IDs and never permanently stack their temporary stat modifiers through repeated weather evaluation.
+- Chrono Archive replay cannot write canonical world/faction/Sovereign/U.N.I.T.Y. state.
+
+### Current production order after this intake
+
+**Real UE foundation → Issue #10 original humanoid + Eco-Kin body/animation proof → 4–6 polished Eco-Kin vertical slice → one Growth Rite proof → one Event Sovereign reservation/save/recovery proof → bounded registry/UI/save → first Oligarch prototype → one Static Orchard compatibility proof + one Weather Pulse proof → networking/destruction → seasonal expansion → Great War → Summoning War → U.N.I.T.Y. → Infinite Regeneration postgame.**
+
+No Static Orchard solver, Weather Pulse form, Archive replication path, Morrowmire event, or persistence transaction is called VERIFIED until a real UE5.8 project/module passes UHT/compile, automated testing, save/reload/recovery, network authority testing, packaging and runtime evidence.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
