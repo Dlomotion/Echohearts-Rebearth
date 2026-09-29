@@ -1,6 +1,6 @@
 # ECHOHEARTS: REBEARTH — WAR CONTINUUM TO U.N.I.T.Y.
 
-**Date:** 2026-09-27  
+**Date:** 2026-09-27 / amended 2026-09-29  
 **Status:** CANON LOCK / HISTORICAL CONTINUITY FRAMEWORK  
 **Scope:** Connect all major Echohearts wars into one cause-and-consequence history that culminates in the final U.N.I.T.Y. conflict. The detailed **Great War** campaign is intentionally reserved for later development sessions.
 
@@ -27,13 +27,13 @@ Every major war leaves behind:
 
 The wars therefore form one historical continuum:
 
-**WORLD WAR / WAR ON HUMANITY → THE GREAT WAR → SPACETIME CONFLICT / FRACTURE WARS → SUMMONING WAR → THE FINAL U.N.I.T.Y. WAR**
+**WORLD WAR / WAR ON HUMANITY → THE GREAT WAR → SPACETIME CONFLICT / FRACTURE WARS → SUMMONING WAR → VOID WAR → THE FINAL U.N.I.T.Y. WAR**
 
 Each stage shows a different answer to the same question:
 
 > **When people are afraid of losing their world, do they control one another—or stand together?**
 
-The final U.N.I.T.Y. War exists because previous generations repeatedly failed to answer that question without domination.
+The final U.N.I.T.Y. War exists because previous generations repeatedly failed to answer that question without domination or isolation.
 
 ---
 
@@ -131,7 +131,7 @@ Wars are no longer fought only over land.
 They are fought over:
 
 - historical records;
-- timelines;
+- timelines and causal evidence;
 - dimensional access;
 - ancestral memories;
 - Riftways;
@@ -158,6 +158,8 @@ The damage from this period contributes to:
 ### Continuity rule
 
 The Spacetime Conflict does not replace the Great Somatic Fracture, Grand Fracture, or regional fracture events. Those events have distinct scales and causes. War-era manipulation may contribute to or exploit fractures without collapsing all Fracture terminology into one incident.
+
+Chrono-Echo Anchoring repairs evidence and local causal stability; it does not create a free multiverse-reset mechanic.
 
 ---
 
@@ -196,21 +198,120 @@ The player discovers that history keeps repeating the same pattern at a larger s
 **Spacetime Conflict:** control history and reality.  
 **Summoning War:** control cosmic power itself.
 
-The Summoning War therefore becomes the last proof that no single ruler, faction, species, nation, corporation, machine or hero can safely own the future.
+The Summoning War proves that no single ruler, faction, species, nation, corporation, machine or hero can safely own the future.
 
 ### End-state connection
 
-The Summoning War awakens threats and alliances that cannot be resolved by a conventional victory.
+The Summoning War tears too many ancient Callways, Riftways and sealed systems open at once. Damaged systems that once failed independently begin interacting across distance.
 
-Defeating one army is no longer enough.
+That does not immediately create U.N.I.T.Y.
 
-The player must build a relationship network capable of surviving what comes after the battle.
+Instead, it creates the conditions for the **Void War**.
+
+---
+
+# 6. WAR V — THE VOID WAR
+
+### Formal meaning
+
+The **Void War** is Echohearts' war of disconnection.
+
+“Void” does not introduce a tenth Essence, a copied alternate dimension or an external franchise's metaphysics. It is the late-war name for a spreading failure state in which ecological, social, historical and Heartroot connections have been severed so thoroughly that the absence begins functioning as a coordinated system.
+
+### Trigger
+
+The Summoning War overloads damaged Callways, Riftways, Memory Lattices, Heartroot routes and Ancient Tech corridors.
+
+Blight damage and Gloom pressure begin synchronizing across those failures.
+
+Localized Hollowing becomes a connected **Hollow Front**.
+
+Ebonmaw recognizes the opportunity and coordinates those fractures.
+
+The first strategic warning is not a fleet sighting. It is D.A.H.L.I.A. discovering that distant regions are going silent in the same pattern.
+
+> **The breaches are not communicating. They are becoming the same silence.**
+
+### Strategic enemy
+
+The Void War is fought against three interlocking layers:
+
+- **Hollow Hosts** — living beings, Eco-Kin, constructs, ruins, ecosystem nodes or war systems being used as carriers/channels; some remain recoverable;
+- **Severance Engines** — old war infrastructure repurposed to cut Heartroot, migration, communications, Rift and historical-record connections;
+- **Ebonmaw's Hollow Front** — the coordinated strategy that turns isolation, fear and disconnection into a self-reinforcing planetary threat.
+
+Ebonmaw's goal is not conventional occupation.
+
+Its goal is to make every region believe it must survive alone.
+
+### Nature's destiny in the Void War
+
+Nature becomes the central savior figure because her Living Accord capability is the direct opposite of Hollowing.
+
+She can reopen connections, redirect living rootways, stabilize damaged ecological relationships and help disconnected communities hear one another again.
+
+But she cannot force cooperation.
+
+The Core-Binder discovers the decisive limitation:
+
+> **Nature can reopen a connection. She cannot make anyone choose to keep it.**
+
+The Void War therefore teaches Nature not to become a planetary command center. Her destiny is to distribute connection so that many communities, ecosystems and allies can remain independent while still supporting one another.
+
+### Major Void War operations
+
+The late-game arc includes the authored mission families detailed in `01_Story/VOID_WAR_NATURE_AND_HOLLOW_FRONT_2026-09-29.md`, including:
+
+- **The Silence Between Routes**;
+- **Hollow Host**;
+- **The Broken Skyway**;
+- **Archive of Missing Names**;
+- **Siege of the Living Root**;
+- **The World Stops Answering**;
+- **Nature's Choice**;
+- **The Hollow Crown**.
+
+These operations combine lethal high-action warfare with rescue, restoration, historical recovery, traversal and Hollow diagnosis.
+
+Recoverable Hollow Hosts are not automatically executed. Armed hostile actors, irrecoverable war machines and active lethal threats may require lethal force.
+
+### The lowest point
+
+For a limited period, the Hollow Front succeeds in cutting major Heartroot regions apart.
+
+D.A.H.L.I.A. loses reliable planetary telemetry. A.E.G.I.S. cannot provide a complete global picture. Weather systems, migration, faction logistics and Rift routes destabilize.
+
+The player must continue using local evidence, relationships and previously earned trust.
+
+This is the moment when Rebearth experiences what total fragmentation actually means.
+
+### Nature's choice
+
+Nature discovers that she could forcibly centralize the damaged Heartroot network through herself.
+
+That would restore coordination quickly—but would create the exact planetary command architecture every previous war attempted to control.
+
+She refuses.
+
+Instead, Nature and the Core-Binder reconnect regions through voluntary local participation.
+
+The Void War is won militarily when enough independent regions reconnect that Ebonmaw can no longer maintain one synchronized silence.
+
+### Why the Void War does not solve the story
+
+The player learns that Ebonmaw did not create every fracture it exploited.
+
+The World War, Great War, Fracture Wars and Summoning War created much of the isolation, damaged infrastructure, prejudice and distrust that made the Hollow Front possible.
+
+Destroying the Hollow Crown therefore cannot guarantee the Hollow will never return.
+
+Only a durable, distributed relationship structure can do that.
 
 That need directly creates **U.N.I.T.Y.**
 
 ---
 
-# 6. WAR V — THE FINAL U.N.I.T.Y. WAR
+# 7. WAR VI — THE FINAL U.N.I.T.Y. WAR
 
 ### Formal finale
 
@@ -243,6 +344,7 @@ It weaponizes the history of the earlier wars:
 - surviving Summoning War entities;
 - unresolved Great War betrayals;
 - Fracture-era temporal weapons;
+- Void War Hollow scars and Severance infrastructure;
 - promises that earlier leaders failed to keep.
 
 The final threat understands that the easiest way to defeat Rebearth is not to destroy every army.
@@ -253,7 +355,9 @@ It is to make the people refuse to stand beside one another.
 
 Previous coalitions were temporary military arrangements.
 
-U.N.I.T.Y. becomes something larger:
+The Void War proved that both total centralized command and total isolation are existential failures.
+
+U.N.I.T.Y. therefore becomes something larger:
 
 - shared defense without empire;
 - cooperation without forced sameness;
@@ -261,6 +365,7 @@ U.N.I.T.Y. becomes something larger:
 - technology without automatic ownership of life;
 - healing without erasing scars;
 - coalition without requiring every faction to surrender its identity;
+- redundant distributed connections instead of one point of command;
 - strength created from interdependence rather than supremacy.
 
 ### Final thematic reversal
@@ -269,13 +374,17 @@ Every previous war asks:
 
 **“Who should control the future?”**
 
+The Void War adds:
+
+**“What happens when nobody trusts connection enough to share the future at all?”**
+
 U.N.I.T.Y. answers:
 
 **“No one owns the future. We build it together.”**
 
 ---
 
-# 7. HOW EACH WAR RETURNS DURING THE U.N.I.T.Y. FINALE
+# 8. HOW EACH WAR RETURNS DURING THE U.N.I.T.Y. FINALE
 
 The final campaign must visibly reconnect to the earlier conflicts.
 
@@ -289,11 +398,19 @@ Future Great War missions must plant characters, artifacts, treaties, ruins and 
 
 ### Spacetime Conflict return
 
-Chrono/Rift instability causes multiple historical battlefields to overlap with the present. The player may have to protect the current alliance while echoes of earlier conflicts attempt to rewrite the conditions that created it.
+Chrono/Rift instability causes historical battlefields and evidence to intrude into the present. The player may have to protect the current alliance while repairing historical records and causal scars without rewriting locked history.
 
 ### Summoning War return
 
 Surviving summoned entities, Saviors, Guardians, hostile powers and off-world factions choose whether to join, abstain, exploit the crisis or attack the coalition.
+
+### Void War return
+
+Heartroot junctions, recovered Hollow Hosts, damaged Sanctuaries, restored routes and surviving Severance Engines determine how resilient the final coalition actually is.
+
+Nature's Void War trust/strain state affects how safely she can open the Living Accord.
+
+Regions that voluntarily reconnected during the Void War become the first distributed anchors of U.N.I.T.Y.
 
 ### U.N.I.T.Y. resolution
 
@@ -309,29 +426,31 @@ The finale therefore measures more than military strength:
 - truth recovered from corrupted history;
 - former enemies who chose reform;
 - peoples who were respected enough to answer the final call;
+- Hollow Hosts rescued or lost;
+- independent regions willing to maintain shared routes;
 - whether the player used power to protect agency rather than replace it.
 
 ---
 
-# 8. FINAL WAR MISSION INTEGRATION
+# 9. FINAL WAR MISSION INTEGRATION
 
 The existing Chapter 20 finale remains:
 
-1. **The Call Across Rebearth** — old allies, descendants and surviving war factions receive the U.N.I.T.Y. call.
+1. **The Call Across Rebearth** — old allies, descendants, Void War survivors and surviving war factions receive the U.N.I.T.Y. call.
 2. **Common Ground** — historical grievances from all previous wars must be confronted.
 3. **Many Banners** — former enemies and different peoples fight on coordinated fronts while retaining their identities.
-4. **The Last Divide** — the enemy uses the entire history of war to split the coalition.
-5. **U.N.I.T.Y.** — the final war proves whether Rebearth learned anything from its past.
+4. **The Last Divide** — the enemy uses the entire history of war, including the fear created by the Void War, to split the coalition.
+5. **U.N.I.T.Y.** — Nature opens the Living Accord while the coalition proves whether Rebearth learned anything from its past.
 
 The true-good ending, **U.N.I.T.Y.: Stronger Together**, requires not only winning the final battle but breaking the historical cycle that connected every war before it.
 
 ---
 
-# 9. ENDING CONNECTIONS
+# 10. ENDING CONNECTIONS
 
 ### U.N.I.T.Y.: Stronger Together
 
-The cycle is broken. Historical enemies cooperate without being forced to become identical. The coalition survives because people understand the cost of repeating the past.
+The cycle is broken. Historical enemies cooperate without being forced to become identical. Nature opens the Living Accord, but the load remains distributed. The coalition survives because people understand the cost of repeating both domination and isolation.
 
 ### Rebirth Accord / Heal-Order
 
@@ -339,11 +458,11 @@ The wars end, but the temptation to prevent the next one through centralized con
 
 ### Severed World
 
-The player prevents another empire by destroying shared control systems. The war ends, but the inability to trust one another leaves the world fragmented.
+The player prevents another empire by destroying shared control systems. The war ends, but the inability to trust one another leaves the world fragmented; the Void War's warning remains partially unresolved.
 
 ### Starbound Accord
 
-The lessons from Rebearth's wars become the ethical foundation for entering the wider cosmic community.
+The lessons from Rebearth's wars become the ethical foundation for entering the wider cosmic community. Nature becomes a Living Envoy rather than a ruler.
 
 ### Order Without Accord
 
@@ -355,26 +474,26 @@ The player escapes the historical cycle personally but fails to help the world e
 
 ### Alone in the Echo
 
-The enemy is defeated, yet the long chain of wars succeeds in its deepest damage: people no longer trust one another enough to build a shared future.
+The enemy is defeated, yet the long chain of wars succeeds in its deepest damage: people no longer trust one another enough to build a shared future. The result resembles the Void War's silence becoming permanent social reality.
 
 ---
 
-# 10. GREAT WAR FUTURE-SESSION DEVELOPMENT CONTRACT
+# 11. GREAT WAR FUTURE-SESSION DEVELOPMENT CONTRACT
 
 When the Great War is expanded later, each new mission should answer at least four questions:
 
 1. **What earlier conflict caused this battle?**
 2. **What lasting scar does this battle leave in the main campaign?**
 3. **Which person, faction, location, technology or Eco-Kin lineage carries that scar forward?**
-4. **How can the player's actions during U.N.I.T.Y. finally resolve, redeem, expose or repeat it?**
+4. **How can the player's actions during the Void War or U.N.I.T.Y. finally resolve, redeem, expose or repeat it?**
 
 No Great War content should exist only as disconnected spectacle.
 
-Its purpose is to deepen the road to U.N.I.T.Y.
+Its purpose is to deepen the road to the Void War and U.N.I.T.Y.
 
 ---
 
-# 11. CANON SUMMARY
+# 12. CANON SUMMARY
 
 The full war spine is now:
 
@@ -398,24 +517,38 @@ Old civilizations' weapons and cosmic powers are awakened, and factions attempt 
 
 ↓
 
+**THE VOID WAR**  
+Blight, Gloom and centuries of severed relationships synchronize into the Hollow Front. Nature and the Core-Binder fight to reconnect a world that is being taught to survive alone.
+
+↓
+
 **THE FINAL U.N.I.T.Y. WAR**  
 Every historical division returns. Humans of different races and cultures, Eco-Kin, Humanoid-Kin, Alien-Kin, Bots, factions, settlements, Guardians and eligible cosmic allies must decide whether to repeat the cycle or stand together.
 
 ### Final historical thesis
 
-> **Every war before U.N.I.T.Y. was fought over who would control the future. The last war is won when the people understand that the future was never meant to belong to only one of them.**
+> **Every war before U.N.I.T.Y. was fought over who would control the future. The Void War reveals what happens when the future stops being shared at all. The last war is won when the people understand that the future was never meant to belong to only one of them—or to leave everyone alone.**
 
 ### Final project theme
 
 **LOVE CONQUERS ALL.**  
 **WE ARE STRONGER TOGETHER.**  
+**LIFE CONTINUES.**  
 **U.N.I.T.Y.**
 
-## 12. Verification boundary
+## 13. Originality boundary
+
+External science-fiction and game stories may be studied for broad structural lessons such as escalating from faction conflict into deeper reality-scale consequences.
+
+Echohearts does not import proprietary characters, factions, metaphysics, body-possession systems, multiverse rules, enemy designs, named artifacts or quest structures from those works.
+
+The Void War is built only from existing Echohearts concepts: **Blight, Gloom, Hollowing, Hollow Hosts, Ebonmaw, Heartroot, Nature, Kindling, Chrono-Echo Anchoring, Riftways, Living Accord, the War Continuum and U.N.I.T.Y.**
+
+## 14. Verification boundary
 
 This document locks narrative continuity only.
 
-It does not claim that Great War missions, historical battlefields, Summoning War sequences, temporal crossover encounters or the U.N.I.T.Y. final war are already implemented or VERIFIED in UE5.8.
+It does not claim that Great War missions, historical battlefields, Summoning War sequences, Void War Hollow Front systems, Hollow Host recovery, Nature combat, temporal crossover encounters or the U.N.I.T.Y. final war are already implemented or VERIFIED in UE5.8.
 
 Runtime status remains:
 
