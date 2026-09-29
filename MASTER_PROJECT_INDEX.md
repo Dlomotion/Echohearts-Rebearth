@@ -85,58 +85,125 @@ Main campaign combat remains real-time third-person action. Tactical grid or tur
 
 This repost batch is routed into the existing workflow only. It does not create a second Dex, legendary roster, art queue, economy, story bible or daily schedule.
 
-- `03_EcoKin_Dex/Intake/AFRICANIZED_BEE_LINE_INTAKE_2026-09-20.md` — preserves the user's Africanized honey-bee inspiration as an approved-pending Bug-Kin evolution line with Flora/Aero mapping, pollinator restoration, swarm defense, voluntary Sanctuary Aptitudes and no capture/forced evolution.
+- `03_EcoKin_Dex/Intake/AFRICANIZED_BEE_LINE_INTAKE_2026-09-20.md` — preserves the user's Africanized honey-bee inspiration as an approved-pending Bug-Kin evolution line with current elements/stats, ethical Kindling and strict six-leg insect anatomy.
 - `03_EcoKin_Dex/LEGACY_DEX_V2_RECONCILIATION_2026-09-20.md` — keeps useful identity/ecology/personality/ability/data fields from the historical Dex while retiring conflicting public stats, storage/trading, forced-work, forced-breeding and duplicate-stage architecture.
-- `07_Art/GUARDIAN_BEAST_REPOST_INTAKE_2026-09-20.md` — routes historic guardian concepts through duplicate-art, element, anatomy, guardian-role and originality review.
+- `07_Art/GUARDIAN_BEAST_REPOST_INTAKE_2026-09-20.md` — routes Vaelthundra, Cindervault, Auralyss, Kharuvane, Orokharn, Thalassyr, Zephyrahn, Vharomaw, Astravault, Mycelith, Aquanith, Sylvornith and Lumineth through duplicate-art, element, anatomy, guardian-role and originality review.
 - `01_Story/HOMETOWN_DLC_RECONCILIATION_2026-09-20.md` — preserves the destroyed-hometown/rebuilding story concept as source material while requiring timeline, location, faction and survivor continuity before canon promotion.
+- `11_Daily_Assignments/BEE_DEX_GUARDIAN_HOMETOWN_RECONCILIATION.md` — carries the batch into the one existing daily game-development workflow.
+
+### Bee line working direction
+
+Historical `Hive Spark`, `Swarm Guard`, `Africanized Queen`, displayed stats/requirements and Maat connections remain source labels until review. Current production direction uses a three-stage Bug-Kin concept with Flora/Aero mapping, pollinator restoration, swarm defense, voluntary Sanctuary Aptitudes and no capture/forced evolution. `Crownsting Matriarch` is the current working final-stage name pending naming review.
 
 ### Legacy Dex correction
 
-The historical `185-entry` count is a source inventory estimate, not a locked canon roster size. Useful internal fields may be migrated only after deduplication and originality review.
+The historical `185-entry` count is a source inventory estimate, not a locked canon roster size. Historical HP/MP/SP/ATK/DEF/etc. public stats and Veridian/Cipher/Hollow-style replacement attribute systems cannot supersede the current public V/D/H/P stats or locked 12 elements. Useful internal fields may be migrated after deduplication and originality review.
+
+### Farm / Hometown correction
+
+Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current 8-roster / 3-active campaign combat contract.
 
 ## Glow Worm / EchoCode / image archive / legacy Technical Spine intake: 2026-09-20
 
-- `03_EcoKin_Dex/Named_EcoKin/GLOW_WORM.md` — preserves Glow Worm as one approved-pending bioluminescent invertebrate Eco-Kin identity.
-- `04_Systems/ECHOCODE_CARD_SYSTEM_RECONCILIATION_2026-09-20.md` — keeps physical/digital card and EchoCode ideas while correcting sentient-partner ownership, pay-to-win risk, obsolete stats/elements and campaign-combat conflicts.
-- `07_Art/HISTORICAL_ECOKIN_IMAGE_ARCHIVE_INTAKE_2026-09-20.md` — records the requirement to preserve recoverable created images as organized individual PNG assets while keeping recovery status honest.
-- `09_Technical/LEGACY_TECHNICAL_SPINE_UNITY_SQL_AUDIT_2026-09-20.md` — retires old Unity/C#/SQL production-ready claims and preserves only transferable requirements for UE5.8/account-service design.
+This repost batch is integrated into the existing workflow and does not create a second card game, Dex, art library, backend stack, runtime or daily schedule.
+
+- `03_EcoKin_Dex/Named_EcoKin/GLOW_WORM.md` — preserves **Glow Worm** as one approved-pending bioluminescent invertebrate Eco-Kin identity. Historical `Light-Kin` presentation is not a new element; Radiant is the strongest current mapping candidate pending final ecology/balance review. Historical card/art variants attach to this identity rather than generating duplicate species.
+- `04_Systems/ECHOCODE_CARD_SYSTEM_RECONCILIATION_2026-09-20.md` — keeps the physical/digital card, EchoCode, Genesis Bloom, community-card and tabletop ideas while correcting sentient-partner ownership, pay-to-win risk, obsolete stats/elements and campaign-combat conflicts. Cards may unlock opportunities, cosmetics, lore, quests, encounter/Kindling leads and approved simulation content, not ownership of living Eco-Kin.
+- `07_Art/HISTORICAL_ECOKIN_IMAGE_ARCHIVE_INTAKE_2026-09-20.md` — records the requirement to preserve recoverable created images as organized individual PNG assets, while keeping the recovery status honest. Historical URLs/file IDs are source references; a complete raw-PNG archive is not yet verified. Rejected/bad variants route to `99_Reference_Retired_Needs_Redesign` instead of replacing approved art.
+- `09_Technical/LEGACY_TECHNICAL_SPINE_UNITY_SQL_AUDIT_2026-09-20.md` — retires the old Unity/C#/Mecanim/PostgreSQL `production-ready` claim, flags `ActionType.FLE_FLEE`, lifecycle/null/polling issues, schema/canon mismatches and preserves only transferable requirements for future UE5.8/account-service design.
+- `11_Daily_Assignments/GLOW_WORM_CARDS_IMAGE_ARCHIVE_SPINE_RECONCILIATION.md` — carries this packet through the one existing `Echohearts Daily Game Work` workflow without jumping the current technical gates.
+
+### Card / EchoCode ethics rule
+
+An Echo-Kin card represents a sentient partner; it does not contain, sell or transfer that being. EchoCode redemption must remain server-authoritative when implemented and may grant eligible content such as an EchoDeck representation, cosmetic, lore entry, quest, encounter/Kindling opportunity, Sanctuary decoration or balanced technique path. Historical VIT/AGS/VEL/RSN/SYNC and Frost/Light/Storm element families are prototype language, not replacements for V/D/H/P or the locked 12 elements.
+
+### Image archive rule
+
+Recover and preserve original created art when actual source bytes are available. Keep originals and edits separately, use stable identity-based filenames, and record source/provenance/status. Never claim a downloadable complete PNG archive exists until the raw assets have actually been recovered and checked.
 
 ## Dark Beasts / Ancient Beasts / creation-chat visual source: 2026-09-20
 
-Dark Beasts and Ancient Beasts remain classifications inside the existing registry, not separate creature systems. Blight corruption is a state rather than a species identity. Previously approved creation-chat imagery remains the visual source where recoverable.
+Dark Beasts and Ancient Beasts are now official Eco-Kin lineup classifications within the **existing** registry, not separate creature systems.
+
+- `03_EcoKin_Dex/DARK_AND_ANCIENT_BEASTS_LINEUP_2026-09-20.md` — defines Dark Beasts as nocturnal / abyssal / spectral / anomaly-associated Eco-Kin without making them inherently evil, distinguishes Blight corruption as a state rather than a species, and defines Ancient Beasts as primordial / heritage lineages tied to Rebearth's deep ecosystems, ruins, relics and pre-war history. Rarity, Legendary/Titan status and Kindling eligibility remain independent authored properties.
+- `07_Art/ECOKIN_CREATION_CHAT_VISUAL_SOURCE_RULE.md` — makes previously approved Eco-Kin Creation / character-design images the visual production source for future images. Preserve approved DNA, anatomy, silhouette, colors, materials, gear, biome and name; correct only actual errors unless the user explicitly orders a redesign.
+
+### Dark / Ancient gameplay correction
+
+Dark Beasts and Ancient Beasts use the same `EcoKinID` / `EchoprintID`, Kindling, V/D/H/P, canonical 12 elements, combat, growth, card, save and QA pipelines as every other Eco-Kin. Historical `capture/taming` wording is reconciled to the current ethical field loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**. Forced mutation/evolution, ownership transfer and sentient storage remain non-canon.
+
+### Image-generation continuity rule
+
+When an already-created Eco-Kin has approved prior art, use that recovered creation-chat image/design record as the source of truth for new images here instead of inventing a different creature under the same name. One Eco-Kin per image by default, coherent anatomy, original Echohearts visual identity, and no accidental redesign merely for novelty.
 
 ## Growth Rites / Sovereign encounters / Championship status: 2026-09-20
 
-- `04_Systems/GROWTH_RITES_RESONANCE_BRANCHES_AND_CHAMPIONSHIP_STATUS.md` — voluntary Growth Rites / Resonance Branches, current public stats, and competitive standing.
-- `04_Systems/SOVEREIGN_ECOKIN_ENCOUNTER_SYSTEM.md` — Sovereign encounters focused on protection, ecology, purification, territorial challenges and earned trust rather than capture ownership.
-- `99_Reference_Retired_Needs_Redesign/LEGACY_MUTATION_FUSION_CAPTURE_REFERENCE_RETIRED_2026-09-20.md` — preserves outside-game research only as abstract reference while retiring copied terminology and mechanics.
+The reposted mutation, DNA-fusion, hunting/trapping, Alpha-boss, Champion-tier and outside-franchise evolution research has been reconciled into original Echohearts systems rather than copied.
+
+- `04_Systems/GROWTH_RITES_RESONANCE_BRANCHES_AND_CHAMPIONSHIP_STATUS.md` — replaces forced mutation and copied evolution tiers with voluntary **Growth Rites / Resonance Branches**, keeps Kindling and the 12 core elements, replaces DNA splicing with **Resonance Trait Infusion / Bio-Synergy Weaving**, replaces Genetic Instability with **Resonance Strain / Spirit Load**, keeps V/D/H/P as the only public stats, and establishes **Resonance Circuit Standing** where sanctioned championship victories raise competitive status.
+- `04_Systems/SOVEREIGN_ECOKIN_ENCOUNTER_SYSTEM.md` — replaces capture-oriented Alpha boss design with **Sovereign Eco-Kin** encounters focused on protection, ecology, purification, territorial challenges and earned trust. No harpoon/cage/genome-extraction progression.
+- `99_Reference_Retired_Needs_Redesign/LEGACY_MUTATION_FUSION_CAPTURE_REFERENCE_RETIRED_2026-09-20.md` — preserves Aniimo / Digimon / Pokémon material only as broad reference questions while explicitly retiring copied terminology, donor consumption, DNA/body fusion, capture cages, stat replacement tables and raw Python pseudocode claims.
+
+### Championship rule
+
+Winning sanctioned Resonance Arena / Harmony Circuit championship fights increases **Resonance Circuit Standing** through the current ladder: **Qualifier → Challenger → Crestbearer → Champion → Grand Champion → Harmonic Crown**. This standing is separate from biological growth and Kindling. It can unlock titles, cosmetics, invitations, advanced trials and competitive content without forcing evolution or creating pay-to-win stat inflation.
+
+### Current uploaded form-art routing
+
+Current images such as Totemflare Rainforest Strider / Galecrest / Stormbringer, Psylopath Mindcoil / Mirefiend, Marmara Seedling / Verdant / Prime Guardian, Flames Emberling / Cinderstride / Blazewarden, Sandveil Burrowkin / Sandshield / Sandshaper, ZuriStripe variants, Ho-kanko variants and Jazzy & Drako pair art are preserved as visual/source references. They require naming, element, anatomy and story audit before final data lock. Human + Eco-Kin pair imagery represents partnership, never fusion.
 
 ## Final universe / creature / PR consolidation: 2026-09-26
 
-- `00_Canon_Lock/FINAL_UNIVERSE_CONSOLIDATION_2026-09-26.md` — final reconciliation for 125-ID creature governance, Aurivelle rename, Geo/Echo interaction tags, Aurelian placement, original story/cosmic salvage and technical verification boundaries.
-- `10_Production/FINAL_CONSOLIDATION_PR_AND_IMPLEMENTATION_MAP_2026-09-26.md` — maps infrastructure, Issue #10 and vertical-slice dependencies into one execution order.
-- `99_Reference_Retired_Needs_Redesign/FINAL_LEGACY_REFERENCE_RETIREMENT_2026-09-26.md` — retires direct outside-franchise adaptations, forced fusion/ownership drift and unsupported production-ready technical claims.
+This final pass connects the latest project-chat intake to the current repository and open PR/issue dependency chain without creating a new canon track.
+
+- `00_Canon_Lock/FINAL_UNIVERSE_CONSOLIDATION_2026-09-26.md` — final reconciliation for 125-ID creature governance, Aurivelle rename, Geo/Echo interaction tags, Aurelian/Great Somatic Fracture placement, original story/cosmic salvage, faction/trial/automation/growth corrections, infinite-continuation rules, and the technical verification boundary.
+- `10_Production/FINAL_CONSOLIDATION_PR_AND_IMPLEMENTATION_MAP_2026-09-26.md` — maps open PRs #1/#2/#6/#7/#9/#11/#14 and Issues #8/#10/#12/#13 into one execution order from infrastructure through the first UE5.8 body/animation slice and later tactical/online work.
+- `99_Reference_Retired_Needs_Redesign/FINAL_LEGACY_REFERENCE_RETIREMENT_2026-09-26.md` — explicitly retires one-to-one outside-franchise adaptations, forced fusion/ownership drift, unsafe legacy player/body concepts, and unsupported production-ready technical claims while preserving abstract transferable lessons.
 
 ### Final naming correction
 
-`Prismana` / `Prusmana` is retired from active Echohearts naming. **Aurivelle Form** is the replacement working name.
+`Prismana` / `Prusmana` is retired from active Echohearts naming. **Aurivelle Form** is the replacement working name. Current evidence does not establish Hexxin as a permanent 125-ID identity, so `Hexxin — Aurivelle Form` remains a parent-mapping/form candidate and cannot create a 126th permanent species.
 
 ### Final element/Essence correction
 
-The current production Essence keys remain **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. `Geo` is a Terra geological specialization and `Echo` is a Harmony-driven Resonance interaction tag.
+The current production Essence keys remain **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. `Geo` is a Terra geological specialization and `Echo` is a Harmony-driven Resonance interaction tag. The requested Geo row is preserved: Geo dominates Solar/Aero and is dominated by Flora, Hydro/Torrent, and Echo; Echo retains its authored 1.6× advantage over Geo/Aero and 1.6× weakness to Flora/Hydro-Torrent when the Echo interaction tag applies.
 
 ### Final originality rule
 
-Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, tiers, boss structures, capture/fusion logic, code, art, rigs and animation remain reference-only. Only abstract lessons may be re-authored through original Echohearts identities, mechanics, story, art and code.
+Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, tiers, boss structures, capture/fusion logic, code, art, rigs, and animation are reference-only. Only abstract lessons may be re-authored through original Echohearts identities, mechanics, story, art, and code.
+
+### Final production order
+
+1. Review PR #15 canon/production consolidation.
+2. Validate PR #14 infrastructure and resolve overlap with #11.
+3. Establish the real UE5.8 `.uproject` / `Source` foundation and clone/LFS/build evidence.
+4. Execute Issue #10 as the first evidence-backed NPC + Eco-Kin 3D body/animation slice.
+5. Build the 4–6 Eco-Kin funding vertical slice.
+6. Reconcile/validate PR #2 public Bestiary.
+7. Advance PR #6 story/manuscript content only after current-canon terminology review.
+8. Advance #7/#9 and Issue #8 as bounded tactical/online work after the real-time core is proven.
+9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
 
 ## Seasonal main-story / Chrono-Sandbox intake: 2026-09-27
 
-- `00_Canon_Lock/SEASONAL_ECOKIN_AND_EXPANSION_GOVERNANCE_2026-09-27.md` — seasonal/session roster governance while the 125-ID Permanent Dex remains the identity authority.
-- `00_Canon_Lock/ANCIENT_VANGUARD_RAID_CANON_2026-09-27.md` — Ancient Vanguard identities and corrupted Chrono-Echo states without automatic new Dex IDs.
-- `01_Story/SAVIORS_STARZ_ANGELIC_AND_DLC_INTAKE_2026-09-27.md` — Saviors/STARZ/cosmic and DLC intake through originality review.
-- `04_Systems/SEASONAL_CORE_GAMEPLAY_RECONCILIATION_2026-09-27.md` — 8-roster/3-active real-time play, Sanctuary/Havenlink, Resonance Relay, Reclamation Cohorts, EchoDeck, seasonal cosmetics, growth and multiplayer proposals.
-- `04_Systems/CHRONO_SANDBOX_WORLD_STATE_RECONCILIATION_2026-09-27.md` — original regional Blight families, restoration loops, Fracture Escalation and bounded world-state targets.
-- `09_Technical/SECTIONS_XXVII_XXXI_NETWORK_REGISTRY_SAVE_UI_AUDIT_2026-09-27.md` — raid replication, registry, MVVM and save-system corrections.
+The latest Training/Main Story packet is integrated into the same canon and production workflow.
+
+- `00_Canon_Lock/SEASONAL_ECOKIN_AND_EXPANSION_GOVERNANCE_2026-09-27.md` — locks the rule that Eco-Kin may be introduced/implemented in future sessions, seasons, story chapters and expansions while the 125-ID Permanent Dex remains the current identity authority.
+- `00_Canon_Lock/ANCIENT_VANGUARD_RAID_CANON_2026-09-27.md` — preserves the five Ancient Vanguard identities and corrupted Chrono-Echo raid states without automatically assigning new permanent Dex IDs.
+- `01_Story/SAVIORS_STARZ_ANGELIC_AND_DLC_INTAKE_2026-09-27.md` — routes Saviors of the Universe, STARZ*, Heaven/Naveah, angelic/cosmic research and DLC concepts into original Echohearts story development rather than direct religious/franchise copying.
+- `04_Systems/SEASONAL_CORE_GAMEPLAY_RECONCILIATION_2026-09-27.md` — reconciles 8-roster/3-active real-time play, Sanctuary/Havenlink, Resonance Relay, Reclamation Cohorts, EchoDeck, seasonal cosmetics, growth and multiplayer proposals.
+- `04_Systems/CHRONO_SANDBOX_WORLD_STATE_RECONCILIATION_2026-09-27.md` — rewrites the Tri-Core corruption/world-state packet into original Echohearts regional Blight families, restoration loops, Fracture Escalation and a bounded vertical-slice world-state target.
+- `09_Technical/VANGUARD_VOXEL_SMASH_CODE_AUDIT_2026-09-27.md` — keeps the Behemoth-Goliath slam intention while rejecting the pasted sample as production-ready or verified code.
+- `09_Technical/SECTIONS_XXVII_XXXI_NETWORK_REGISTRY_SAVE_UI_AUDIT_2026-09-27.md` — corrects raid replication, registry, MVVM and save-system errors and defines the evidence ladder before those systems may be called verified.
+- `10_Production/ANCIENT_VANGUARD_RAID_IMPLEMENTATION_MAP_2026-09-27.md` — maps the Vanguard/raid packet into the current infrastructure → Issue #10 → vertical-slice → networking/destruction dependency order.
+
+### Seasonal roster rule
+
+Do not bulk-fill every remaining Eco-Kin now. Future sessions and seasons activate approved identities in controlled waves. A season may introduce a form, regional variant, encounter state or currently unreleased permanent identity; it may not silently create `DEX-126` or replace the authoritative roster.
+
+### Section XXXI originality correction
+
+`Shallow Hallow`, generic one-to-one `Corruption/Cript` framing, `Hardmode`, and direct Terraria boss correspondences are retired from active production terminology. Their transferable ecological/phase-design lessons may only survive after original Echohearts rewriting and continuity review.
 
 ### Technical truth rule
 
@@ -144,49 +211,26 @@ Pasted C++ or architectural prose is **not** proof that a system is compiled, sy
 
 ## Environmental puzzles / Weather Pulse / Archive boundary intake: 2026-09-29
 
-- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md` — Static Orchard compatibility bands, multiple-solution/accessibility rules, Weather Pulse eligibility, reversible modifiers, hysteresis and persistence boundaries.
-- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md` — nonlethal A.E.G.I.S. Stabilization Boundaries, authoritative client-intent/server-state flow, Archive canonical-write isolation and Morrowmire transaction ordering.
+This packet is integrated into the same Growth Rite, Event Sovereign, world-state and technical evidence path. It does not create a capture system, second progression stack, alternate world ledger or parallel UE implementation.
+
+- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md` — defines Static Orchard compatibility bands, multiple-solution/accessibility rules, Weather Pulse eligibility, reversible modifier layers, hysteresis, Sanctuary climate-simulation limits and persistence boundaries.
+- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md` — replaces capture/Vessel Disc terminology with nonlethal A.E.G.I.S. Stabilization Boundaries, defines authoritative client-intent/server-state flow, Archive canonical-write isolation, Morrowmire transaction ordering, replay/recovery tests and the no-runtime-evidence boundary.
 
 ### 2026-09-29 correction precedence
 
-- **Core-Binder** is the authoritative protagonist role.
-- Production Essences are exactly **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**.
-- Secret ending variants are **Rooted Together**, **Starbound Accord**, **Order Without Accord**, **Ascension Alone**, and **Alone in the Echo** under the U.N.I.T.Y. lock.
+Where older index text still preserves historical wording, the following newer locks win:
+
+- **Core-Binder** is the authoritative protagonist role; old universal `Tamer of Beasts` / `Frequency Tamer` labels are contextual or retired.
+- Production Essences are exactly **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. Older references to a “locked 12 elements” set are historical and do not override this nine-Essence authority.
+- The five secret ending variants are now canonically named **Rooted Together**, **Starbound Accord**, **Order Without Accord**, **Ascension Alone**, and **Alone in the Echo**, under the newer U.N.I.T.Y. ending lock.
 - `capture field`, `Vessel Disc`, capture percentages and sentient storage are not active Eco-Kin relationship mechanics.
-- Weather Pulse never creates a new Permanent Dex ID or permanently stacks temporary stat modifiers.
+- Weather Pulse Forms never create new Permanent Dex IDs and never permanently stack their temporary stat modifiers through repeated weather evaluation.
 - Chrono Archive replay cannot write canonical world/faction/Sovereign/U.N.I.T.Y. state.
-
-## Field traps / Heart Fruit / Veilroot / commerce intake: 2026-09-29
-
-This intake converts the requested skill-based catching/trap concepts into original Echohearts fieldcraft without reintroducing ownership mechanics or outside copyrighted frameworks.
-
-- `04_Systems/ECO_KIN_FIELD_TRAPS_HEART_FRUIT_AND_RELEASE_PROTOCOL_2026-09-29.md` — locks humane Eco-Traps, Heart Fruit as an accessibility-friendly lure/trust aid, Safehold states, explicit Bond / Release / Defer outcomes, auto-release safety, rescue transport and persistent relationship memory.
-- `09_Technical/AEGIS_UPGRADES_VESSEL_CRAFTING_AND_MULTITARGET_STABILIZATION_2026-09-29.md` — retains the legacy filename for traceability while retiring Vessel Disc crafting; replaces it with field-trap components, authoritative A.E.G.I.S. upgrade transactions, per-target rescue stabilization and release-policy requirements.
-- `04_Systems/TECTONIC_ALIGNMENT_AND_RESTORATION_BLOOM_MATRIX_2026-09-29.md` — corrects the invalid `bIsUnlocked` sample, makes tectonic tolerances regional/authored, and makes Restoration Bloom eligibility species/requirement-driven rather than a universal Purity threshold.
-- `02_World/VEILROOT_HOLLOWS_AND_QUIET_MARKET_2026-09-29.md` — adds the optional hidden **Veilroot Hollows**, secret **Quiet Market**, and black-market seller **Rook Sable — The Veilbroker**, with no sentient trade or pay-to-win Bonding gear.
-- `04_Systems/CENTRAL_MALL_BOUTIQUE_CATALOG_AND_SAVEGAME_ENTRIES_2026-09-29.md` — separates lawful boutique catalogs from versioned wardrobe state and distinguishes the Central Mall/Meridian Exchange from the Quiet Market.
-- `09_Technical/AEGIS_MENU_OVERLAY_CAMERA_BLUEPRINTS_2026-09-29.md` — corrects the filename typo and defines observation/rescue/stabilization scanner states, Heart Fruit guidance, visible release controls and accessibility-safe reticle rules.
-
-### Heart Fruit rule
-
-Heart Fruit is available through normal play and may lower fear, extend approach windows, expose known food preferences and make nonviolent first contact easier. It never forces a Bond, never becomes a hidden capture percentage, and is not premium- or black-market-exclusive.
-
-### Trap-and-release rule
-
-Eco-Traps are temporary environmental safety tools. Their canonical resolution path is:
-
-**Survey → Lure/Approach → Safehold → Calm → Kindling Offer → Bond / Release / Defer.**
-
-Temporary constraint devices require manual/automatic release policies and cannot leave a sentient Eco-Kin permanently trapped after disconnect, crash or region unload.
-
-### Quiet Market rule
-
-The Quiet Market may sell salvaged cosmetics, maps, rumors, old non-sentient hardware and questionable components. It does **not** sell living Eco-Kin, Eco-Egg ownership, sentient body parts, Bond contracts, forced-growth items, guaranteed-Bond devices or permanent competitive stat advantages.
 
 ### Current production order after this intake
 
-**Real UE foundation → Issue #10 original humanoid + Eco-Kin body/animation proof → 4–6 polished Eco-Kin vertical slice → one Growth Rite proof → one Heart Fruit + trap-and-release interaction proof → one Event Sovereign reservation/save/recovery proof → bounded registry/UI/save → first Oligarch prototype → one Static Orchard + Weather Pulse proof → optional Veilroot/Quiet Market slice → networking/destruction → seasonal expansion → Great War → Summoning War → U.N.I.T.Y. → Infinite Regeneration postgame.**
+**Real UE foundation → Issue #10 original humanoid + Eco-Kin body/animation proof → 4–6 polished Eco-Kin vertical slice → one Growth Rite proof → one Event Sovereign reservation/save/recovery proof → bounded registry/UI/save → first Oligarch prototype → one Static Orchard compatibility proof + one Weather Pulse proof → networking/destruction → seasonal expansion → Great War → Summoning War → U.N.I.T.Y. → Infinite Regeneration postgame.**
 
-No field trap, Heart Fruit AI, boutique SaveGame, Veilroot biome, Quiet Market vendor, A.E.G.I.S. overlay, tectonic solver or multi-target stabilization system is called VERIFIED until a real UE5.8 project/module passes UHT/compile, automated testing, save/reload/recovery, network authority testing, packaging and runtime evidence.
+No Static Orchard solver, Weather Pulse form, Archive replication path, Morrowmire event, or persistence transaction is called VERIFIED until a real UE5.8 project/module passes UHT/compile, automated testing, save/reload/recovery, network authority testing, packaging and runtime evidence.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
