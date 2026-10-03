@@ -1,0 +1,28 @@
+# Unreal Engine generated output
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE / generated project files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Local build/log artifacts
+*.log
+*.tmp
+*.user
+*.userprefs
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Do not ignore Build/ globally: Unreal projects may contain source-controlled build resources there.
