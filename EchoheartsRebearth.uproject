@@ -1,0 +1,29 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.4",
+  "Category": "Game",
+  "Description": "Echohearts Rebearth - Unreal project configuration for the Rebearth ecosystem and Eco-Kin gameplay framework.",
+  "Modules": [
+    {
+      "Name": "EchoheartsRebearth",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine",
+        "CoreUObject",
+        "InputCore",
+        "EnhancedInput"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    }
+  ]
+}
