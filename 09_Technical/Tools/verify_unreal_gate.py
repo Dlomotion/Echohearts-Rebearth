@@ -7,7 +7,7 @@ required to perform the UE 5.8 editor build and automation steps.
 
 Usage examples:
   python 09_Technical/Tools/verify_unreal_gate.py preflight --engine-root "C:/Program Files/Epic Games/UE_5.8"
-  python 09_Technical/Tools/verify_unreal_gate.py build --engine-root "C:/Program Files/Epic Games/UE_5.8" --project "EchoheartsRebearth.uproject" --target EchoheartsEditor --platform Win64 --config Development
+  python 09_Technical/Tools/verify_unreal_gate.py build --engine-root "C:/Program Files/Epic Games/UE_5.8" --project "EchoheartsRebearth.uproject" --target EchoheartsRebearthEditor --platform Win64 --config Development
   python 09_Technical/Tools/verify_unreal_gate.py automation --engine-root "C:/Program Files/Epic Games/UE_5.8" --project "EchoheartsRebearth.uproject" --tests "Echohearts.Partners.CommandBuffer"
 """
 
@@ -65,7 +65,7 @@ def preflight(engine_root: str, project_path: str | None = None) -> int:
     project = Path(project_path).expanduser().resolve() if project_path else DEFAULT_PROJECT
     check_path("project", project)
 
-    check_path("editor_target", project.parent / "Source" / "EchoheartsEditor.Target.cs")
+    check_path("editor_target", project.parent / "Source" / "EchoheartsRebearthEditor.Target.cs")
     check_path("game_target", project.parent / "Source" / "EchoheartsRebearth.Target.cs")
     check_path("module_rules", project.parent / "Source" / "EchoheartsRebearth" / "EchoheartsRebearth.Build.cs")
     print("\nPath checks complete; compilation and runtime remain unverified.")
@@ -171,10 +171,10 @@ def parse_args() -> argparse.Namespace:
     pre.add_argument("--project", default=str(DEFAULT_PROJECT), help="Optional project path")
     pre.set_defaults(func=lambda ns: preflight(ns.engine_root, ns.project))
 
-    b = subparsers.add_parser("build", help="Print and optionally run the EchoheartsEditor build command")
+    b = subparsers.add_parser("build", help="Print and optionally run the EchoheartsRebearthEditor build command")
     b.add_argument("--engine-root", required=True)
     b.add_argument("--project", default=str(DEFAULT_PROJECT))
-    b.add_argument("--target", default="EchoheartsEditor")
+    b.add_argument("--target", default="EchoheartsRebearthEditor")
     b.add_argument("--platform", default="Win64")
     b.add_argument("--config", default="Development")
     b.add_argument("--execute", action="store_true", help="Actually run the generated build command")
