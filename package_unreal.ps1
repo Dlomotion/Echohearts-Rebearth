@@ -1,64 +1,75 @@
+# Requires PowerShell 7 on the authorized Windows UE 5.8 runner.
+[CmdletBinding()]
 param(
-    [string]$EngineRoot = "C:\Program Files\Epic Games\UE_5.8",
-    [string]$ProjectPath = "$PSScriptRoot\EchoheartsRebearth.uproject",
-    [string]$Configuration = "Development",
-    [string]$OutputDirectory = "$PSScriptRoot\PackagedOutput"
+    [string]$EngineRoot = 'C:\Program Files\Epic Games\UE_5.8',
+    [ValidatePattern('^/Game/(?:[A-Za-z0-9_]+/)*[A-Za-z0-9_]+$')]
+    [Parameter(Mandatory=$true)][string]$MapPackage
 )
-
 Set-StrictMode -Version Latest
-$ErrorActionPreference = "Stop"
-
-if (-not (Test-Path $EngineRoot)) {
-    throw "UE 5.8 engine root not found: $EngineRoot"
+$ErrorActionPreference = 'Stop'
+if (-not $IsWindows) { throw 'Windows and PowerShell 7 are required.' }
+function Invoke-Checked([string]$Program, [string[]]$Arguments) {
+    & $Program @Arguments
+    if ($LASTEXITCODE -ne 0) { throw "$Program failed: $LASTEXITCODE" }
 }
-
-$BuildBat = Join-Path $EngineRoot "Engine\Build\BatchFiles\Build.bat"
-$UatBat = Join-Path $EngineRoot "Engine\Build\BatchFiles\RunUAT.bat"
-$UbtExe = Join-Path $EngineRoot "Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe"
-$EditorExe = Join-Path $EngineRoot "Engine\Binaries\Win64\UE4Editor.exe"
-
-if (-not (Test-Path $ProjectPath)) {
-    throw "Project file not found: $ProjectPath"
+$project = Join-Path $PSScriptRoot 'EchoheartsRebearth.uproject'
+$evidence = Join-Path $PSScriptRoot 'BuildEvidence'
+$output = Join-Path $PSScriptRoot 'PackagedOutput'
+# A clean checkout is required; reject stale evidence instead of accepting a prior run.
+foreach ($path in @($evidence, $output)) {
+    if (Test-Path $path) { throw "Stale output exists; use a clean checkout: $path" }
 }
-
-if (-not (Test-Path $BuildBat)) {
-    throw "Build.bat not found: $BuildBat"
+New-Item -ItemType Directory -Path $evidence | Out-Null
+Start-Transcript -Path (Join-Path $evidence 'pipeline.log')
+$status = 'FAILED'
+try {
+    $version = Get-Content (Join-Path $EngineRoot 'Engine/Build/Build.version') -Raw | ConvertFrom-Json
+    if ($version.MajorVersion -ne 5 -or $version.MinorVersion -ne 8) { throw 'UE 5.8 required.' }
+    $descriptor = Get-Content $project -Raw | ConvertFrom-Json
+    if ($descriptor.EngineAssociation -ne '5.8') { throw 'Project must declare UE 5.8.' }
+    foreach ($relative in @('Source/EchoheartsEditor.Target.cs',
+        'Source/EchoheartsRebearth.Target.cs',
+        'Source/EchoheartsRebearth/EchoheartsRebearth.Build.cs')) {
+        if (-not (Test-Path (Join-Path $PSScriptRoot $relative))) { throw "Missing foundation: $relative" }
+    }
+    $build = Join-Path $EngineRoot 'Engine/Build/BatchFiles/Build.bat'
+    $uat = Join-Path $EngineRoot 'Engine/Build/BatchFiles/RunUAT.bat'
+    $editor = Join-Path $EngineRoot 'Engine/Binaries/Win64/UnrealEditor-Cmd.exe'
+    foreach ($path in @($build, $uat, $editor)) {
+        if (-not (Test-Path $path -PathType Leaf)) { throw "Missing engine executable: $path" }
+    }
+    $mapFile = Join-Path $PSScriptRoot ('Content/' + $MapPackage.Substring(6) + '.umap')
+    if (-not (Test-Path $mapFile -PathType Leaf)) { throw "Missing authored map: $mapFile" }
+    Invoke-Checked 'git' @('lfs', 'fsck')
+    $report = Join-Path $evidence 'Automation'
+    Invoke-Checked $build @('EchoheartsEditor', 'Win64', 'Development', "-Project=$project", '-WaitMutex')
+    Invoke-Checked $editor @($project, '-unattended', '-nop4', '-nosplash', '-NullRHI',
+        '-ExecCmds=Automation RunTests Echohearts.Partners.CommandBuffer',
+        '-TestExit=Automation Test Queue Empty', "-ReportExportPath=$report",
+        "-abslog=$evidence/Automation.log")
+    $result = Get-Content (Join-Path $report 'index.json') -Raw | ConvertFrom-Json
+    if ($result.failed -ne 0 -or $result.notRun -ne 0 -or $result.inProcess -ne 0 -or $result.succeeded -lt 1) {
+        throw 'Automation report must contain passing tests and no failed, pending, or skipped tests.'
+    }
+    $tests = @($result.tests)
+    if ($tests.Count -eq 0) { throw 'Empty Automation test report.' }
+    foreach ($test in $tests) {
+        if ($test.state -ne 'Success' -or $test.fullTestPath -notlike 'Echohearts.Partners.CommandBuffer*') {
+            throw 'Unexpected or unsuccessful Automation test result.'
+        }
+    }
+    Invoke-Checked $uat @('BuildCookRun', "-project=$project", '-noP4', '-unattended',
+        '-target=EchoheartsRebearth', '-platform=Win64', '-clientconfig=Development',
+        "-map=$MapPackage", '-build', '-cook', '-stage', '-pak', '-package', '-archive',
+        "-archivedirectory=$output")
+    $executables = @(Get-ChildItem $output -Filter '*.exe' -Recurse -File)
+    if ($executables.Count -eq 0) { throw 'No packaged executable produced.' }
+    $executables | Get-FileHash -Algorithm SHA256 | Export-Csv (Join-Path $evidence 'sha256.csv') -NoTypeInformation
+    $status = 'BUILD_TEST_PACKAGE_PASSED_RUNTIME_UNVERIFIED'
 }
-
-if (-not (Test-Path $UatBat)) {
-    throw "RunUAT.bat not found: $UatBat"
+finally {
+    @("Status: $status", "Commit: $(git rev-parse HEAD)", "UTC: $([DateTime]::UtcNow.ToString('o'))",
+      'Recovery at 150/250/350 ms and ECO-API-001 remain separate blocked gates.') |
+        Set-Content (Join-Path $evidence 'BuildReport.txt')
+    Stop-Transcript
 }
-
-if (-not (Test-Path $UbtExe)) {
-    throw "UnrealBuildTool.exe not found: $UbtExe"
-}
-
-if (-not (Test-Path $EditorExe)) {
-    throw "UE4Editor.exe not found: $EditorExe"
-}
-
-Write-Host "UE 5.8 engine and project validated."
-Write-Host "EngineRoot: $EngineRoot"
-Write-Host "ProjectPath: $ProjectPath"
-Write-Host "Configuration: $Configuration"
-Write-Host "OutputDirectory: $OutputDirectory"
-
-New-Item -ItemType Directory -Force -Path $OutputDirectory | Out-Null
-
-& $BuildBat -Project="$ProjectPath" -Target="EchoheartsEditor" -Platform="Win64" -Configuration="$Configuration"
-
-& $UatBat BuildCookRun `
-    -project="$ProjectPath" `
-    -noP4 `
-    -platform=Win64 `
-    -clientconfig=$Configuration `
-    -serverconfig=$Configuration `
-    -cook `
-    -allmaps `
-    -build `
-    -stage `
-    -pak `
-    -archive `
-    -archivedirectory="$OutputDirectory"
-
-Write-Host "Unreal packaging sequence completed."
