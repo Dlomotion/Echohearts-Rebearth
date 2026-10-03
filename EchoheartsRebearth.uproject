@@ -1,6 +1,6 @@
 {
   "FileVersion": 3,
-  "EngineAssociation": "5.4",
+  "EngineAssociation": "5.8",
   "Category": "Game",
   "Description": "Echohearts Rebearth - Unreal project configuration for the Rebearth ecosystem and Eco-Kin gameplay framework.",
   "Modules": [
