@@ -27,7 +27,7 @@ try {
     if ($version.MajorVersion -ne 5 -or $version.MinorVersion -ne 8) { throw 'UE 5.8 required.' }
     $descriptor = Get-Content $project -Raw | ConvertFrom-Json
     if ($descriptor.EngineAssociation -ne '5.8') { throw 'Project must declare UE 5.8.' }
-    foreach ($relative in @('Source/EchoheartsEditor.Target.cs',
+    foreach ($relative in @('Source/EchoheartsRebearthEditor.Target.cs',
         'Source/EchoheartsRebearth.Target.cs',
         'Source/EchoheartsRebearth/EchoheartsRebearth.Build.cs')) {
         if (-not (Test-Path (Join-Path $PSScriptRoot $relative))) { throw "Missing foundation: $relative" }
@@ -42,7 +42,7 @@ try {
     if (-not (Test-Path $mapFile -PathType Leaf)) { throw "Missing authored map: $mapFile" }
     Invoke-Checked 'git' @('lfs', 'fsck')
     $report = Join-Path $evidence 'Automation'
-    Invoke-Checked $build @('EchoheartsEditor', 'Win64', 'Development', "-Project=$project", '-WaitMutex')
+    Invoke-Checked $build @('EchoheartsRebearthEditor', 'Win64', 'Development', "-Project=$project", '-WaitMutex')
     Invoke-Checked $editor @($project, '-unattended', '-nop4', '-nosplash', '-NullRHI',
         '-ExecCmds=Automation RunTests Echohearts.Partners.CommandBuffer',
         '-TestExit=Automation Test Queue Empty', "-ReportExportPath=$report",
@@ -65,6 +65,21 @@ try {
     $executables = @(Get-ChildItem $output -Filter '*.exe' -Recurse -File)
     if ($executables.Count -eq 0) { throw 'No packaged executable produced.' }
     $executables | Get-FileHash -Algorithm SHA256 | Export-Csv (Join-Path $evidence 'sha256.csv') -NoTypeInformation
+    $commit = (& git rev-parse HEAD).Trim()
+    if ($LASTEXITCODE -ne 0) { throw 'Unable to identify source commit.' }
+    $buildId = if ($env:GITHUB_RUN_ID) { "$($env:GITHUB_RUN_ID)-$($env:GITHUB_RUN_ATTEMPT)" } else { [guid]::NewGuid().ToString('N') }
+    @{
+        game_name = 'Echohearts: Rebearth'
+        package_code = 'ECO-PKG-WIN64-DEV'
+        engine = '5.8'
+        configuration = 'Development'
+        source_commit = $commit
+        build_id = $buildId
+        version = 'unversioned'
+        created_utc = [DateTime]::UtcNow.ToString('o')
+        runtime_status = 'NOT_VERIFIED'
+        recovery_status = 'NOT_RUN'
+    } | ConvertTo-Json | Set-Content (Join-Path $output 'build-metadata.json')
     $status = 'BUILD_TEST_PACKAGE_PASSED_RUNTIME_UNVERIFIED'
 }
 finally {
