@@ -12,7 +12,7 @@ This consolidation corrects older chat drift before story material is promoted:
 
 - Planet: **Rebearth**, not Aethelgard, Verdara, Idyll, or a purely digital Grid.
 - Collective creature term: **Eco-Kin**.
-- Player profession: **Tamer of Beasts**, with **Veridian Keeper** as the restoration/ethics field tradition and **Core-Binder** retained only as a historical/combat-discipline term where needed.
+- Player profession / primary narrative role: **Core-Binder**. `Tamer` or `Tamer of Beasts` may survive only as contextual/legacy dialogue or reputation language where explicitly authored; they do not replace Core-Binder.
 - Interface: **A.E.G.I.S.**, with **D.A.H.L.I.A.** as a systems/ethical module.
 - Public resonance attributes: **Vibrance, Density, Harmony, Purity**.
 - Canonical Rebearth Essences: **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**.
@@ -64,6 +64,8 @@ A public Arena and research complex becomes the scene of sabotage. The disaster 
 ### Act V — Gloom Below
 In Umbral Mire and deeper wounds, the player learns the Blight damages systems while the Gloom damages meaning. Ebonmaw speaks through fear and damaged memory. Dr. Hugo presents treatments that work while violating consent, forcing difficult choices about cure, risk, time, and autonomy. The Broken Choir tests whether Purity is being confused with sameness.
 
+After **The Broken Choir**, the bridge mission chain **The Shattered Resonance: The Rise of the Paradigm Oligarchs** takes the Core-Binder through the Fracture Verge. Four former containment architects—Ferromagus, Sylphren, Malis and Baron Vermilion—have turned legitimate survival principles into domination systems. Their sectors must be stabilized before the route to Astra Spire is safe. This arc demonstrates resilience without exclusion, adaptation without deception, urgency without recklessness and coordination without domination.
+
 ### Act VI — Bond or Dominion
 At **Astra Spire**, every major faction moves to control Heart-Code. Nature warns that a perfectly protected world can still be dead if nothing inside it is free. D.A.H.L.I.A. reaches the boundary between modeling survival and defining morality. The player approaches **Highest Accord**.
 
@@ -86,6 +88,7 @@ Corso's Plague Harbinger crisis turns quarantine and fear into a test of evidenc
 - **Kaelen "Kale" + Sherlock Hound** — frontier scout and canine partner representing practical survival, rescue, navigation, and relationship-based field work.
 - **Liora** — Resonance engineer who demonstrates that restoring technology also requires knowing when a machine should remain broken.
 - **Corso** — Plague Harbinger whose crisis tests quarantine, evidence, public safety, and refusal to turn the afflicted into scapegoats.
+- **Paradigm Oligarchs** — Ferromagus, Sylphren, Malis and Baron Vermilion. Former containment architects whose survival doctrines were distorted by Blight/Chrono exposure and prolonged crisis. They preview the control-versus-stewardship conflict that later culminates in E.C.O. Sentinel and U.N.I.T.Y.
 
 ## 20-Chapter Story Spine
 
@@ -102,18 +105,18 @@ Corso's Plague Harbinger crisis turns quarantine and fear into a test of evidenc
 11. **Grand Crucible** — tournament, sabotage, public catastrophe, ethical adaptation rules.
 12. **The Gloom Has a Voice** — Ebonmaw enters through corrupted memory.
 13. **Dr. Hugo's Mercy** — effective cure, unacceptable consent problem.
-14. **The Broken Choir** — Scarborne victims can be rescued, heard, exploited, or weaponized.
+14. **The Broken Choir** — Scarborne victims can be rescued, heard, exploited, or weaponized. The Act V bridge chain **The Shattered Resonance** follows this chapter before Astra Spire.
 15. **Astra Spire** — Rebearth is revealed as part of a cosmic network.
 16. **Summoning War** — relics call powers that should have stayed silent.
 17. **Plague Harbinger** — Corso forces a choice between quarantine, trust, and evidence.
 18. **E.C.O. Sentinel** — the player confronts the logic of perfect control.
 19. **Circle of Life** — Heal, Break, Balance, or Transcend; Tree of Life condition is a major input.
-20. **Love Conquers All** — the deepest ending requires restored bonds, communities, consent, and remembered consequences.
+20. **U.N.I.T.Y.** — the five-mission finale resolves accumulated bonds, faction states, restoration and historical consequences through **The Call Across Rebearth → Common Ground → Many Banners → The Last Divide → U.N.I.T.Y.** The older phrase **Love Conquers All** remains the emotional thesis rather than the mission title.
 
 ## Ending Matrix
 
 ### Heal / Order
-**Requirement:** High Purity, broad restoration, strong Keeper alignment.
+**Requirement:** High Purity, broad restoration, strong stewardship alignment.
 
 Rebearth stabilizes through strict protection. Settlements become safer and major hazards are controlled, but regulation begins limiting wild recovery, movement, and dangerous research. The warning: fear of another Collapse can turn care into control.
 
@@ -133,11 +136,11 @@ The Circle is neither locked nor destroyed. People, Eco-Kin, and rebuilt institu
 Rebearth joins the wider cosmic network. Travel, physical limits, and planetary identity change. The world is not reset; it accepts greater cosmic responsibility.
 
 ### Five Secret Variants
-The Master Game Bible reserves **five secret ending variants** driven by specific faction, boss, Eco-Scar, relationship, and Tree of Life outcomes. Their exact names and condition bundles are **not yet canon-locked**. Do not fabricate or publish replacement names until the ending matrix is finalized.
+The current ending lock assigns the five alternate/secret variants as **Rooted Together**, **Starbound Accord**, **Order Without Accord**, **Ascension Alone**, and **Alone in the Echo**. Their exact implementation conditions still require runtime schema and evidence.
 
 ## Post-Game: The Living Chorus
 
-After the Fivefold Heartwake, A.E.G.I.S. detects healthy beings returning identical frequency signatures. **Corporate Muscles** has activated the **Stillprint Protocol** and the **Monochord**, systems designed to identify the most productive version of a life-form and overwrite individual difference. Nature recognizes this as spiritual extinction. The expansion turns Echoprint identity, behavior, habitat memory, recovery, and individual preference into story and gameplay. These story-specific acoustic terms do not redefine the entire Eco-Kin roster as music-based.
+After the main campaign and U.N.I.T.Y. resolution, A.E.G.I.S. may detect healthy beings returning identical frequency signatures. **Corporate Muscles** has activated the **Stillprint Protocol** and the **Monochord**, systems designed to identify the most productive version of a life-form and overwrite individual difference. Nature recognizes this as spiritual extinction. This material belongs to post-campaign/expansion continuity and must align with the Infinite Regeneration framework rather than replace the U.N.I.T.Y. ending.
 
 ## Story-to-Gameplay Contract
 

@@ -184,4 +184,53 @@ Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, t
 8. Advance #7/#9 and Issue #8 as bounded tactical/online work after the real-time core is proven.
 9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
 
+## Seasonal main-story / Chrono-Sandbox intake: 2026-09-27
+
+The latest Training/Main Story packet is integrated into the same canon and production workflow.
+
+- `00_Canon_Lock/SEASONAL_ECOKIN_AND_EXPANSION_GOVERNANCE_2026-09-27.md` — locks the rule that Eco-Kin may be introduced/implemented in future sessions, seasons, story chapters and expansions while the 125-ID Permanent Dex remains the current identity authority.
+- `00_Canon_Lock/ANCIENT_VANGUARD_RAID_CANON_2026-09-27.md` — preserves the five Ancient Vanguard identities and corrupted Chrono-Echo raid states without automatically assigning new permanent Dex IDs.
+- `01_Story/SAVIORS_STARZ_ANGELIC_AND_DLC_INTAKE_2026-09-27.md` — routes Saviors of the Universe, STARZ*, Heaven/Naveah, angelic/cosmic research and DLC concepts into original Echohearts story development rather than direct religious/franchise copying.
+- `04_Systems/SEASONAL_CORE_GAMEPLAY_RECONCILIATION_2026-09-27.md` — reconciles 8-roster/3-active real-time play, Sanctuary/Havenlink, Resonance Relay, Reclamation Cohorts, EchoDeck, seasonal cosmetics, growth and multiplayer proposals.
+- `04_Systems/CHRONO_SANDBOX_WORLD_STATE_RECONCILIATION_2026-09-27.md` — rewrites the Tri-Core corruption/world-state packet into original Echohearts regional Blight families, restoration loops, Fracture Escalation and a bounded vertical-slice world-state target.
+- `09_Technical/VANGUARD_VOXEL_SMASH_CODE_AUDIT_2026-09-27.md` — keeps the Behemoth-Goliath slam intention while rejecting the pasted sample as production-ready or verified code.
+- `09_Technical/SECTIONS_XXVII_XXXI_NETWORK_REGISTRY_SAVE_UI_AUDIT_2026-09-27.md` — corrects raid replication, registry, MVVM and save-system errors and defines the evidence ladder before those systems may be called verified.
+- `10_Production/ANCIENT_VANGUARD_RAID_IMPLEMENTATION_MAP_2026-09-27.md` — maps the Vanguard/raid packet into the current infrastructure → Issue #10 → vertical-slice → networking/destruction dependency order.
+
+### Seasonal roster rule
+
+Do not bulk-fill every remaining Eco-Kin now. Future sessions and seasons activate approved identities in controlled waves. A season may introduce a form, regional variant, encounter state or currently unreleased permanent identity; it may not silently create `DEX-126` or replace the authoritative roster.
+
+### Section XXXI originality correction
+
+`Shallow Hallow`, generic one-to-one `Corruption/Cript` framing, `Hardmode`, and direct Terraria boss correspondences are retired from active production terminology. Their transferable ecological/phase-design lessons may only survive after original Echohearts rewriting and continuity review.
+
+### Technical truth rule
+
+Pasted C++ or architectural prose is **not** proof that a system is compiled, synchronized, production-ready or present on `main`. Runtime status remains NOT YET VERIFIED until the existing build/package/network/evidence gates are satisfied.
+
+## Environmental puzzles / Weather Pulse / Archive boundary intake: 2026-09-29
+
+This packet is integrated into the same Growth Rite, Event Sovereign, world-state and technical evidence path. It does not create a capture system, second progression stack, alternate world ledger or parallel UE implementation.
+
+- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md` — defines Static Orchard compatibility bands, multiple-solution/accessibility rules, Weather Pulse eligibility, reversible modifier layers, hysteresis, Sanctuary climate-simulation limits and persistence boundaries.
+- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md` — replaces capture/Vessel Disc terminology with nonlethal A.E.G.I.S. Stabilization Boundaries, defines authoritative client-intent/server-state flow, Archive canonical-write isolation, Morrowmire transaction ordering, replay/recovery tests and the no-runtime-evidence boundary.
+
+### 2026-09-29 correction precedence
+
+Where older index text still preserves historical wording, the following newer locks win:
+
+- **Core-Binder** is the authoritative protagonist role; old universal `Tamer of Beasts` / `Frequency Tamer` labels are contextual or retired.
+- Production Essences are exactly **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. Older references to a “locked 12 elements” set are historical and do not override this nine-Essence authority.
+- The five secret ending variants are now canonically named **Rooted Together**, **Starbound Accord**, **Order Without Accord**, **Ascension Alone**, and **Alone in the Echo**, under the newer U.N.I.T.Y. ending lock.
+- `capture field`, `Vessel Disc`, capture percentages and sentient storage are not active Eco-Kin relationship mechanics.
+- Weather Pulse Forms never create new Permanent Dex IDs and never permanently stack their temporary stat modifiers through repeated weather evaluation.
+- Chrono Archive replay cannot write canonical world/faction/Sovereign/U.N.I.T.Y. state.
+
+### Current production order after this intake
+
+**Real UE foundation → Issue #10 original humanoid + Eco-Kin body/animation proof → 4–6 polished Eco-Kin vertical slice → one Growth Rite proof → one Event Sovereign reservation/save/recovery proof → bounded registry/UI/save → first Oligarch prototype → one Static Orchard compatibility proof + one Weather Pulse proof → networking/destruction → seasonal expansion → Great War → Summoning War → U.N.I.T.Y. → Infinite Regeneration postgame.**
+
+No Static Orchard solver, Weather Pulse form, Archive replication path, Morrowmire event, or persistence transaction is called VERIFIED until a real UE5.8 project/module passes UHT/compile, automated testing, save/reload/recovery, network authority testing, packaging and runtime evidence.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
