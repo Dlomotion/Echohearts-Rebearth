@@ -42,7 +42,7 @@ These are **target classes**, not current verification claims.
 - Windows x64 — primary development/reference runtime.
 - Linux x64 — target after the canonical UE project exists and dependencies are audited.
 - macOS — target after Apple toolchain validation.
-- Windows ARM64 — experimental target only while UE5.8 support remains experimental; do not promise shipping support until runtime evidence exists.
+- Windows ARM64 — target capability subject to UE5.8 platform/toolchain limitations; use the supported Windows toolchain for the target, keep x64 Editor as the development/editor path where required, and do not promise shipping support until target-hardware build/runtime evidence exists.
 
 ### 3.2 Console
 
@@ -112,7 +112,7 @@ Reference: Unreal Engine 5.8 general platform support and packaging documentatio
 
 ## 6. Device-profile classes
 
-Create project-defined profiles after the real `.uproject` exists:
+Create project-defined profiles in the executable BUILD repository only after the UE5.8 project/module foundation is present and passes its repository contract; descriptor presence alone is not runtime evidence:
 
 - `EH_Cinematic`
 - `EH_Quality`
