@@ -74,10 +74,10 @@ def validate_infrastructure(root: Path) -> list[str]:
     if build_rules.is_file():
         text = build_rules.read_text(encoding="utf-8-sig", errors="replace")
         if "class Echohearts : ModuleRules" not in text:
-        errors.append(
-            "Source/Echohearts/Echohearts.Build.cs missing contract: "
-            "class Echohearts : ModuleRules"
-        )
+            errors.append(
+                "Source/Echohearts/Echohearts.Build.cs missing contract: "
+                "class Echohearts : ModuleRules"
+            )
 
     return errors
 
@@ -89,14 +89,14 @@ def main():
 
     if args.step == "recovery-plan":
         print(json.dumps({
-        "status": "PLAN_ONLY",
-        "profiles": [
-            {"latency_ms": ms, "loss_fraction": loss, "result": "NOT_RUN"}
-            for ms, loss in [(150, .01), (250, .03), (350, .05)]
-        ],
-        "latency_definition": "UNRESOLVED: RTT or one-way",
-        "acceptance_thresholds": "NOT_DEFINED",
-        "ECO-API-001": "BLOCKED"
+            "status": "PLAN_ONLY",
+            "profiles": [
+                {"latency_ms": ms, "loss_fraction": loss, "result": "NOT_RUN"}
+                for ms, loss in [(150, .01), (250, .03), (350, .05)]
+            ],
+            "latency_definition": "UNRESOLVED: RTT or one-way",
+            "acceptance_thresholds": "NOT_DEFINED",
+            "ECO-API-001": "BLOCKED"
         }, indent=2))
         return 0
 
