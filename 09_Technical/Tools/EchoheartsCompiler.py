@@ -27,6 +27,7 @@ RUNTIME_MODULE = "Echohearts"
 
 REQUIRED_REPO_PATHS = (
     PROJECT_FILE,
+    "09_Technical/Tools/verify_infrastructure.py",
     "Source/EchoheartsRebearth.Target.cs",
     "Source/EchoheartsRebearthEditor.Target.cs",
     "Source/Echohearts/Echohearts.Build.cs",
