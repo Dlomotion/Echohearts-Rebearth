@@ -51,15 +51,17 @@ Exit codes are tool-specific. Exit code 2 has no universal root cause.
 - **QML** — UI declaration technology only for an approved Qt-based tool/app.
 
 ### Backend, services, data, and analytics
-- **Go / Rust / Java / C# / Python** — choose according to the service that actually owns the failing code; do not create duplicate services in different languages.
+- **Go / Rust / Java / C# / Python / Clojure** — choose according to the service that actually owns the failing code; do not create duplicate services in different languages.
 - **SQL** — relational query/schema work; treat SQL as a domain-specific data language.
 - **R / Julia / MATLAB / Fortran** — analytics/scientific/simulation work only where a defined pipeline needs them.
 - **Q** — kdb+/time-series work only if that technology is actually adopted.
 - **XQuery** — XML query/transformation only where XML is an owned data format.
 
-### Systems / research languages
+### Systems / research / embedded languages
 The following may be used when a real component is intentionally implemented in them or for contained research/verification, but they are not default Echohearts runtime dependencies:
-**Ada, D, Crystal, Elixir, Erlang, F#, Haskell, Idris, Koka, Mojo, Nim, OCaml, Odin, Scala, V, Vala, Zig.**
+**Ada, Clojure, D, Crystal, Elixir, Erlang, F#, Haskell, Idris, Koka, Lua, Mojo, Nim, OCaml, Odin, Scala, V, Vala, Zig.**
+
+**Lua** may be used only if Echohearts deliberately adopts an embedded scripting/plugin boundary; do not add a Lua runtime merely to avoid fixing C++.
 
 ### Historical / legacy / educational languages
 Use these to diagnose or migrate actual legacy source, study language concepts, or preserve provenance. Do not add them to the UE runtime solely as an error workaround:
