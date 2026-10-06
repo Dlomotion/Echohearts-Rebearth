@@ -7,7 +7,7 @@ required to perform the UE 5.8 editor build and automation steps.
 
 Usage examples:
   python 09_Technical/Tools/verify_unreal_gate.py preflight --engine-root "C:/Program Files/Epic Games/UE_5.8"
-  python 09_Technical/Tools/verify_unreal_gate.py build --engine-root "C:/Program Files/Epic Games/UE_5.8" --project "EchoheartsRebearth.uproject" --target EchoheartsEditor --platform Win64 --config Development
+  python 09_Technical/Tools/verify_unreal_gate.py build --engine-root "C:/Program Files/Epic Games/UE_5.8" --project "EchoheartsRebearth.uproject" --target EchoheartsRebearthEditor --platform Win64 --config Development
   python 09_Technical/Tools/verify_unreal_gate.py automation --engine-root "C:/Program Files/Epic Games/UE_5.8" --project "EchoheartsRebearth.uproject" --tests "Echohearts.Partners.CommandBuffer"
 """
 
@@ -45,7 +45,7 @@ def get_unreal_paths(engine_root: str) -> dict[str, Path]:
         "build_bat": root / "Engine" / "Build" / "BatchFiles" / "Build.bat",
         "uat_bat": root / "Engine" / "Build" / "BatchFiles" / "RunUAT.bat",
         "ubt_exe": root / "Engine" / "Binaries" / "DotNET" / "UnrealBuildTool" / "UnrealBuildTool.exe",
-        "ue_editor": root / "Engine" / "Binaries" / "Win64" / "UE4Editor.exe",
+        "ue_editor": root / "Engine" / "Binaries" / "Win64" / "UnrealEditor-Cmd.exe",
         "editor_cmd": root / "Engine" / "Binaries" / "Win64" / "UnrealEditor-Cmd.exe",
     }
 
@@ -65,7 +65,10 @@ def preflight(engine_root: str, project_path: str | None = None) -> int:
     project = Path(project_path).expanduser().resolve() if project_path else DEFAULT_PROJECT
     check_path("project", project)
 
-    print("\nPreflight checks complete. The repository is ready for the local UE 5.8 build gate.")
+    check_path("editor_target", project.parent / "Source" / "EchoheartsRebearthEditor.Target.cs")
+    check_path("game_target", project.parent / "Source" / "EchoheartsRebearth.Target.cs")
+    check_path("module_rules", project.parent / "Source" / "Echohearts" / "Echohearts.Build.cs")
+    print("\nPath checks complete; compilation and runtime remain unverified.")
     return 0
 
 
@@ -110,9 +113,9 @@ def automation(engine_root: str, project_path: str | None, tests: str) -> int:
     check_path("engine_root", root)
     check_path("project", project)
 
-    editor = root / "Engine" / "Binaries" / "Win64" / "UE4Editor.exe"
+    editor = root / "Engine" / "Binaries" / "Win64" / "UnrealEditor-Cmd.exe"
     if not editor.exists():
-        raise FileNotFoundError(f"UE4Editor.exe not found: {editor}")
+        raise FileNotFoundError(f"UnrealEditor-Cmd.exe not found: {editor}")
 
     cmd = [
         str(editor),
@@ -168,10 +171,10 @@ def parse_args() -> argparse.Namespace:
     pre.add_argument("--project", default=str(DEFAULT_PROJECT), help="Optional project path")
     pre.set_defaults(func=lambda ns: preflight(ns.engine_root, ns.project))
 
-    b = subparsers.add_parser("build", help="Print and optionally run the EchoheartsEditor build command")
+    b = subparsers.add_parser("build", help="Print and optionally run the EchoheartsRebearthEditor build command")
     b.add_argument("--engine-root", required=True)
     b.add_argument("--project", default=str(DEFAULT_PROJECT))
-    b.add_argument("--target", default="EchoheartsEditor")
+    b.add_argument("--target", default="EchoheartsRebearthEditor")
     b.add_argument("--platform", default="Win64")
     b.add_argument("--config", default="Development")
     b.add_argument("--execute", action="store_true", help="Actually run the generated build command")
@@ -205,7 +208,7 @@ def print_build_command(engine_root: str, project_path: str, target: str, platfo
 
 def print_automation_command(engine_root: str, project_path: str, tests: str) -> int:
     project = Path(project_path).expanduser().resolve() if project_path else DEFAULT_PROJECT
-    editor = Path(engine_root).expanduser().resolve() / "Engine" / "Binaries" / "Win64" / "UE4Editor.exe"
+    editor = Path(engine_root).expanduser().resolve() / "Engine" / "Binaries" / "Win64" / "UnrealEditor-Cmd.exe"
     print("\nAutomation command to execute:")
     print(f'"{editor}" "{project}" -ExecCmds="Automation RunTests {tests}" -Unattended -NullRHI')
     return 0
