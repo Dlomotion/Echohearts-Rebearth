@@ -67,7 +67,7 @@ def preflight(engine_root: str, project_path: str | None = None) -> int:
 
     check_path("editor_target", project.parent / "Source" / "EchoheartsRebearthEditor.Target.cs")
     check_path("game_target", project.parent / "Source" / "EchoheartsRebearth.Target.cs")
-    check_path("module_rules", project.parent / "Source" / "EchoheartsRebearth" / "EchoheartsRebearth.Build.cs")
+    check_path("module_rules", project.parent / "Source" / "Echohearts" / "Echohearts.Build.cs")
     print("\nPath checks complete; compilation and runtime remain unverified.")
     return 0
 
