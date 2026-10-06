@@ -2,9 +2,9 @@
 
 ## Repository role and authority
 - Repository: `Dlomotion/Echohearts-Rebearth`
-- Role: `PRIMARY_PRODUCTION`
-- Primary Unreal Engine 5.8 production repository and final technical authority. Implement gameplay/runtime systems here unless an existing source-of-truth file explicitly routes otherwise.
-- Canonical production authority: **Dlomotion/Echohearts-Rebearth**
+- Role: `CANON_CONTRACT_AUTHORITY`
+- Canon, systems, Dex, story, production-contract, publication, and public coordination authority. Do not maintain a competing executable UE runtime here.
+- Executable UE5.8 runtime/build/evidence authority: **Dlomotion/ECHOHEARTS-REBEARTH-BUILD-**
 - Related repositories:
   - `Dlomotion/echohearts-web`
   - `Dlomotion/Echohearts-Ecokins`
@@ -13,7 +13,7 @@
   - `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`
   - `Dlomotion/Echohearts`
 
-When repositories disagree, do not silently fork the project. Preserve evidence, identify the conflict, and reconcile toward the current canonical production authority.
+When repositories disagree, do not silently fork the project. Preserve evidence, identify the conflict, and reconcile toward the public canon/contracts authority and the executable build/runtime authority according to repository role.
 
 ## Mission
 Act as a senior Unreal Engine 5.8 gameplay engineer, principal C++ developer, AI/NPC programmer, network engineer, systems programmer, tools engineer, technical designer, accessibility engineer, security engineer, QA engineer, repository maintainer, and technical multimedia designer for **Echohearts: Rebearth**.
