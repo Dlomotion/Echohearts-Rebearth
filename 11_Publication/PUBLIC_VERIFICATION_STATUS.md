@@ -1,93 +1,96 @@
 # Echohearts: Rebearth — Public Verification Status
 
-**Last checked:** 2026-10-03  
-**Repository:** https://github.com/Dlomotion/Echohearts-Rebearth  
-**Primary verification references:**  
+**Last checked:** 2026-10-06  
+**Public repository:** https://github.com/Dlomotion/Echohearts-Rebearth  
+**Executable runtime/build repository:** https://github.com/Dlomotion/ECHOHEARTS-REBEARTH-BUILD-  
+**Primary public references:**  
 - PR #17: https://github.com/Dlomotion/Echohearts-Rebearth/pull/17  
 - Issue #10: https://github.com/Dlomotion/Echohearts-Rebearth/issues/10  
+- Issue #12: https://github.com/Dlomotion/Echohearts-Rebearth/issues/12  
+- PR #18: https://github.com/Dlomotion/Echohearts-Rebearth/pull/18  
+- PR #19: https://github.com/Dlomotion/Echohearts-Rebearth/pull/19  
 
 ## Current repository status
 
-PR #17 is **OPEN** and currently contains the active canon/system reconciliation package. At the checked revision it contains **35 commits** and **28 changed files**.
+PR #17 remains **OPEN** with 35 commits and 28 changed files. At this check it has no submitted reviews and no review threads.
 
-The repository currently preserves the **125-ID Permanent Dex** as the production identity authority. New forms, event encounters, seasonal content, mutations, and future additions must not silently create `DEX-126` or replace the authoritative roster.
+The project now uses a repository-authority split:
+- `Dlomotion/Echohearts-Rebearth` is the public canon, systems, Dex, production, publication, and coordination authority.
+- `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-` is the executable UE5.8 runtime/build/evidence authority.
+
+The BUILD repository currently exposes a repository-level UE5.8 foundation including `EchoheartsRebearth.uproject`, runtime module `Echohearts`, module rules, and build-driver tooling. That is **repository evidence only**. It does not establish a successful UE5.8 compile, editor session, packaged runtime, gameplay, networking, save, AI, or platform result.
+
+The **125-ID Permanent Dex** remains the production identity authority. Forms, seasonal/event additions, historical names, mutations, and proposals do not silently become `DEX-126+`.
 
 ## CANON / SYSTEM / TECHNICAL CONTRACTS
 
-The following are documented design and implementation contracts. They define intended behavior, terminology, data boundaries, production order, and verification requirements.
+The project has documented contracts for:
+- Rebearth, Echohearts, Core-Binder / Frequency Tamer identity;
+- Eco-Kin autonomy, Kindling/Bond, Sanctuary/Havenlink, Growth Rites, Forms/Mutation governance;
+- Vibrance, Density, Harmony, Purity;
+- Anima-Link and Huma-Link;
+- A.E.G.I.S. field/UI/stabilization boundaries;
+- Heart Fruit and nonlethal field-trap/release;
+- Event Sovereign reservation/save/recovery;
+- environmental puzzles and Weather Pulse;
+- Chrono Archive canonical-write isolation;
+- War Continuum, Nature/Living Accord, and U.N.I.T.Y.;
+- registry, save, UI, replication, authority, migration, platform, and publication requirements.
 
-They are **not runtime-completion claims**.
-
-- 125-ID Permanent Dex authority
-- Core-Binder protagonist role
-- Real-time third-person campaign structure
-- Eco-Kin autonomy and relationship rules
-- Kindling / Bond / Sanctuary / Havenlink contracts
-- Growth Rite and mutation/form governance
-- A.E.G.I.S. field, UI, stabilization, and transaction contracts
-- Heart Fruit and nonlethal field-trap/release contracts
-- Event Sovereign reservation / save / recovery contract
-- Weather Pulse and environmental-puzzle contracts
-- Chrono Archive canonical-write isolation
-- War Continuum and U.N.I.T.Y. story/system sequencing
-- Nature / Living Accord continuity
-- Registry, save, UI, replication, authority, and migration requirements documented in technical planning files
-
-These items may be treated as **CANON**, **SYSTEM CONTRACT**, or **TECHNICAL CONTRACT** where their source documents say so, but they remain separate from implementation verification.
+These may be canonical or contractually approved without being runtime-complete.
 
 ## NOT YET VERIFIED
 
-The repository does **not currently establish evidence of a canonical UE5.8 runtime project/module sufficient to claim implementation completion**.
+Unless a claim has its own retained evidence, the following remain **NOT YET VERIFIED**:
+- clean UE5.8 UHT/UBT compile;
+- editor launch and authored-map load;
+- PIE smoke;
+- Automation execution/results;
+- Development Win64 cook/package;
+- packaged executable launch;
+- runtime gameplay;
+- Eco-Kin body/animation implementation;
+- AI;
+- exact hit-location/directional reaction behavior;
+- save/load/migration/recovery;
+- multiplayer authority/replication/reconnect;
+- networking/destruction;
+- Growth Rite execution;
+- Heart Fruit and trap/release behavior;
+- Event Sovereign transaction/recovery behavior;
+- Weather Pulse/environmental puzzle runtime;
+- platform SDK builds;
+- cross-play;
+- cloud save;
+- console/mobile certification;
+- performance, memory, thermal, battery, or accessibility results not backed by direct evidence.
 
-Accordingly, the following remain **NOT YET VERIFIED** unless and until repository/runtime evidence is produced:
+Design documents, generated art, code snippets, static JSON/Python checks, architectural prose, editor screenshots, or unexecuted test plans do not satisfy these gates.
 
-- canonical `.uproject` and real UE5.8 runtime module exposure
-- successful UHT / C++ compile
-- editor load
-- packaged Win64 build launch
-- runtime gameplay behavior
-- save / reload / migration correctness
-- multiplayer authority and replication
-- AI behavior
-- animation and terrain-contact behavior
-- hit-location and hit-direction combat feedback
-- field-trap and Heart Fruit behavior
-- Growth Rite execution
-- Event Sovereign reservation / recovery behavior
-- Weather Pulse execution
-- environmental puzzle execution
-- registry / UI / persistence integration
-- networking / destruction systems
-- mission, boss, war, finale, and postgame implementation
+## Issue #10 — first reusable runtime benchmark
 
-Design documents, generated art, code snippets, architectural prose, editor screenshots, or unexecuted test plans do **not** satisfy these verification gates by themselves.
+Issue #10 remains the first original humanoid + Eco-Kin body/animation proof target.
 
-## Issue #10 verification target
-
-Issue #10 remains the first original body/animation proof target and is still **NOT YET VERIFIED**.
-
-Its acceptance target requires evidence for:
-
-- 1 original humanoid NPC full-body character
-- 1 original Eco-Kin 3D body from a documented rig family
-- idle / locomotion / turn / terrain-contact behavior
-- 1 attack with authored notify timing
-- 3 directional hit reactions
-- exact hit-location damage feedback
-- knockback / stagger
-- one death or disable path
-- one bond/care or ecology interaction
-- one short Sequencer cinematic using the same production assets
-- controller and keyboard/mouse testing
-- multiplayer authority/replication evidence where applicable
-- performance capture
-- accessibility/readability review
+Required evidence includes:
+- 1 original humanoid NPC full-body character;
+- 1 original Eco-Kin 3D body from a documented rig family;
+- idle / locomotion / turn / terrain contact;
+- 1 attack with authored notify timing;
+- 3 directional hit reactions;
+- exact hit-location damage feedback;
+- knockback/stagger;
+- one death/disable path;
+- one bond/care or ecology interaction;
+- one short Sequencer cinematic using the same production assets;
+- controller and keyboard/mouse tests;
+- multiplayer authority/replication evidence where applicable;
+- performance capture;
+- accessibility/readability review;
+- production-asset originality/provenance review.
 
 ## Production order
 
-The current production order is preserved as:
-
-1. Real UE foundation
+1. Executable UE5.8 foundation and evidence gate
 2. Issue #10 original humanoid + Eco-Kin body/animation proof
 3. 4–6 polished Eco-Kin vertical slice
 4. One Growth Rite proof
@@ -106,22 +109,16 @@ The current production order is preserved as:
 17. Infinite Regeneration
 18. Saviors of the Universe postgame / cosmic continuation
 
-## Verification rule
+Cross-platform platform/ebook contracts may be prepared in parallel as documentation/static schemas, but they do not bypass the executable evidence gates above.
 
-A feature may move from **NOT YET VERIFIED** to **VERIFIED** only when the required evidence exists in the actual Unreal project and repository.
+## Verification language
 
-Minimum evidence varies by feature, but may include:
+Use:
+- `STATIC CHECK PASSED`
+- `REPOSITORY CONTRACT PASSED`
+- `CI PREFLIGHT PASSED`
+- `NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED`
 
-- source changes committed to the repository
-- UHT and compile success
-- automated tests
-- editor/runtime launch
-- packaged build
-- save/reload/recovery tests
-- multiplayer authority/replication tests
-- gameplay capture
-- performance profiling
-- accessibility/readability review
-- asset originality/provenance review
+Use `VERIFIED` only for a specific claim tied to the exact source SHA, build/tool version, artifact, platform/device, test case, retained log/media evidence, result, reviewer, and date.
 
-**Public communication rule:** describe documented systems as planned, canonical, specified, or contracted. Do not describe runtime, save, networking, AI, animation, or gameplay systems as complete, production-ready, optimized, or verified without matching evidence.
+**Public communication rule:** describe unevidenced systems as planned, canonical, specified, contracted, prototyped, or not yet verified. Do not call runtime, save, networking, AI, gameplay, cross-play, platform support, or performance complete/production-ready without matching evidence.
