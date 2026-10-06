@@ -1,62 +1,90 @@
-# UE 5.8 manual build pipeline — 2026-10-03
+# UE 5.8 manual build pipeline — 2026-10-06 correction
 
-Status: infrastructure candidate, not production verified.
+Status: **infrastructure candidate / NOT YET VERIFIED**.
 
-## Authoritative paths
+## Authoritative roles
 
-- Repository: Dlomotion/Echohearts-Rebearth
-- Engine installation: C:\Program Files\Epic Games\UE_5.8 (not the repository root)
-- Project: EchoheartsRebearth.uproject at the repository root
-- Entry point: .github/workflows/ue5-build.yml
-- Packaging implementation: package_unreal.ps1
-- Local path checker: 09_Technical/Tools/verify_unreal_gate.py
+- Canon, systems, Dex, production/publication authority: `Dlomotion/Echohearts-Rebearth`.
+- Executable implementation/build target: `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`.
+- Public project bootstrap in this PR must use the same Unreal naming contract as the build repository; it is not a competing runtime authority.
+- Unreal project: `EchoheartsRebearth.uproject`.
+- Game target: `EchoheartsRebearth`.
+- Editor target: `EchoheartsRebearthEditor`.
+- Primary runtime module: `Echohearts`.
+- Export macro contract: `ECHOHEARTS_API`.
 
-One manual workflow owns packaging; no duplicate unreal-package.yml is needed.
-Push and pull-request packaging triggers are absent. Shipping is intentionally unavailable at this gate.
+Project/target naming and runtime-module naming are deliberately distinct. The descriptor and both TargetRules classes must load the `Echohearts` module.
 
-## Findings against main
+## Build entry points
 
-The inspected main tree had a root descriptor declaring 5.4, a packaging script looking for UE4Editor.exe, and no Target.cs, Build.cs, or .umap files. This change aligns the descriptor with 5.8 and fixes executable selection; it does not invent missing gameplay, source modules, tests, or map assets.
+- Manual packaging workflow: `.github/workflows/ue5-build.yml`.
+- Packaging implementation: `package_unreal.ps1`.
+- Repository/static infrastructure checker: `09_Technical/Tools/verify_infrastructure.py`.
+- Diagnostic Unreal helper: `09_Technical/Tools/verify_unreal_gate.py`.
+- Echohearts compiler/build driver: `09_Technical/Tools/EchoheartsCompiler.py`.
 
-Required foundation paths are Source/EchoheartsEditor.Target.cs,
-Source/EchoheartsRebearth.Target.cs, and
-Source/EchoheartsRebearth/EchoheartsRebearth.Build.cs.
-Their classes and module declarations must agree with the root descriptor before execution.
-Existing foundation work must be reconciled into this layout in a separate reviewed change.
+The Echohearts compiler driver does not replace C++ compilation. UnrealBuildTool evaluates the TargetRules/ModuleRules, UnrealHeaderTool processes reflected declarations, and the platform compiler performs native compilation. The driver validates project-specific contracts, invokes those engine tools, records exit results, and preserves the verification boundary.
+
+## Required source foundation
+
+The minimum public bootstrap paths are:
+
+- `EchoheartsRebearth.uproject` with EngineAssociation `5.8` and module `Echohearts`;
+- `Source/EchoheartsRebearth.Target.cs`;
+- `Source/EchoheartsRebearthEditor.Target.cs`;
+- `Source/Echohearts/Echohearts.Build.cs`;
+- `Source/Echohearts/Public/Echohearts.h`;
+- `Source/Echohearts/Private/EchoheartsModule.cpp`.
+
+The earlier `Source/EchoheartsRebearth/` runtime-module candidate is superseded by the shared `Echohearts` module contract and must not coexist as a second primary game module.
 
 ## Runner setup and execution
 
-Provision an authorized Windows x64 runner with labels self-hosted, Windows, X64, echohearts-ue58; PowerShell 7; Git LFS; and the UE 5.8 compiler toolchain.
-Configure the unreal-packaging environment to permit reviewed main only.
-The workflow additionally rejects non-default branch runs.
-After review and merge, use Actions > Echohearts UE 5.8 manual build gate > Run workflow, supplying an authored /Game/... map.
+Provision an authorized Windows x64 runner with labels `self-hosted`, `Windows`, `X64`, `echohearts-ue58`; PowerShell 7; Python; Git LFS; and the UE5.8-supported native compiler toolchain.
 
-The script checks the engine Build.version, project association, foundation paths and map presence; builds Development Editor; exports and checks nonempty successful CommandBuffer Automation results; then cooks and packages Development.
-Each native process exit code is checked. Logs are uploaded on failure; package uploads require success.
-Test report schema and PowerShell execution still need validation on the real runner. An exact expected test-name manifest must be established when the missing test sources are integrated; this candidate checks nonempty results, not an exact four-test inventory.
+The manual packaging workflow must remain reviewed/default-branch-only at this gate. It requires an authored `/Game/...` map; repository documents do not substitute for a `.umap`.
 
-Local path check:
-python 09_Technical/Tools/verify_unreal_gate.py preflight --engine-root "C:/Program Files/Epic Games/UE_5.8"
+The packaging gate checks:
 
-The helper's standalone build/automation/package commands are diagnostic commands, not substitutes for the gated packaging script.
+1. exact UE 5.8 `Build.version`;
+2. project/module/target paths;
+3. authored map presence;
+4. Git LFS integrity;
+5. Development Editor build;
+6. reviewed Unreal Automation results;
+7. Development cook/package;
+8. package output/hash and source commit metadata.
 
-## Evidence and progression
+A command exit code is interpreted in the context of the tool that returned it. **Exit code 2 is not a universal diagnosis.** The failing command's own log/usage contract remains authoritative.
 
-1. Validate engine and real source foundation.
-2. Build Editor and pass reviewed Automation tests.
-3. Produce and launch a Development package; preserve logs and commit identity.
-4. Measure recovery at 150/250/350 ms with documented latency definition, loss conditions, acceptance thresholds, and server/client traces.
-5. Advance ECO-API-001 only after reviewed recovery evidence passes.
+## Verification boundary
 
-This workflow does not perform or certify recovery measurements. No push packaging should be enabled until the required Windows gate passes and a separate change is reviewed.
+Repository/static checks can establish that files, JSON, names, and contracts are structurally consistent. They do **not** prove UHT, native compilation, editor load, gameplay, save, networking, performance, or package launch.
 
-## Repository synchronization
+The current foundation therefore remains **NOT YET VERIFIED** until retained evidence demonstrates the applicable gates:
 
-Echohearts-Rebearth remains primary. Echohearts is reference and Echohearts-Ecokins is intake according to project direction; neither repository was modified or consolidated by this change.
-Transfer selected, reviewed commits through branches and PRs; do not mirror whole repositories or overwrite canonical art/rosters.
-No branch-protection settings or runner installation are claimed complete.
+1. clean checkout + `git lfs pull/fsck`;
+2. UHT + Development Editor compile;
+3. UE5.8 editor launch;
+4. minimal authored map open;
+5. PIE smoke test;
+6. Development Win64 cook/package;
+7. packaged executable launch;
+8. Issue #10 runtime/animation proof;
+9. save/network/performance evidence only where those claims are made.
+
+The CommandBuffer Automation filter remains blocked until its actual test source/manifest is present and reviewed. Empty test results never pass.
+
+Recovery measurements at 150/250/350 ms remain a separate later gate. Their latency definition, packet-loss profile, acceptance thresholds, and server/client evidence must be specified before ECO-API-001 advances.
+
+## Production order protection
+
+The build pipeline does not authorize later roadmap work out of sequence:
+
+**UE5.8 foundation → Issue #10 humanoid + Eco-Kin body/animation proof → 4–6 Eco-Kin slice → one Growth Rite proof → later save/network/platform expansion.**
+
+Universal platform and ebook contracts may be documented in parallel, but runtime platform claims require the executable evidence ladder and ebook claims require a built publication artifact plus validation/render evidence.
 
 ## Recovery
 
-Preserve the failed run logs, repair the reported prerequisite on a new branch, review and merge, then manually retry on a clean checkout.
-Do not reuse stale BuildEvidence or PackagedOutput. Revert this PR through GitHub if rollback is required; avoid history rewriting.
+Preserve failed logs, repair the specific prerequisite on a reviewed branch, and rerun from a clean checkout. Do not reuse stale `BuildEvidence` or `PackagedOutput`. Avoid history rewriting for evidence-bearing branches.
