@@ -216,4 +216,7 @@ Current design-intake sources:
 - `04_Systems/ECHO_EGGS_AND_UPGRADE_HIGHLIGHTS_2026-10-06.md` — current Echo Egg variants, incubation/care rules, upgrade-highlight pillars, UI/art direction, repository ownership, and UE5.8 implementation contract.
 - `.github/instructions/echohearts-current-design.instructions.md` — current GitHub Copilot implementation/fix guidance synchronized across the seven Echohearts repositories.
 
+- `09_Technical/LANGUAGE_DIAGNOSTIC_AND_TOOL_SELECTION_STANDARD_2026-10-06.md` — language-aware repair policy: fix the failing layer in its owning language/toolchain instead of mixing unrelated languages into UE code.
+- `04_Systems/MISSION_SYSTEM_ARCHITECTURE_2026-10-06.md` — corrected event-driven mission contract covering stable IDs, server authority, replicated co-op state, typed dialogue mission actions, UMG event refresh, and idempotent completion/reward boundaries.
+
 These additions extend the existing canon/contracts. They do not replace the Master Game Bible, the 125-ID Permanent Dex, or executable runtime evidence requirements.
