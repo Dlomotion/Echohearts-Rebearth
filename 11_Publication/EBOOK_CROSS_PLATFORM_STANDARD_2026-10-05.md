@@ -3,7 +3,7 @@
 **Date:** 2026-10-05  
 **Status:** PUBLICATION CONTRACT / NOT YET VERIFIED  
 **Primary interchange target:** EPUB 3.3  
-**Future-watch target:** EPUB 3.4 Candidate Recommendation compatibility review  
+**Future-watch target:** EPUB 3.4 Candidate Recommendation Draft (2 October 2026) compatibility review  
 **Canon rule:** publication exports must consume approved Echohearts canon; they may not become a second canon authority.
 
 ---
@@ -37,7 +37,7 @@ The ebook is a distribution surface, not a new Master Bible.
 
 Use **EPUB 3.3** as the stable publication baseline because it is a W3C Recommendation.
 
-Track EPUB 3.4 separately while it remains a Candidate Recommendation. Do not make a draft standard mandatory for production unless the major target reading systems demonstrate acceptable compatibility.
+Track EPUB 3.4 separately while it remains on the W3C Candidate Recommendation track. As of 2 October 2026, the latest published EPUB 3.4 document is a Candidate Recommendation Draft, not a W3C Recommendation. Do not make the draft mandatory for production unless the target reading systems demonstrate acceptable compatibility.
 
 Useful standards:
 
@@ -321,6 +321,8 @@ When canon changes after publication:
 
 ## 19. Current verification boundary
 
-This standard does not claim that any Echohearts ebook has already passed Kindle, Apple Books, Kobo, Google Play Books, EPUBCheck, screen-reader, or device-matrix testing.
+This publication lane is independent of the UE5.8 runtime lane. PR #19 or Issue #10 does not need to be complete before an ebook artifact can be built and validated, but game-runtime evidence cannot be reused as ebook evidence and ebook evidence cannot be reused as game-runtime evidence.
 
-Actual storefront/device verification requires the built publication artifact and recorded test evidence.
+This standard does not claim that any Echohearts ebook has already passed EPUBCheck, accessibility review, Kindle Previewer, Apple Books, Kobo, Google Play Books, screen-reader, named-device, or storefront validation.
+
+Actual publication promotion requires the exact built artifact, checksum, validation output, named render-test matrix, accessibility review, and applicable storefront preview/submission evidence.
