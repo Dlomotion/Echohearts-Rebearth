@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-05  
 **Status:** PRODUCTION QA CONTRACT / NOT YET VERIFIED  
-**Depends on:** canonical UE5.8 `.uproject`, runtime `Source/` tree, clean clone/LFS, packaged builds, and representative target hardware.
+**Depends on:** an exact executable BUILD-repository commit containing the UE5.8 `.uproject` and runtime `Source/` tree, clean clone/LFS evidence, successful applicable build/package steps, and representative target hardware. The public canon/contracts repository does not substitute for executable-build evidence.
 
 ---
 
@@ -59,7 +59,7 @@ An ebook contract may merge before Issue #10; an ebook verification claim may no
 
 For every executable target:
 
-- fresh checkout from the canonical repository;
+- fresh checkout from `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-` at the exact tested commit;
 - `git lfs pull` succeeds;
 - expected large assets resolve correctly;
 - project files generate where required;
@@ -74,7 +74,8 @@ For every executable target:
 
 Retain:
 
-- commit SHA;
+- executable BUILD-repository commit SHA;
+- corresponding canon/contracts revision when the test depends on a specific contract revision;
 - engine version/build identifier;
 - target/platform configuration;
 - build command;
