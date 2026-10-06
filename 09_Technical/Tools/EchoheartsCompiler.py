@@ -27,6 +27,8 @@ RUNTIME_MODULE = "Echohearts"
 
 REQUIRED_REPO_PATHS = (
     PROJECT_FILE,
+    ".github/workflows/infrastructure.yml",
+    "09_Technical/Tools/verify_infrastructure.py",
     "Source/EchoheartsRebearth.Target.cs",
     "Source/EchoheartsRebearthEditor.Target.cs",
     "Source/Echohearts/Echohearts.Build.cs",
@@ -40,6 +42,9 @@ BANNED_ACTIVE_TOKENS = (
 )
 
 MAP_RE = re.compile(r"^/Game/(?:[A-Za-z0-9_]+/)*[A-Za-z0-9_]+$")
+WORKFLOW_PYTHON_COMMAND_RE = re.compile(
+    r"^\s*run:\s*python(?:3)?\s+([^\s]+\.py)(?:\s|$)", re.MULTILINE
+)
 
 
 class CompilerGateError(RuntimeError):
@@ -165,6 +170,15 @@ def validate_repository(repo_root: Path) -> list[str]:
         for banned in BANNED_ACTIVE_TOKENS:
             if banned in text_value:
                 errors.append(f"Stale UE contract in {path.relative_to(repo_root)}: {banned}")
+
+    workflow_path = repo_root / ".github" / "workflows" / "infrastructure.yml"
+    if workflow_path.is_file():
+        workflow = workflow_path.read_text(encoding="utf-8-sig", errors="replace")
+        for script in WORKFLOW_PYTHON_COMMAND_RE.findall(workflow):
+            if not (repo_root / script).is_file():
+                errors.append(
+                    f"Infrastructure workflow references missing Python script: {script}"
+                )
 
     return errors
 
