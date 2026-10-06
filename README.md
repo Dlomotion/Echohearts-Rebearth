@@ -30,3 +30,12 @@ This repository uses one source-of-truth workflow. Reposted material is **reconc
 - Code is never labeled compiled, verified, production-ready, secure, or optimized without actual repository/build/test/profile evidence.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## Repository authority split
+
+This public repository is the authority for **canon, story, world, systems, the 125-ID Permanent Dex, production contracts, publication, and public coordination**.
+
+The executable Unreal Engine 5.8 runtime/build/evidence authority is **`Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`**. Active `.uproject`, `Source/`, compiler/build/package drivers, UE CI, and retained runtime evidence belong there. Historical/bootstrap executable files in this public repository must not become a competing runtime source of truth.
+
+The Echohearts compiler/build driver is maintained in the BUILD repository. Public PR #19 must be split/reconciled before merge so executable implementation is not reintroduced here. PR #20 may carry platform/publication contracts, but runtime claims remain downstream of executed BUILD-repository evidence.

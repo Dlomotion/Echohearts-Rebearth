@@ -1,8 +1,13 @@
+# Echohearts Rebearth - Local and generated file exclusions
+
 # Unreal Engine generated output
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+Log/
+PackagedOutput/
+BuildTemplates/
 
 # IDE / generated project files
 .vs/
@@ -10,9 +15,13 @@ Saved/
 .idea/
 *.sln
 *.suo
+*.userosscache
+*.sln.docstates
 *.opensdf
 *.sdf
 *.VC.db
+*.VC.db-shm
+*.VC.db-wal
 *.VC.opendb
 
 # Local build/log artifacts
@@ -20,9 +29,25 @@ Saved/
 *.tmp
 *.user
 *.userprefs
+*.swp
+*.swo
+*~
+*.orig
+
+# Local environment / config
+.env
+.env.local
+config.local.json
+
+# Node / Python cache
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
 
 # OS metadata
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Do not ignore Build/ globally: Unreal projects may contain source-controlled build resources there.

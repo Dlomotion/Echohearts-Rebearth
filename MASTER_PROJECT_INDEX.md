@@ -18,6 +18,28 @@ This file is the routing map for the existing Echohearts project. It does not re
 12. `11_Publication`
 13. `99_Reference_Retired_Needs_Redesign`
 
+## Canonical directory registry
+
+These folder names are authoritative routing labels and should match the repository README and Copilot routing rules.
+
+| Folder | Required contents / responsibility |
+|---|---|
+| `00_Canon_Lock` | Locked canon, protected terminology, authority decisions, continuity constraints, and rules that downstream files may not silently override. |
+| `01_Story` | Main story, chapters, character/NPC arcs, dialogue/story beats, DLC/expansion narrative, and chronology. |
+| `02_World` | Rebearth regions, biomes, cities, landmarks, ecology, world-state changes, travel/portal geography, and environmental lore. |
+| `03_EcoKin_Dex` | The 125-ID Permanent Eco-Kin Dex, Forms Registry links, ecology/biology, named Eco-Kin records, historical-name review, and Dex governance. |
+| `04_Systems` | Gameplay-system contracts including Anima-Link, Huma-Link, Kindling, combat, Growth Rites, inventory/economy, Sanctuary, missions/progression, traversal, and other systemic rules. |
+| `05_Levels` | Missions, encounters, dungeons, maps, coordinates, puzzles, vertical-slice level implementation plans, and level-specific validation. |
+| `06_UI_UX` | A.E.G.I.S., HUD, EcoDex, mission tracking presentation, menus, accessibility, interaction feedback, and UX contracts. |
+| `07_Art` | Character/Eco-Kin art briefs, rig/animation art requirements, asset manifests, visual provenance, anatomy/identity QA, and technical-art direction. |
+| `08_Audio` | Music, ambience, VO, Eco-Kin audio, combat/resonance audio, implementation cues, and audio-direction contracts. |
+| `09_Technical` | UE5.8/C++ architecture contracts, schemas, networking/save/cloud/security/telemetry requirements, build/tooling standards, and technical audits. Executable UE source itself belongs in the BUILD repository. |
+| `10_Production` | Backlog, dependency maps, QA/evidence requirements, assignments, provenance, intake routing, release gates, and production status. |
+| `11_Publication` | Approved public-facing manuscripts, pitch/marketing material, ebook/publication standards, release manifests, and publication evidence. |
+| `99_Reference_Retired_Needs_Redesign` | Superseded, derivative, contradictory, unsafe, historical, or redesign-required material retained only for traceability/reference. |
+
+Do not substitute alternate folder names such as `05_Art_Direction`, `06_Audio`, `07_UI_UX`, or `08_Narrative_Production` for this routing map. Those labels belong only to historical/proposal material if encountered and must not become a parallel directory authority.
+
 ## Repost / intake rule
 
 Every reposted chat, image, document, code block, Eco-Kin concept, NPC, lore fragment, mechanic, or art reference must be:
@@ -185,3 +207,16 @@ Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, t
 9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## 2026-10-06 Inventory, Echo Eggs, and Upgrade Highlights
+
+Current design-intake sources:
+- `04_Systems/Inventory/ECHOHEARTS_MASTER_ITEMS_MATERIALS_REGISTRY_2026-10-06.md` — consolidated inventory/material/shop/equipment registry: 737 categorized records, 694 unique named entries, 28 categories. Preserve per-entry canon/legacy/retired status.
+- `04_Systems/ECHO_EGGS_AND_UPGRADE_HIGHLIGHTS_2026-10-06.md` — current Echo Egg variants, incubation/care rules, upgrade-highlight pillars, UI/art direction, repository ownership, and UE5.8 implementation contract.
+- `.github/instructions/echohearts-current-design.instructions.md` — current GitHub Copilot implementation/fix guidance synchronized across the seven Echohearts repositories.
+
+- `09_Technical/LANGUAGE_DIAGNOSTIC_AND_TOOL_SELECTION_STANDARD_2026-10-06.md` — language-aware repair policy: fix the failing layer in its owning language/toolchain instead of mixing unrelated languages into UE code.
+- `04_Systems/MISSION_SYSTEM_ARCHITECTURE_2026-10-06.md` — corrected event-driven mission contract covering stable IDs, server authority, replicated co-op state, typed dialogue mission actions, UMG event refresh, and idempotent completion/reward boundaries.
+
+These additions extend the existing canon/contracts. They do not replace the Master Game Bible, the 125-ID Permanent Dex, or executable runtime evidence requirements.
