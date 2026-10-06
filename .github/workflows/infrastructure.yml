@@ -21,6 +21,8 @@ jobs:
           python-version: '3.12'
       - name: Compiler driver syntax
         run: python -m py_compile 09_Technical/Tools/EchoheartsCompiler.py
+      - name: Infrastructure contract tests
+        run: python -m unittest discover -s 09_Technical/Tools/tests -p 'test_*.py'
       - name: Echohearts repository contract
         run: python 09_Technical/Tools/EchoheartsCompiler.py repo-check
       - name: Infrastructure contract

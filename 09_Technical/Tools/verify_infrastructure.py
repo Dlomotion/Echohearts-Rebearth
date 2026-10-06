@@ -6,25 +6,7 @@ from pathlib import Path
 
 EXPECTED_MODULE = "Echohearts"
 
-def main():
-    p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("step", choices=["infrastructure", "recovery-plan"])
-    args = p.parse_args()
-
-    if args.step == "recovery-plan":
-        print(json.dumps({
-            "status": "PLAN_ONLY",
-            "profiles": [
-                {"latency_ms": ms, "loss_fraction": loss, "result": "NOT_RUN"}
-                for ms, loss in [(150, .01), (250, .03), (350, .05)]
-            ],
-            "latency_definition": "UNRESOLVED: RTT or one-way",
-            "acceptance_thresholds": "NOT_DEFINED",
-            "ECO-API-001": "BLOCKED"
-        }, indent=2))
-        return 0
-
-    root = Path(__file__).resolve().parents[2]
+def validate_infrastructure(root: Path) -> list[str]:
     required = [
         ".gitignore",
         ".gitattributes",
@@ -72,6 +54,29 @@ def main():
             if token not in text:
                 errors.append(f"{relative} missing contract: {token}")
 
+    return errors
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("step", choices=["infrastructure", "recovery-plan"])
+    args = p.parse_args()
+
+    if args.step == "recovery-plan":
+        print(json.dumps({
+            "status": "PLAN_ONLY",
+            "profiles": [
+                {"latency_ms": ms, "loss_fraction": loss, "result": "NOT_RUN"}
+                for ms, loss in [(150, .01), (250, .03), (350, .05)]
+            ],
+            "latency_definition": "UNRESOLVED: RTT or one-way",
+            "acceptance_thresholds": "NOT_DEFINED",
+            "ECO-API-001": "BLOCKED"
+        }, indent=2))
+        return 0
+
+    root = Path(__file__).resolve().parents[2]
+    errors = validate_infrastructure(root)
     print(json.dumps({
         "code": "ECO-INFRA-001",
         "name": "Echohearts: Rebearth",
