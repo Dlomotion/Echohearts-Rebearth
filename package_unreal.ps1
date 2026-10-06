@@ -29,7 +29,7 @@ try {
     if ($descriptor.EngineAssociation -ne '5.8') { throw 'Project must declare UE 5.8.' }
     foreach ($relative in @('Source/EchoheartsRebearthEditor.Target.cs',
         'Source/EchoheartsRebearth.Target.cs',
-        'Source/EchoheartsRebearth/EchoheartsRebearth.Build.cs')) {
+        'Source/Echohearts/Echohearts.Build.cs')) {
         if (-not (Test-Path (Join-Path $PSScriptRoot $relative))) { throw "Missing foundation: $relative" }
     }
     $build = Join-Path $EngineRoot 'Engine/Build/BatchFiles/Build.bat'
