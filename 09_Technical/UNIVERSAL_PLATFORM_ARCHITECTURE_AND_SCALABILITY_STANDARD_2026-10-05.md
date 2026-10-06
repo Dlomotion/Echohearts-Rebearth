@@ -3,7 +3,7 @@
 **Date:** 2026-10-05  
 **Status:** TECHNICAL CONTRACT / NOT YET VERIFIED  
 **Engine target:** Unreal Engine 5.8  
-**Repository authority:** existing single Echohearts: Rebearth repository and canon workflow  
+**Repository authority:** `Dlomotion/Echohearts-Rebearth` for canon/contracts; `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-` for executable UE5.8 implementation/evidence  
 **Verification rule:** no platform is `VERIFIED` without successful build + launch + representative hardware/runtime evidence.
 
 ---
@@ -73,7 +73,7 @@ A browser surface is treated as companion/reference functionality unless a futur
 
 ## 4. Project architecture requirement
 
-When the canonical UE5.8 project is committed, the runtime must separate:
+The executable UE5.8 implementation and any public bootstrap contract must keep the same module/target boundaries. The runtime should separate:
 
 ```text
 Echohearts Runtime
@@ -371,22 +371,24 @@ No earlier state may be described publicly as `VERIFIED`.
 
 ## 18. Required first implementation order
 
-1. Commit canonical `.uproject` and real `Source/` module tree.
-2. Prove clean clone + Git LFS round trip.
-3. UHT + Development Editor compile.
-4. Editor launch + minimal map.
-5. Development packaged Windows build.
-6. Implement platform-neutral input/save/scalability interfaces.
-7. Execute Issue #10 vertical slice on Windows reference hardware.
-8. Profile the same slice under `EH_Quality`, `EH_Performance`, and `EH_Handheld` settings.
-9. Add one Linux/Steam Deck build target.
-10. Add Android test target.
-11. Add iOS/iPadOS target after Apple toolchain access is available.
+1. Reconcile the UE5.8 descriptor, Game/Editor targets, and primary `Echohearts` runtime module across the public foundation contract and executable build repository.
+2. Prove a fresh executable-repository checkout plus Git LFS round trip on the authorized UE5.8 runner.
+3. Prove UHT + Development Editor compile.
+4. Prove UE5.8 editor launch, one minimal authored map, and the bounded PIE smoke gate.
+5. Prove a Development Windows package and packaged executable launch.
+6. Execute **Issue #10** on Windows reference hardware using only the minimum platform-neutral input/save/scalability seams needed by that slice.
+7. Package the 4–6 Eco-Kin vertical slice before broad platform expansion.
+8. Profile the proven slice under `EH_Quality`, `EH_Performance`, and `EH_Handheld` profiles.
+9. Add one Linux/Steam Deck build target and retain build/runtime hardware evidence.
+10. Add Android only after the reference slice and input/UI abstraction are stable.
+11. Add iOS/iPadOS after Apple toolchain access is available.
 12. Add licensed console targets only inside compliant/private SDK workflows.
-13. Expand the same proof set to the 4–6 Eco-Kin vertical slice before broad production.
+13. Expand cross-play/cloud-save claims only after the applicable server-authority, reconnect, save-conflict, and exact platform-pair tests exist.
+
+Platform architecture contracts may be prepared before these runtime gates, but contracts do not advance the runtime status.
 
 ## 19. Current repository truth
 
-As of this contract, the repository does **not** yet prove the canonical UE5.8 `.uproject` + runtime `Source/` tree, packaged builds, device profiles, mobile packages, console packages, handheld packages, cross-play, cloud save, or runtime performance evidence.
+Repository source can now be described as **foundation material present / candidate for execution** where PR #19 or the executable build repository contains the descriptor, targets, module rules, and compiler driver. That is not UHT/compile/runtime evidence.
 
-Therefore this document is an architecture and verification contract only.
+This document therefore does **not** establish a successful UE5.8 build, editor launch, authored-map runtime, packaged launch, device profile execution, mobile/console/handheld package, cross-play, cloud save, or performance result. Those remain **NOT YET VERIFIED** until the exact evidence gate is executed and retained.
