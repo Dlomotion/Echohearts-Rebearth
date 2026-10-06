@@ -185,3 +185,13 @@ Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, t
 9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## 2026-10-06 Inventory, Echo Eggs, and Upgrade Highlights
+
+Current design-intake sources:
+- `04_Systems/Inventory/ECHOHEARTS_MASTER_ITEMS_MATERIALS_REGISTRY_2026-10-06.md` — consolidated inventory/material/shop/equipment registry: 737 categorized records, 694 unique named entries, 28 categories. Preserve per-entry canon/legacy/retired status.
+- `04_Systems/ECHO_EGGS_AND_UPGRADE_HIGHLIGHTS_2026-10-06.md` — current Echo Egg variants, incubation/care rules, upgrade-highlight pillars, UI/art direction, repository ownership, and UE5.8 implementation contract.
+- `.github/instructions/echohearts-current-design.instructions.md` — current GitHub Copilot implementation/fix guidance synchronized across the seven Echohearts repositories.
+
+These additions extend the existing canon/contracts. They do not replace the Master Game Bible, the 125-ID Permanent Dex, or executable runtime evidence requirements.
