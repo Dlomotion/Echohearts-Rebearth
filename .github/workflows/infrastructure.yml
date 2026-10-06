@@ -1,11 +1,14 @@
 name: Echohearts infrastructure checks
+
 on:
   push:
     branches: [main, develop, codex/ue58-manual-pipeline-20261003]
   pull_request:
   workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   infrastructure:
     runs-on: ubuntu-latest
@@ -16,5 +19,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python 09_Technical/Tools/verify_infrastructure.py infrastructure
-      - run: python 09_Technical/Tools/verify_infrastructure.py recovery-plan
+      - name: Compiler driver syntax
+        run: python -m py_compile 09_Technical/Tools/EchoheartsCompiler.py
+      - name: Echohearts repository contract
+        run: python 09_Technical/Tools/EchoheartsCompiler.py repo-check
+      - name: Infrastructure contract
+        run: python 09_Technical/Tools/verify_infrastructure.py infrastructure
+      - name: Recovery plan remains non-runtime
+        run: python 09_Technical/Tools/verify_infrastructure.py recovery-plan
