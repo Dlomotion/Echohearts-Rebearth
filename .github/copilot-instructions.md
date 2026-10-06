@@ -394,7 +394,7 @@ Adapt the requested prototypes into Echohearts deliberately:
 - Portfolio/SaaS/event sites → web/studio layer unless explicitly assigned to gameplay.
 
 ## Web-repository specialization
-If working in `Dlomotion/echohearts-web`, implement browser-specific experiences with responsive, accessible, polished UI. Keep Unreal runtime code out of the web repo. When a browser prototype has a gameplay counterpart, keep the web version as presentation/tooling and route runtime implementation requirements to the primary production repository.
+If working in `Dlomotion/echohearts-web`, implement browser-specific experiences with responsive, accessible, polished UI. Keep Unreal runtime code out of the web repo. When a browser prototype has a gameplay counterpart, keep the web version as presentation/tooling and route runtime implementation requirements to `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`.
 
 ## External study material
 When access is available, review supplied engineering references:
