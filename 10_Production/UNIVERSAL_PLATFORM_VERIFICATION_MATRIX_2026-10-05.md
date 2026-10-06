@@ -24,11 +24,21 @@ Design text, generated images, editor screenshots, or unexecuted code do not sat
 | CERTIFICATION-READY | Internal platform-certification checklist passes. |
 | VERIFIED | Reproducible logs/build artifacts/device evidence are retained and reviewed. |
 
-## 3. Current baseline
+## 3. Current baseline and dependency lanes
 
-Current production status is **PLANNED / DOCUMENTED ONLY** for universal platform support until the canonical UE5.8 runtime foundation exists.
+UE5.8 descriptor/target/module source may be repository-present through the corrected foundation work, but **universal platform support remains PLANNED / NOT YET VERIFIED** until the executable build repository produces retained build and hardware/runtime evidence.
 
-Issue #10 remains the first original humanoid + Eco-Kin runtime proof and should become the first reusable cross-platform benchmark.
+The game/runtime dependency lane is:
+
+**UE5.8 foundation evidence → Issue #10 Windows runtime proof → 4–6 Eco-Kin slice → per-platform build/hardware/input/save/performance expansion → exact cross-play/cloud-save pair validation.**
+
+Issue #10 remains the first original humanoid + Eco-Kin runtime proof and the first reusable cross-platform benchmark.
+
+The ebook/publication lane is independent of UE runtime execution:
+
+**canon-reviewed manuscript → EPUB artifact → EPUBCheck/accessibility validation → named reading-system/device render tests → storefront preview/submission evidence.**
+
+An ebook contract may merge before Issue #10; an ebook verification claim may not.
 
 ## 4. Target matrix
 
