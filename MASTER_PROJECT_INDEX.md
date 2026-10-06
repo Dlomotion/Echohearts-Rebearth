@@ -18,6 +18,28 @@ This file is the routing map for the existing Echohearts project. It does not re
 12. `11_Publication`
 13. `99_Reference_Retired_Needs_Redesign`
 
+## Canonical directory registry
+
+These folder names are authoritative routing labels and should match the repository README and Copilot routing rules.
+
+| Folder | Required contents / responsibility |
+|---|---|
+| `00_Canon_Lock` | Locked canon, protected terminology, authority decisions, continuity constraints, and rules that downstream files may not silently override. |
+| `01_Story` | Main story, chapters, character/NPC arcs, dialogue/story beats, DLC/expansion narrative, and chronology. |
+| `02_World` | Rebearth regions, biomes, cities, landmarks, ecology, world-state changes, travel/portal geography, and environmental lore. |
+| `03_EcoKin_Dex` | The 125-ID Permanent Eco-Kin Dex, Forms Registry links, ecology/biology, named Eco-Kin records, historical-name review, and Dex governance. |
+| `04_Systems` | Gameplay-system contracts including Anima-Link, Huma-Link, Kindling, combat, Growth Rites, inventory/economy, Sanctuary, missions/progression, traversal, and other systemic rules. |
+| `05_Levels` | Missions, encounters, dungeons, maps, coordinates, puzzles, vertical-slice level implementation plans, and level-specific validation. |
+| `06_UI_UX` | A.E.G.I.S., HUD, EcoDex, mission tracking presentation, menus, accessibility, interaction feedback, and UX contracts. |
+| `07_Art` | Character/Eco-Kin art briefs, rig/animation art requirements, asset manifests, visual provenance, anatomy/identity QA, and technical-art direction. |
+| `08_Audio` | Music, ambience, VO, Eco-Kin audio, combat/resonance audio, implementation cues, and audio-direction contracts. |
+| `09_Technical` | UE5.8/C++ architecture contracts, schemas, networking/save/cloud/security/telemetry requirements, build/tooling standards, and technical audits. Executable UE source itself belongs in the BUILD repository. |
+| `10_Production` | Backlog, dependency maps, QA/evidence requirements, assignments, provenance, intake routing, release gates, and production status. |
+| `11_Publication` | Approved public-facing manuscripts, pitch/marketing material, ebook/publication standards, release manifests, and publication evidence. |
+| `99_Reference_Retired_Needs_Redesign` | Superseded, derivative, contradictory, unsafe, historical, or redesign-required material retained only for traceability/reference. |
+
+Do not substitute alternate folder names such as `05_Art_Direction`, `06_Audio`, `07_UI_UX`, or `08_Narrative_Production` for this routing map. Those labels belong only to historical/proposal material if encountered and must not become a parallel directory authority.
+
 ## Repost / intake rule
 
 Every reposted chat, image, document, code block, Eco-Kin concept, NPC, lore fragment, mechanic, or art reference must be:
