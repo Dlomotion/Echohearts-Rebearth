@@ -23,6 +23,8 @@ jobs:
         run: python -m py_compile 09_Technical/Tools/EchoheartsCompiler.py
       - name: Echohearts repository contract
         run: python 09_Technical/Tools/EchoheartsCompiler.py repo-check
+      - name: Infrastructure contract regression tests
+        run: python -m unittest discover -s 09_Technical/Tools -p 'test_*.py'
       - name: Infrastructure contract
         run: python 09_Technical/Tools/verify_infrastructure.py infrastructure
       - name: Recovery plan remains non-runtime
