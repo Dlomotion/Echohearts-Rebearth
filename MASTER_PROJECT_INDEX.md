@@ -220,3 +220,10 @@ Current design-intake sources:
 - `04_Systems/MISSION_SYSTEM_ARCHITECTURE_2026-10-06.md` — corrected event-driven mission contract covering stable IDs, server authority, replicated co-op state, typed dialogue mission actions, UMG event refresh, and idempotent completion/reward boundaries.
 
 These additions extend the existing canon/contracts. They do not replace the Master Game Bible, the 125-ID Permanent Dex, or executable runtime evidence requirements.
+
+## 2026-10-06 STARZ* / Saviors universe integration
+
+- `01_Story/STARZ_SAVIORS_UNIVERSE_INTEGRATION_2026-10-06.md` — connects recovered STARZ*/Saviors material to the existing War of Summoning → Star Rewrite expansion lane without creating a second canon, second Dex, or duplicate runtime. It accepts the current original Savior/antagonist/support roster for continued design, quarantines legacy mixed-language build material, routes executable ownership to the BUILD repository, and keeps Summoning Wars → Saviors of the Universe → Ancient Tech Wars behind the established production/runtime gates.
+- `git-ecosystem/git-credential-manager` is recognized only as a workstation credential-helper reference; it is not an Echohearts runtime dependency and no credentials/auth cache belong in source control.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** until the BUILD repository supplies actual UE5.8 compile/runtime proof.
