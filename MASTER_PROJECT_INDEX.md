@@ -227,3 +227,10 @@ These additions extend the existing canon/contracts. They do not replace the Mas
 - `git-ecosystem/git-credential-manager` is recognized only as a workstation credential-helper reference; it is not an Echohearts runtime dependency and no credentials/auth cache belong in source control.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** until the BUILD repository supplies actual UE5.8 compile/runtime proof.
+
+## 2026-10-06 recovered Unity package inventory
+
+- `09_Technical/RECOVERED_UNITY_PACKAGE_INVENTORY_2026-10-06.md` — byte-level inventory of the uploaded Unity-era Echohearts packages, including SHA-256 hashes, placeholder/empty-package detection, duplicate ProceduralWorld package detection, recoverable procedural-world requirements, dialogue/shader routing, and explicit UE5.8 port boundaries. The recovered Unity/C# code remains reference-only; executable ownership stays in the BUILD repository.
+- Source-control transport guidance for this recovery lane: prefer HTTPS + Git Credential Manager on Windows, use GitHub CLI for auth/PR/workflow operations, and treat SSH as an optional key-based alternative. No credentials or auth caches belong in source control.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
