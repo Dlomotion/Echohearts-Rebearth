@@ -234,3 +234,9 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** unt
 - Source-control transport guidance for this recovery lane: prefer HTTPS + Git Credential Manager on Windows, use GitHub CLI for auth/PR/workflow operations, and treat SSH as an optional key-based alternative. No credentials or auth caches belong in source control.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## 2026-10-06 Unity gameplay recovery batch 2
+
+- `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
