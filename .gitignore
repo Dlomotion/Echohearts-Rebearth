@@ -17,13 +17,16 @@
 
 # Unreal Engine generated folders
 Binaries/
-Build/
 DerivedDataCache/
 Intermediate/
 Saved/
 Log/
 PackagedOutput/
 BuildTemplates/
+
+# Unreal build products while preserving source-controlled Build metadata
+Build/Receipts/
+Build/**/FileOpenOrder/
 
 # Local environment / config
 .env

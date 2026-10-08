@@ -1,0 +1,56 @@
+name: UE 5.8 Workflow Contract
+
+on:
+  pull_request:
+    paths:
+      - '.gitattributes'
+      - '.gitignore'
+      - '.vsconfig'
+      - '09_Technical/Tools/verify_unreal_gate.py'
+      - '09_Technical/VISUAL_STUDIO_UE58_DEVELOPMENT_WORKFLOW_2026-10-08.md'
+      - '10_Production/EVIDENCE/**'
+      - '.github/workflows/ue58-workflow-contract.yml'
+  push:
+    paths:
+      - '.gitattributes'
+      - '.gitignore'
+      - '.vsconfig'
+      - '09_Technical/Tools/verify_unreal_gate.py'
+      - '09_Technical/VISUAL_STUDIO_UE58_DEVELOPMENT_WORKFLOW_2026-10-08.md'
+      - '10_Production/EVIDENCE/**'
+      - '.github/workflows/ue58-workflow-contract.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  static-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - name: Validate Python syntax and CLI
+        run: |
+          python -m py_compile 09_Technical/Tools/verify_unreal_gate.py
+          python 09_Technical/Tools/verify_unreal_gate.py --help
+      - name: Verify required workflow files
+        shell: pwsh
+        run: |
+          $required = @(
+            '.gitattributes',
+            '.gitignore',
+            '.vsconfig',
+            '09_Technical/VISUAL_STUDIO_UE58_DEVELOPMENT_WORKFLOW_2026-10-08.md',
+            '10_Production/EVIDENCE/UE58_RUN_EVIDENCE_TEMPLATE.md'
+          )
+          $missing = $required | Where-Object { -not (Test-Path -LiteralPath $_ -PathType Leaf) }
+          if ($missing) { throw "Missing required files: $($missing -join ', ')" }
+      - name: Verify LFS attributes
+        shell: pwsh
+        run: |
+          $asset = git check-attr filter -- sample.uasset
+          $map = git check-attr filter -- sample.umap
+          if ($asset -notmatch 'lfs' -or $map -notmatch 'lfs') { throw 'Unreal LFS attributes are missing.' }
+      - name: State evidence boundary
+        run: echo "STATIC CHECK PASSED; NOT YET VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED"

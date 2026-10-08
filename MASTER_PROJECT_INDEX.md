@@ -235,6 +235,15 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** unt
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 
+## 2026-10-08 Visual Studio / UE 5.8 workflow integration
+
+- `09_Technical/VISUAL_STUDIO_UE58_DEVELOPMENT_WORKFLOW_2026-10-08.md` — routes Git/LFS, Visual Studio project generation, UHT/Development Editor Win64 compilation, editor/PIE smoke testing, Automation, Development Win64 packaging, debugging, platform-specific validation and PR evidence through the existing production sequence.
+- `09_Technical/Tools/verify_unreal_gate.py` — fail-closed command wrapper for an existing approved UE 5.8 project. It validates the descriptor/module/target contract and records bounded command evidence; it does not create replacement runtime code.
+- `10_Production/EVIDENCE/UE58_RUN_EVIDENCE_TEMPLATE.md` — one evidence vocabulary and run record for build/runtime gates.
+- `10_Production/Intake/PROJECT_READY_ZIP_AND_WINGDK_PATHS_INTAKE_2026-10-08.md` — reference-only disposition of the supplied documentation ZIP and unavailable installed-game paths.
+
+These files extend the existing workflow. They do not create another canon, Master Bible, Permanent Dex, daily schedule, or executable authority. IDs 001–125 remain protected. Runtime status remains **NOT YET VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** until the approved executable checkout produces direct evidence.
+
 ## 2026-10-06 Unity gameplay recovery batch 2
 
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
