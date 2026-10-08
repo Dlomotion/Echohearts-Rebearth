@@ -1,0 +1,94 @@
+name: UE Foundation Static Check
+
+on:
+  pull_request:
+    paths:
+      - "EchoheartsRebearth.uproject"
+      - "Source/**"
+      - "Config/**"
+      - ".gitattributes"
+      - ".gitignore"
+      - ".github/workflows/ue-foundation-static-check.yml"
+  push:
+    branches: [ main ]
+    paths:
+      - "EchoheartsRebearth.uproject"
+      - "Source/**"
+      - "Config/**"
+      - ".gitattributes"
+      - ".gitignore"
+
+permissions:
+  contents: read
+
+jobs:
+  static-foundation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - name: Validate project descriptor
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          path = Path("EchoheartsRebearth.uproject")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          assert data.get("EngineAssociation") == "5.8", data.get("EngineAssociation")
+          modules = data.get("Modules", [])
+          names = {m.get("Name") for m in modules}
+          assert "EchoheartsRebearth" in names, names
+
+      - name: Validate required source files
+        shell: python
+        run: |
+          from pathlib import Path
+
+          required = [
+              "Source/EchoheartsRebearth.Target.cs",
+              "Source/EchoheartsRebearthEditor.Target.cs",
+              "Source/EchoheartsRebearth/EchoheartsRebearth.Build.cs",
+              "Source/EchoheartsRebearth/Public/EchoheartsRebearth.h",
+              "Source/EchoheartsRebearth/Private/EchoheartsRebearth.cpp",
+          ]
+
+          missing = [p for p in required if not Path(p).is_file()]
+          if missing:
+              raise SystemExit("Missing required files: " + ", ".join(missing))
+
+      - name: Validate LFS policy
+        shell: python
+        run: |
+          from pathlib import Path
+
+          text = Path(".gitattributes").read_text(encoding="utf-8")
+          for pattern in ("*.uasset", "*.umap"):
+              if pattern not in text or "filter=lfs" not in text:
+                  raise SystemExit(f"Missing Git LFS policy for {pattern}")
+
+      - name: Reject generated Unreal directories
+        shell: python
+        run: |
+          import subprocess
+
+          tracked = subprocess.check_output(
+              ["git", "ls-files"], text=True
+          ).splitlines()
+
+          forbidden = ("Binaries/", "DerivedDataCache/", "Intermediate/", "Saved/")
+          bad = [p for p in tracked if p.startswith(forbidden)]
+
+          if bad:
+              raise SystemExit(
+                  "Generated Unreal output is tracked:\n" + "\n".join(bad)
+              )
+
+      - name: Verification boundary
+        run: |
+          echo "Static checks passed."
+          echo "This workflow does NOT prove UHT, UBT compile, editor runtime, packaging, networking, save, AI, animation, or gameplay."

@@ -1,23 +1,7 @@
-# =============================================================================
-# Echohearts Rebearth - Systemic Git Exclusion Rules
-# =============================================================================
+# Echohearts Rebearth - Local and generated file exclusions
 
-# Local editor and generated workspace files
-.vs/
-.idea/
-.vscode/
-*.sln
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.VC.db
-*.VC.db-shm
-*.VC.db-wal
-
-# Unreal Engine generated folders
+# Unreal Engine generated output
 Binaries/
-Build/
 DerivedDataCache/
 Intermediate/
 Saved/
@@ -25,25 +9,45 @@ Log/
 PackagedOutput/
 BuildTemplates/
 
+# IDE / generated project files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+
+# Local build/log artifacts
+*.log
+*.tmp
+*.user
+*.userprefs
+*.swp
+*.swo
+*~
+*.orig
+
 # Local environment / config
 .env
 .env.local
 config.local.json
-
-# OS junk
-Thumbs.db
-.DS_Store
-Desktop.ini
 
 # Node / Python cache
 node_modules/
 __pycache__/
 *.pyc
 *.pyo
-*.log
 
-# General temporary files
-*.swp
-*.swo
-*~
-*.orig
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Do not ignore Build/ globally: Unreal projects may contain source-controlled build resources there.
