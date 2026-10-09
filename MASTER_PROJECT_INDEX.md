@@ -240,3 +240,9 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## Runtime-contract and Eco-Kin intake reconciliation: 2026-10-09
+
+- `03_EcoKin_Dex/Intake/ECOKIN_ISSUES_48_49_CANON_SAFE_INTEGRATION_MAP_2026-10-09.md` — reconciles Issues #48/#49 against the existing 125-ID Dex and draft 554-row registry, records the EK-073/DEX-099 Hammerwake collision, preserves nine-Essence/V-D-H-P authority, and defines the art/ecology/runtime evidence gate without promoting candidates.
+- `11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-09.md` — records BUILD runtime-contract correction PR #47, static-check evidence, unresolved UE5.8 gates, Story Continuity Status Brief, Cartography Status and the exact next action.
+- Executable runtime code remains in `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`; canon/design/evidence routing remains in this repository.
