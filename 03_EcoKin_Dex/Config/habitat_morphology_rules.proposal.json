@@ -1,0 +1,459 @@
+{
+  "schema_version": "0.1.0",
+  "status": "PROPOSAL_UNMAPPED",
+  "expected_rules": 45,
+  "verified_rules": 0,
+  "reason": "No authoritative lineage-to-habitat mappings supplied. Placeholders deliberately disabled; never invent canon element swaps.",
+  "rules": [
+    {
+      "rule_id": "HAB-01",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-02",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-03",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-04",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-05",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-06",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-07",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-08",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-09",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-10",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-11",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-12",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-13",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-14",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-15",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-16",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-17",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-18",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-19",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-20",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-21",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-22",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-23",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-24",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-25",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-26",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-27",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-28",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-29",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-30",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-31",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-32",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-33",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-34",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-35",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-36",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-37",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-38",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-39",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-40",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-41",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-42",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-43",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-44",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    },
+    {
+      "rule_id": "HAB-45",
+      "enabled": false,
+      "lineage_id": null,
+      "habitat_id": null,
+      "source_elements": [],
+      "target_elements": [],
+      "required_conditions": [],
+      "canon_review": "PENDING"
+    }
+  ]
+}
