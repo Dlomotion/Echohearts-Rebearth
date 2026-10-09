@@ -64,8 +64,20 @@ The following may be used when a real component is intentionally implemented in 
 **Lua** may be used only if Echohearts deliberately adopts an embedded scripting/plugin boundary; do not add a Lua runtime merely to avoid fixing C++.
 
 ### Historical / legacy / educational languages
-Use these to diagnose or migrate actual legacy source, study language concepts, or preserve provenance. Do not add them to the UE runtime solely as an error workaround:
-**ActionScript, ALGOL, APL, B, BASIC, BCPL, COBOL, Delphi/Object Pascal, Eiffel, Factor, Fantom, Forth, Inform, Io, Lisp, Logo, ML, Pascal, Perl, Prolog, Racket, Raku, Scheme, Smalltalk, Visual Basic/.NET.**
+Use these to diagnose or migrate actual legacy source, study language concepts, preserve provenance, or implement a deliberately bounded offline tool. Do not add them to the UE runtime solely as an error workaround:
+**ActionScript, ALGOL, APL, B, BCPL, Delphi/Object Pascal, Eiffel, Factor, Fantom, Forth, Inform, Io, Lisp, Logo, ML, Pascal, Perl, Prolog, Racket, Raku, Scheme, Smalltalk, Visual Basic/.NET.**
+
+### Approved secondary COBOL / BASIC tooling lane
+**COBOL and BASIC are explicitly approved secondary engineering/tooling languages** when the user requests them or when a real offline/legacy utility benefits from them.
+
+Approved scopes include deterministic data conversion, report generation, manifest/Dex/schema validation, migration tools, test fixtures, regression harnesses, and contained toolchain demonstrations.
+
+- Prefer **GnuCOBOL** for `.cob` / `.cbl` when available.
+- Prefer **FreeBASIC** for `.bas` when available.
+- Keep these tools isolated from UE gameplay/runtime authority.
+- Do not use COBOL/BASIC to bypass a C++/UHT/Build.cs/TypeScript error that should be repaired in its owning layer.
+- If the relevant compiler is unavailable, report the tool as static/unverified rather than claiming it executed.
+- Any output consumed by the game must cross a defined, validated data boundary; COBOL/BASIC must not mutate authoritative runtime state directly.
 
 ### Specialized/restricted-domain languages
 Use only when the project deliberately owns that domain:
@@ -87,7 +99,7 @@ A JavaScript/TypeScript frontend error is repaired in its web layer.
 A SQL/schema error is repaired in the data layer.  
 A platform-native error is repaired in the platform bridge that owns it.
 
-Do **not** route the same error through COBOL, BASIC, Rust, Go, Python, Java, and C++ sequentially. Multiple languages are useful when the system genuinely has multiple layers, not as interchangeable syntax patches.
+Do **not** route the same error through COBOL, BASIC, Rust, Go, Python, Java, and C++ sequentially. COBOL/BASIC may own a deliberately created offline utility, but they are not interchangeable syntax patches for an unrelated failure. Multiple languages are useful when the system genuinely has multiple layers.
 
 ## Echohearts invariants during any language repair
 
