@@ -240,3 +240,12 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## 2026-10-10 Veridian Fold-In mission-chain concept
+
+- `01_Story/VERIDIAN_FOLDIN_MISSION_CHAINS_2026-10-10.md` — concept-level seven-beat mission structure for Verdantia Fields, Driftmist Peaks, Moonlit Marsh, Crystalgrove Hollow, Evershade Wilds, Ashfall Dominion, and the convergence arc. Uses Kindling-gated Resonance Alignment, Anima-Link pressure, A.E.G.I.S./D.A.H.L.I.A., persistent scars, and consequence callbacks without creating a parallel morality/bond system.
+- `02_World/VERIDIAN_FOLDIN_REGIONAL_CONSEQUENCES_2026-10-10.md` — persistent world-state and regional-scar matrix for the same mission chain.
+- `10_Production/VERIDIAN_FOLDIN_OPEN_DECISIONS_2026-10-10.md` — unresolved Star classification, Nova collision, convergence title, Vorlag faction relationship, Celestine Bang / Elemental Comet placement, protagonist-background continuity, Veridian Order status, and Alignment implementation ownership.
+
+This package is **CONCEPT** only. It does not modify `00_Canon_Lock`, does not assign Star Dex IDs, and does not claim mission/runtime implementation.
+
