@@ -108,3 +108,57 @@ Do not fabricate Unreal runtime evidence. A generated image or Markdown entry do
 ## Next production gate
 
 The next useful implementation pass is to reconcile EK-065 through EK-097 against the current Permanent Dex/historical pool and output a collision report with: candidate name, existing-match result, permanent-ID decision, body plan, approved Essence mapping, Vibrance/Density/Harmony/Purity schema location, habitat, role, Anima-Link relevance, art-source status, and required runtime asset/test evidence.
+
+## 2026-10-10 reconciliation result — review only
+
+**Disposition: all EK-065–EK-097 entries remain PROPOSAL; no new identity, form, stat, or permanent ID is approved here.** The `EK-###` labels numerically overlap protected `DEX-065`–`DEX-097` and are not IDs. The table records the existing protected name occupying each numeric slot, not a proposed mapping.
+
+The local checkout contains the canon rules and art-intake manifests, but not a complete Permanent Dex, Forms Registry, 1,120-name Historical Naming Pool, or Game Data Dictionary record set. The corrected 554-row registry in open draft PR #58 was used only as a comparison aid; its labels and statuses are not canon authority. Open draft PR #62 is also a source-only proposal, not approval. Accordingly, “no exact match” below means no exact row was found in the PR #58 draft, **not** a global collision clearance. Fuzzy matches are review flags only.
+
+| Visual label | Proposal name | Protected slot with same number | Name comparison in draft PR #58 | Decision |
+| --- | --- | --- | --- | --- |
+| EK-065 | Lanternwolf | DEX-065 — Gerenreach | No exact row found | Keep proposal; full-source review open |
+| EK-066 | Boulderback | DEX-066 — Gerenreach Crownforager | No exact row found | Keep proposal; full-source review open |
+| EK-067 | Sparkmacaw | DEX-067 — Thylundra | No exact row found | Keep proposal; full-source review open |
+| EK-068 | Tidefang | DEX-068 — Korravault | Near-name flag: Tidefin (unnumbered) | Compare identity, form, and source before any clearance |
+| EK-069 | Gildrake | DEX-069 — Vitrivane | No exact row found | Keep proposal; full-source review open |
+| EK-070 | Mirthhop | DEX-070 — Aardhymn | No exact row found | Keep proposal; full-source review open |
+| EK-071 | Grizzlune | DEX-071 — Eonotara | No exact row found | Keep proposal; full-source review open |
+| EK-072 | Crankroo | DEX-072 — Peepfloe | No exact row found | Keep proposal; full-source review open |
+| EK-073 | Hammerwake | DEX-073 — Rookurrent | Exact row: protected DEX-099, PENDING REVIEW | Preserve DEX-099; do not infer identity approval or assign another ID |
+| EK-074 | Coralisk | DEX-074 — Aurorarch | No exact row found | Keep proposal; full-source review open |
+| EK-075 | Boltusk | DEX-075 — Mossmask | No exact row found | Keep proposal; full-source review open |
+| EK-076 | Petalgeist | DEX-076 — Bromebruin | No exact row found | Keep proposal; full-source review open |
+| EK-077 | Gearglide | DEX-077 — Canopyvault | No exact row found | Keep proposal; full-source review open |
+| EK-078 | Runebeetle | DEX-078 — Reednote | No exact row found | Keep proposal; full-source review open |
+| EK-079 | Lunalux | DEX-079 — Cadensora | No exact row in #58; compare Luna Moth cluster in draft #62 | Keep proposal; resolve name/art similarity before clearance |
+| EK-080 | Pyroclaw | DEX-080 — Skyrhapsody | No exact row found | Keep proposal; full-source review open |
+| EK-081 | Miretooth | DEX-081 — Murmlet | No exact row found | Keep proposal; full-source review open |
+| EK-082 | Fernspike | DEX-082 — Olmnisense | No exact row found | Keep proposal; full-source review open |
+| EK-083 | Glassray | DEX-083 — Olmnisense Deepwarden | No exact row found | Keep proposal; full-source review open |
+| EK-084 | Mistlynx | DEX-084 — Mottlit | No exact row found | Keep proposal; full-source review open |
+| EK-085 | Quillforge | DEX-085 — Veylugo | No exact row found | Keep proposal; full-source review open |
+| EK-086 | Duskram | DEX-086 — Arborveil | No exact row found | Keep proposal; full-source review open |
+| EK-087 | Mirehalo | DEX-087 — Dappletide | No exact row found | Keep proposal; full-source review open |
+| EK-088 | Starpetal | DEX-088 — Pelaglyph | No exact row found | Keep proposal; full-source review open |
+| EK-089 | Rustrider | DEX-089 — Pelaglyph Tidevault | No exact row found | Keep proposal; full-source review open |
+| EK-090 | Thornmantis | DEX-090 — Snoutap | Near-name flag: Thornmask (unnumbered) | Compare identity, form, and source before any clearance |
+| EK-091 | Kilnstoat | DEX-091 — Termitune | No exact row found | Keep proposal; full-source review open |
+| EK-092 | Halocrane | DEX-092 — Moundseer | No exact row found | Keep proposal; full-source review open |
+| EK-093 | Bogchime | DEX-093 — Glimbit | No exact row found | Keep proposal; full-source review open |
+| EK-094 | Shellcipher | DEX-094 — Synchronus | No exact row found | Keep proposal; full-source review open |
+| EK-095 | Gloamgecko | DEX-095 — Synchronus Omega | No exact row found | Keep proposal; full-source review open |
+| EK-096 | Auroroo | DEX-096 — Featherfright | No exact row found | Keep proposal; full-source review open |
+| EK-097 | Flarestork | DEX-097 — Solara | No exact row found | Keep proposal; full-source review open |
+
+### Unresolved review and production gates
+
+- Complete exact, alias, fuzzy, DNA, and form matching against the authoritative 125-ID Dex, Forms Registry, and full Historical Naming Pool is still required. Resolve Tidefang/Tidefin and Thornmantis/Thornmask explicitly; check every name, silhouette, and source against external-IP/originality concerns. Names with no draft-CSV exact match are not thereby cleared.
+- Also reconcile the highlighted existing art/name conflicts before any adjacent concept is approved: the Luna Moth/moth/Plainsman cluster (including Lunalux as a name comparator), Frostclaw's quadruped/upright body-plan drift (including distinct-anatomy review for bear-like proposals), Skyraxis's exactly-two-leg rule, and Nature's conditional Mutations rather than the conflicting Nature → Floauwer → Dandelion sequence. These checks do not merge or change those existing identities.
+- `Hammerwake` is already attached to protected `DEX-099` in draft PR #58 with `PENDING REVIEW`; this is a hold, not identity approval. The visual label `EK-073` does not change that slot and does not map to `DEX-073`.
+- Existing local canon uses only **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade** and the public attributes **Vibrance, Density, Harmony, Purity**. No candidate-specific Essence, interaction tag, attribute values, or stat changes are approved by this intake. Do not apply the 23 draft stat adjustments in PR #58.
+- Candidate-specific body plan/anatomy, habitat, ecological role, Kindling response, restoration function, combat role, and Anima-Link consequences remain **UNSPECIFIED / REVIEW REQUIRED**; the short visual descriptions above are concepts, not biological or gameplay contracts. Before approval, record those fields in the existing Eco-Kin workflow and use Observe → Protect → Calm → Kindle → Bond / Release / Defer with Eco-Kin agency intact. Any combat-capable candidate needs authored, bidirectional Anima-Link consequences.
+- No candidate has verified source imagery or provenance in this checkout. The six image filenames listed above remain pending import; no corresponding image bytes or per-candidate art-manifest entries were found. Record source/creator, rights and license evidence, acquisition context, revision, reviewer, and asset location before art approval.
+- Animation planning must follow the approved species anatomy: model sheets, neutral/front/side/back views, scale, contact and locomotion, signature behavior, transitions, attack timing, and hit reactions. Do not settle rig family or animation requirements until body plan and identity pass review.
+- Runtime evidence is **NOT VERIFIED**. Only after data/canon approval should the executable UE5.8 repository supply the approved record integration, rig/mesh/physics/animation, habitat and Kindling behavior, save/network behavior, and focused tests, followed by Editor/PIE and packaged-build evidence. Text, generated cards, registry rows, or a static check do not prove runtime behavior.
+- EK-041 through EK-064 remain **REFERENCE / REDESIGN REQUIRED** pending a separate originality review of a rebuilt Echohearts-native identity; no recognizable third-party character or franchise design is eligible for promotion.
