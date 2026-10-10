@@ -246,3 +246,10 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `03_EcoKin_Dex/Intake/ECOKIN_ISSUES_48_49_CANON_SAFE_INTEGRATION_MAP_2026-10-09.md` — reconciles Issues #48/#49 against the existing 125-ID Dex and draft 554-row registry, records the EK-073/DEX-099 Hammerwake collision, preserves nine-Essence/V-D-H-P authority, and defines the art/ecology/runtime evidence gate without promoting candidates.
 - `11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-09.md` — records BUILD runtime-contract correction PR #47, static-check evidence, unresolved UE5.8 gates, Story Continuity Status Brief, Cartography Status and the exact next action.
 - Executable runtime code remains in `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`; canon/design/evidence routing remains in this repository.
+
+## Restoration reload/care and foundation evidence: 2026-10-10
+
+- [Restoration save/reload and care acceptance scene](05_Levels/RESTORATION_SAVE_RELOAD_CARE_ACCEPTANCE_2026-10-10.md) — PROPOSAL; extends existing Stage 06 and A.E.G.I.S. contracts with care continuity, unavailable/stale readings, recovery/reward replay boundaries and accessibility cases. No new mission, map, roster or progression meter.
+- [Daily evidence and unified carry-forward queue](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-10.md) — existing BUILD PR #47 capacity-test correction and authored memory round trip; static CI result; web fixture-copy reconciliation; PR #20 delta; Story/Cartography and exact Windows UE5.8 gate.
+
+Unreal execution remains **NOT YET VERIFIED**.
