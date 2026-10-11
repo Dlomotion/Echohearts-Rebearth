@@ -44,13 +44,14 @@ Historical HP/MP/SP/ATK/DEF/ESA/ESD/INT/SPD/ACC/CRI/RES packages are not the pub
 Additional combat numbers may exist internally only after the current combat architecture defines them. They must not become a copied monster-tamer stat presentation by default.
 
 ### Elements
-The locked core elements are:
-Solar, Lunar, Hydro, Magma, Aero, Flora, Volt, Terra, Iron/Tech, Spirit, Chaos, Radiant.
+Correction checked 2026-10-11 against [Core Canon Rules](../00_Canon_Lock/CANON_CORE_RULES.md): the production Essences are **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**.
+
+The earlier list (Solar, Lunar, Hydro, Magma, Aero, Flora, Volt, Terra, Iron/Tech, Spirit, Chaos, Radiant) is preserved as historical migration vocabulary, not a second production enum. Hydro → Torrent; Magma → Pyre; Volt → Voltic; Spirit/Radiant → Aura context; Solar/Lunar → celestial/cycle tags; Iron/Tech → Ancient Tech trait; Chaos → instability/Blight state. Other mappings require authored review; do not infer equivalence from a name alone.
 
 Historical Nature, Light, Shadow, Star, Sound, Psychic, Frost, Toxic, Beast, Crystal, Aether, Ether, Cosmos, Time, Void, Atmosphere, Life and similar labels must be mapped to current elements, creature class, status language, ability tags, rarity/family metadata or visual descriptors instead of becoming extra core elements.
 
 ### Historical attribute families
-Veridian, Cipher and Hollow may remain only where current Resonance Arena or historical classification work explicitly uses them. They do not replace the locked 12-element system. Primal, Celestine, Abyssal, Forge, Harmonix and Mythic Rare are not automatic core attributes; route them into class, rarity, ecology, role or presentation as appropriate.
+Veridian, Cipher and Hollow may remain only where current Resonance Arena or historical classification work explicitly uses them. They do not replace the nine production Essences. Primal, Celestine, Abyssal, Forge, Harmonix and Mythic Rare are not automatic core attributes; route them into class, rarity, ecology, role or presentation as appropriate.
 
 ### Nature powers
 The historical request to give each Eco-Kin one nature power is preserved as a design exercise, not a universal rule. Nature/ecology abilities must be species-appropriate and map through the current element/status/ability-tag architecture. Do not force every species to gain Flora or a generic healing move.
