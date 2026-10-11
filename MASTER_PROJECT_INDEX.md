@@ -253,3 +253,11 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - [Daily evidence and unified carry-forward queue](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-10.md) — existing BUILD PR #47 capacity-test correction and authored memory round trip; static CI result; web fixture-copy reconciliation; PR #20 delta; Story/Cartography and exact Windows UE5.8 gate.
 
 Unreal execution remains **NOT YET VERIFIED**.
+
+
+## Contract drift and Sanctuary care acceptance: 2026-10-11
+
+- [Advanced systems audit](09_Technical/GEMINI_ADVANCED_SYSTEMS_CODE_AUDIT_2026-09-20.md) — corrected dated foundation evidence and production-order scope; bounded Living Crust replication/recovery contract, implementation pending.
+- [Legacy Dex reconciliation](03_EcoKin_Dex/LEGACY_DEX_V2_RECONCILIATION_2026-09-20.md) — current nine Essences; twelve historical labels retained only for migration.
+- [Sanctuary care interruption acceptance scene](05_Levels/SANCTUARY_PARTNER_CARE_ACCEPTANCE_2026-10-11.md) — PROPOSAL, voluntary Partner Assist with care, UI/audio and recovery cases.
+- [Daily evidence and carry-forward](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-11.md) — current BUILD access blocker, repository/Unreal separation, Story/Cartography and next exact gate.
