@@ -9,7 +9,7 @@
 
 This audit covers the large recovered Gemini C++ batch containing loadout swapping/saving, voxel deformation, cavern generation, outpost progression, worker automation, weapon trails, footsteps, player vitals, cooperative lockboxes, custom packet serialization, boss FSM logic, header generation, compressed movement packets, editor grid snapping, crafting-cost scaling, workstation automation, animation-state plumbing, Slate inventory UI, GameMode integration, building placement traces and facial morph targets.
 
-The pasted source repeatedly labels these systems `production-ready`, `fully engineered`, `compiled`, `optimized`, `verified`, `complete` or `finalized`. Those claims are **retired**. No corresponding Unreal project source tree, `.uproject`, `Build.cs`, compile output, Automation results, packet captures, profiling data or packaged build evidence is currently present on `main`. Repository search also found no implementation of the pasted class names. Therefore this batch is design/prototype reference only.
+The pasted source repeatedly labels these systems `production-ready`, `fully engineered`, `compiled`, `optimized`, `verified`, `complete` or `finalized`. Those claims are **retired**. At the original 2026-09-20 audit snapshot, the inspected repository did not establish the pasted classes or matching compile/runtime evidence. This is a historical observation, not a current global absence claim. Executable foundation/source and retained runtime evidence belong in `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`; this repository owns canon/contracts. On 2026-10-11, BUILD main and PRs #47/#51 returned GitHub API 404, so their current files, head, CI and runtime evidence could not be inspected. The public main descriptor lookup also returned 404. Neither result proves those files or the private repository do not exist. The pasted batch remains reference-only until exact implementation and execution evidence are obtained.
 
 ## Current UE5.8 evidence used for this audit
 
@@ -407,7 +407,7 @@ The following **requirements** are worth keeping, without accepting the pasted i
 
 ## Current technical gate order remains unchanged
 
-This batch does **not** jump the established engineering gates:
+This batch does **not** jump the authoritative [18-step production order](../11_Publication/PUBLIC_VERIFICATION_STATUS.md). The following older list is a local dependency checklist for this batch, not a replacement production order:
 
 1. Authorized UE5.8 `EchoheartsEditor` build.
 2. `Echohearts.Partners.CommandBuffer` Automation evidence.
@@ -431,3 +431,30 @@ A requirement from this batch can move from REFERENCE-ONLY only after:
 - profile evidence before performance claims.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## 2026-10-11 bounded replication correction contract
+
+**TECHNICAL CONTRACT / NOT YET IMPLEMENTED OR UE-VERIFIED.** Extends section B's Living Crust / Deep Root scope; does not create a new transport, save schema or voxel world.
+
+- Requests originate through an owned replicated Actor/Component. Derive caller identity from the connection; resolve permissions, chunk identity, bounds, costs and allowable edit radius from server-owned data. Finite client coordinates alone are insufficient authorization.
+- Use the existing transaction/result envelope. Proposed required fields are protocol version, request ID, chunk ID and expected chunk revision; reconcile their names with ECO-API-001/BCT-001 before implementation. A repeated identical request returns the recorded result without spending resources or deforming twice; reuse of an ID with changed payload is rejected. Bound the deduplication window and explicitly reject expired IDs rather than silently treating them as new.
+- Validate version, bounded payload size, checked dimensions and finite inputs before allocation. Ordinary stale revisions, insufficient resources, unavailable chunks or ecological veto produce gameplay rejection without disconnection. WithValidation is supported; reserve false _Validate results for malformed/hostile input because failure disconnects the invoking client.
+- Persist authoritative chunk revision/edit state. Multicast may present transient FX but cannot be the only state source. Late join, relevancy return and reconnect reconstruct from a bounded snapshot plus contiguous deltas; a missing/gapped revision requests a fresh snapshot instead of guessing.
+- Quantized vectors require Engine/NetSerialization.h. No raw Memcpy of USTRUCTs, sizeof-based wire-size claims, unbounded TCP payloads or always-relevant high-frequency actor by default. Measure actual serialized bits and relevance behavior.
+- Generation uses a documented integer seed/chunk-coordinate transform and pinned generator version. Checked multiplication precedes allocation; negative coordinates, maximum dimensions, cancellation and streaming teardown need tests. Async jobs return plain bounded data, then validate world/chunk lifetime on the game thread before applying results.
+
+| Acceptance case | Required result; execution pending |
+|---|---|
+| Identical retry after lost acknowledgement | One cost deduction/edit; same result event |
+| Same ID, different payload | Reject with no mutation |
+| Stale expected revision | Resync/reject; no cost or disconnect |
+| Oversized dimensions / NaN / infinity | Reject before allocation/state mutation |
+| Late join or relevance return | Same authoritative chunk digest and revision |
+| Lost/out-of-order delta | Detect gap; bounded snapshot recovery |
+| World travel during generation | Cancel/discard stale result; no UObject worker access |
+| Same seed/version/chunk on two runs | Matching digest; different request order cannot alter base generation |
+
+### Research/provenance checked 2026-10-11
+
+[Epic UE5.8 RPC documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/remote-procedure-calls-in-unreal-engine) documents Actor/Component ownership, transient multicast scope and WithValidation disconnection. Used as API evidence only; no Epic source or example implementation copied. Rights/provenance: Epic-authored public documentation, not a license to redistribute engine source. Security adaptation: ordinary gameplay rejection stays separate from malformed-payload disconnection, and authoritative state survives missed presentation events. Engine relevance: page identifies UE5.8; exact project compile/runtime compatibility remains unexecuted. The proposed tests and transaction policy above are original Echohearts contracts, pending BUILD integration after the foundation gate.
