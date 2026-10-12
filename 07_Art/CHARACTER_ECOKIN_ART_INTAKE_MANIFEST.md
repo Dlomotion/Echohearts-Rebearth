@@ -160,3 +160,20 @@ High-end cinematic presentation is a rendering target, not a license to destroy 
 - **Accessibility/readability:** future gameplay cues must pair glow color with silhouette, motion, text/audio, and haptics.
 - **Destination:** retain as a review image outside Git binary history until provenance, naming, canon, anatomy, and originality gates pass. If promoted later, create a neutral-background standalone roster sheet and a separate environment keyframe.
 - **QA disposition:** this environment concept does **not** complete a locked roster image entry. It does not alter the 125-ID Permanent Dex or Forms Registry, and it does not satisfy the standalone-image requirement for Plainsman, Ash-Brawler, Twilight-Tricker, Reaper-Skull, or any other locked sequence.
+
+
+## 2026-10-12 — Hidden Eco-Kin wave and Nature ultimate-form request
+
+Status: **USER-REQUESTED CANON INTAKE / REGISTRY RECONCILIATION PENDING / NOT YET UE5.8 VERIFIED**.
+
+Machine-readable intake: [HIDDEN_ECOKIN_DESIGN_WAVE_2026-10-12.json](../03_EcoKin_Dex/Intake/HIDDEN_ECOKIN_DESIGN_WAVE_2026-10-12.json).
+
+The six working names are Nesqari, Uldevan, Oriveth, Kethrava, Velumi and Tazhir. They designate redesigned visual concepts, not assigned production species. The two giant-reptile references (6456/6450) are consolidated into one redesign direction to avoid duplicate identities. The external brute, occult, relic and game-avatar references inform broad moods only; their faces, outfits, equipment, brands and silhouettes are not production assets. Naming collisions, semantic overlap, species/form classification, biological anatomy, originality and provenance remain open.
+
+Generated gallery SHA-256: `1c333f4df445f68a545260ae1da8563639e3561dc59e7489060d49fce5487395`. Generated Nature artwork SHA-256: `7ab549f3e9b9bf84be5a0edf8b1e2533c8a718c3c24dc3344a2386e8eabec4aa`. Both were created with the built-in image tool and visually inspected in this session; binaries remain review artifacts outside Git history. The gallery is not six standalone roster images. Feet, six-limb rig landmarks, four-sail attachment, tail/membrane topology and projection boundaries need neutral turnarounds and model review.
+
+Nature retains her existing identity, Black botanical guardian appearance and Guardian of Life role. 'Holy Ultimate Form' is the user's requested form direction, not a new species or Essence. Leaf radiance is temporary VFX; it does not silently add anatomical wings, tenets, power multipliers or unlock milestones.
+
+Hidden encounter directions use caves, root chambers, cliff orchards, canopy groves and overgrown gardens without assigning region IDs, coordinates, routes, Data Layers or streaming cells. No environment painting places an encounter in the map. The 125-ID Permanent Dex and Forms Registry are unchanged.
+
+BUILD PR #51 returned 404 on the current connection. Its prior 87 native checks do not establish current branch health or Unreal execution. Before integration, separate Echo Cradle welfare deployment from the ordinary Kindling flow; a pod must neither grant nor be required for a bond.
