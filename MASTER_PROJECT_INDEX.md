@@ -261,3 +261,12 @@ Unreal execution remains **NOT YET VERIFIED**.
 - [Legacy Dex reconciliation](03_EcoKin_Dex/LEGACY_DEX_V2_RECONCILIATION_2026-09-20.md) — current nine Essences; twelve historical labels retained only for migration.
 - [Sanctuary care interruption acceptance scene](05_Levels/SANCTUARY_PARTNER_CARE_ACCEPTANCE_2026-10-11.md) — PROPOSAL, voluntary Partner Assist with care, UI/audio and recovery cases.
 - [Daily evidence and carry-forward](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-11.md) — current BUILD access blocker, repository/Unreal separation, Story/Cartography and next exact gate.
+
+
+## 2026-10-12 routed intake: console systems, Echo Cradle, and cave visual
+
+- [Console systems intake audit](09_Technical/CONSOLE_SYSTEMS_INTAKE_AUDIT_2026-10-12.md) records the corrected clock contract, generic C++17/UBSan evidence boundary, rejection/defer decisions for unsafe console snippets, research provenance, and the exact BUILD/UE5.8 promotion gate.
+- [A.E.G.I.S. / Eco-Device reconciliation](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md) now contains the proposal-only Echo Cradle field-deployment contract: voluntary/emergency welfare, server authority, idempotency, late-join/save recovery, release/defer outcomes, and no capture/storage/bond shortcut.
+- [Character & Eco-Kin Art Intake Manifest](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md) now records the mountain-cave visual study with checksums, anatomy/provenance/originality gates, and explicit no-name/no-ID/no-roster-completion status.
+- [Daily evidence record](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-12.md) separates repository evidence from inaccessible BUILD/runtime evidence and carries Story Continuity and Cartography status forward.
+- These records extend the existing workflow only. They do not change the 125-ID Permanent Dex, create a second canon/system, promote binary art, verify BUILD PR #51, or alter the authoritative 18-step production order.
