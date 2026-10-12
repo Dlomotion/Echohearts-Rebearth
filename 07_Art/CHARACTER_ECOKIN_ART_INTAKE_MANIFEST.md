@@ -138,3 +138,25 @@ The modern firearms/tactical gear must be reconciled against Echohearts technolo
 High-end cinematic presentation is a rendering target, not a license to destroy gameplay readability. Model sheets must include front/side/back, neutral pose, scale, material breakdown, expression/behavior sheet, locomotion notes, and VFX-safe zones before 3D production.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+### Mountain cave hidden Eco-Kin visual candidate — working label only (2026-10-12)
+
+**Status:** PROPOSAL / ART INTAKE — no name, species ID, Form, canon identity, or roster completion  
+**Source:** user-supplied `6394.jpg`; provenance/license beyond supplied project reference is **NOT YET VERIFIED**  
+**Source checksum:** SHA-256 `479dbb38d0c962d46f0288150d9043c64d4aac773d4fdfbff5040697b07e265b`  
+**Source technical record:** JPEG, 1507×1536, RGB; one rounded fuzzy pink/cyan subject in a blossom-lit scene.
+
+**Generated visual-study candidate:** PNG, 1241×1268, RGB; SHA-256 `d17abf7ea87a52c8448a6fb0ec963dd8810c802f23e2ad61f7af67a33a999959`. Created 2026-10-12 with the project image-generation tool from the supplied reference and an Echohearts-specific redesign brief. It depicts one full-body pale lavender/cyan fuzzy cave-dweller with asymmetric violet/cyan eyes, sensory antennae, crystal-leaf frills, bioluminescent markings, and a vibrant underground crystal/root habitat.
+
+- **Identity:** intentionally unassigned. Do not infer a Permanent Dex slot or historical-name match from appearance.
+- **Body plan/anatomy:** small quadruped/low biped ambiguity remains; four planted feet are visible, but locomotion, joint landmarks, mouth mechanics, scale, back view, and neutral turnaround remain unresolved.
+- **Silhouette/material:** rounded fur mass, paired antennae, petal/crystal cranial ring, large eye mask, and cool bioluminescent seams. Avoid generic “cute mascot” convergence during the originality pass.
+- **Essence/sub-affinity:** none assigned. Color and cave habitat do not create an Essence; review only against the canonical nine.
+- **Attribute hooks:** no numeric values assigned. Future behavior may be discussed only through Vibrance, Density, Harmony, and Purity.
+- **Ecology proposal:** hidden cave pollinator/sensor that reads root-water vibration and indicates habitat stress; it is a partner/ecosystem role, never loot or a trap reward.
+- **Rig needs:** antenna secondary motion, fur-safe facial deformation, frill overlap controls, four-foot contact study, blink/eye asymmetry support, and low-light emissive variants.
+- **Artifact/error review:** coherent single subject and readable feet; left/right sensory frills and antenna tips need model-sheet consistency; environmental glow may obscure exact fur/material boundaries.
+- **Accessibility/readability:** future gameplay cues must pair glow color with silhouette, motion, text/audio, and haptics.
+- **Destination:** retain as a review image outside Git binary history until provenance, naming, canon, anatomy, and originality gates pass. If promoted later, create a neutral-background standalone roster sheet and a separate environment keyframe.
+- **QA disposition:** this environment concept does **not** complete a locked roster image entry. It does not alter the 125-ID Permanent Dex or Forms Registry, and it does not satisfy the standalone-image requirement for Plainsman, Ash-Brawler, Twilight-Tricker, Reaper-Skull, or any other locked sequence.
