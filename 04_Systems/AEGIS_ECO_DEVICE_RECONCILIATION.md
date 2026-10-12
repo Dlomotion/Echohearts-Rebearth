@@ -189,3 +189,38 @@ Travel authority should follow the approved path:
 **NOT YET VERIFIED** until connected repository classes, Blueprints, data assets, World Partition travel path and UI are inspected, built and tested.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## Echo Cradle field deployment contract (proposal intake — 2026-10-12)
+
+**Status:** PROPOSAL / REVIEW-READY — NOT CANON PROMOTION — NOT UE5.8 VERIFIED  
+**Placement:** existing A.E.G.I.S. recovery/relocation vocabulary; no new capture, storage, ownership, or bond system.
+
+The requested “launch pod after trap activation” is retained only as an **A.E.G.I.S. Echo Cradle** field-deployment proposal. A nonlethal welfare field may signal that an Eco-Kin or recoverable vessel needs assistance; it never grants ownership, creates a bond, lowers a capture threshold, or authorizes confinement. A.E.G.I.S. may deploy a physical recovery shell near a server-resolved safe subject. The shell opens on arrival, provides shelter and stabilization, and remains escapable. A conscious Eco-Kin chooses whether to approach. Emergency aid for an incapacitated subject creates a care duty, not a bond.
+
+### Canon-safe outcomes
+
+- **Kindle → Bond:** only after the established Observe → Protect → Calm → Kindle sequence and affirmative behavior.
+- **Treat → Release:** stabilize the subject and reopen the shell at the safe site.
+- **Relocate → Release:** transport only when the original site is immediately unsafe and release at an approved habitat.
+- **Defer:** withdraw when consent, welfare, route, ownership, or environmental checks are unresolved.
+- Dormant vessels, corrupted husks, Bot shells, failed lab containers, non-sentient shard constructs, duplicate fragments, and explicitly released/rebirth-safe material remain governed by the separate Restoration Crucible proposal. A living bonded Eco-Kin is never routine reclamation material.
+
+### Proposed state contract
+
+`Stowed → Authorized → InFlight → DeployedOpen → VoluntaryEntry | EmergencyCare → Treatment | Relocation → OpenRelease → Recovered`
+
+Any failed authorization, unsafe landing, lost subject, owner/connection change, timeout, or travel interruption enters `CancelledSafe` or `RecoveryRequired`; it must not silently advance the bond or inventory state. `OccupiedForCare` is permissible only after voluntary entry or a logged emergency-welfare decision. The shell is not an energy capsule and its occupant is never serialized as a generic inventory item.
+
+### Authority, replication, and recovery requirements
+
+1. The client requests intent only. The server resolves the subject from authenticated connection state and a current server trace; it validates range, line of sight, species welfare rules, landing clearance, collision, current state, permissions, cooldown, and cost reservation.
+2. Mutable requests carry protocol version, monotonically increasing sequence, and idempotency key. Replays return the prior result without charging or deploying twice.
+3. Ordinary gameplay rejection occurs in server implementation/validator logic. RPC `_Validate` failure is reserved for malformed or hostile payloads because validation failure can disconnect the invoking client.
+4. Authoritative Cradle state persists on the server and replicates state/deltas. A multicast visual may accompany deployment but is never the only source of truth; late joiners and relevancy changes reconstruct the current state.
+5. Destruction, disconnect, level travel, save/load, packet loss, duplicate request, subject refusal, emergency entry, release, and recovery must be idempotent. Costs are reserved, committed once after deployment authorization, or rolled back.
+6. Accessibility requires redundant audio, visual, text, and haptic cues for authorization, arrival, refusal, care need, safe release, and recovery. The interaction must not depend on color, pulse timing, or audio alone.
+
+### Evidence gate
+
+Repository documentation can verify this contract and terminology only. Promotion requires the real BUILD repository, the actual module/API macro and Build.cs dependencies, UHT/UBT success, server/client functional tests, late-join and save/reload tests, packet-loss/replay tests, collision sweeps, Insights bandwidth/performance evidence, accessibility review, and retained Windows UE5.8 logs. Until then it remains **NOT YET VERIFIED** and must not displace the authoritative production order; Heart Fruit + nonlethal trap/release remains step 5 after foundation, Issue #10, the 4–6 Eco-Kin slice, and Growth Rite.
