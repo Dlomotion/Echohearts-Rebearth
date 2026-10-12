@@ -108,3 +108,22 @@ Do not fabricate Unreal runtime evidence. A generated image or Markdown entry do
 ## Next production gate
 
 The next useful implementation pass is to reconcile EK-065 through EK-097 against the current Permanent Dex/historical pool and output a collision report with: candidate name, existing-match result, permanent-ID decision, body plan, approved Essence mapping, Vibrance/Density/Harmony/Purity schema location, habitat, role, Anima-Link relevance, art-source status, and required runtime asset/test evidence.
+
+
+## 2026-10-12 continuation
+
+Continue roster/ecosystem reconciliation in `03_EcoKin_Dex/ECOKIN_ROSTER_ECOSYSTEM_SYNC_2026-10-12.md`.
+
+Owner-name locks from the continuation wave:
+- Gorilla
+- Eyomitor
+- Nesqari
+- Uldevan
+- Oriveth
+- Kethrava
+- Velumi
+- Tazhir
+
+Do not silently rename these identities. `Gorumbra` is a retired mistaken generated label and must not override the owner-locked display name **Gorilla**.
+
+Recent generated names such as Solcub, Crownflare, Aurimane, Pearlnuzzle, Budlume, Shardrax, Noctivyre, Verdantor, Jesterov, Ragwail, Pearluddle, Tillusk, Bubblit, Cindersly, Mossbruin, Roselune, Luminemone, Brisquill, Prismadrift, and Foamora remain roster-intake proposals until the normal collision/originality/ecology/provenance gates pass.
