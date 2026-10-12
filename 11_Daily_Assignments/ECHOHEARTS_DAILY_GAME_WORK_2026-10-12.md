@@ -48,7 +48,7 @@ The audit also rejects or defers unsafe merchant, crafting, collision, HUD, debu
 - Files changed/created today: A.E.G.I.S. reconciliation, art intake manifest, console systems audit, this daily record, and master-index routing.
 - Git health: remote branch writes succeeded; exact final read-back is required after the last commit.
 - LFS: not re-verified today. The generated image was not committed to Git.
-- CI: no UE or native CI result is claimed. PR #60 is documentation/review work.
+- CI: exact-head lookup at `437e9e11396e0ad004f91d0374c969ee4f203074` returned zero pull-request workflow runs and zero commit status contexts. This is an absence of CI evidence, not a pass. PR #60 is documentation/review work.
 
 ### BUILD / implementation repository
 
