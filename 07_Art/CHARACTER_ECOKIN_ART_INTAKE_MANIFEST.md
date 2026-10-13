@@ -84,7 +84,7 @@ Body-plan class: **Humanoid-Kin candidate**.
 
 Core visual identity to preserve across forms: dark-skinned humanoid silhouette, flame-like locs/hair, athletic build, flowing orange-gold cloth, skyborne posture, solar/storm energy language. Form differences should come from weather state, armor density, VFX and role, not a different face/body identity.
 
-Element QA must use only the locked 12-element system. **Radiant** can be the core anchor, with Solar/Aero/Volt/Magma combinations reviewed per form. Do not introduce Pyro/Light/Kinetic as new core elements.
+Essence QA must use only the canonical nine: **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. Radiant, Solar, Volt and Magma are historical visual descriptors here, not additional or automatically assigned Essences. Review sky/solar/storm cues against Aero/Pyre/Voltic/Aura without promoting any combination or Form from this intake alone.
 
 **Artifact patch:** remove the lower-right black silhouette/reference figure from final production cards.
 
@@ -98,7 +98,7 @@ Body-plan class: **Spirit-Kin / anomaly entity candidate**.
 
 Continuity lock: retain the single central eye, flowing tendril-body silhouette and nonhuman floating/ground-drifting movement language. Do not convert Psylopath into a humanoid sorcerer.
 
-Element QA: use **Spirit / Chaos** as the likely core framework, with Blight/Data Virus corruption expressed as a state rather than a new “Psychic/Void/Dark” core element set.
+Essence QA: **Spirit / Chaos** is retained as historical source vocabulary only. Psylopath's Essence is unassigned pending review against the canonical nine; corruption is a state, not an extra Essence. Do not silently promote Psychic/Void/Dark or any replacement affinity.
 
 **Artifact patch:** remove the small human silhouette/reference figure from the lower-right card area. Review skull-like objects so they read as spectral projections/VFX rather than collectible remains or gore props.
 
@@ -177,3 +177,10 @@ Nature retains her existing identity, Black botanical guardian appearance and Gu
 Hidden encounter directions use caves, root chambers, cliff orchards, canopy groves and overgrown gardens without assigning region IDs, coordinates, routes, Data Layers or streaming cells. No environment painting places an encounter in the map. The 125-ID Permanent Dex and Forms Registry are unchanged.
 
 BUILD PR #51 returned 404 on the current connection. Its prior 87 native checks do not establish current branch health or Unreal execution. Before integration, separate Echo Cradle welfare deployment from the ordinary Kindling flow; a pod must neither grant nor be required for a bond.
+
+
+## 2026-10-13 authority correction
+
+Corrected the September 20 Radiant Typhoon intake's retired twelve-element claim and Psylopath's Spirit/Chaos assignment language against current canon. Historical visual descriptors are preserved for provenance; all candidate identities, Essences and Forms still require review. This is terminology/authority correction, not art approval or runtime verification.
+
+Hidden Eco-Kin wave linkage: [Velumi cave restoration encounter proposal](../05_Levels/HIDDEN_VELUMI_CAVE_ENCOUNTER_PROPOSAL_2026-10-13.md). The encounter uses the existing `hidden_velumi` intake key; it assigns no production ID, coordinates or map asset. The original lavender/cyan cave study and the later mint/coral Velumi redesign are distinct visual passes from `6394.jpg`; neither is a locked model sheet. Choose an approved pass through the existing art/registry review, rather than blending contradictory palettes/anatomy into a third identity.
