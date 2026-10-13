@@ -200,7 +200,7 @@ The requested “launch pod after trap activation” is retained only as an **A.
 
 ### Canon-safe outcomes
 
-- **Kindle → Bond:** only after the established Observe → Protect → Calm → Kindle sequence and affirmative behavior.
+- **Ordinary Kindling is independent of Echo Cradle:** Observe → Protect → Calm → Kindle → Bond / Release / Defer remains available under its existing eligibility rules whether the Cradle is absent, stowed, deployed, occupied for care, or recovered. No care/deployment state grants or gates a bond. Completing treatment does not automatically offer or finalize Kindling.
 - **Treat → Release:** stabilize the subject and reopen the shell at the safe site.
 - **Relocate → Release:** transport only when the original site is immediately unsafe and release at an approved habitat.
 - **Defer:** withdraw when consent, welfare, route, ownership, or environmental checks are unresolved.
@@ -224,3 +224,16 @@ Any failed authorization, unsafe landing, lost subject, owner/connection change,
 ### Evidence gate
 
 Repository documentation can verify this contract and terminology only. Promotion requires the real BUILD repository, the actual module/API macro and Build.cs dependencies, UHT/UBT success, server/client functional tests, late-join and save/reload tests, packet-loss/replay tests, collision sweeps, Insights bandwidth/performance evidence, accessibility review, and retained Windows UE5.8 logs. Until then it remains **NOT YET VERIFIED** and must not displace the authoritative production order; Heart Fruit + nonlethal trap/release remains step 5 after foundation, Issue #10, the 4–6 Eco-Kin slice, and Growth Rite.
+
+
+## 2026-10-13 correction: independent care and relationship state
+
+The earlier outcome list placed Kindle → Bond alongside Cradle operations. This was ambiguous. Care/deployment and relationship progression are independent domains:
+
+- Cradle state changes may emit care telemetry, relocation and release events only. They may not write bond strength, grant roster membership, count a tame toward the Tamer of Beasts license, or complete a Kindling lesson.
+- Ordinary Kindling evaluates the existing approved identity, restriction rules, observation/protection/calm evidence and affirmative behavior. It must not require owning, deploying, entering or recovering a Cradle.
+- An incapacitated subject cannot supply new affirmative behavior. Emergency treatment never substitutes for it. Existing bonds are preserved during treatment; no new bond is created.
+- Refusal, timeout, cancellation, despawn, travel, reconnect and save reload preserve relationship state unless a separately authorized story/relationship action changes it.
+- Corruption/Industry-Control resolutions cannot bypass access restrictions on pure/good Eco-Kin.
+- Care and relationship records use separate versioned event types and idempotency domains; one transaction cannot accidentally replay the other.
+- The local policy oracle in [Echo Cradle/Kindling separation QA](../09_Technical/ECHO_CRADLE_KINDLING_SEPARATION_QA_2026-10-13.md) is documentation-contract evidence only. Actual BUILD policy, RPC, save and Automation behavior remains NOT YET VERIFIED.
