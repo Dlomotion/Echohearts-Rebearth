@@ -270,3 +270,11 @@ Unreal execution remains **NOT YET VERIFIED**.
 - [Character & Eco-Kin Art Intake Manifest](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md) now records the mountain-cave visual study with checksums, anatomy/provenance/originality gates, and explicit no-name/no-ID/no-roster-completion status.
 - [Daily evidence record](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-12.md) separates repository evidence from inaccessible BUILD/runtime evidence and carries Story Continuity and Cartography status forward.
 - These records extend the existing workflow only. They do not change the 125-ID Permanent Dex, create a second canon/system, promote binary art, verify BUILD PR #51, or alter the authoritative 18-step production order.
+
+
+## 2026-10-13 care authority and hidden cave scene
+- [Care/Kindling separation QA](09_Technical/ECHO_CRADLE_KINDLING_SEPARATION_QA_2026-10-13.md): corrected independent authority; original local Python oracle and scoped run; pending BUILD/Unreal acceptance.
+- [Velumi hidden-cave restoration proposal](05_Levels/HIDDEN_VELUMI_CAVE_ENCOUNTER_PROPOSAL_2026-10-13.md): existing hidden-wave intake key; story/environment/UI/SFX/FX/care/recovery contracts; no production ID or map placement.
+- [A.E.G.I.S. reconciliation](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md): Cradle care never grants or gates ordinary Kindling.
+- [Art intake](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md): corrected nine-Essence authority and alternative cave visual-pass continuity.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-13.md): repository/build, continuity, cartography, research and exact next action.
