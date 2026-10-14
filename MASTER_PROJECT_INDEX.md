@@ -278,3 +278,10 @@ Unreal execution remains **NOT YET VERIFIED**.
 - [A.E.G.I.S. reconciliation](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md): Cradle care never grants or gates ordinary Kindling.
 - [Art intake](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md): corrected nine-Essence authority and alternative cave visual-pass continuity.
 - [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-13.md): repository/build, continuity, cartography, research and exact next action.
+
+
+## 2026-10-14 AI feature correction and Nanonite intake
+- [AI route audit](09_Technical/AI_FEATURE_ROUTE_AUDIT_2026-10-14.md): existing user-directed AI workspace, finite-score/path overflow correction, regression/NDEBUG evidence and draft feature PR #2; not UE runtime.
+- [Nanonite disputed-route scene](01_Story/NANONITE_DISPUTED_ROUTE_SCENE_2026-10-14.md): continuity review, synthetic agency, environmental evidence and authored safe fallback; no map/identity/ending promotion.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-14.md): BUILD/EcoKin-patch access gates, CI evidence, story/cartography and exact next action.
+The AI feature repository supports this canon hierarchy and the BUILD runtime target. It is not an additional source of canon authority or a replacement implementation pipeline.
