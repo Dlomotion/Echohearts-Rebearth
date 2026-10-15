@@ -285,3 +285,10 @@ Unreal execution remains **NOT YET VERIFIED**.
 - [Nanonite disputed-route scene](01_Story/NANONITE_DISPUTED_ROUTE_SCENE_2026-10-14.md): continuity review, synthetic agency, environmental evidence and authored safe fallback; no map/identity/ending promotion.
 - [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-14.md): BUILD/EcoKin-patch access gates, CI evidence, story/cartography and exact next action.
 The AI feature repository supports this canon hierarchy and the BUILD runtime target. It is not an additional source of canon authority or a replacement implementation pipeline.
+
+
+## 2026-10-15 shader diagnostics correction and cave presentation
+- [Shader diagnostics intake](09_Technical/SHADER_DIAGNOSTICS_INTAKE_2026-10-15.md): corrected NaN-clock/expected-identity validation, exact 40-method combined local test scope, artifact hashes and pending real UE producer.
+- [Velumi cave presentation acceptance](05_Levels/VELUMI_CAVE_PRESENTATION_ACCEPTANCE_2026-10-15.md): original visual/audio beats, accessibility, controlled cold/warm captures and recovery requirements; proposal only.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-15.md): repository/build, continuity/cartography, PR #20/material watch and exact next gate.
+Synthetic shader telemetry cannot authorize launch, rewards, Kindling or gameplay verification. BUILD remains the executable integration target.
