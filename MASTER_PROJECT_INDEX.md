@@ -292,3 +292,10 @@ The AI feature repository supports this canon hierarchy and the BUILD runtime ta
 - [Velumi cave presentation acceptance](05_Levels/VELUMI_CAVE_PRESENTATION_ACCEPTANCE_2026-10-15.md): original visual/audio beats, accessibility, controlled cold/warm captures and recovery requirements; proposal only.
 - [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-15.md): repository/build, continuity/cartography, PR #20/material watch and exact next gate.
 Synthetic shader telemetry cannot authorize launch, rewards, Kindling or gameplay verification. BUILD remains the executable integration target.
+
+
+## 2026-10-16 route identity and protected-corridor response
+- [Route identity/intent audit](09_Technical/AI_ROUTE_IDENTITY_INTENT_AUDIT_2026-10-16.md): current AI feature PR #2 correction; scoped local/hosted evidence; pending real-runtime authority and input bounds.
+- [Nanonite disputed-route scene](01_Story/NANONITE_DISPUTED_ROUTE_SCENE_2026-10-14.md): protected-corridor changes, ambiguous record rejection and authored wait/return/defer; existing scene proposal only.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-16.md): repository/build, Story Continuity, Cartography, PR #20/material watch and exact next gate.
+No route proposal, synthetic record or reference CI result grants gameplay permissions or runtime verification.
