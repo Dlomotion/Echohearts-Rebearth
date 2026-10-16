@@ -50,3 +50,27 @@ Acceptance gates: stale route, disconnected client, unloaded cell, protected hab
 Cross-links: [AI governance](../04_Systems/AI_NARRATIVE_DIRECTOR_GOVERNANCE.md), [A.E.G.I.S. reconciliation](../04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md), [route engineering audit](../09_Technical/AI_FEATURE_ROUTE_AUDIT_2026-10-14.md).
 
 Next creation action: reconcile Nanonite's era/role and synthetic citizens' names/origins against existing canon, then choose one approved archive POI and authored fallback route. Runtime implementation follows foundation → Issue #10 and the authoritative production sequence.
+
+
+## 2026-10-16 authored beat: the corridor changes while guidance is open
+
+**PROPOSAL expansion of this same scene, not a new quest or location.**
+
+After the player compares the disputed markers, an Eco-Kin family begins using the previously clear recovery corridor. The physical change is visible: a partner pauses, the water-side plants settle, and an adult guides a smaller silhouette toward shelter. D.A.H.L.I.A. withdraws the old route suggestion: “This passage is needed now. We can wait or recheck another way.”
+
+The archive voice offers the same segment label for two different passages. The player can inspect the discrepancy, request a fresh survey or Defer. The lesson is ecological attention and evidence, not following a faster arbitrary marker.
+
+| Condition | Player-facing authored behavior | Technical acceptance requirement |
+|---|---|---|
+| Corridor becomes protected | Quiet pause marker plus text; safe stopping area | Invalidate old route version; do not continue auto-movement |
+| Two passages share an ID | “Route record is ambiguous” | Reject duplicate SegmentIDs; never choose a route from ambiguous output |
+| Unsupported route request | Offer existing approved intents | Reject malformed intent; no default shortcut or permission change |
+| New safe route exists | Show revalidated alternative after observation | Resolve server-owned IDs/context; no client costs/ownership claims |
+| No safe route exists | Wait, return safely, or Defer | No teleport, forced bond, habitat trespass or invented route |
+| Reconnect/reload | Restore objective evidence, then reassess passage | Stale route permissions never restored from saved UI |
+
+Use a distinct paused-path glyph, low-volume water interruption cue and text/haptic option; no color-only or precision-rhythm requirement. Reduced-motion mode keeps family movement legible through a static protected-habitat indicator. The family is an encounter-role placeholder until an existing approved Eco-Kin identity is bound; do not invent a species/ID or completion art entry.
+
+The player's restraint may be remembered by existing authored consequence/care systems. It does not add Training XP from waiting, increment the Tamer of Beasts license, create a bond, or replace Circle Balance. Anima-Link partner distress should settle only according to existing care state, not by clicking a route prompt.
+
+No segment ID, coordinates, map cell, new chronology or boss phase is allocated here. Existing approved geography and registry remain prerequisites. Actual protected-corridor invalidation, movement stopping, save/reconnect and multiplayer behavior remain NOT YET UE5.8 VERIFIED.
