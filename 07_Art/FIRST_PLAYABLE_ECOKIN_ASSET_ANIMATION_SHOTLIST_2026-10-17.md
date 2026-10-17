@@ -2,7 +2,7 @@
 **Status:** ART PRODUCTION REQUIREMENTS ONLY (not delivered assets), supplement to existing Issue #10 and PR #71 workstream M15–M17.
 
 ## Preserve art/Dex provenance
-Only approved species already listed in the **125-ID Permanent Dex** may be used as the first wild actor. Select one actual identity after inspecting art manifest, anatomy and rig; no generated placeholder may become the production species. First player character uses the approved current profession **Tamer of Beasts** and **hip A.E.G.I.S./Eco-Device** (not a replacement bracer). Every file needs `SourceID`, `EcoKinID` or actor ID, author/permission, silhouette comparison, approval state, exported asset version, skeleton ID and LFS checksum.
+Only approved species already listed in the **125-ID Permanent Dex** may be used as the first wild actor. Select one actual identity after inspecting art manifest, anatomy and rig; no generated placeholder may become the production species. First player character preserves established **Frequency Tamer / Core-Binder** identity until draft PR #70's **Tamer of Beasts** proposal receives authoritative approval. Review proposed hip A.E.G.I.S./Eco-Device visuals against the existing bracer/device canon before replacing any approved asset. Every file needs `SourceID`, `EcoKinID` or actor ID, author/permission, silhouette comparison, approval state, exported asset version, skeleton ID and LFS checksum.
 
 ## Minimum first playable deliverables
 | Asset card | Type and acceptance | Dependency |
