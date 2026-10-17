@@ -6,7 +6,7 @@
 ## Ground truth / prerequisite stop line
 - Existing Corruption stance/attribute corrections, 18 implemented modules and 20 missing modules are **user-reported**. Current repository access cannot independently read the patch, issue tree, or Windows compile evidence.
 - The **BUILD** repository is sole executable UE5.8 authority. Do not add `Source/Echohearts` to this canon/contracts repository or publish unverified `.uasset` substitutes.
-- Current staged canon supersession on PR #70: **Tamer of Beasts**, hip-mounted **A.E.G.I.S./Eco-Device**, **eight bonded links/one active campaign partner**. D.A.H.L.I.A. remains a companion advisory subsystem. Do not silently promote older Core-Binder/bracer or three-active language while integrating the newer staged rules.
+- Current **draft PR #70 proposes** the front-facing **Tamer of Beasts** title, hip-mounted **A.E.G.I.S./Eco-Device**, and **eight bonded links/one active campaign partner**. These changes are **not merged canon**. Preserve established **Frequency Tamer / Core-Binder** language and defer device/roster conflicts to the source-of-truth approval workflow; D.A.H.L.I.A. remains advisory. Do not hardcode either conflicting roster contract until resolved.
 - Public attribute vector is **Vibrance, Density, Harmony, Purity**. Nine locked Essences only. Eco-Kin are autonomous.
 - The Binding presentation is the **Kindling** event (Observe → Protect → Calm → Kindle → Bond/Release/Defer), not a new capture system. A pulse is an exchange, not a player-enforced skill check.
 
