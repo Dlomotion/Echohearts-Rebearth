@@ -2,7 +2,7 @@
 **Status:** PROPOSED CONTENT EXTENSION / needs story/chapter owner approval. Complements the existing First Kindling / Field Academy / Whispering Glade story. **Not** an alternate opening.
 
 ## Narrative principle
-This lesson proves the planet responds to care *without guaranteeing an Eco-Kin will agree to accompany a player*. A Tamer of Beasts arrives after local storm damage has stranded a habitat path. A.E.G.I.S. recognizes evidence; D.A.H.L.I.A. offers a cautious explanation. The mentor is an **existing approved character**, to be selected from the authorized Field Academy cast (do not invent staff names or overwrite their arcs). The player's decision changes the local path visibly.
+This lesson proves the planet responds to care *without guaranteeing an Eco-Kin will agree to accompany a player*. A Frequency Tamer / Core-Binder arrives after local storm damage has stranded a habitat path. A.E.G.I.S. recognizes evidence; D.A.H.L.I.A. offers a cautious explanation. The mentor is an **existing approved character**, to be selected from the authorized Field Academy cast (do not invent staff names or overwrite their arcs). The player's decision changes the local path visibly.
 
 ### Events
 | Beat | Player action / ecological context | Evidence to persist |
