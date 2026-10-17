@@ -269,3 +269,293 @@ state transitions, reason codes, authored tuning, save/network rules and a retai
 acceptance run. None can replace the 125-ID identity authority or create a second bond,
 economy, world, save or narrative owner. Missing measurements remain unknown, not zero.
 New classes are justified only after current BUILD ownership is inspected.
+
+## Detailed delivery expansion — 2026-10-17 follow-up
+
+This section turns the workstreams above into integration-ready acceptance briefs.
+It extends this document, not a new Master Bible. The unnamed full audit still has
+not been supplied, so these are the same twenty derived workstreams, not a verified
+inventory of the reported missing twenty systems. Existing BUILD class names, asset
+paths and database columns must be recovered before choosing concrete runtime APIs.
+The reported Corruption fixes are not independently confirmed by these references.
+
+### Shared records and transaction boundaries
+
+Reuse the existing ID/event/save owners. Record names below describe required data,
+not a newly approved global schema. A mutating intent needs authenticated requester,
+subject identity, expected revision, session/event key and authored action. A result
+needs accepted/rejected/pending, reason, authoritative revision and actual changed
+state. Identifiers cannot be species display names or array positions. No client
+boolean such as `consent=true` is an authority source.
+
+Freshness belongs to the owner: observation timestamps, habitat/individual revision
+and care status are re-read immediately before a relationship/form/placement commit.
+A retry returns the original transaction result; changed payload under the same key
+is rejected. Persist receipts with the mutation. In-memory sets in a reference test
+are not crash recovery, database isolation or replicated state.
+
+### M01 — Input context and interaction delivery
+
+- Required existing data: input context, local player, focused interactable, accessible
+  action labels and device preference. Proposed context flow is Explore → Interact →
+  Ceremony or UI → previous safe context. Never restore a held Attack as Confirm.
+- Input arbitration clears queued combat actions on menu/ceremony entry, preserves
+  held-movement rules explicitly, and restores focus after respawn/travel. A disconnected
+  controller offers readable reconnect controls; it does not freeze a network server.
+- Build assets: actual Input Actions/Mapping Contexts, focus widget, camera settings and
+  platform prompt table. Final mappings are chosen after current character inspection.
+- Acceptance M01-A: open a menu while holding attack, switch controller, close menu;
+  no attack or invitation fires until a new intended input. Touch and keyboard repeat
+  cannot double-submit a relationship transaction.
+
+### M02 — Wild population, reservation and spawn delivery
+
+- Owner data: approved species table, individual identity, anchor/cell identity,
+  population capacity, seed/revision, habitat conditions and spawn visibility policy.
+- Lifecycle: candidate → reserved → geometry/nav recheck → active → travelling/resting
+  or removed-by-authored-event. Reserve capacity before actor creation; release a failed
+  reservation once. A streamed-out resident is not a vacant population slot by default.
+- Commit is transactional: a current host proposal resolves one individual and actor;
+  failed allocation rolls back reservation, and reconnect cannot generate a second body.
+- Acceptance M02-A: two concurrent proposals for the final slot yield at most one
+  active individual. M02-B: an individual already bonded/recovering is never selected
+  again as a new wild specimen. Actor creation is still pending BUILD integration.
+
+### M03 — Tracking signs and discovery delivery
+
+- Each clue references source individual/encounter, known area, evidence kind, observed
+  time and expiry. It must not reveal a protected nest or hidden individual through walls.
+- Trail sequence: noticed → examined → contextualized → stale/resolved. Rain can reduce
+  confidence; it must not erase an essential story route with no alternative.
+- A scan reveals only approved observations; first-seen documentation and repeat viewing
+  are separate events. Archive notes remain when the subject leaves.
+- Acceptance M03-A: unload the last clue's cell during tracking; show stale/unknown and
+  the authored fallback rather than a permanent unreachable quest marker.
+
+### M04 — Wild approach and ecological motivation delivery
+
+- Species/individual profile defines comfort distance, social group, shelter preferences,
+  warning behavior, fear recovery and valid activities. Numeric distances are authored.
+- States: forage/rest → notice → assess → warn/approach/withdraw → safe activity. Threat,
+  injury or young nearby may change decisions without becoming permission to capture.
+- Navigation failure chooses wait/seek safe route/defer; do not teleport or repeatedly
+  repath every frame. Resetting a behavior tree cannot reset memory of refusal or harm.
+- Acceptance M04-A: sprint at a wary individual, back away, then re-enter the cell;
+  behavior remembers its condition and a clear escape route remains available.
+
+### M05 — Kindling presentation and relationship finalization delivery
+
+- Observe/protect/calm are evidence-backed milestones, not compulsory timer minigames.
+  Protection can recognize a safe habitat or an actual helpful action; players must
+  never create a hazard to satisfy the lesson.
+- UI phases mirror the existing ceremony reference. A voluntary approach/invitation
+  offers Bond, Release and Defer outcomes; refusal or threat returns to safe separation.
+- Two-stage finalization: host checks current evidence/consent → existing relationship
+  owner writes one durable relationship result → presentation acknowledges that result.
+  `bond_ready` from a test is not a bond record. Refusal wins until actual commit.
+- Acceptance M05-A: withdraw consent between invitation and commit; no bond or cost.
+  M05-B: save on each phase, restore with a changed subject revision, and re-evaluate.
+  M05-C: Release/Defer can satisfy the safe-handling lesson without roster membership.
+
+### M06 — Enemy decision and combat delivery
+
+- Existing combat owner supplies visible target memory, distance/LOS, nav result,
+  permitted actions, cooldowns, objective and injury/strain. Validate eligibility before
+  scoring. Authored utility curves choose among legal actions; deterministic ID order
+  resolves equal reference scores, not input order.
+- Action lifecycle: decision → telegraph → execution window → recovery → replan. Cancellation
+  must remove pending hit notifies. Animation-notify replay cannot cause duplicate damage.
+- Personality differs: wildlife seeks safety, hostile machines protect a directive,
+  human opponents may disengage or accept surrender. No private input prediction.
+- Acceptance M06-A: highest scoring attack behind blocked LOS is not chosen. M06-B:
+  route unload, cooldown change or protected ceremony cancels/replans before execution.
+  The offline action selector returns intent only; it performs no movement or attack.
+
+### M07 — Boss objective and phase delivery
+
+- Reuse existing boss/story identity; define phase entry, telegraph duration, hazard
+  geometry, safe positions, objective, exit and abort route in authored encounter data.
+- Reference scaffold: dormant → warning → response → recovery → resolved; unsafe context
+  or explicit abort → aborted. No skipping telegraph or unresolved objective. Real bosses
+  extend existing phase architecture rather than inherit a universal four-phase fight.
+- Example encounter grammar: protect evacuation corridor; identify hazard source; expose
+  a safe stabilization window; restore a conduit; allow withdrawal. Defeat is not erasure.
+- Acceptance M07-A: disconnect during transition, rejoin after checkpoint; phase and
+  safe exit reconstruct, first-clear receipt cannot replay. M07-B: support/evacuation
+  contributions count where the approved raid contract allows; damage alone is insufficient.
+
+### M08 — Shimmer eligibility and ascension delivery
+
+- Resolve an approved base-ID/form pair and its species-authored requirement set. Do
+  not infer a universal Purity score, storm trigger, rarity percentage or new Dex ID.
+- States: unavailable → eligibility observed → invited → voluntary rite → committed →
+  recovery. A missing ecology/relationship/story/care requirement blocks invitation.
+  Refusal/healing overrides readiness; current consent and gates are rechecked at commit.
+- On interrupted rite, release reserved catalyst by transaction policy; preserve prior
+  form/history and avoid repeat unlocks. A save records base identity plus approved form.
+- Acceptance M08-A: remove each authored requirement independently; invitation fails.
+  M08-B: invalid base/form pair and lost consent cannot be turned into ascension by UI.
+  Blessed Forms retain separate existing form-class eligibility; Shimmer is not a synonym.
+
+### M09 — Strain event and recovery delivery
+
+- Extend the existing Anima-Link/Spirit Load owner. Attribute a strain event to subject,
+  source event, amount, revision and context; treat player/device/partner costs separately.
+- Host checks budget before a risky voluntary action; capacity failure leaves state
+  unchanged. Author care/rest recovery; reject recovery below zero rather than hide a
+  duplicate event with clamping. Persistent receipts handle retries in actual runtime.
+- An event buffer reaching capacity must checkpoint/rotate under durable owner policy,
+  never silently forget replay protection. Reference history exhaustion rejects safely.
+- Acceptance M09-A: duplicate hit/exposure ID does not add strain twice; stale events
+  do not overwrite recovery. M09-B: Recall adds zero strain, gives no charge refund,
+  and cannot manufacture a new permanent power state from exhaustion.
+
+### M10 — Restoration plot and volunteer delivery
+
+- Existing plot identity links approved crop, soil/water condition, stage, time cursor,
+  revision and inventory transaction. Farm tasks accept willing, healthy volunteers;
+  refusal leaves the task available for the player or an appropriate service.
+- States: prepared → planted → growing → ready → harvest reservation → inventory commit
+  → fallow/replant. Offline progress follows approved cap and authoritative clock.
+  Dry/hazard intervals advance the time cursor without banking future growth.
+- Reference `harvest_pending` is only a proposal reservation. Runtime inventory and
+  plot transition must commit atomically; failed capacity check leaves the crop ready.
+- Acceptance M10-A: replay harvest, travel during commit and inventory-full failure;
+  no duplicate item and no vanished ready crop. M10-B: clock rollback rejected; time
+  beyond an offline cap cannot be repeatedly claimed by reopening the same save.
+
+### M11 — D.A.H.L.I.A. advice delivery
+
+- Read-only adviser over known observations, care/hazard flags and mission hints. Each
+  callout includes evidence age, confidence/unknown state and authored text key.
+- Priority: immediate welfare safety → unavailable/stale reading → respect refusal →
+  safe-approach alternative → ordinary observation. An emergency prompt can offer care
+  without claiming permission for a bond. Remote generation is optional presentation,
+  never an authoritative decision or prerequisite for offline play.
+- Subscribe to changed reasons; cooldown/batch repeated advice and allow mute/history.
+  Unknown data must not produce fabricated species identities or false consent.
+- Acceptance M11-A: stale scan and lost connection show authored fallback; fresh
+  refusal is never answered with an instruction to override it.
+
+### M12 — Regional weather delivery
+
+- Existing world/time owner supplies schedule/seed, epoch, phase durations and revision.
+  One host snapshot feeds ecology, travel, farm and presentation. Natural weather is
+  not a moral Purity penalty. Protective actions can reduce exposure where authored.
+- Reference supports a bounded authored cyclic schedule and exact phase boundaries,
+  not a planetary weather generator. Rejoin evaluates the same phase at the same time;
+  long gaps use direct arithmetic rather than one tick loop per elapsed moment.
+- Real weather data defines transition blends and forecast uncertainty; storm hazards
+  need local telegraphs, shelter tests and event IDs. Sky material is client presentation.
+- Acceptance M12-A: phase boundary/save/rejoin agree. M12-B: clients cannot change storm
+  timing by local clock; unloaded cells do not allocate full VFX/AI simulation.
+
+### M13 — Core UI, reason presentation and input safety delivery
+
+- Screens: start/pause, interaction, observation, ceremony, partner roster/readiness,
+  commands, care, mission objective and results. Bind existing model revisions.
+- Request/pending/accepted/rejected are distinct. Unknown readings show Unavailable;
+  stale consent closes an invitation. Text/icon/caption convey every critical cue.
+- Core layout protects center aim/world view; command list and partner state have
+  gamepad focus and scalable touch targets. No mandatory mash or audio-only timing.
+- Acceptance M13-A: missing optional icon, rebuilt widget or language change cannot
+  duplicate requests, hide refusal, or reset authoritative charge/strain to zero.
+
+### M14 — Mission and human motivation delivery
+
+- Attach the first scene to existing Field Academy/Heartroot restoration missions.
+  Use approved mentor/care staff identities; cast/locations from unrelated images
+  are not automatically new characters.
+- Mission beats: observe damage → establish the cause → make a safe intervention →
+  respect a choice → report evidence → see persistent repaired habitat. Branch outcomes
+  Bond/Release/Defer/Treat/Relocate remain distinct, with appropriate lesson completion.
+- Human battles have reasons: rescue corridor defense, stopping harmful extraction,
+  skill certification with willing partners, or sanctioned competition. Avoid a universal
+  forced duel for walking into a gaze. PR70 owns modes, motives and server proposal.
+- Acceptance M14-A: non-bond resolution reaches the next approved story stage; replayed
+  objective events cannot grant twice or manufacture a relationship.
+
+### M15 — Mesh/material delivery and reference boundary
+
+- First asset bundle is one approved humanoid and one approved Eco-Kin rig family,
+  hip-device attachment and a small habitat pocket. Graybox collision may be used for
+  mechanics testing while final anatomy/materials proceed alongside the slice.
+- Required source: original DCC project, identity/art-manifest link, provenance, scale,
+  pivot, sockets, collision representation, material slots and LOD plan. Measure budgets
+  on actual target hardware instead of inventing a universal polygon allowance.
+- Acceptance M15-A: import without missing dependencies; silhouette matches approved
+  identity, collisions fit, device mount survives movement, LOD transitions are legible.
+  Supplied pictures and text briefs are not meshes or `.uasset` files.
+
+### M16 — Rig and animation delivery
+
+- Minimum human set: idle, walk/run, turn, interact, command, evade where approved, hit
+  reaction and safe withdrawal. Eco-Kin set: idle/breathe, move/turn, notice/warn, approach,
+  refusal/withdraw, rest and one clearly telegraphed technique.
+- Reuse only approved compatible skeleton families; record root-motion policy, retarget
+  settings, foot/ground constraints and gameplay notify ownership. Notifies report events,
+  not client-authoritative damage. Refusal pose must not trap a subject in ceremony.
+- Acceptance M16-A: slope/step/turn/recall and interrupted technique have no doubled hit,
+  collapsed joint or attachment drift in the packaged Issue #10 benchmark.
+
+### M17 — Sound/VFX readability delivery
+
+- Minimum cue matrix: notice, warning, invitation, refusal, recall, care need, hazard
+  telegraph, safe resolution and restored ambience. Pair each critical sound with icon,
+  caption or spatial animation. Sonic powers stay species-specific.
+- Cues carry event identity and relevance; late/duplicate unreliable cosmetic messages
+  never reapply gameplay. Budget concurrency/distance and provide reduced-flash variants.
+- Acceptance M17-A: muted/reduced-motion play still communicates choices and threats;
+  simulated packet loss loses only cosmetic flourish, never the underlying outcome.
+
+### M18 — Habitat pocket, navigation and streaming delivery
+
+- Author one approved existing cell with approach, comfort/escape area, clue route,
+  hazard, shelter, restoration interaction and a safe departure. Keep traversal playable
+  without winning an optional duel or accepting a bond.
+- Data readiness gates collision/nav plus persistent encounter reconstruction. A visible
+  actor or sky effect is not proof that collision and pathfinding are loaded.
+- Acceptance M18-A: unload mid-approach, then reload; no population duplicate, geometry
+  overlap, blocked escape or restored hazard becoming dangerous again without a story event.
+
+### M19 — Multiplayer and mode delivery
+
+- Follow PR70's offline/private co-op/PvE/casual/ranked/raid/tournament profiles. Carry
+  existing eight links and one active campaign partner; explicit simulation team counts
+  remain mode data. Match results cannot force wild bonds or unlock public geography.
+- Host owns encounter claims, consent, costs, objective results and receipts; migration,
+  rejoin, world revisions and late join use existing save/server architecture. VFX is
+  not the only replicated state. No cross-server refresh of depleted resources.
+- Acceptance M19-A: two claimants, duplicate/reordered requests and a disconnect at
+  commit produce one consistent result; ranked no-contest/recovery follows mode policy.
+  Running servers, platform cross-play and matchmaking are not delivered by reference CI.
+
+### M20 — Save/recovery and promotion gate delivery
+
+- Extend versioned existing records for individual, relationship, ceremony checkpoint,
+  form, plot, care, mission and weather cursor; persist transaction result alongside
+  mutation. Unknown mandatory versions quarantine for migration rather than resetting.
+- Crash before commit resumes pending/deferred safely; crash after commit reconstructs
+  the same result. Missing cosmetic assets never erase an individual or grant a reward.
+- Acceptance M20-A: save/reload at every boundary, changed habitat/form registry and
+  duplicate receipts; compare exact identities, resources and durable outcomes.
+- Runtime promotion needs exact SHA/toolchain, UHT/UBT/Editor/PIE, Issue #10 rig test,
+  packaged Win64 launch, save/load and server tests plus measured performance evidence.
+
+## Connected field-loop reference and scope
+
+`09_Technical/Reference/Encounters/field_loop_contract.py` extends the existing encounter
+reference lane. It implements original offline weather snapshots, bounded strain
+updates, legal-action selection, guarded boss phases, crop progress/harvest reservation,
+approved form invitation checks and read-only D.A.H.L.I.A. advice. It neither owns a
+new bond nor replaces any runtime service. The existing encounter and Kindling oracle
+remains the on-ramp; these references specify downstream behavior for its integration.
+
+A connected test shares one storm snapshot across advice, AI safety and plot growth,
+then applies strain/recovery and checks that a complete form gate set still cannot
+bypass refusal. The small cycle durations, capacities and fixture IDs are test data,
+not approved game balance, shipped content, permanent Dex records or visual assets.
+
+No complete game, imported rig, animation clip, widget, level, network session or real
+inventory/bond/form transaction is produced by these tests. Exact references, commands,
+results and remaining native work belong in the companion README and patch notes.

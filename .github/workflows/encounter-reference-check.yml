@@ -21,6 +21,9 @@ jobs:
       - name: Encounter and Kindling reference (not Unreal)
         working-directory: 09_Technical/Reference/Encounters
         run: python3 -m unittest -v
+      - name: Encounter and field references with optimized Python
+        working-directory: 09_Technical/Reference/Encounters
+        run: python3 -O -m unittest -v
       - name: Existing battle reference regression
         working-directory: 09_Technical/Reference/BattleModes
         run: python3 -m unittest -v

@@ -327,3 +327,6 @@ This branch extends existing source-of-truth routing. New mode/story/server desi
 - [Proposed patch notes](10_Production/PATCH_NOTES_ENCOUNTER_ONRAMP_2026-10-17.md): scope and verification boundary.
 
 Existing PR #70 battle contracts are inherited by this stacked review. Dlomotion/EcoKin-patch is reachable and owns repair evidence only; BUILD remains inaccessible through the connection. No duplicate canon/Dex/runtime or manufactured game assets. No main-branch merge or Unreal verification is implied.
+
+### Follow-up: field-loop acceptance expansion
+The existing twenty-workstream [delivery design](04_Systems/MISSING_SYSTEMS_DELIVERY_DESIGN_2026-10-17.md) now includes detailed state/failure/recovery and content acceptance briefs. The same [encounter reference lane](09_Technical/Reference/Encounters/README.md) adds offline weather/Strain/action/boss/plot/form/advice contracts and connected refusal/storm checks. The existing [art intake](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md) records eleven readable reference images by filename/hash, with no identity or binary import promotion. These additions do not establish Unreal implementation or close the BUILD access gate.
