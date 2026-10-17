@@ -123,7 +123,7 @@ The historical `185-entry` count is a source inventory estimate, not a locked ca
 
 ### Farm / Hometown correction
 
-Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current 8-roster / 3-active campaign combat contract.
+Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current eight-carried-link / one-active-partner campaign contract (2026-10-17 user direction; earlier three-active rule superseded).
 
 ## Glow Worm / EchoCode / image archive / legacy Technical Spine intake: 2026-09-20
 
@@ -299,3 +299,11 @@ Synthetic shader telemetry cannot authorize launch, rewards, Kindling or gamepla
 - [Nanonite disputed-route scene](01_Story/NANONITE_DISPUTED_ROUTE_SCENE_2026-10-14.md): protected-corridor changes, ambiguous record rejection and authored wait/return/defer; existing scene proposal only.
 - [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-16.md): repository/build, Story Continuity, Cartography, PR #20/material watch and exact next gate.
 No route proposal, synthetic record or reference CI result grants gameplay permissions or runtime verification.
+
+
+## 2026-10-17 hip Eco-Device / one active partner reconciliation
+- [A.E.G.I.S. contract](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md): current hip-mounted instrument running A.E.G.I.S.; eight carried bonded links, one active partner; trust/consent/healing/ceremony, charge/strain and free recall rules. Supersedes forearm-bracer/three-active campaign statements, pending downstream migration.
+- [Summoning audit](09_Technical/ECO_DEVICE_SUMMONING_INTAKE_2026-10-17.md): deadline-after-callback correction, exact 68 Lua assertion/eight Python method scope, source-package hashes and real UE gates.
+- [Recall trial proposal](05_Levels/ECO_DEVICE_FIRST_RECALL_TRIAL_2026-10-17.md): existing Training companion-command attachment with respectful refusal and ordered swaps.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-17.md): Story/Cartography, repository/build, PR #20/material watch and exact next action.
+No prototype result promotes Unreal actor, networking, save, package or map verification.
