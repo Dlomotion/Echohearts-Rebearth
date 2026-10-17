@@ -7,7 +7,7 @@ The historical `Echo-Link Nexus` / Eco-Device material and recovered Gemini A.E.
 ## Canon device hierarchy
 
 ### A.E.G.I.S.
-A.E.G.I.S. remains the canonical physical bracer carried by the player. It owns field scanning, survival telemetry, EcoDex access, voluntary Kindling support, partner commands, navigation, compatible communication, mission data and approved remote Sanctuary functions.
+**Current user direction (2026-10-17 reconciliation):** the Eco-Device is the physical instrument worn on the hip, running A.E.G.I.S. intelligence. It supports field scanning, survival telemetry, EcoDex access, voluntary Kindling support, partner commands, navigation, compatible communication, mission data and approved remote Sanctuary functions. D.A.H.L.I.A. remains its systems/adviser module. This supersedes the earlier forearm/bracer mounting direction; the actual mesh/UI/runtime implementation is NOT YET VERIFIED.
 
 ### D.A.H.L.I.A.
 D.A.H.L.I.A. remains an A.E.G.I.S. systems module. It analyzes, interprets, warns, remembers and proposes. It does not replace player judgment or become a separate floating AI companion unless a later canon change explicitly creates a physical projection/avatar state.
@@ -16,13 +16,13 @@ D.A.H.L.I.A. remains an A.E.G.I.S. systems module. It analyzes, interprets, warn
 EcoDex is the biological/ecological knowledge system inside the A.E.G.I.S. ecosystem. It records discovered species, behavior, habitat, growth/form observations, cries, ecology, care notes and story evidence.
 
 ### Optional handheld / phone-like shell
-The useful historical idea of a rugged handheld device may survive as a **Living Glass Field Slate** or **A.E.G.I.S. Companion Slate** used by researchers, NPCs, students and players in menu-heavy contexts. It does not replace the bracer.
+The useful historical idea of a rugged handheld device may survive as a **Living Glass Field Slate** or **A.E.G.I.S. Companion Slate** used by researchers, NPCs, students and players in menu-heavy contexts. It does not replace the hip-mounted Eco-Device.
 
 ## Visual identity salvage from the Gemini draft
 
 The following visual direction is approved as design language, subject to art production review:
 
-- forearm-mounted physical bracer rather than a modern phone;
+- hip-mounted physical Eco-Device under the latest user direction; older forearm-bracer art is historical reference pending migration;
 - pale stone/ceramic **Living Porcelain** shell with tactile wear;
 - thin gold Ancient-Tech conductor lines integrated into the shell;
 - restrained moss/root growth where the device has remained exposed to Rebearth;
@@ -81,7 +81,7 @@ No forced DNA fusion or identity overwrite.
 
 The Gemini draft describes dissolving all items into pixels and storing them inside the bracer. That is not currently canon.
 
-A.E.G.I.S. may provide inventory UI, authentication and indexing for the player's physical Field Rig / storage systems. Item presentation can use projection and tagged-object scanning, but the bracer is not assumed to contain an unlimited matter-conversion pocket dimension.
+A.E.G.I.S. may provide inventory UI, authentication and indexing for the player's physical Field Rig / storage systems. Item presentation can use projection and tagged-object scanning, but the Eco-Device is not assumed to contain an unlimited matter-conversion pocket dimension.
 
 ## Mobility / travel reconciliation
 
@@ -237,3 +237,21 @@ The earlier outcome list placed Kindle → Bond alongside Cradle operations. Thi
 - Corruption/Industry-Control resolutions cannot bypass access restrictions on pure/good Eco-Kin.
 - Care and relationship records use separate versioned event types and idempotency domains; one transaction cannot accidentally replay the other.
 - The local policy oracle in [Echo Cradle/Kindling separation QA](../09_Technical/ECHO_CRADLE_KINDLING_SEPARATION_QA_2026-10-13.md) is documentation-contract evidence only. Actual BUILD policy, RPC, save and Automation behavior remains NOT YET VERIFIED.
+
+
+## Current bonded summoning direction — 2026-10-17
+
+**Status:** USER-DIRECTED DESIGN SUPERSESSION / PROTOTYPE CHECKED; NOT UNREAL VERIFIED.
+
+The hip-mounted Eco-Device calls through the Anima-Link to an already bonded living partner. Summoning does not capture, manufacture, store or create that partner and cannot establish a bond.
+
+- **Eight carried links; one active partner beside the player.** The active cap supersedes earlier three-active campaign deployment statements. Carrying links is relationship access, not sentient inventory storage. Other modes/encounter participation must be reviewed explicitly; do not silently apply campaign limits to Arena rules.
+- Trust and voluntary consent are rechecked at arrival. Low trust has no override. Healing withdrawal and ceremonies are protected.
+- Successful deployment spends device charge and adds link strain that increases with distance. No final numeric costs, distance units or trust threshold are locked by the prototype fixtures.
+- Failure, refusal, cancellation and expiry spend nothing. Recall is free and does not refund earlier strain/charge; it must respect safe transfer and protected ceremonies.
+- Swap validates the incoming partner, recalls the current partner to rest, then awaits the new arrival. If the incoming partner refuses afterward, nobody is active and the failed call costs nothing. Do not auto-recall the resting partner into battle.
+- Safe arrival requires authoritative terrain/collision/habitat checks. The ticket deadline is rechecked after callbacks immediately before spawn.
+- Echo Cradle remains separate emergency-care/relocation equipment: it neither grants nor gates ordinary Kindling or bonded summoning.
+- Actual budgets, partner state, actor spawning, network idempotency, travel/save/session reconciliation and lifecycle ownership belong in the existing BUILD runtime. Local Lua is a reference prototype, not a verified UE subsystem.
+
+Cross-links: [summoning audit](../09_Technical/ECO_DEVICE_SUMMONING_INTAKE_2026-10-17.md), [recall/refusal tutorial beat](../05_Levels/ECO_DEVICE_FIRST_RECALL_TRIAL_2026-10-17.md). Earlier repository files describing a physical bracer or three active campaign partners are migration candidates, not evidence that this latest direction is already implemented everywhere.
