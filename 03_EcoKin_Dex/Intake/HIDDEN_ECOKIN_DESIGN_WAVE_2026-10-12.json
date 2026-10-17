@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "status": "CANON_INTAKE_REQUESTED_BY_USER / REGISTRY_RECONCILIATION_PENDING",
+  "runtime_status": "NOT YET UE5.8 VERIFIED",
+  "authority": "Existing MASTER_PROJECT_INDEX and Permanent Dex/Forms Registry; this is intake data only.",
+  "production_ids_assigned": false,
+  "map_coordinates_changed": false,
+  "reference_policy": "External images are inspiration-only. New paintings redesign silhouette and anatomy; provenance and originality review remain required.",
+  "generated_art": [
+    {
+      "artifact": "Hidden Eco-Kin design studies",
+      "sha256": "1c333f4df445f68a545260ae1da8563639e3561dc59e7489060d49fce5487395",
+      "repository_binary_present": false
+    },
+    {
+      "artifact": "Nature Holy Ultimate Form",
+      "sha256": "7ab549f3e9b9bf84be5a0edf8b1e2533c8a718c3c24dc3344a2386e8eabec4aa",
+      "repository_binary_present": false
+    }
+  ],
+  "ecokin": [
+    {
+      "intake_key": "hidden_nesqari",
+      "display_name": "Nesqari",
+      "name_status": "WORKING_NAME_COLLISION_REVIEW_PENDING",
+      "production_ecokin_id": null,
+      "approved_form_id": null,
+      "essence": null,
+      "public_attributes": [
+        "Vibrance",
+        "Density",
+        "Harmony",
+        "Purity"
+      ],
+      "source_references": [
+        "6456.jpg",
+        "6450.jpg"
+      ],
+      "design": "Low quadruped with a shovel-like head, fern fins, terraced moss-covered back and paddle tail.",
+      "habitat_direction": "Mountain cavern with trees rooted beside a subterranean lake.",
+      "ecological_role": "Clear obstructed spring channels without destroying the cave trees.",
+      "discovery_loop": "Restore water flow; observe tracks and offer a safe approach.",
+      "encounter_region_id": null,
+      "encounter_coordinates": null,
+      "bond_loop": "Observe -> Protect -> Calm -> Kindle -> Bond / Release / Defer",
+      "runtime_binding": null,
+      "planned_code_lookup": "Resolve approved registry identity by ID; display_name never grants approval or generates a Dex ID."
+    },
+    {
+      "intake_key": "hidden_uldevan",
+      "display_name": "Uldevan",
+      "name_status": "WORKING_NAME_COLLISION_REVIEW_PENDING",
+      "production_ecokin_id": null,
+      "approved_form_id": null,
+      "essence": null,
+      "public_attributes": [
+        "Vibrance",
+        "Density",
+        "Harmony",
+        "Purity"
+      ],
+      "source_references": [
+        "6453.jpg"
+      ],
+      "design": "Copper-furred climbing mammal with six limbs, amber eyes and mineral knuckle plates.",
+      "habitat_direction": "Sheltered cliff orchard.",
+      "ecological_role": "Maintain paths between isolated fruiting trees.",
+      "discovery_loop": "Return fallen seedlings; allow it to approach or refuse.",
+      "encounter_region_id": null,
+      "encounter_coordinates": null,
+      "bond_loop": "Observe -> Protect -> Calm -> Kindle -> Bond / Release / Defer",
+      "runtime_binding": null,
+      "planned_code_lookup": "Resolve approved registry identity by ID; display_name never grants approval or generates a Dex ID."
+    },
+    {
+      "intake_key": "hidden_oriveth",
+      "display_name": "Oriveth",
+      "name_status": "WORKING_NAME_COLLISION_REVIEW_PENDING",
+      "production_ecokin_id": null,
+      "approved_form_id": null,
+      "essence": null,
+      "public_attributes": [
+        "Vibrance",
+        "Density",
+        "Harmony",
+        "Purity"
+      ],
+      "source_references": [
+        "6447.jpg"
+      ],
+      "design": "Nocturnal moth-reptile with four violet leaf sails and sensory whiskers.",
+      "habitat_direction": "Deep root chamber beneath old growth.",
+      "ecological_role": "Distribute spores and indicate stressed roots.",
+      "discovery_loop": "Reduce disturbance and heal the root habitat before contact.",
+      "encounter_region_id": null,
+      "encounter_coordinates": null,
+      "bond_loop": "Observe -> Protect -> Calm -> Kindle -> Bond / Release / Defer",
+      "runtime_binding": null,
+      "planned_code_lookup": "Resolve approved registry identity by ID; display_name never grants approval or generates a Dex ID."
+    },
+    {
+      "intake_key": "hidden_kethrava",
+      "display_name": "Kethrava",
+      "name_status": "WORKING_NAME_COLLISION_REVIEW_PENDING",
+      "production_ecokin_id": null,
+      "approved_form_id": null,
+      "essence": null,
+      "public_attributes": [
+        "Vibrance",
+        "Density",
+        "Harmony",
+        "Purity"
+      ],
+      "source_references": [
+        "6440.jpg"
+      ],
+      "design": "Ivory quadruped with gold-veined carapace and temporary amber seed-disc projections.",
+      "habitat_direction": "Overgrown Ancient-Tech garden.",
+      "ecological_role": "Protect pollinator routes around inert relics.",
+      "discovery_loop": "Restore the garden; interpret relic clues without forcing entry.",
+      "encounter_region_id": null,
+      "encounter_coordinates": null,
+      "bond_loop": "Observe -> Protect -> Calm -> Kindle -> Bond / Release / Defer",
+      "runtime_binding": null,
+      "planned_code_lookup": "Resolve approved registry identity by ID; display_name never grants approval or generates a Dex ID."
+    },
+    {
+      "intake_key": "hidden_velumi",
+      "display_name": "Velumi",
+      "name_status": "WORKING_NAME_COLLISION_REVIEW_PENDING",
+      "production_ecokin_id": null,
+      "approved_form_id": null,
+      "essence": null,
+      "public_attributes": [
+        "Vibrance",
+        "Density",
+        "Harmony",
+        "Purity"
+      ],
+      "source_references": [
+        "6394.jpg"
+      ],
+      "design": "Mint moss-furred small quadruped with coral cheek frills, leaf ears and amber eyes.",
+      "habitat_direction": "Luminous tree-filled cave and shallow spring.",
+      "ecological_role": "Pollinate cave flowers and reveal water imbalance.",
+      "discovery_loop": "Find drifting pollen and restore its quiet feeding area.",
+      "encounter_region_id": null,
+      "encounter_coordinates": null,
+      "bond_loop": "Observe -> Protect -> Calm -> Kindle -> Bond / Release / Defer",
+      "runtime_binding": null,
+      "planned_code_lookup": "Resolve approved registry identity by ID; display_name never grants approval or generates a Dex ID."
+    },
+    {
+      "intake_key": "hidden_tazhir",
+      "display_name": "Tazhir",
+      "name_status": "WORKING_NAME_COLLISION_REVIEW_PENDING",
+      "production_ecokin_id": null,
+      "approved_form_id": null,
+      "essence": null,
+      "public_attributes": [
+        "Vibrance",
+        "Density",
+        "Harmony",
+        "Purity"
+      ],
+      "source_references": [
+        "6433.png"
+      ],
+      "design": "Indigo arboreal glider with four legs, cream facial markings and copper crest.",
+      "habitat_direction": "Hidden high-canopy grove.",
+      "ecological_role": "Move seeds between disconnected canopy habitats.",
+      "discovery_loop": "Reconnect canopy passage and follow dusk activity clues.",
+      "encounter_region_id": null,
+      "encounter_coordinates": null,
+      "bond_loop": "Observe -> Protect -> Calm -> Kindle -> Bond / Release / Defer",
+      "runtime_binding": null,
+      "planned_code_lookup": "Resolve approved registry identity by ID; display_name never grants approval or generates a Dex ID."
+    }
+  ],
+  "nature": {
+    "existing_identity": "Nature",
+    "requested_form_title": "Holy Ultimate Form",
+    "new_species": false,
+    "production_form_id": null,
+    "form_registry_status": "USER_REQUESTED_FORM / IDENTITY_AND_FORM_RECONCILIATION_PENDING",
+    "source_reference": "6401.jpg",
+    "identity_preservation": "Black woman, living botanical canopy hair, Guardian of Life; retain Nature as franchise guardian.",
+    "visual_direction": "Living bark and leaf plates, gold vein inlays, restoration light, six temporary leaf-light projections.",
+    "story_direction": "Restoration culminates in a protective flowering manifestation; old scars remain visible.",
+    "new_essence": false,
+    "unlock_conditions": null,
+    "runtime_binding": null
+  },
+  "engineering": {
+    "existing_build_pr": "https://github.com/Dlomotion/ECHOHEARTS-REBEARTH-BUILD-/pull/51",
+    "access_check": "2026-10-12: connected GitHub API returned 404; current code and tests could not be re-inspected.",
+    "integration_hooks_from_previous_patch": [
+      "FEcoKinFieldContext",
+      "FEcoKinFieldSession",
+      "FEcoKinFieldRoster",
+      "SummonEcoKin",
+      "RecallEcoKin"
+    ],
+    "hooks_status": "Prior patch identifiers only; current BUILD definitions and runtime bindings unconfirmed.",
+    "known_gap": "Prior policy mixed pod launch into the bond phase chain. Echo Cradle welfare deployment must remain separate from ordinary Kindling; no pod grants or gates a bond.",
+    "next_checks": [
+      "Restore BUILD access and inspect exact PR head.",
+      "Separate Echo Cradle care/deployment from ordinary Kindling.",
+      "Test that refusal, timeout and release do not change bond or roster state.",
+      "Resolve names through approved registry before actor/encounter binding.",
+      "Run UHT/UBT and actual Automation; retain results."
+    ]
+  }
+}

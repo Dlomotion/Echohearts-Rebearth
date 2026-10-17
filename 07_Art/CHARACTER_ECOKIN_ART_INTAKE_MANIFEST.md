@@ -84,7 +84,7 @@ Body-plan class: **Humanoid-Kin candidate**.
 
 Core visual identity to preserve across forms: dark-skinned humanoid silhouette, flame-like locs/hair, athletic build, flowing orange-gold cloth, skyborne posture, solar/storm energy language. Form differences should come from weather state, armor density, VFX and role, not a different face/body identity.
 
-Element QA must use only the locked 12-element system. **Radiant** can be the core anchor, with Solar/Aero/Volt/Magma combinations reviewed per form. Do not introduce Pyro/Light/Kinetic as new core elements.
+Essence QA must use only the canonical nine: **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. Radiant, Solar, Volt and Magma are historical visual descriptors here, not additional or automatically assigned Essences. Review sky/solar/storm cues against Aero/Pyre/Voltic/Aura without promoting any combination or Form from this intake alone.
 
 **Artifact patch:** remove the lower-right black silhouette/reference figure from final production cards.
 
@@ -98,7 +98,7 @@ Body-plan class: **Spirit-Kin / anomaly entity candidate**.
 
 Continuity lock: retain the single central eye, flowing tendril-body silhouette and nonhuman floating/ground-drifting movement language. Do not convert Psylopath into a humanoid sorcerer.
 
-Element QA: use **Spirit / Chaos** as the likely core framework, with Blight/Data Virus corruption expressed as a state rather than a new “Psychic/Void/Dark” core element set.
+Essence QA: **Spirit / Chaos** is retained as historical source vocabulary only. Psylopath's Essence is unassigned pending review against the canonical nine; corruption is a state, not an extra Essence. Do not silently promote Psychic/Void/Dark or any replacement affinity.
 
 **Artifact patch:** remove the small human silhouette/reference figure from the lower-right card area. Review skull-like objects so they read as spectral projections/VFX rather than collectible remains or gore props.
 
@@ -138,3 +138,49 @@ The modern firearms/tactical gear must be reconciled against Echohearts technolo
 High-end cinematic presentation is a rendering target, not a license to destroy gameplay readability. Model sheets must include front/side/back, neutral pose, scale, material breakdown, expression/behavior sheet, locomotion notes, and VFX-safe zones before 3D production.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+### Mountain cave hidden Eco-Kin visual candidate — working label only (2026-10-12)
+
+**Status:** PROPOSAL / ART INTAKE — no name, species ID, Form, canon identity, or roster completion  
+**Source:** user-supplied `6394.jpg`; provenance/license beyond supplied project reference is **NOT YET VERIFIED**  
+**Source checksum:** SHA-256 `479dbb38d0c962d46f0288150d9043c64d4aac773d4fdfbff5040697b07e265b`  
+**Source technical record:** JPEG, 1507×1536, RGB; one rounded fuzzy pink/cyan subject in a blossom-lit scene.
+
+**Generated visual-study candidate:** PNG, 1241×1268, RGB; SHA-256 `d17abf7ea87a52c8448a6fb0ec963dd8810c802f23e2ad61f7af67a33a999959`. Created 2026-10-12 with the project image-generation tool from the supplied reference and an Echohearts-specific redesign brief. It depicts one full-body pale lavender/cyan fuzzy cave-dweller with asymmetric violet/cyan eyes, sensory antennae, crystal-leaf frills, bioluminescent markings, and a vibrant underground crystal/root habitat.
+
+- **Identity:** intentionally unassigned. Do not infer a Permanent Dex slot or historical-name match from appearance.
+- **Body plan/anatomy:** small quadruped/low biped ambiguity remains; four planted feet are visible, but locomotion, joint landmarks, mouth mechanics, scale, back view, and neutral turnaround remain unresolved.
+- **Silhouette/material:** rounded fur mass, paired antennae, petal/crystal cranial ring, large eye mask, and cool bioluminescent seams. Avoid generic “cute mascot” convergence during the originality pass.
+- **Essence/sub-affinity:** none assigned. Color and cave habitat do not create an Essence; review only against the canonical nine.
+- **Attribute hooks:** no numeric values assigned. Future behavior may be discussed only through Vibrance, Density, Harmony, and Purity.
+- **Ecology proposal:** hidden cave pollinator/sensor that reads root-water vibration and indicates habitat stress; it is a partner/ecosystem role, never loot or a trap reward.
+- **Rig needs:** antenna secondary motion, fur-safe facial deformation, frill overlap controls, four-foot contact study, blink/eye asymmetry support, and low-light emissive variants.
+- **Artifact/error review:** coherent single subject and readable feet; left/right sensory frills and antenna tips need model-sheet consistency; environmental glow may obscure exact fur/material boundaries.
+- **Accessibility/readability:** future gameplay cues must pair glow color with silhouette, motion, text/audio, and haptics.
+- **Destination:** retain as a review image outside Git binary history until provenance, naming, canon, anatomy, and originality gates pass. If promoted later, create a neutral-background standalone roster sheet and a separate environment keyframe.
+- **QA disposition:** this environment concept does **not** complete a locked roster image entry. It does not alter the 125-ID Permanent Dex or Forms Registry, and it does not satisfy the standalone-image requirement for Plainsman, Ash-Brawler, Twilight-Tricker, Reaper-Skull, or any other locked sequence.
+
+
+## 2026-10-12 — Hidden Eco-Kin wave and Nature ultimate-form request
+
+Status: **USER-REQUESTED CANON INTAKE / REGISTRY RECONCILIATION PENDING / NOT YET UE5.8 VERIFIED**.
+
+Machine-readable intake: [HIDDEN_ECOKIN_DESIGN_WAVE_2026-10-12.json](../03_EcoKin_Dex/Intake/HIDDEN_ECOKIN_DESIGN_WAVE_2026-10-12.json).
+
+The six working names are Nesqari, Uldevan, Oriveth, Kethrava, Velumi and Tazhir. They designate redesigned visual concepts, not assigned production species. The two giant-reptile references (6456/6450) are consolidated into one redesign direction to avoid duplicate identities. The external brute, occult, relic and game-avatar references inform broad moods only; their faces, outfits, equipment, brands and silhouettes are not production assets. Naming collisions, semantic overlap, species/form classification, biological anatomy, originality and provenance remain open.
+
+Generated gallery SHA-256: `1c333f4df445f68a545260ae1da8563639e3561dc59e7489060d49fce5487395`. Generated Nature artwork SHA-256: `7ab549f3e9b9bf84be5a0edf8b1e2533c8a718c3c24dc3344a2386e8eabec4aa`. Both were created with the built-in image tool and visually inspected in this session; binaries remain review artifacts outside Git history. The gallery is not six standalone roster images. Feet, six-limb rig landmarks, four-sail attachment, tail/membrane topology and projection boundaries need neutral turnarounds and model review.
+
+Nature retains her existing identity, Black botanical guardian appearance and Guardian of Life role. 'Holy Ultimate Form' is the user's requested form direction, not a new species or Essence. Leaf radiance is temporary VFX; it does not silently add anatomical wings, tenets, power multipliers or unlock milestones.
+
+Hidden encounter directions use caves, root chambers, cliff orchards, canopy groves and overgrown gardens without assigning region IDs, coordinates, routes, Data Layers or streaming cells. No environment painting places an encounter in the map. The 125-ID Permanent Dex and Forms Registry are unchanged.
+
+BUILD PR #51 returned 404 on the current connection. Its prior 87 native checks do not establish current branch health or Unreal execution. Before integration, separate Echo Cradle welfare deployment from the ordinary Kindling flow; a pod must neither grant nor be required for a bond.
+
+
+## 2026-10-13 authority correction
+
+Corrected the September 20 Radiant Typhoon intake's retired twelve-element claim and Psylopath's Spirit/Chaos assignment language against current canon. Historical visual descriptors are preserved for provenance; all candidate identities, Essences and Forms still require review. This is terminology/authority correction, not art approval or runtime verification.
+
+Hidden Eco-Kin wave linkage: [Velumi cave restoration encounter proposal](../05_Levels/HIDDEN_VELUMI_CAVE_ENCOUNTER_PROPOSAL_2026-10-13.md). The encounter uses the existing `hidden_velumi` intake key; it assigns no production ID, coordinates or map asset. The original lavender/cyan cave study and the later mint/coral Velumi redesign are distinct visual passes from `6394.jpg`; neither is a locked model sheet. Choose an approved pass through the existing art/registry review, rather than blending contradictory palettes/anatomy into a third identity.

@@ -123,7 +123,7 @@ The historical `185-entry` count is a source inventory estimate, not a locked ca
 
 ### Farm / Hometown correction
 
-Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current 8-roster / 3-active campaign combat contract.
+Preserve farming, colorful biome storytelling, care/sickness, rebuilding and community-economy value. Retire forced `worker` automation, sentient storage/trading, breeding-station optimization and old squad-of-five rules. Use voluntary Sanctuary Aptitudes/Partner Assist, Living Soil, Havenlink, Healing Incubator recovery/Echo-Egg care and the current eight-carried-link / one-active-partner campaign contract (2026-10-17 user direction; earlier three-active rule superseded).
 
 ## Glow Worm / EchoCode / image archive / legacy Technical Spine intake: 2026-09-20
 
@@ -240,3 +240,70 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## Runtime-contract and Eco-Kin intake reconciliation: 2026-10-09
+
+- `03_EcoKin_Dex/Intake/ECOKIN_ISSUES_48_49_CANON_SAFE_INTEGRATION_MAP_2026-10-09.md` — reconciles Issues #48/#49 against the existing 125-ID Dex and draft 554-row registry, records the EK-073/DEX-099 Hammerwake collision, preserves nine-Essence/V-D-H-P authority, and defines the art/ecology/runtime evidence gate without promoting candidates.
+- `11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-09.md` — records BUILD runtime-contract correction PR #47, static-check evidence, unresolved UE5.8 gates, Story Continuity Status Brief, Cartography Status and the exact next action.
+- Executable runtime code remains in `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`; canon/design/evidence routing remains in this repository.
+
+## Restoration reload/care and foundation evidence: 2026-10-10
+
+- [Restoration save/reload and care acceptance scene](05_Levels/RESTORATION_SAVE_RELOAD_CARE_ACCEPTANCE_2026-10-10.md) — PROPOSAL; extends existing Stage 06 and A.E.G.I.S. contracts with care continuity, unavailable/stale readings, recovery/reward replay boundaries and accessibility cases. No new mission, map, roster or progression meter.
+- [Daily evidence and unified carry-forward queue](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-10.md) — existing BUILD PR #47 capacity-test correction and authored memory round trip; static CI result; web fixture-copy reconciliation; PR #20 delta; Story/Cartography and exact Windows UE5.8 gate.
+
+Unreal execution remains **NOT YET VERIFIED**.
+
+
+## Contract drift and Sanctuary care acceptance: 2026-10-11
+
+- [Advanced systems audit](09_Technical/GEMINI_ADVANCED_SYSTEMS_CODE_AUDIT_2026-09-20.md) — corrected dated foundation evidence and production-order scope; bounded Living Crust replication/recovery contract, implementation pending.
+- [Legacy Dex reconciliation](03_EcoKin_Dex/LEGACY_DEX_V2_RECONCILIATION_2026-09-20.md) — current nine Essences; twelve historical labels retained only for migration.
+- [Sanctuary care interruption acceptance scene](05_Levels/SANCTUARY_PARTNER_CARE_ACCEPTANCE_2026-10-11.md) — PROPOSAL, voluntary Partner Assist with care, UI/audio and recovery cases.
+- [Daily evidence and carry-forward](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-11.md) — current BUILD access blocker, repository/Unreal separation, Story/Cartography and next exact gate.
+
+
+## 2026-10-12 routed intake: console systems, Echo Cradle, and cave visual
+
+- [Console systems intake audit](09_Technical/CONSOLE_SYSTEMS_INTAKE_AUDIT_2026-10-12.md) records the corrected clock contract, generic C++17/UBSan evidence boundary, rejection/defer decisions for unsafe console snippets, research provenance, and the exact BUILD/UE5.8 promotion gate.
+- [A.E.G.I.S. / Eco-Device reconciliation](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md) now contains the proposal-only Echo Cradle field-deployment contract: voluntary/emergency welfare, server authority, idempotency, late-join/save recovery, release/defer outcomes, and no capture/storage/bond shortcut.
+- [Character & Eco-Kin Art Intake Manifest](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md) now records the mountain-cave visual study with checksums, anatomy/provenance/originality gates, and explicit no-name/no-ID/no-roster-completion status.
+- [Daily evidence record](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-12.md) separates repository evidence from inaccessible BUILD/runtime evidence and carries Story Continuity and Cartography status forward.
+- These records extend the existing workflow only. They do not change the 125-ID Permanent Dex, create a second canon/system, promote binary art, verify BUILD PR #51, or alter the authoritative 18-step production order.
+
+
+## 2026-10-13 care authority and hidden cave scene
+- [Care/Kindling separation QA](09_Technical/ECHO_CRADLE_KINDLING_SEPARATION_QA_2026-10-13.md): corrected independent authority; original local Python oracle and scoped run; pending BUILD/Unreal acceptance.
+- [Velumi hidden-cave restoration proposal](05_Levels/HIDDEN_VELUMI_CAVE_ENCOUNTER_PROPOSAL_2026-10-13.md): existing hidden-wave intake key; story/environment/UI/SFX/FX/care/recovery contracts; no production ID or map placement.
+- [A.E.G.I.S. reconciliation](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md): Cradle care never grants or gates ordinary Kindling.
+- [Art intake](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md): corrected nine-Essence authority and alternative cave visual-pass continuity.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-13.md): repository/build, continuity, cartography, research and exact next action.
+
+
+## 2026-10-14 AI feature correction and Nanonite intake
+- [AI route audit](09_Technical/AI_FEATURE_ROUTE_AUDIT_2026-10-14.md): existing user-directed AI workspace, finite-score/path overflow correction, regression/NDEBUG evidence and draft feature PR #2; not UE runtime.
+- [Nanonite disputed-route scene](01_Story/NANONITE_DISPUTED_ROUTE_SCENE_2026-10-14.md): continuity review, synthetic agency, environmental evidence and authored safe fallback; no map/identity/ending promotion.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-14.md): BUILD/EcoKin-patch access gates, CI evidence, story/cartography and exact next action.
+The AI feature repository supports this canon hierarchy and the BUILD runtime target. It is not an additional source of canon authority or a replacement implementation pipeline.
+
+
+## 2026-10-15 shader diagnostics correction and cave presentation
+- [Shader diagnostics intake](09_Technical/SHADER_DIAGNOSTICS_INTAKE_2026-10-15.md): corrected NaN-clock/expected-identity validation, exact 40-method combined local test scope, artifact hashes and pending real UE producer.
+- [Velumi cave presentation acceptance](05_Levels/VELUMI_CAVE_PRESENTATION_ACCEPTANCE_2026-10-15.md): original visual/audio beats, accessibility, controlled cold/warm captures and recovery requirements; proposal only.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-15.md): repository/build, continuity/cartography, PR #20/material watch and exact next gate.
+Synthetic shader telemetry cannot authorize launch, rewards, Kindling or gameplay verification. BUILD remains the executable integration target.
+
+
+## 2026-10-16 route identity and protected-corridor response
+- [Route identity/intent audit](09_Technical/AI_ROUTE_IDENTITY_INTENT_AUDIT_2026-10-16.md): current AI feature PR #2 correction; scoped local/hosted evidence; pending real-runtime authority and input bounds.
+- [Nanonite disputed-route scene](01_Story/NANONITE_DISPUTED_ROUTE_SCENE_2026-10-14.md): protected-corridor changes, ambiguous record rejection and authored wait/return/defer; existing scene proposal only.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-16.md): repository/build, Story Continuity, Cartography, PR #20/material watch and exact next gate.
+No route proposal, synthetic record or reference CI result grants gameplay permissions or runtime verification.
+
+
+## 2026-10-17 hip Eco-Device / one active partner reconciliation
+- [A.E.G.I.S. contract](04_Systems/AEGIS_ECO_DEVICE_RECONCILIATION.md): current hip-mounted instrument running A.E.G.I.S.; eight carried bonded links, one active partner; trust/consent/healing/ceremony, charge/strain and free recall rules. Supersedes forearm-bracer/three-active campaign statements, pending downstream migration.
+- [Summoning audit](09_Technical/ECO_DEVICE_SUMMONING_INTAKE_2026-10-17.md): deadline-after-callback correction, exact 68 Lua assertion/eight Python method scope, source-package hashes and real UE gates.
+- [Recall trial proposal](05_Levels/ECO_DEVICE_FIRST_RECALL_TRIAL_2026-10-17.md): existing Training companion-command attachment with respectful refusal and ordered swaps.
+- [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-17.md): Story/Cartography, repository/build, PR #20/material watch and exact next action.
+No prototype result promotes Unreal actor, networking, save, package or map verification.

@@ -7,7 +7,7 @@ The historical `Echo-Link Nexus` / Eco-Device material and recovered Gemini A.E.
 ## Canon device hierarchy
 
 ### A.E.G.I.S.
-A.E.G.I.S. remains the canonical physical bracer carried by the player. It owns field scanning, survival telemetry, EcoDex access, voluntary Kindling support, partner commands, navigation, compatible communication, mission data and approved remote Sanctuary functions.
+**Current user direction (2026-10-17 reconciliation):** the Eco-Device is the physical instrument worn on the hip, running A.E.G.I.S. intelligence. It supports field scanning, survival telemetry, EcoDex access, voluntary Kindling support, partner commands, navigation, compatible communication, mission data and approved remote Sanctuary functions. D.A.H.L.I.A. remains its systems/adviser module. This supersedes the earlier forearm/bracer mounting direction; the actual mesh/UI/runtime implementation is NOT YET VERIFIED.
 
 ### D.A.H.L.I.A.
 D.A.H.L.I.A. remains an A.E.G.I.S. systems module. It analyzes, interprets, warns, remembers and proposes. It does not replace player judgment or become a separate floating AI companion unless a later canon change explicitly creates a physical projection/avatar state.
@@ -16,13 +16,13 @@ D.A.H.L.I.A. remains an A.E.G.I.S. systems module. It analyzes, interprets, warn
 EcoDex is the biological/ecological knowledge system inside the A.E.G.I.S. ecosystem. It records discovered species, behavior, habitat, growth/form observations, cries, ecology, care notes and story evidence.
 
 ### Optional handheld / phone-like shell
-The useful historical idea of a rugged handheld device may survive as a **Living Glass Field Slate** or **A.E.G.I.S. Companion Slate** used by researchers, NPCs, students and players in menu-heavy contexts. It does not replace the bracer.
+The useful historical idea of a rugged handheld device may survive as a **Living Glass Field Slate** or **A.E.G.I.S. Companion Slate** used by researchers, NPCs, students and players in menu-heavy contexts. It does not replace the hip-mounted Eco-Device.
 
 ## Visual identity salvage from the Gemini draft
 
 The following visual direction is approved as design language, subject to art production review:
 
-- forearm-mounted physical bracer rather than a modern phone;
+- hip-mounted physical Eco-Device under the latest user direction; older forearm-bracer art is historical reference pending migration;
 - pale stone/ceramic **Living Porcelain** shell with tactile wear;
 - thin gold Ancient-Tech conductor lines integrated into the shell;
 - restrained moss/root growth where the device has remained exposed to Rebearth;
@@ -81,7 +81,7 @@ No forced DNA fusion or identity overwrite.
 
 The Gemini draft describes dissolving all items into pixels and storing them inside the bracer. That is not currently canon.
 
-A.E.G.I.S. may provide inventory UI, authentication and indexing for the player's physical Field Rig / storage systems. Item presentation can use projection and tagged-object scanning, but the bracer is not assumed to contain an unlimited matter-conversion pocket dimension.
+A.E.G.I.S. may provide inventory UI, authentication and indexing for the player's physical Field Rig / storage systems. Item presentation can use projection and tagged-object scanning, but the Eco-Device is not assumed to contain an unlimited matter-conversion pocket dimension.
 
 ## Mobility / travel reconciliation
 
@@ -189,3 +189,69 @@ Travel authority should follow the approved path:
 **NOT YET VERIFIED** until connected repository classes, Blueprints, data assets, World Partition travel path and UI are inspected, built and tested.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## Echo Cradle field deployment contract (proposal intake — 2026-10-12)
+
+**Status:** PROPOSAL / REVIEW-READY — NOT CANON PROMOTION — NOT UE5.8 VERIFIED  
+**Placement:** existing A.E.G.I.S. recovery/relocation vocabulary; no new capture, storage, ownership, or bond system.
+
+The requested “launch pod after trap activation” is retained only as an **A.E.G.I.S. Echo Cradle** field-deployment proposal. A nonlethal welfare field may signal that an Eco-Kin or recoverable vessel needs assistance; it never grants ownership, creates a bond, lowers a capture threshold, or authorizes confinement. A.E.G.I.S. may deploy a physical recovery shell near a server-resolved safe subject. The shell opens on arrival, provides shelter and stabilization, and remains escapable. A conscious Eco-Kin chooses whether to approach. Emergency aid for an incapacitated subject creates a care duty, not a bond.
+
+### Canon-safe outcomes
+
+- **Ordinary Kindling is independent of Echo Cradle:** Observe → Protect → Calm → Kindle → Bond / Release / Defer remains available under its existing eligibility rules whether the Cradle is absent, stowed, deployed, occupied for care, or recovered. No care/deployment state grants or gates a bond. Completing treatment does not automatically offer or finalize Kindling.
+- **Treat → Release:** stabilize the subject and reopen the shell at the safe site.
+- **Relocate → Release:** transport only when the original site is immediately unsafe and release at an approved habitat.
+- **Defer:** withdraw when consent, welfare, route, ownership, or environmental checks are unresolved.
+- Dormant vessels, corrupted husks, Bot shells, failed lab containers, non-sentient shard constructs, duplicate fragments, and explicitly released/rebirth-safe material remain governed by the separate Restoration Crucible proposal. A living bonded Eco-Kin is never routine reclamation material.
+
+### Proposed state contract
+
+`Stowed → Authorized → InFlight → DeployedOpen → VoluntaryEntry | EmergencyCare → Treatment | Relocation → OpenRelease → Recovered`
+
+Any failed authorization, unsafe landing, lost subject, owner/connection change, timeout, or travel interruption enters `CancelledSafe` or `RecoveryRequired`; it must not silently advance the bond or inventory state. `OccupiedForCare` is permissible only after voluntary entry or a logged emergency-welfare decision. The shell is not an energy capsule and its occupant is never serialized as a generic inventory item.
+
+### Authority, replication, and recovery requirements
+
+1. The client requests intent only. The server resolves the subject from authenticated connection state and a current server trace; it validates range, line of sight, species welfare rules, landing clearance, collision, current state, permissions, cooldown, and cost reservation.
+2. Mutable requests carry protocol version, monotonically increasing sequence, and idempotency key. Replays return the prior result without charging or deploying twice.
+3. Ordinary gameplay rejection occurs in server implementation/validator logic. RPC `_Validate` failure is reserved for malformed or hostile payloads because validation failure can disconnect the invoking client.
+4. Authoritative Cradle state persists on the server and replicates state/deltas. A multicast visual may accompany deployment but is never the only source of truth; late joiners and relevancy changes reconstruct the current state.
+5. Destruction, disconnect, level travel, save/load, packet loss, duplicate request, subject refusal, emergency entry, release, and recovery must be idempotent. Costs are reserved, committed once after deployment authorization, or rolled back.
+6. Accessibility requires redundant audio, visual, text, and haptic cues for authorization, arrival, refusal, care need, safe release, and recovery. The interaction must not depend on color, pulse timing, or audio alone.
+
+### Evidence gate
+
+Repository documentation can verify this contract and terminology only. Promotion requires the real BUILD repository, the actual module/API macro and Build.cs dependencies, UHT/UBT success, server/client functional tests, late-join and save/reload tests, packet-loss/replay tests, collision sweeps, Insights bandwidth/performance evidence, accessibility review, and retained Windows UE5.8 logs. Until then it remains **NOT YET VERIFIED** and must not displace the authoritative production order; Heart Fruit + nonlethal trap/release remains step 5 after foundation, Issue #10, the 4–6 Eco-Kin slice, and Growth Rite.
+
+
+## 2026-10-13 correction: independent care and relationship state
+
+The earlier outcome list placed Kindle → Bond alongside Cradle operations. This was ambiguous. Care/deployment and relationship progression are independent domains:
+
+- Cradle state changes may emit care telemetry, relocation and release events only. They may not write bond strength, grant roster membership, count a tame toward the Tamer of Beasts license, or complete a Kindling lesson.
+- Ordinary Kindling evaluates the existing approved identity, restriction rules, observation/protection/calm evidence and affirmative behavior. It must not require owning, deploying, entering or recovering a Cradle.
+- An incapacitated subject cannot supply new affirmative behavior. Emergency treatment never substitutes for it. Existing bonds are preserved during treatment; no new bond is created.
+- Refusal, timeout, cancellation, despawn, travel, reconnect and save reload preserve relationship state unless a separately authorized story/relationship action changes it.
+- Corruption/Industry-Control resolutions cannot bypass access restrictions on pure/good Eco-Kin.
+- Care and relationship records use separate versioned event types and idempotency domains; one transaction cannot accidentally replay the other.
+- The local policy oracle in [Echo Cradle/Kindling separation QA](../09_Technical/ECHO_CRADLE_KINDLING_SEPARATION_QA_2026-10-13.md) is documentation-contract evidence only. Actual BUILD policy, RPC, save and Automation behavior remains NOT YET VERIFIED.
+
+
+## Current bonded summoning direction — 2026-10-17
+
+**Status:** USER-DIRECTED DESIGN SUPERSESSION / PROTOTYPE CHECKED; NOT UNREAL VERIFIED.
+
+The hip-mounted Eco-Device calls through the Anima-Link to an already bonded living partner. Summoning does not capture, manufacture, store or create that partner and cannot establish a bond.
+
+- **Eight carried links; one active partner beside the player.** The active cap supersedes earlier three-active campaign deployment statements. Carrying links is relationship access, not sentient inventory storage. Other modes/encounter participation must be reviewed explicitly; do not silently apply campaign limits to Arena rules.
+- Trust and voluntary consent are rechecked at arrival. Low trust has no override. Healing withdrawal and ceremonies are protected.
+- Successful deployment spends device charge and adds link strain that increases with distance. No final numeric costs, distance units or trust threshold are locked by the prototype fixtures.
+- Failure, refusal, cancellation and expiry spend nothing. Recall is free and does not refund earlier strain/charge; it must respect safe transfer and protected ceremonies.
+- Swap validates the incoming partner, recalls the current partner to rest, then awaits the new arrival. If the incoming partner refuses afterward, nobody is active and the failed call costs nothing. Do not auto-recall the resting partner into battle.
+- Safe arrival requires authoritative terrain/collision/habitat checks. The ticket deadline is rechecked after callbacks immediately before spawn.
+- Echo Cradle remains separate emergency-care/relocation equipment: it neither grants nor gates ordinary Kindling or bonded summoning.
+- Actual budgets, partner state, actor spawning, network idempotency, travel/save/session reconciliation and lifecycle ownership belong in the existing BUILD runtime. Local Lua is a reference prototype, not a verified UE subsystem.
+
+Cross-links: [summoning audit](../09_Technical/ECO_DEVICE_SUMMONING_INTAKE_2026-10-17.md), [recall/refusal tutorial beat](../05_Levels/ECO_DEVICE_FIRST_RECALL_TRIAL_2026-10-17.md). Earlier repository files describing a physical bracer or three active campaign partners are migration candidates, not evidence that this latest direction is already implemented everywhere.
