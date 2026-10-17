@@ -25,8 +25,10 @@ Historical VIT/MGT/AGS/RSN/FORT/VEL cannot replace the public core:
 Arena-only derived values may exist behind the UI if they are deterministic derivatives of the authoritative model and documented in the Game Data Dictionary. Do not maintain a second independent stat owner.
 
 ## Element rule
-The locked 12 elements remain:
-Solar, Lunar, Hydro, Magma, Aero, Flora, Volt, Terra, Iron/Tech, Spirit, Chaos, Radiant.
+The active nine Essences are:
+**Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**.
+
+Correction 2026-10-17: the earlier twelve-label list was obsolete migration material, not Arena authority. Glaze is a primary Essence; Geo/Echo are contextual tags, not additional primary Essences.
 
 Legacy labels such as Light, Shadow, Frost, Aether, Temporal, Void, Nature, Leaf, Flame, Tide, Metal or Neutral must be mapped case-by-case or retired. They do not expand the core element table automatically.
 

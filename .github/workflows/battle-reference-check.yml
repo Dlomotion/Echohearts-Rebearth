@@ -1,0 +1,23 @@
+name: Battle reference contract checks
+on:
+  push:
+    paths:
+      - '09_Technical/Reference/BattleModes/**'
+      - '.github/workflows/battle-reference-check.yml'
+  pull_request:
+    paths:
+      - '09_Technical/Reference/BattleModes/**'
+      - '.github/workflows/battle-reference-check.yml'
+permissions:
+  contents: read
+jobs:
+  offline-contract:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline battle admission and settlement oracle (not Unreal)
+        working-directory: 09_Technical/Reference/BattleModes
+        run: python3 -m unittest -v

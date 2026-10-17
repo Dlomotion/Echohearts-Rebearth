@@ -20,9 +20,9 @@
 
 ## 3. Player identity terminology
 
-### Canon narrative role: Core-Binder
+### Current profession: Tamer of Beasts
 
-**Core-Binder** is the primary narrative/system role for the protagonist who uses A.E.G.I.S., forms Kindling bonds, restores ecosystems, and interfaces with Heart-Code/Ancient Tech.
+**Tamer of Beasts** is the current primary profession under CANON_CORE_RULES.md and the current Story Continuity Spine. **Core-Binder** is retained only as a historical/combat-discipline term where appropriate; it does not replace the current front-facing role. This 2026-10-17 correction resolves the older statement below without deleting historical terminology.
 
 ### Occupation / reputation identity
 
@@ -34,7 +34,7 @@ The player may still earn or choose contextual social identities such as:
 - Pathfinder — exploration specialization;
 - Researcher / Restorer / Crafter / Arena competitor — activity identities.
 
-These are not separate protagonist species/classes that replace Core-Binder.
+These contextual activity identities do not replace the Tamer of Beasts profession or create new protagonist species/classes.
 
 ### Retired universal protagonist labels
 
@@ -47,7 +47,7 @@ These are not separate protagonist species/classes that replace Core-Binder.
 
 ### A.E.G.I.S.
 
-Canonical player wrist/field system for:
+Current 2026-10-17 device direction: the physical hip-mounted **Eco-Device** runs **A.E.G.I.S. intelligence**; D.A.H.L.I.A. remains its adviser/systems module. This supersedes the older wrist/bracer mounting direction. Supported interface functions:
 
 - scanning;
 - Eco-Kin/ecology records;
@@ -57,7 +57,7 @@ Canonical player wrist/field system for:
 - Chrono-Phase/Chrono-Echo tools where unlocked;
 - equipment and field utilities.
 
-`Eco-Device`, `Link Device`, `Somatic Controller`, and similar older names do not replace A.E.G.I.S.
+`Eco-Device` names the physical host under current direction; it does not replace A.E.G.I.S. intelligence. Other recovered aliases remain historical unless individually approved.
 
 ### D.A.H.L.I.A.
 
@@ -231,7 +231,7 @@ It does not replace Meridian, Echohearts, or existing story regions.
 ## 14. Campaign combat mode
 
 - Main campaign: **real-time third-person combat**.
-- Current campaign squad contract: **8-roster / 3-active** where the current game-system record applies.
+- Current campaign contract: **eight carried bonded links / one active partner**, following the explicit 2026-10-17 supersession in AEGIS_ECO_DEVICE_RECONCILIATION.md. Older three-active references require migration; Arena/team modes need explicit separate rules.
 - Turn-based/tactical/grid combat: sanctioned Arena/Harmony Circuit/EchoDeck/simulation contexts only.
 - Tactical PRs may not convert the whole campaign.
 

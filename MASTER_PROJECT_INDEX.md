@@ -307,3 +307,14 @@ No route proposal, synthetic record or reference CI result grants gameplay permi
 - [Recall trial proposal](05_Levels/ECO_DEVICE_FIRST_RECALL_TRIAL_2026-10-17.md): existing Training companion-command attachment with respectful refusal and ordered swaps.
 - [Daily evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-17.md): Story/Cartography, repository/build, PR #20/material watch and exact next action.
 No prototype result promotes Unreal actor, networking, save, package or map verification.
+
+
+## 2026-10-17 Echo-Duels, human motives and server-mode proposal
+
+- [Battle expansion](04_Systems/ECHO_DUELS_AND_BATTLE_MODES_PROPOSAL_2026-10-17.md): reconciled action/tactical modes, consent, raids, optional Arena projections and existing Circuit Standing.
+- [Human battle stories](01_Story/HUMAN_BATTLE_MOTIVATIONS_PROPOSAL_2026-10-17.md): eight provisional steward profiles and motives; no new approved cast/teams/locations.
+- [Server and recovery contract](09_Technical/BATTLE_SERVER_AND_RECOVERY_CONTRACT_2026-10-17.md): separate offline/private/PvE/casual/ranked/raid/tournament profiles, handoff and engine gates.
+- [Reference oracle](09_Technical/Reference/BattleModes/README.md): executed offline Python admission and idempotent review-event tests; no hosted game service.
+- [Proposed patch notes](10_Production/PATCH_NOTES_ECHO_DUELS_2026-10-17.md): scope, corrections and missing runtime work.
+
+This branch extends existing source-of-truth routing. New mode/story/server design remains PROPOSAL; core technical gates and BUILD ownership stay unchanged. No forced duels, loser deletion, digital-world replacement, permanent map unlock by ranked result or development-QA game mechanics.
