@@ -2,7 +2,7 @@
 **Status:** DESIGN ASSET BRIEF; no UMG or Input Mapping assets exist by virtue of this document. **PR #71 supplement, M01/M05/M11/M13.**
 
 ## UI ownership
-The A.E.G.I.S./Eco-Device is the current staged **hip-mounted** system with D.A.H.L.I.A. advisory presentation. Use the existing UI view-model/subsystem once BUILD source is readable. No independent save, consent score, roster owner or duplicate AbilitySystem inside widgets.
+Draft PR #70 proposes a **hip-mounted** A.E.G.I.S./Eco-Device presentation; this proposal must not override established device canon before approval. D.A.H.L.I.A. is the advisory presentation. Use the existing UI view-model/subsystem once BUILD source is readable. No independent save, consent score, roster owner or duplicate AbilitySystem inside widgets.
 
 ## Exact screen inventory
 | Screen ID (working) | Render inputs | Player action | Critical denial / feedback |
