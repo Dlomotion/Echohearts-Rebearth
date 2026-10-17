@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "encounter_id": "ENCP-07",
+  "working_title": "Parallax Survey Pair",
+  "status": "PROPOSED_STATETREE_CONTRACT_NOT_IMPLEMENTED",
+  "owner_repo": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+  "engine_target": "UE5.8",
+  "actor_type": "environmental_relay_pair_not_ecokin",
+  "world_state_dependencies": [
+    "OffshoreAntenna.AccessUnlocked",
+    "StormNavigation.Visible"
+  ],
+  "runtime_requirements": {
+    "authoritative": "dedicated_or_host_server",
+    "replicated_fields": [
+      "StateId",
+      "StateRevision",
+      "TideNodeOperational",
+      "WindNodeOperational",
+      "CableJunctionStates",
+      "HazardSeed",
+      "EncounterResolved"
+    ],
+    "max_active_support_fx": 8,
+    "client_predictable_fx_only": true,
+    "stop_on_world_partition_unload": true
+  },
+  "blackboard": {
+    "CurrentTarget": "weak actor handle",
+    "ThreatEligible": "bool",
+    "CableJunctionStates": "bitset",
+    "StormMode": "weather tag",
+    "TideNodeOperational": "bool",
+    "WindNodeOperational": "bool",
+    "LastSafeNavLane": "lane guid",
+    "StateRevision": "uint"
+  },
+  "states": [
+    {
+      "id": "Dormant",
+      "on_entry": [
+        "ClearThreatIndicators"
+      ],
+      "transitions": [
+        {
+          "event": "OnRegionActivated",
+          "target": "Observe"
+        }
+      ]
+    },
+    {
+      "id": "Observe",
+      "tasks": [
+        "SampleSafeTargetAtInterval",
+        "ValidateCableTopology",
+        "BroadcastWarningLane"
+      ],
+      "transitions": [
+        {
+          "guard": "AllJunctionsRepaired",
+          "target": "Calibrate"
+        },
+        {
+          "guard": "ThreatEligibleAndInsideAuthorizedArena",
+          "target": "Warn"
+        }
+      ]
+    },
+    {
+      "id": "Warn",
+      "tasks": [
+        "PublishSafeLane",
+        "TelegraphBeforeHazard"
+      ],
+      "minimum_warning_seconds": "BALANCE_PENDING",
+      "transitions": [
+        {
+          "event": "TelegraphComplete",
+          "target": "SurveySweep"
+        },
+        {
+          "event": "TargetLeavesArena",
+          "target": "Observe"
+        }
+      ]
+    },
+    {
+      "id": "SurveySweep",
+      "parallel": {
+        "TideUnit": [
+          "ProjectPredictedCurrentBands",
+          "KeepEscapeChannelOpen"
+        ],
+        "WindUnit": [
+          "MoveRiggingSafeGap",
+          "UpdateCurrentVectorSignage"
+        ]
+      },
+      "transitions": [
+        {
+          "event": "CableJunctionRepaired",
+          "target": "Reconfigure"
+        },
+        {
+          "guard": "EitherNodeOffline",
+          "target": "Recovery"
+        },
+        {
+          "guard": "AllJunctionsRepaired",
+          "target": "Calibrate"
+        },
+        {
+          "event": "SweepCompleted",
+          "target": "Warn"
+        }
+      ]
+    },
+    {
+      "id": "Reconfigure",
+      "tasks": [
+        "CancelOldHazardTimers",
+        "RecalculateVisibleSafeLane",
+        "NotifyPlayersOfChangedPattern"
+      ],
+      "transitions": [
+        {
+          "event": "ReconfigurationComplete",
+          "target": "Warn"
+        },
+        {
+          "guard": "AllJunctionsRepaired",
+          "target": "Calibrate"
+        }
+      ]
+    },
+    {
+      "id": "Recovery",
+      "tasks": [
+        "StopUnpoweredNode",
+        "RetainSafeLane",
+        "ReduceActiveHazardBudget"
+      ],
+      "transitions": [
+        {
+          "guard": "BothNodesOffline",
+          "target": "Calibrate"
+        },
+        {
+          "guard": "ActiveNodeOnlineAndThreatEligible",
+          "target": "Warn"
+        },
+        {
+          "event": "PlayerDisengaged",
+          "target": "Observe"
+        }
+      ]
+    },
+    {
+      "id": "Calibrate",
+      "tasks": [
+        "StopAttacks",
+        "OfferNonCombatFrequencyAlignment",
+        "ValidateAllJunctionsAndSurveyBeacon"
+      ],
+      "transitions": [
+        {
+          "event": "AlignmentAccepted",
+          "target": "Resolved"
+        },
+        {
+          "event": "PowerCutButWorldStateUnsafe",
+          "target": "AwaitRepair"
+        }
+      ]
+    },
+    {
+      "id": "AwaitRepair",
+      "tasks": [
+        "PersistUnfinishedWorldObjective",
+        "ShowRepairDirections"
+      ],
+      "transitions": [
+        {
+          "event": "WorldObjectiveRepaired",
+          "target": "Calibrate"
+        }
+      ]
+    },
+    {
+      "id": "Resolved",
+      "tasks": [
+        "PersistWorldDeltaOnce",
+        "GrantApprovedResearchRewardsOnce",
+        "DismissHazards",
+        "BroadcastCompletion"
+      ],
+      "terminal": true
+    }
+  ],
+  "global_interrupts": [
+    {
+      "event": "WorldCellUnloaded",
+      "action": "SnapshotAndSuspendNoAttacks"
+    },
+    {
+      "event": "AuthorizedShutdown",
+      "action": "StopHazardsAndPersistSafeState"
+    },
+    {
+      "event": "SaveRevisionConflict",
+      "action": "RejectAndResync"
+    }
+  ],
+  "quality_gates": [
+    "Every attack telegraphs in audio/text/visual",
+    "Player can complete restoration without killing",
+    "One authoritative state transition per revision",
+    "No duplicate reward on reconnect",
+    "No target-mesh overlap chain explosions",
+    "No unbounded drone spawning",
+    "Cannot override campaign progression without story gate"
+  ],
+  "balance": {
+    "timings": null,
+    "damage_coefficients": null,
+    "loot_drop_rates": null,
+    "essence_resistances": null
+  }
+}
