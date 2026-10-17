@@ -53,3 +53,22 @@ Pending: actual BUILD access, source-owner/API inspection, input/actor/relations
 inventory/save integration, original DCC meshes and rigs, animations, UI assets, level
 placement, UHT/UBT/PIE/package, server tests and target-hardware profiling. Preserve the
 existing foundation/Issue #10 production order; these references do not bypass it.
+
+## Follow-up integration pass — 2026-10-17
+
+This extends the SAME draft PR #71 and its M01–M20 definitions. It does not start an alternate Dex, build repo, or development workflow.
+
+Additional artifacts:
+- `09_Technical/ENCOUNTER_TO_KINDLING_UE58_INTEGRATION_HANDOFF_2026-10-17.md`: actual engine-source inspection checklist, adapter/event ownership, mandatory runtime gates.
+- `06_UI_UX/FIRST_KINDLING_INTERACTION_UI_INPUT_BLUEPRINT_2026-10-17.md`: eight encounter/Kindling screens, input context and accessibility/denial handling.
+- `07_Art/FIRST_PLAYABLE_ECOKIN_ASSET_ANIMATION_SHOTLIST_2026-10-17.md`: concrete mesh, rig, animation, material, cue, clinical-care and level art checklist; **no actual assets claimed**.
+- `01_Story/FIRST_KINDLING_LESSON_BEAT_AND_BRANCH_MAP_2026-10-17.md`: ecological lesson with valid Bond, Release and Defer completions and first-clear safeguards.
+- `04_Systems/MISSING_SYSTEMS_DEEP_DESIGN_WEATHER_CARE_FORMS_AI_2026-10-17.md`: detailed M06–M12 behavior/weather/care/strain/farming/DAHLIA cross-system contracts.
+- `10_Production/GAMEPLAY_GAP_DELIVERY_MATRIX_2026-10-17.json`: machine-readable 20-workstream dependency/acceptance/evidence matrix, checked for all 20 IDs, unique IDs and acyclic graph.
+- `09_Technical/Reference/Encounters/test_workstream_matrix.py`: reference-only tests for schema, uniqueness, dependency closure, protected evidence statuses and BUILD ownership. GitHub workflow picks it up with Python unittest discovery.
+
+Reference CI run `39050773519` completed successfully at head `df3f9c19...` and reported success for encounter/Kindling reference, optimized Python checks and existing battle oracle. This is CI **static/reference scope only**, NOT a UHT/UBT/Unreal PIE/package test.
+
+**Canon conflict guard:** Draft PR #70 proposes a different player-facing title, hip device and one-active roster contract, but these are unmerged changes and must not silently supersede established Frequency Tamer / Core-Binder and device canon until approved. No new permanent Eco-Kin identities or foreign-franchise mechanics.
+
+**Remaining hard blocker:** GitHub connection still returns 404 for `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`, so native runtime, first Windows compile, all game meshes/animations/UI/input assets, actual world spawns, playable missions, multiplayer deployment and performance are NOT completed. Need authenticated BUILD access and actual editor toolchain/asset pipeline before these can be truthfully finished.
