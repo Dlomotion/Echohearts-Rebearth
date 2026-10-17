@@ -1,0 +1,26 @@
+name: Encounter and Kindling reference checks
+on:
+  push:
+    paths:
+      - '09_Technical/Reference/Encounters/**'
+      - '.github/workflows/encounter-reference-check.yml'
+  pull_request:
+    paths:
+      - '09_Technical/Reference/Encounters/**'
+      - '.github/workflows/encounter-reference-check.yml'
+permissions:
+  contents: read
+jobs:
+  offline-oracles:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Encounter and Kindling reference (not Unreal)
+        working-directory: 09_Technical/Reference/Encounters
+        run: python3 -m unittest -v
+      - name: Existing battle reference regression
+        working-directory: 09_Technical/Reference/BattleModes
+        run: python3 -m unittest -v
