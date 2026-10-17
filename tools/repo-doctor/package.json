@@ -1,0 +1,15 @@
+{
+  "name": "echohearts-repo-doctor",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Read-only TypeScript validation tooling for Echohearts: Rebearth repositories.",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "audit": "tsx tools/repo-doctor/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
