@@ -1,0 +1,108 @@
+# First playable encounter and Kindling slice
+
+Status: original content/interaction brief, not placed maps or authored assets.
+Attach to the existing Field Academy/First Kindling lesson and approved Issue #10
+human + Eco-Kin asset slice. Actual production identity and map names come from the
+existing registries; fixture IDs in tests must never be shipped as species/quest IDs.
+
+## The five-minute experience
+
+Arrival: a cleared path borders a damaged water channel. Footprints, bent grass and
+an intermittent call suggest an individual nearby. The player can keep walking;
+no camera lock or forced fight occurs. A.E.G.I.S. labels a partial observation rather
+than claiming knowledge the player has not earned. D.A.H.L.I.A. offers one useful prompt.
+
+Observation: keep distance and scan the habitat. The individual is sheltering from
+a local hazard. Signs and posture explain why. The player may inspect the channel,
+help from outside the comfort zone, back away or defer. No combat-damage threshold.
+
+Protection: remove an authored environmental danger or preserve a safe escape path.
+This may be a simple approved interaction in the graybox. It does not require
+deliberately creating harm first. Progress records an actual objective event, not
+standing in a trigger while a timer pretends the problem was solved.
+
+Calm: stop pursuit, create space and wait for a readable approach. The individual
+can remain wary. Food/water and appropriate care may be available if species design
+supports them, but they do not purchase consent. The prompt is an invitation, not
+a charging capture reticle.
+
+Kindling: the Eco-Device shows the living Anima-Link while the individual chooses.
+The camera preserves an exit route and control to cancel. Reduce-flash/static
+presentation and hold/confirm options convey the same decision. No mandatory rhythm
+timing, mash meter, ownership text or score bar fills to manufacture agreement.
+
+Resolution: Bond creates an authorized relationship record only after fresh evidence
+and consent; Release leaves the individual free; Defer preserves known observations
+and offers another eligible opportunity. None deletes the individual. The mentor
+acknowledges safe handling even when no bond occurs. This lesson must not softlock
+because the player respected refusal.
+
+## Screens and interaction states
+
+| Surface | Required content | Input and denial behavior |
+| --- | --- | --- |
+| Habitat observation | Known clue, uncertainty, safe distance cue | Observe/interact; never reveal protected coordinates |
+| Individual approach | Posture/consent text + icon, current hazard | Protect, wait, back away; attack not remapped to confirm |
+| Kindling invitation | Invite, release, defer; care/refusal reason | Hold or confirm alternatives; no automatic accept |
+| Ceremony | Stable partner framing, restrained device effect | Cancel remains available until authoritative commit |
+| Relationship result | Actual result, care need, next available action | No 'captured' inventory popup |
+| Device roster | Bonded individual, readiness, summon/refusal | Respect existing charge/strain, healing and ceremony guards |
+
+## Proposed input actions (names only until BUILD inspection)
+
+| Context | Action intent | Keyboard/gamepad/touch requirement |
+| --- | --- | --- |
+| Explore | Move, Look, Jump, Sprint | Analog/vector mapping and configurable camera sensitivity |
+| Explore | Interact, Observe, BackAway | Remappable distinct controls, readable touch affordances |
+| Partner | OpenCommands, SelectPartner, Summon, Recall | Wheel/list choice without rapid precision taps |
+| Ceremony | Invite, Confirm, Release, Defer, Cancel | Focus-safe remapping and hold/toggle alternatives |
+| UI | Navigate, Accept, Back, Scroll | Focus indicators and one active input context |
+
+Do not write arbitrary engine input keys into the unknown character Blueprint.
+Proposed mapping contexts: Exploration, PartnerCommands, Ceremony and UI. Inspect
+existing Enhanced Input actions/contexts before choosing implementation symbols.
+
+## Minimum authored content inventory
+
+| Deliverable | First pass | Production acceptance |
+| --- | --- | --- |
+| One human | Approved Issue #10 proxy with usable collision | Approved body/rig, locomotion, interaction and camera framing |
+| One approved Eco-Kin | Existing silhouette/rig family, not new species | Idle, walk, turn, observe, warn, approach, refuse, rest |
+| Hip Eco-Device | Graybox socket and state light | Approved Living Porcelain/Prism Core geometry/materials |
+| Habitat pocket | Existing test level/cell + approach/escape/shelter | Authored placement, streaming/nav/collision, ecological clues |
+| Hazard interaction | Clear safe/remove/defer state | Mission event, persistent restored condition, no reward replay |
+| UI | Text/icon prototype with every reason | Final widgets, localization, accessibility and platform focus tests |
+| Audio/VFX | Distinct placeholder cues labeled temporary | Original calls/ambience/device cues, captions, reduced-flash variants |
+| Mission | Existing first Kindling lesson attachment | Mentor acknowledgement for Bond/Release/Defer, save recovery |
+
+Meshes, rigs, animation clips, Niagara/audio assets and UMG widgets are not generated
+by this document or the Python tests. Approved reference art must guide DCC production.
+No .uasset, .umap or cooked content is fabricated as a text placeholder.
+
+## Required scenario runs
+
+1. Normal observation/protection/calm/invitation/bond, followed by existing summon/recall.
+2. Refusal at invitation, after invitation and immediately before relationship commit.
+3. Player chooses Release or Defer; lesson still records the appropriate safe resolution.
+4. Healing, threat, streaming unload or ceremony interruption; preserve individual identity.
+5. Save/load after every phase; no repeated bond, first-clear reward or duplicated actor.
+6. Two players approach the same individual; host relationship authority resolves one
+   consistent result without commodity ownership or silent state overwrite.
+7. Weather and cell revision change between spawn proposal and spawn; revalidate.
+8. Keyboard/gamepad/touch, muted audio, high-contrast/text cues and reduced flashes.
+
+## Production sequence
+
+1. Obtain the audit and readable BUILD source; reproduce the reported Corruption fixes
+   and inspect actual ownership/modules/dependencies. Confirm Windows UE5.8.3 toolchain.
+2. Run the existing foundation gate and Issue #10 body/animation slice. Retain UHT/UBT
+   and basic packaged launch evidence. Wire move/look/interact using existing input.
+3. Author the small graybox habitat with safe navigation and approved proxy actors.
+4. Implement M02/M03/M04 in the existing world/AI owners, then M05 in relationship/mission owners.
+5. Add minimal UI and pose/animation/cue content alongside the loop, not after all story work.
+6. Run single-player save/recovery and then multi-client conflict/late-join tests.
+7. Extend the already planned 4–6 Eco-Kin vertical slice with enemy AI and one authored
+   boss only after the ordinary field loop works. Expand weather/farm/forms/online breadth later.
+
+This is a dependency refinement, not a replacement for the authoritative production
+order. More unconnected classes or text catalogs do not replace a playable slice.

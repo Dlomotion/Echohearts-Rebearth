@@ -184,3 +184,26 @@ BUILD PR #51 returned 404 on the current connection. Its prior 87 native checks 
 Corrected the September 20 Radiant Typhoon intake's retired twelve-element claim and Psylopath's Spirit/Chaos assignment language against current canon. Historical visual descriptors are preserved for provenance; all candidate identities, Essences and Forms still require review. This is terminology/authority correction, not art approval or runtime verification.
 
 Hidden Eco-Kin wave linkage: [Velumi cave restoration encounter proposal](../05_Levels/HIDDEN_VELUMI_CAVE_ENCOUNTER_PROPOSAL_2026-10-13.md). The encounter uses the existing `hidden_velumi` intake key; it assigns no production ID, coordinates or map asset. The original lavender/cyan cave study and the later mint/coral Velumi redesign are distinct visual passes from `6394.jpg`; neither is a locked model sheet. Choose an approved pass through the existing art/registry review, rather than blending contradictory palettes/anatomy into a third identity.
+
+
+## 2026-10-17 — Available eleven-file reference batch
+
+Status: **REFERENCE-ONLY / IDENTITY AND PROVENANCE REVIEW PENDING**. All eleven files were read from the supplied scratch copies and visually inspected as a numbered contact sheet. This records availability and bytes, not asset import, rights clearance, final anatomy approval or roster admission. No runtime/code source appears in these images. Original image orientation and visual content have not been edited.
+
+| # | Original filename | Observed content / permitted study | SHA-256 |
+| --- | --- | --- | --- |
+| 1 | `file_00000000b1cc71fdb2a082c83a58c93f.png` | Human character/outfit concept; no cast identity assigned | `c5b1a78e83f35a8bff64dae1df441a293eee647d612191824b0dfe3dab40c30e` |
+| 2 | `20260429_173212.jpg` | Sea turtle reference; movement and marine habitat study | `6e2a144a8ca99470eb71aa7708a68f4f6ce525d4f527d6aa5a0419afddd8673f` |
+| 3 | `20260429_172751.jpg` | Tree hollow/root refuge; shelter and habitat readability | `2b36cf8b47091613800259a9301d0097c28901399ef0ea41118631a7863b1547` |
+| 4 | `20260330_224743.jpg` | Crested bird reference; posture and feather/neck study | `f18ad7f5226f51daf52ffc79b5aa24aab23d469db889ed60b0f8c5f3c66b77d7` |
+| 5 | `image0.jpeg` | Crowned lion illustration; broad silhouette reference only | `040db69f49094dd0d9cad9ed8670d1d96f1f63638ac62f2230cb8e1b8697f3df` |
+| 6 | `Resized_Resized_Resized_tempFileForShare_20240919-081713_628535461209084_1726751838055_17267519.jpeg` | Human-and-lion composition; partnership staging only | `c168145cc75d36e493acb83818fc70a7aa08dc5a55c7238485604f9b0ff6a9ed` |
+| 7 | `image.png` | Stylized armored/hooded figure and companion; identity/provenance review | `076955e83ebfdbf95c68fa67e15c1c3acde9f62eeeaccbc3d9767edeafd7725a` |
+| 8 | `file_00000000876c71f591a3d566bcbdca5b.png` | Four-panel owl-like form concept; not four approved species or unlocks | `cec8e380e0a7c5c9c3c4831dbcd0b0281924eca29d75d812e4a69d871e59ceb6` |
+| 9 | `file_00000000461861f9a311ad98f3d41d78.png` | Echohearts / Veridian Keepers emblem; branding reference | `f281ae54aae479a5d37b2da427babde91da41a76bb4a67fde3135da54a1a7c02` |
+| 10 | `file_00000000b45c6230ac22df7b9cbf37a1.png` | Human fire/water VFX concept; no Essence or form assignment | `5dd3cfc5f63aac46b803680f38e3cd3b1254f259e029026162805abaee778a21` |
+| 11 | `file_00000000468861f5ab94a6a7aa20ecbd.png` | Seated human illustration; NPC posture/outfit reference | `df7c58518e9a301933afd8dade8c3e8372b9d9bb57de54b0938b40c97f65d3cb` |
+
+The animal photographs may inform ecology and locomotion study; illustrations require originality/provenance and identity review. Do not copy outfits, silhouettes, names or form ladders into the Permanent Dex. Reconcile with existing registered characters/forms before authoring model sheets. No image becomes a mesh, rig, animation, widget or placed level from this intake. Source binaries remain outside public Git history; hashes are not portable download paths or permission evidence.
+
+**PENDING IMPORT:** `file_00000000ed0062309c7d3ff2fce23f01.png` failed attachment delivery. It was not read, used or reconstructed; re-upload requested. Prior missing-file warnings for the eleven listed above are resolved for this session only, not proof of repository import.

@@ -318,3 +318,15 @@ No prototype result promotes Unreal actor, networking, save, package or map veri
 - [Proposed patch notes](10_Production/PATCH_NOTES_ECHO_DUELS_2026-10-17.md): scope, corrections and missing runtime work.
 
 This branch extends existing source-of-truth routing. New mode/story/server design remains PROPOSAL; core technical gates and BUILD ownership stay unchanged. No forced duels, loser deletion, digital-world replacement, permanent map unlock by ranked result or development-QA game mechanics.
+
+
+## 2026-10-17 missing-system designs and encounter on-ramp
+- [Twenty delivery workstreams](04_Systems/MISSING_SYSTEMS_DELIVERY_DESIGN_2026-10-17.md): expanded design/dependencies/acceptance for the named gaps; reported audit counts remain unconfirmed without BUILD/report access.
+- [First playable encounter/Kindling scene](05_Levels/FIRST_PLAYABLE_ENCOUNTER_KINDLING_SLICE_2026-10-17.md): Field Academy attachment, input/UI/content briefs and safe resolutions.
+- [Encounter reference](09_Technical/Reference/Encounters/README.md): offline habitat/ceremony proposal tests, not actor spawning or relationship persistence.
+- [Proposed patch notes](10_Production/PATCH_NOTES_ENCOUNTER_ONRAMP_2026-10-17.md): scope and verification boundary.
+
+Existing PR #70 battle contracts are inherited by this stacked review. Dlomotion/EcoKin-patch is reachable and owns repair evidence only; BUILD remains inaccessible through the connection. No duplicate canon/Dex/runtime or manufactured game assets. No main-branch merge or Unreal verification is implied.
+
+### Follow-up: field-loop acceptance expansion
+The existing twenty-workstream [delivery design](04_Systems/MISSING_SYSTEMS_DELIVERY_DESIGN_2026-10-17.md) now includes detailed state/failure/recovery and content acceptance briefs. The same [encounter reference lane](09_Technical/Reference/Encounters/README.md) adds offline weather/Strain/action/boss/plot/form/advice contracts and connected refusal/storm checks. The existing [art intake](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md) records eleven readable reference images by filename/hash, with no identity or binary import promotion. These additions do not establish Unreal implementation or close the BUILD access gate.
