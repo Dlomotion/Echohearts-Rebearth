@@ -243,7 +243,7 @@ Standing does **not** grant ownership over other Eco-Kin and does not force evol
 
 ## 11. Campaign vs Arena
 
-- **Campaign:** real-time third-person partner combat, 8 roster / 3 active.
+- **Campaign:** real-time third-person partner combat, eight carried bonded links / one active partner, following the 2026-10-17 A.E.G.I.S. user-direction supersession. Simulation modes define their explicit player/team counts separately.
 - **Resonance Arena / Harmony Circuit:** sanctioned competitive simulation space with its own rules, matchmaking and championship standing.
 
 No overworld griefing. No permanent injury from simulation matches. No sentient trading or wagering.
