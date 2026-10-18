@@ -30,6 +30,26 @@ class EncounterTests(unittest.TestCase):
     def proposal(self, h=None, cs=None, approved=frozenset({"species:fixture"}), seed=7):
         return propose_spawn(h or habitat(), (candidate(),) if cs is None else cs, approved, seed)
 
+    def commit(self, proposal, current, **changes):
+        host = dict(candidates=(candidate(),), approved_species=frozenset({"species:fixture"}), seed=7)
+        host.update(changes)
+        return validate_spawn_commit(proposal, current, **host)
+
+    def test_commit_rechecks_host_registry_seed_and_candidates(self):
+        for change in (dict(approved_species=frozenset()), dict(seed=8),
+                       dict(candidates=(candidate(weight=2),))):
+            with self.subTest(change=change), self.assertRaises(Rejected):
+                self.commit(self.proposal(), habitat(), **change)
+
+    def test_commit_requires_trusted_inputs(self):
+        with self.assertRaises(TypeError):
+            validate_spawn_commit(self.proposal(), habitat())
+
+    def test_commit_population_order_remains_canonical(self):
+        current = habitat(capacity=4, active_instances=("a", "b"))
+        proposal = self.proposal(h=current)
+        self.assertTrue(self.commit(proposal, replace(current, active_instances=("b", "a"))))
+
     def test_determinism(self):
         self.assertEqual(self.proposal(), self.proposal())
 
@@ -77,12 +97,23 @@ class EncounterTests(unittest.TestCase):
 
     def test_stale_commit(self):
         with self.assertRaisesRegex(Rejected, "stale_spawn"):
-            validate_spawn_commit(self.proposal(), habitat(revision=2))
-        self.assertTrue(validate_spawn_commit(self.proposal(), habitat()))
+            self.commit(self.proposal(), habitat(revision=2))
+        self.assertTrue(self.commit(self.proposal(), habitat()))
 
     def test_commit_capacity_rechecked(self):
         with self.assertRaisesRegex(Rejected, "population_full"):
-            validate_spawn_commit(self.proposal(), habitat(active_instances=("a","b")))
+            self.commit(self.proposal(), habitat(active_instances=("a","b")))
+
+    def test_commit_rejects_tampered_species_and_fingerprint(self):
+        proposal = self.proposal()
+        for change in ({"species_id": "species:unapproved"}, {"fingerprint": "0" * 64}):
+            with self.subTest(change=change), self.assertRaises(Rejected):
+                self.commit(replace(proposal, **change), habitat())
+
+    def test_commit_rechecks_same_revision_habitat_eligibility(self):
+        for change in ({"weather": "storm"}, {"purity": .1}, {"biome": "other"}):
+            with self.subTest(change=change), self.assertRaises(Rejected):
+                self.commit(self.proposal(), habitat(**change))
 
     def test_revision_and_seed_types(self):
         for value in (True,-1,2**31,float('nan')):
@@ -148,3 +179,4 @@ class EncounterTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+

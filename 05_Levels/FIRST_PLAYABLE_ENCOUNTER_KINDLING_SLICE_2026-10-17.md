@@ -106,3 +106,57 @@ No .uasset, .umap or cooked content is fabricated as a text placeholder.
 
 This is a dependency refinement, not a replacement for the authoritative production
 order. More unconnected classes or text catalogs do not replace a playable slice.
+
+## Storm at the invitation — scene extension, 2026-10-18
+
+**PROPOSAL / NOT YET VERIFIED.** Extend the same habitat pocket and mission; no new
+region, species, quest meter or campaign opening. A storm warning arrives after the
+player restores the channel but before the relationship commit. The protected route
+remains open. The Eco-Kin steps back toward shelter; the player's respectful response
+is the dramatic action, rather than defeating an enemy or overcoming refusal.
+
+| Beat | Original dialogue / presentation | Authoritative outcome required |
+| --- | --- | --- |
+| Warning | Caption: “Wind rises through the channel.” Grass bends; stable text/icon warning accompanies the optional low wind cue. No strobe or camera seizure. | Current host weather/cell snapshot invalidates unsafe approach; a previously prepared spawn proposal cannot authorize a new actor. |
+| Invitation pauses | D.A.H.L.I.A.: “The shelter route is still open. Let it decide from safety.” | Disable invitation confirmation with “Approach paused: habitat unsafe”; retain Cancel, Release and Defer. |
+| Individual withdraws | A backward step and turned posture communicate refusal without a red failure score. Caption: “It returns to shelter.” | Fresh refusal supersedes earlier willingness; no bond, summon, device charge or forced pursuit. |
+| Player chooses Defer | Player response option: “We can leave the path clear.” Mentor: “Then our work here still matters.” | Save restoration and observation in their existing owners; resolve this attempt safely once. |
+| Return after conditions change | Mentor: “The channel held. Watch before you approach again.” | Re-evaluate weather, cell readiness, care and willingness. A new eligible attempt never inherits old consent. |
+| Optional later Bond | D.A.H.L.I.A.: “A mutual response is present. You may still step back.” | Commit only against fresh host evidence and the existing relationship transaction. No automatic result on timeout. |
+
+### Training and HUD acceptance
+
+Training stays in the existing 04_Systems progression track. Safe-handling lesson
+resolution and Stage 04 completion are different events: Release/Defer must allow
+the story to continue without falsely recording a first bond. Stage 04: First Kindling
+advances only after the existing progression owner confirms a genuine first bond;
+do not grant bonded-command permissions from an observation or deferred attempt.
+Player level, Tamer of Beasts license, Kindling relationship strength, individual
+Eco-Kin development, Circle Balance and territory progression keep their own owners.
+
+Use the existing A.E.G.I.S. display fields:
+
+- **TRAINING — MAIN STORY PROGRESS**
+- **Stage 04: First Kindling** (only when this is the actual current stage)
+- **Current Trial:** Establish a genuine first bond; respectful deferral is available.
+- **Objectives completed:** Use actual progression-owner counts; no fabricated completion.
+- **Next Unlock:** Bonded companion commands, after confirmed first bond.
+
+The scene panel may separately state “Habitat restored; invitation deferred.” It
+must not introduce another competency meter or imply a bond exists. If Stage 04
+is not yet active, render the actual stage rather than forcing this fixture label.
+
+### Recovery and content checklist
+
+1. Withhold the relationship commit while unsafe; recheck late refusal even if an
+   earlier invitation was accepted. Restored ecology must survive a canceled ceremony.
+2. Save/reload at warning, withdrawal and Defer. No duplicated individual, first-clear
+   event or false Stage 04 unlock; unloaded habitat resolves to safe waiting.
+3. Two-player test: one participant defers while another attempts acceptance. The
+   existing host authority resolves one current individual state, without forced bond.
+4. Author six short captions above, withdrawal/shelter poses from the existing rig,
+   one non-flashing warning icon and muted-audio equivalent. These assets are requested,
+   not present or imported; use the existing art/animation/audio workstreams.
+5. Keep approach, shelter and escape connections in the existing graybox. No world
+   coordinates, hidden-cave route, Viewpoint unlock or new cartography claim follows.
+

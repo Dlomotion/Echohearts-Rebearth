@@ -330,3 +330,9 @@ Existing PR #70 battle contracts are inherited by this stacked review. Dlomotion
 
 ### Follow-up: field-loop acceptance expansion
 The existing twenty-workstream [delivery design](04_Systems/MISSING_SYSTEMS_DELIVERY_DESIGN_2026-10-17.md) now includes detailed state/failure/recovery and content acceptance briefs. The same [encounter reference lane](09_Technical/Reference/Encounters/README.md) adds offline weather/Strain/action/boss/plot/form/advice contracts and connected refusal/storm checks. The existing [art intake](07_Art/CHARACTER_ECOKIN_ART_INTAKE_MANIFEST.md) records eleven readable reference images by filename/hash, with no identity or binary import promotion. These additions do not establish Unreal implementation or close the BUILD access gate.
+
+## 2026-10-18 encounter commit and storm scene correction
+- [Daily evidence and next gate](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-18.md): pinned repository/PR20/repair evidence, BUILD access gate and scoped reference checks.
+- [Existing encounter reference](09_Technical/Reference/Encounters/README.md): commit recomputation from trusted host candidates/registry/seed; no actor or durable transaction claim.
+- [Existing first encounter scene](05_Levels/FIRST_PLAYABLE_ENCOUNTER_KINDLING_SLICE_2026-10-17.md): storm withdrawal dialogue, accessible cues and explicit safe-lesson versus first-bond Training distinction, all PROPOSAL.
+

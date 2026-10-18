@@ -18,7 +18,12 @@ authentication; untrusted clients must never supply Evidence or approved registr
 The host resolves approved species/individual IDs and increments revision whenever
 relevant state changes. Revision freshness here is not a wall-clock expiry system.
 
-validate_spawn_commit rechecks cell readiness, capacity and revision; it does not
+validate_spawn_commit requires host candidates, approved species and seed as keyword
+inputs. It recomputes the full proposal against the current habitat and rejects a
+changed species, fingerprint, seed, candidate table or habitat, including when an
+adapter forgot to increment the habitat revision. These inputs must come from the
+trusted host, never the requesting client. It also rechecks readiness, capacity and
+revision; it does not
 consume a spawn token or create an entity. The host must use a durable reservation,
 unique individual ID and replay-safe spawn transaction, and revalidate all ecology/
 geometry constraints. The proposal fingerprint is a deterministic correlation value,
@@ -83,3 +88,11 @@ Local follow-up evidence: 34 added unittest methods plus the existing 23 encount
 methods passed normally and under Python `-O` (57 per run). Existing battle reference:
 24 methods passed. These are offline checks, not 81 implemented game systems or UE
 Automation tests. Hosted Actions reports its own run status. No Windows/Unreal proof.
+
+2026-10-18 correction evidence: five invalid acceptance subcases reproduced before
+the commit check correction (species/fingerprint tampering and same-revision
+weather/purity/biome changes). Added five test methods, including host-input changes,
+required-input failure and population-order canonicalization. Full encounter/matrix/
+field suite: 70 methods passed normally and under optimization; battle: 24 passed.
+No durable spawn reservation, transaction or runtime implementation is established.
+

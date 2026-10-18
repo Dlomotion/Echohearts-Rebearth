@@ -93,7 +93,13 @@ def propose_spawn(habitat, candidates, approved_species, seed):
     raise Rejected("selection_failed")
 
 
-def validate_spawn_commit(proposal, current):
+def validate_spawn_commit(proposal, current, *, candidates, approved_species, seed):
+    """Recompute from current trusted host inputs; a digest is not authorization.
+
+    Native integration must keep validation and population reservation atomic and
+    resolve these inputs on the host, never from a client's proposed registry/seed.
+    This pure check neither consumes a proposal nor prevents replay on its own.
+    """
     require(type(proposal) is SpawnProposal and type(current) is Habitat, "invalid_proposal")
     require(integer(proposal.expected_revision, 2**31-1) and integer(current.revision, 2**31-1), "invalid_revision")
     require(current.cell_id == proposal.cell_id and current.revision == proposal.expected_revision, "stale_spawn")
@@ -103,6 +109,8 @@ def validate_spawn_commit(proposal, current):
     require(all(ident(x) for x in current.active_instances)
             and len(set(current.active_instances)) == len(current.active_instances), "invalid_population")
     require(len(current.active_instances) < current.capacity, "population_full")
+    expected = propose_spawn(current, candidates, approved_species, seed)
+    require(proposal == expected, "spawn_proposal_mismatch")
     return True
 
 
@@ -178,3 +186,4 @@ class BondReviewLedger:
             return None
         self._by_individual[state.individual_id] = identity
         return ("bond_review", state.owner_id, state.individual_id, state.encounter_id)
+
