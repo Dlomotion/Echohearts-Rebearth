@@ -63,3 +63,11 @@ Head remains `32c7e6df6201f25e96464576ae83ecca0981b609`; open, nondraft, mergeab
 
 Recheck PR #71 hosted reference CI at the correction commit and retain its job logs. Then obtain readable BUILD owner sources and the actual supported Windows UE5.8 toolchain logs; reproduce the claimed Corruption fixes, validate descriptor/targets/module macro/Build.cs, and execute clean-clone/LFS → UHT/Development Editor → editor/PIE/package launch before Issue #10 and native encounter adapters. Native integration must audit existing spawn/relationship owners and implement one atomic reservation/revalidation transaction; do not install this Python oracle as a second runtime.
 
+
+## Published correction receipt — 2026-10-18
+
+Source correction commit: `26c52d1a3dd7729e0648f75f77221868f74a198c`, existing draft PR #71, seven intended text files. Exact remote readback matched all seven local reviewed files. Compare against parent `a0fe65f57970e683cb544cd1d2bceb6b2f714ade` showed only those seven files; no binaries or unrelated files changed.
+
+Hosted evidence at that source commit: [PR run 39137552527](https://github.com/Dlomotion/Echohearts-Rebearth/actions/runs/39137552527), [push run 39137548830](https://github.com/Dlomotion/Echohearts-Rebearth/actions/runs/39137548830), both completed SUCCESS. [Job 117705056496 and its log view](https://github.com/Dlomotion/Echohearts-Rebearth/actions/runs/39137552527/job/117705056496) records successful normal encounter, optimized encounter and battle regression steps. Configuration: hosted Ubuntu 24.04, workflow-declared Python 3.12; exact hosted patch/tool metadata belongs to job logs. Result scope: offline source/reference checks only. Reviewer: Codex inspecting GitHub run/job metadata, 2026-10-18; source SHA256 values above identify the tested artifacts. No UE engine/toolchain, device or packaged artifact applies to these tests.
+
+This receipt is a documentation-only follow-up; it does not change tested source or promote the later documentation commit to an independently executed Unreal build. **Next exact action:** obtain readable BUILD owner sources plus the real Windows UE5.8 installation/build logs, then reproduce the Corruption fixes and execute the foundation gate before native encounter integration.
