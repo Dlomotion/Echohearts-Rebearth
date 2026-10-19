@@ -1,35 +1,45 @@
-# Echohearts-Rebearth
+# Echohearts: Rebearth
 
-Official development repository for **ECHOHEARTS: REBEARTH**.
+Official development repository for **Echohearts: Rebearth / Echohearts: Resonance Arena / ECO-KIN’S**.
 
-## Heart Statement
+This repository uses one source-of-truth workflow. Reposted material is **reconciled, corrected, and routed** into the existing project folders instead of creating duplicate canon, Dexes, GDDs, art pipelines, or code systems.
 
-Echohearts becomes great when players feel three things:
+## Production folders
 
-1. **This world needs me.**
-2. **These Eco-Kin are alive.**
-3. **My choices changed Rebearth.**
+- `00_Canon_Lock` — approved canon rules and protected terminology
+- `01_Story` — main story, chapters, characters, NPC arcs, lore
+- `02_World` — regions, cities, landmarks, habitats, world-state changes
+- `03_EcoKin_Dex` — Eco-Kin registry, biology, named Eco-Kin, intake/review
+- `04_Systems` — bonding, combat, Sanctuary, progression, economy, traversal
+- `05_Levels` — missions, encounters, dungeons, vertical-slice level work
+- `06_UI_UX` — A.E.G.I.S., EcoDex, HUD, accessibility, menus
+- `07_Art` — character/Eco-Kin art briefs, manifests, visual QA
+- `08_Audio` — music, VO, creature audio, resonance/VFX audio direction
+- `09_Technical` — Unreal Engine, C++, Blueprint, networking, saves, testing
+- `10_Production` — backlog, QA, provenance, assignments, intake routing
+- `11_Publication` — approved public-facing story, pitch, marketing, release docs
+- `99_Reference_Retired_Needs_Redesign` — historical drafts, unsafe references, retired names/systems
 
-## Current Production Direction
+## Locked development principles
 
-- Unreal Engine 5.8 is the sole production runtime target.
-- Eco-Kin are autonomous sentient partners, not inventory objects.
-- Main campaign combat is real-time; Harmony Circuit/EchoDeck cover tactical/turn-based simulation.
-- Sanctuary restoration, wild tracking, Havenlink rescue, EcoDex research, world-state consequences and the Living Planet response form the core loop.
-- Mini-games must reinforce existing systems rather than create disconnected filler.
-- Public website work must distinguish implemented, canon, approved-pending and in-development material.
-
-## Current Technical Gate
-
-1. Build `EchoheartsEditor` under UE 5.8.
-2. Run `Echohearts.Partners.CommandBuffer`.
-3. Test reload/recovery at 150/250/350 ms plus travel/reconnect/late join.
-4. Implement `ECO-API-001`.
-5. Implement the smallest `BCT-001` reservation/commit/rollback kernel.
-
-Until those tests exist, runtime claims remain **NOT YET VERIFIED**.
-
-## Source of Truth
-See `MASTER_PROJECT_INDEX.md` for the authoritative project routing and current technical documents.
+- Eco-Kin are autonomous sentient partners, not inventory objects or forced labor.
+- Core public stats: **Vibrance, Density, Harmony, Purity**.
+- Main bonding loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**.
+- Main campaign combat is real-time; tactical/turn-based play belongs to approved Arena/EchoDeck simulation modes.
+- Incoming art and concepts do not overwrite canon until continuity, originality, anatomy, gameplay, and production review are complete.
+- Code is never labeled compiled, verified, production-ready, secure, or optimized without actual repository/build/test/profile evidence.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## Repository authority split
+
+This public repository is the authority for **canon, story, world, systems, the 125-ID Permanent Dex, production contracts, publication, and public coordination**.
+
+The executable Unreal Engine 5.8 runtime/build/evidence authority is **`Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`**. Active `.uproject`, `Source/`, compiler/build/package drivers, UE CI, and retained runtime evidence belong there. Historical/bootstrap executable files in this public repository must not become a competing runtime source of truth.
+
+The Echohearts compiler/build driver is maintained in the BUILD repository. Public PR #19 must be split/reconciled before merge so executable implementation is not reintroduced here. PR #20 may carry platform/publication contracts, but runtime claims remain downstream of executed BUILD-repository evidence.
+
+## Bootstrap player-experience goals
+
+The initial workflow's heart statement remains: this world needs me; these Eco-Kin are alive; my choices changed Rebearth. These goals guide restoration, care, and the connected vertical slice. The current source-of-truth chain and BUILD ownership above supersede the bootstrap draft's obsolete target names and folder layout.
