@@ -18,6 +18,28 @@ This file is the routing map for the existing Echohearts project. It does not re
 12. `11_Publication`
 13. `99_Reference_Retired_Needs_Redesign`
 
+## Canonical directory registry
+
+These folder names are authoritative routing labels and should match the repository README and Copilot routing rules.
+
+| Folder | Required contents / responsibility |
+|---|---|
+| `00_Canon_Lock` | Locked canon, protected terminology, authority decisions, continuity constraints, and rules that downstream files may not silently override. |
+| `01_Story` | Main story, chapters, character/NPC arcs, dialogue/story beats, DLC/expansion narrative, and chronology. |
+| `02_World` | Rebearth regions, biomes, cities, landmarks, ecology, world-state changes, travel/portal geography, and environmental lore. |
+| `03_EcoKin_Dex` | The 125-ID Permanent Eco-Kin Dex, Forms Registry links, ecology/biology, named Eco-Kin records, historical-name review, and Dex governance. |
+| `04_Systems` | Gameplay-system contracts including Anima-Link, Huma-Link, Kindling, combat, Growth Rites, inventory/economy, Sanctuary, missions/progression, traversal, and other systemic rules. |
+| `05_Levels` | Missions, encounters, dungeons, maps, coordinates, puzzles, vertical-slice level implementation plans, and level-specific validation. |
+| `06_UI_UX` | A.E.G.I.S., HUD, EcoDex, mission tracking presentation, menus, accessibility, interaction feedback, and UX contracts. |
+| `07_Art` | Character/Eco-Kin art briefs, rig/animation art requirements, asset manifests, visual provenance, anatomy/identity QA, and technical-art direction. |
+| `08_Audio` | Music, ambience, VO, Eco-Kin audio, combat/resonance audio, implementation cues, and audio-direction contracts. |
+| `09_Technical` | UE5.8/C++ architecture contracts, schemas, networking/save/cloud/security/telemetry requirements, build/tooling standards, and technical audits. Executable UE source itself belongs in the BUILD repository. |
+| `10_Production` | Backlog, dependency maps, QA/evidence requirements, assignments, provenance, intake routing, release gates, and production status. |
+| `11_Publication` | Approved public-facing manuscripts, pitch/marketing material, ebook/publication standards, release manifests, and publication evidence. |
+| `99_Reference_Retired_Needs_Redesign` | Superseded, derivative, contradictory, unsafe, historical, or redesign-required material retained only for traceability/reference. |
+
+Do not substitute alternate folder names such as `05_Art_Direction`, `06_Audio`, `07_UI_UX`, or `08_Narrative_Production` for this routing map. Those labels belong only to historical/proposal material if encountered and must not become a parallel directory authority.
+
 ## Repost / intake rule
 
 Every reposted chat, image, document, code block, Eco-Kin concept, NPC, lore fragment, mechanic, or art reference must be:
@@ -184,53 +206,69 @@ Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, t
 8. Advance #7/#9 and Issue #8 as bounded tactical/online work after the real-time core is proven.
 9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
 
-## Seasonal main-story / Chrono-Sandbox intake: 2026-09-27
-
-The latest Training/Main Story packet is integrated into the same canon and production workflow.
-
-- `00_Canon_Lock/SEASONAL_ECOKIN_AND_EXPANSION_GOVERNANCE_2026-09-27.md` — locks the rule that Eco-Kin may be introduced/implemented in future sessions, seasons, story chapters and expansions while the 125-ID Permanent Dex remains the current identity authority.
-- `00_Canon_Lock/ANCIENT_VANGUARD_RAID_CANON_2026-09-27.md` — preserves the five Ancient Vanguard identities and corrupted Chrono-Echo raid states without automatically assigning new permanent Dex IDs.
-- `01_Story/SAVIORS_STARZ_ANGELIC_AND_DLC_INTAKE_2026-09-27.md` — routes Saviors of the Universe, STARZ*, Heaven/Naveah, angelic/cosmic research and DLC concepts into original Echohearts story development rather than direct religious/franchise copying.
-- `04_Systems/SEASONAL_CORE_GAMEPLAY_RECONCILIATION_2026-09-27.md` — reconciles 8-roster/3-active real-time play, Sanctuary/Havenlink, Resonance Relay, Reclamation Cohorts, EchoDeck, seasonal cosmetics, growth and multiplayer proposals.
-- `04_Systems/CHRONO_SANDBOX_WORLD_STATE_RECONCILIATION_2026-09-27.md` — rewrites the Tri-Core corruption/world-state packet into original Echohearts regional Blight families, restoration loops, Fracture Escalation and a bounded vertical-slice world-state target.
-- `09_Technical/VANGUARD_VOXEL_SMASH_CODE_AUDIT_2026-09-27.md` — keeps the Behemoth-Goliath slam intention while rejecting the pasted sample as production-ready or verified code.
-- `09_Technical/SECTIONS_XXVII_XXXI_NETWORK_REGISTRY_SAVE_UI_AUDIT_2026-09-27.md` — corrects raid replication, registry, MVVM and save-system errors and defines the evidence ladder before those systems may be called verified.
-- `10_Production/ANCIENT_VANGUARD_RAID_IMPLEMENTATION_MAP_2026-09-27.md` — maps the Vanguard/raid packet into the current infrastructure → Issue #10 → vertical-slice → networking/destruction dependency order.
-
-### Seasonal roster rule
-
-Do not bulk-fill every remaining Eco-Kin now. Future sessions and seasons activate approved identities in controlled waves. A season may introduce a form, regional variant, encounter state or currently unreleased permanent identity; it may not silently create `DEX-126` or replace the authoritative roster.
-
-### Section XXXI originality correction
-
-`Shallow Hallow`, generic one-to-one `Corruption/Cript` framing, `Hardmode`, and direct Terraria boss correspondences are retired from active production terminology. Their transferable ecological/phase-design lessons may only survive after original Echohearts rewriting and continuity review.
-
-### Technical truth rule
-
-Pasted C++ or architectural prose is **not** proof that a system is compiled, synchronized, production-ready or present on `main`. Runtime status remains NOT YET VERIFIED until the existing build/package/network/evidence gates are satisfied.
-
-## Environmental puzzles / Weather Pulse / Archive boundary intake: 2026-09-29
-
-This packet is integrated into the same Growth Rite, Event Sovereign, world-state and technical evidence path. It does not create a capture system, second progression stack, alternate world ledger or parallel UE implementation.
-
-- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md` — defines Static Orchard compatibility bands, multiple-solution/accessibility rules, Weather Pulse eligibility, reversible modifier layers, hysteresis, Sanctuary climate-simulation limits and persistence boundaries.
-- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md` — replaces capture/Vessel Disc terminology with nonlethal A.E.G.I.S. Stabilization Boundaries, defines authoritative client-intent/server-state flow, Archive canonical-write isolation, Morrowmire transaction ordering, replay/recovery tests and the no-runtime-evidence boundary.
-
-### 2026-09-29 correction precedence
-
-Where older index text still preserves historical wording, the following newer locks win:
-
-- **Core-Binder** is the authoritative protagonist role; old universal `Tamer of Beasts` / `Frequency Tamer` labels are contextual or retired.
-- Production Essences are exactly **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. Older references to a “locked 12 elements” set are historical and do not override this nine-Essence authority.
-- The five secret ending variants are now canonically named **Rooted Together**, **Starbound Accord**, **Order Without Accord**, **Ascension Alone**, and **Alone in the Echo**, under the newer U.N.I.T.Y. ending lock.
-- `capture field`, `Vessel Disc`, capture percentages and sentient storage are not active Eco-Kin relationship mechanics.
-- Weather Pulse Forms never create new Permanent Dex IDs and never permanently stack their temporary stat modifiers through repeated weather evaluation.
-- Chrono Archive replay cannot write canonical world/faction/Sovereign/U.N.I.T.Y. state.
-
-### Current production order after this intake
-
-**Real UE foundation → Issue #10 original humanoid + Eco-Kin body/animation proof → 4–6 polished Eco-Kin vertical slice → one Growth Rite proof → one Event Sovereign reservation/save/recovery proof → bounded registry/UI/save → first Oligarch prototype → one Static Orchard compatibility proof + one Weather Pulse proof → networking/destruction → seasonal expansion → Great War → Summoning War → U.N.I.T.Y. → Infinite Regeneration postgame.**
-
-No Static Orchard solver, Weather Pulse form, Archive replication path, Morrowmire event, or persistence transaction is called VERIFIED until a real UE5.8 project/module passes UHT/compile, automated testing, save/reload/recovery, network authority testing, packaging and runtime evidence.
-
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## 2026-10-06 Inventory, Echo Eggs, and Upgrade Highlights
+
+Current design-intake sources:
+- `04_Systems/Inventory/ECHOHEARTS_MASTER_ITEMS_MATERIALS_REGISTRY_2026-10-06.md` — consolidated inventory/material/shop/equipment registry: 737 categorized records, 694 unique named entries, 28 categories. Preserve per-entry canon/legacy/retired status.
+- `04_Systems/ECHO_EGGS_AND_UPGRADE_HIGHLIGHTS_2026-10-06.md` — current Echo Egg variants, incubation/care rules, upgrade-highlight pillars, UI/art direction, repository ownership, and UE5.8 implementation contract.
+- `.github/instructions/echohearts-current-design.instructions.md` — current GitHub Copilot implementation/fix guidance synchronized across the seven Echohearts repositories.
+
+- `09_Technical/LANGUAGE_DIAGNOSTIC_AND_TOOL_SELECTION_STANDARD_2026-10-06.md` — language-aware repair policy: fix the failing layer in its owning language/toolchain instead of mixing unrelated languages into UE code.
+- `04_Systems/MISSION_SYSTEM_ARCHITECTURE_2026-10-06.md` — corrected event-driven mission contract covering stable IDs, server authority, replicated co-op state, typed dialogue mission actions, UMG event refresh, and idempotent completion/reward boundaries.
+
+These additions extend the existing canon/contracts. They do not replace the Master Game Bible, the 125-ID Permanent Dex, or executable runtime evidence requirements.
+
+## 2026-10-06 STARZ* / Saviors universe integration
+
+- `01_Story/STARZ_SAVIORS_UNIVERSE_INTEGRATION_2026-10-06.md` — connects recovered STARZ*/Saviors material to the existing War of Summoning → Star Rewrite expansion lane without creating a second canon, second Dex, or duplicate runtime. It accepts the current original Savior/antagonist/support roster for continued design, quarantines legacy mixed-language build material, routes executable ownership to the BUILD repository, and keeps Summoning Wars → Saviors of the Universe → Ancient Tech Wars behind the established production/runtime gates.
+- `git-ecosystem/git-credential-manager` is recognized only as a workstation credential-helper reference; it is not an Echohearts runtime dependency and no credentials/auth cache belong in source control.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** until the BUILD repository supplies actual UE5.8 compile/runtime proof.
+
+## 2026-10-06 recovered Unity package inventory
+
+- `09_Technical/RECOVERED_UNITY_PACKAGE_INVENTORY_2026-10-06.md` — byte-level inventory of the uploaded Unity-era Echohearts packages, including SHA-256 hashes, placeholder/empty-package detection, duplicate ProceduralWorld package detection, recoverable procedural-world requirements, dialogue/shader routing, and explicit UE5.8 port boundaries. The recovered Unity/C# code remains reference-only; executable ownership stays in the BUILD repository.
+- Source-control transport guidance for this recovery lane: prefer HTTPS + Git Credential Manager on Windows, use GitHub CLI for auth/PR/workflow operations, and treat SSH as an optional key-based alternative. No credentials or auth caches belong in source control.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## 2026-10-06 Unity gameplay recovery batch 2
+
+- `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## PR #17 routing retained during conflict reconciliation
+
+The current authority chain and production order above govern these branch documents. This routing record does not promote proposal content or runtime evidence. Legacy paths remain historical references rather than replacement folder authority.
+
+- `00_Canon_Lock/NATURE_SAVIOR_DESTINY_AND_HOLLOW_CONTINUITY_2026-09-29.md`
+- `00_Canon_Lock/POST_UNITY_INFINITE_EXPANSION_CANON_2026-09-27.md`
+- `00_Canon_Lock/SEASONAL_ECOKIN_AND_EXPANSION_GOVERNANCE_2026-09-27.md`
+- `00_Canon_Lock/UNITY_FINAL_MISSION_AND_ENDINGS_CANON_2026-09-27.md`
+- `00_Canon_Lock/WAR_CONTINUUM_TO_UNITY_CANON_2026-09-27.md`
+- `01_Story/ECHOHEARTS_REBEARTH_FINAL_STORY_CONTINUITY_2026-09-20.md`
+- `01_Story/NATURE_DESTINY_MAIN_STORY_INTEGRATION_2026-09-29.md`
+- `01_Story/SAVIORS_STARZ_ANGELIC_AND_DLC_INTAKE_2026-09-27.md`
+- `01_Story/THE_SHATTERED_RESONANCE_PARADIGM_OLIGARCHS_2026-09-27.md`
+- `01_Story/VOID_WAR_NATURE_AND_HOLLOW_FRONT_2026-09-29.md`
+- `02_World/VEILROOT_HOLLOWS_AND_QUIET_MARKET_2026-09-29.md`
+- `03_EcoKin_Dex/Intake/ONE_TIME_EVENT_SOVEREIGN_ECOKIN_ENCOUNTERS_2026-09-27.md`
+- `04_Systems/CENTRAL_MALL_BOUTIQUE_CATALOG_AND_SAVEGAME_ENTRIES_2026-09-29.md`
+- `04_Systems/CHRONO_SANDBOX_WORLD_STATE_RECONCILIATION_2026-09-27.md`
+- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md`
+- `04_Systems/ECO_KIN_FIELD_TRAPS_HEART_FRUIT_AND_RELEASE_PROTOCOL_2026-09-29.md`
+- `04_Systems/ECO_KIN_GROWTH_RITES_AND_EARTHLINE_PATH_2026-09-27.md`
+- `04_Systems/SEASONAL_CORE_GAMEPLAY_RECONCILIATION_2026-09-27.md`
+- `04_Systems/TECTONIC_ALIGNMENT_AND_RESTORATION_BLOOM_MATRIX_2026-09-29.md`
+- `09_Technical/AEGIS_MENU_OVERLAY_CAMERA_BLUEPRINTS_2026-09-29.md`
+- `09_Technical/AEGIS_UPGRADES_VESSEL_CRAFTING_AND_MULTITARGET_STABILIZATION_2026-09-29.md`
+- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md`
+- `09_Technical/EVENT_SOVEREIGN_AND_GROWTH_RUNTIME_CONTRACT_2026-09-27.md`
+- `09_Technical/PR17_TRANSACTION_VALIDATION_CODE_REVIEW_2026-09-27.md`
+- `09_Technical/SECTIONS_XXVII_XXXI_NETWORK_REGISTRY_SAVE_UI_AUDIT_2026-09-27.md`
+- `10_Production/FIELD_TRAPS_HEART_FRUIT_VEILROOT_INTAKE_2026-09-29.md`
+- `10_Production/MASTER_INDEX_RESTORE_NOTE_2026-09-29.md`
