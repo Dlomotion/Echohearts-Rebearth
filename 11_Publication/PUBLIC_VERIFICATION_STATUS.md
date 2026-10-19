@@ -1,6 +1,6 @@
 # Echohearts: Rebearth — Public Verification Status
 
-**Last checked:** 2026-10-19 (public repository/local C++ checks only)
+**Last checked:** 2026-10-19 (public repository, local C++ checks and hosted C++ CI)
 **Public repository:** https://github.com/Dlomotion/Echohearts-Rebearth  
 **Executable runtime/build repository:** https://github.com/Dlomotion/ECHOHEARTS-REBEARTH-BUILD-  
 **Primary public references:**  
@@ -33,13 +33,15 @@ Scope: public `main` baseline `85f653fb66295371bdce4edc73e71ab10725b96d` plus th
 | Existing standalone C++17 four-group domain harness, Debug | STATIC CHECK PASSED | GCC 13.3.0; normal execution exit 0. Scope is the existing bounded test cases only. |
 | Same harness, Release with `NDEBUG` | STATIC CHECK PASSED | Reproduced three warnings-as-errors before the repair; repaired source compiles and executes all four groups, exit 0. |
 | Failed expectations remain active in both modes | STATIC CHECK PASSED | Failure self-test exits 1; independently changing the expected listing fee from 12 to 13 also exits 1 in each mode. |
-| CMake / CTest and hosted Debug/Release matrix | NOT YET VERIFIED for this repair | CMake is absent locally. Run both CI configurations, including the expected-failure CTest, on this PR. |
+| CMake / CTest and hosted Debug/Release matrix | STATIC CHECK PASSED | [Run 39334327275](https://github.com/Dlomotion/Echohearts-Rebearth/actions/runs/39334327275): Debug and Release configure/build/test succeeded; 2/2 CTests per mode, including expected failure. |
 | Current BUILD source / foundation | BLOCKED — NOT YET VERIFIED | Connected GitHub read and clone returned 404. Restore connection access to `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`, then inspect its exact branch/SHA. |
 | UE5.8 UHT/UBT / editor / authored map / PIE | NOT YET VERIFIED | Retain source SHA, engine/toolchain version, commands, complete logs and actual session evidence from BUILD. |
 | Cook/package / packaged launch | NOT YET VERIFIED | Successful package logs and launch/exit evidence for the exact built SHA on target hardware. |
 | Issue #10 humanoid/Eco-Kin animation, input and contact | NOT YET VERIFIED | Complete the bounded benchmark below with original production assets and reproducible tests. |
 | Authority / replication / reconnect / save recovery | NOT YET VERIFIED | Real server/client and persistence test artifacts from BUILD, with failure/recovery cases. |
 | Performance / accessibility / asset provenance / platforms | NOT YET VERIFIED | Claim-specific review, profiles and device/platform evidence. Passing this C++ harness does not satisfy these gates. |
+
+CI tested PR #73 source head `6b6adc66d52a5a089beca61e2610b57dd164cbf9` through merge ref `d4009e7068ca1f89ec63ae5f383a169ea1443352`. This later evidence-only update does not change tested C++, CMake or workflow files. GCC 13.3.0 on hosted Ubuntu is the observed compiler; MSVC remains untested.
 
 This updates the existing public verification record; no runtime, canon, Dex or parallel matrix authority is created. Historical bootstrap tooling in this repository is not a BUILD execution path.
 

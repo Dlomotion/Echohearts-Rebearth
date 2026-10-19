@@ -44,6 +44,24 @@ EXIT: 1
 Verification failed at line 34: ok.listingFee == 13
 
 CMake/CTest: NOT RUN (cmake is not installed in this environment).
-GitHub Actions: NOT RUN LOCALLY; Debug/Release matrix execution pending remote CI.
+GitHub Actions: see subsequent hosted CI evidence below.
 Unreal Engine / BUILD repository: NOT VERIFIED; private repository returned 404.
 RESULT: Debug and Release pass all four existing groups; self-test and mutated fee expectation fail with exit 1 in both modes.
+
+Subsequent hosted CI evidence — 2026-10-19
+Run: https://github.com/Dlomotion/Echohearts-Rebearth/actions/runs/39334327275
+PR source head: 6b6adc66d52a5a089beca61e2610b57dd164cbf9
+Tested merge ref: d4009e7068ca1f89ec63ae5f383a169ea1443352
+Compiler: GNU 13.3.0, hosted Ubuntu.
+Release job: 118339877297 — success; configure/build/test all success.
+Debug job: 118339877759 — success; configure/build/test all success.
+Commands per mode:
+  cmake -S 09_Technical/MetaSystems -B build/meta-systems -DCMAKE_BUILD_TYPE=<Debug|Release>
+  cmake --build build/meta-systems --config <Debug|Release> --parallel
+  ctest --test-dir build/meta-systems --output-on-failure
+Reviewed test-log results in each job:
+  EchoheartsMetaSystemsVerification: Passed
+  EchoheartsMetaSystemsFailurePath: Passed (expected nonzero exit)
+  100% tests passed, 0 tests failed out of 2
+This subsequent documentation update changes no tested C++, CMake or workflow files.
+Runner emitted a checkout@v4 Node 20 deprecation warning; jobs still completed successfully. Action-version migration is separate maintenance.
