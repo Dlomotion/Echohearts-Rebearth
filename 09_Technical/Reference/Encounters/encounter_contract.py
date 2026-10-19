@@ -1,8 +1,10 @@
 """Offline encounter/Kindling oracle. No actor spawning or real relationship writes."""
 from dataclasses import dataclass, replace
 import hashlib
+import json
 import math
 import re
+import struct
 
 
 class Rejected(ValueError):
@@ -58,6 +60,29 @@ class SpawnProposal:
     fingerprint: str
 
 
+def _spawn_fingerprint(habitat, allowed, seed):
+    """Version 1 canonical hash input, after propose_spawn has validated values.
+
+    Tag lists are membership sets; population and candidates have stable ordering.
+    IEEE binary64 big-endian hex normalizes int/float and both zero signs without
+    rounding distinct finite values. This is a reference hash, not a wire protocol.
+    """
+    def unit_bits(value):
+        return struct.pack(">d", 0.0 if value == 0 else float(value)).hex()
+
+    payload = ["Echohearts.SpawnProposal", 1,
+               [habitat.cell_id, habitat.biome, habitat.weather, habitat.day_phase,
+                habitat.revision, habitat.ready, habitat.spawn_safe,
+                unit_bits(habitat.purity), habitat.capacity,
+                sorted(habitat.active_instances)],
+               [[c.species_id, sorted(set(c.biomes)), sorted(set(c.weather)),
+                 sorted(set(c.day_phases)), unit_bits(c.minimum_purity), c.weight]
+                for c in allowed], seed]
+    encoded = json.dumps(payload, ensure_ascii=True, separators=(",", ":"),
+                         allow_nan=False).encode("ascii")
+    return hashlib.sha256(encoded).hexdigest()
+
+
 def propose_spawn(habitat, candidates, approved_species, seed):
     require(type(habitat) is Habitat, "invalid_habitat")
     require(all(ident(x) for x in (habitat.cell_id, habitat.biome, habitat.weather, habitat.day_phase)), "invalid_identity")
@@ -83,8 +108,7 @@ def propose_spawn(habitat, candidates, approved_species, seed):
             allowed.append(candidate)
     require(bool(allowed), "no_eligible_species")
     allowed.sort(key=lambda x: x.species_id)
-    canonical = replace(habitat, active_instances=tuple(sorted(habitat.active_instances)))
-    digest = hashlib.sha256(repr((canonical, tuple(allowed), seed)).encode()).hexdigest()
+    digest = _spawn_fingerprint(habitat, allowed, seed)
     pick = int(digest, 16) % sum(x.weight for x in allowed)
     for candidate in allowed:
         if pick < candidate.weight:
@@ -186,4 +210,5 @@ class BondReviewLedger:
             return None
         self._by_individual[state.individual_id] = identity
         return ("bond_review", state.owner_id, state.individual_id, state.encounter_id)
+
 

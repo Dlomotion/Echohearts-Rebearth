@@ -1,4 +1,5 @@
 from dataclasses import replace
+import math
 import unittest
 from encounter_contract import (Habitat, Candidate, Ceremony, Evidence, Rejected,
     propose_spawn, validate_spawn_commit, transition, BondReviewLedger)
@@ -52,6 +53,50 @@ class EncounterTests(unittest.TestCase):
 
     def test_determinism(self):
         self.assertEqual(self.proposal(), self.proposal())
+
+    def test_numeric_representation_does_not_change_proposal(self):
+        for first, second in ((0, 0.0), (1, 1.0), (0.0, -0.0)):
+            with self.subTest(first=first, second=second):
+                a = self.proposal(h=habitat(purity=first), cs=(candidate(minimum_purity=first),))
+                b = self.proposal(h=habitat(purity=second), cs=(candidate(minimum_purity=second),))
+                self.assertEqual(a, b)
+
+    def test_candidate_tag_sets_have_canonical_order(self):
+        a = candidate(biomes=("other", "biome:fixture"), weather=("clear", "storm"))
+        b = replace(a, biomes=tuple(reversed(a.biomes)), weather=("storm", "clear", "clear"))
+        self.assertEqual(self.proposal(cs=(a,)), self.proposal(cs=(b,)))
+
+    def test_version_one_fixed_fingerprints(self):
+        # Reviewed canonical preimage and digests are documented in README.md.
+        self.assertEqual(self.proposal(seed=7).fingerprint,
+                         "eabefd2eb1d94a21bff83b8f7ca4838ebb3724d0d995bc5ad4ee3252cc08e5cf")
+        self.assertEqual(self.proposal(seed=8).fingerprint,
+                         "b5c51e831a2de0152ee60a99fdd3c7210861e66a65bb044075c50c90df5b2290")
+
+    def test_distinct_purity_bits_are_not_rounded_together(self):
+        a = self.proposal(h=habitat(purity=.8))
+        b = self.proposal(h=habitat(purity=math.nextafter(.8, 1.0)))
+        self.assertNotEqual(a.fingerprint, b.fingerprint)
+        with self.assertRaisesRegex(Rejected, "spawn_proposal_mismatch"):
+            self.commit(a, habitat(purity=math.nextafter(.8, 1.0)))
+
+    def test_equivalent_numeric_snapshot_survives_commit_revalidation(self):
+        current = habitat(purity=1.0)
+        proposal = self.proposal(h=habitat(purity=1))
+        self.assertTrue(self.commit(proposal, current))
+
+    def test_equivalent_snapshots_choose_same_weighted_species(self):
+        a = candidate(minimum_purity=0, weather=("clear", "storm"))
+        b = candidate(species_id="species:second", minimum_purity=1, weight=3)
+        registry = frozenset({a.species_id, b.species_id})
+        for seed in range(16):
+            with self.subTest(seed=seed):
+                first = self.proposal(h=habitat(purity=1), cs=(a, b), approved=registry, seed=seed)
+                second = self.proposal(h=habitat(purity=1.0), cs=(
+                    replace(b, minimum_purity=1.0),
+                    replace(a, minimum_purity=-0.0, weather=("storm", "clear", "clear"))),
+                    approved=registry, seed=seed)
+                self.assertEqual(first, second)
 
     def test_candidate_order_independent(self):
         a, b = candidate(), candidate(species_id="species:second", weight=3)
@@ -179,4 +224,5 @@ class EncounterTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
 

@@ -1,0 +1,40 @@
+2026-10-19 / Codex / local offline reference checks
+Python 3.12.14 / Linux x86_64
+No engine, packaged artifact or target device tested.
+
+python3 -m unittest discover -s 09_Technical/Reference/Encounters
+
+............................................................................
+----------------------------------------------------------------------
+Ran 76 tests in 0.040s
+
+OK
+
+exit code 0
+
+
+python3 -O -m unittest discover -s 09_Technical/Reference/Encounters
+
+............................................................................
+----------------------------------------------------------------------
+Ran 76 tests in 0.074s
+
+OK
+
+exit code 0
+
+
+python3 -m unittest discover -s 09_Technical/Reference/BattleModes
+
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 0.006s
+
+OK
+
+exit code 0
+
+
+encounter_contract.py SHA256 533df0f191c28f14dd3f8dea6a45d0b89d57e0e25cca62550828d2dfaf8beb90
+
+test_encounter_contract.py SHA256 b364cef7d885bebf234a88aa3d745f1d7545455f916759ea8729255afaff74c3

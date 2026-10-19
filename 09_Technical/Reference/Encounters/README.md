@@ -96,3 +96,52 @@ required-input failure and population-order canonicalization. Full encounter/mat
 field suite: 70 methods passed normally and under optimization; battle: 24 passed.
 No durable spawn reservation, transaction or runtime implementation is established.
 
+## Canonical spawn fingerprint v1 — 2026-10-19
+
+The old dataclass `repr()` digest treated numeric spelling and membership-tag order
+as ecological changes. Equivalent inputs could choose different species or fail
+commit revalidation. Version 1 hashes the following ordered JSON array, encoded as
+ASCII with no whitespace. No object keys, locale-dependent numbers or native struct
+memory appear in the hash input.
+
+`["Echohearts.SpawnProposal",1,habitat,candidates,seed]`
+
+- habitat: `[cell_id,biome,weather,day_phase,revision,ready,spawn_safe,purity_bits,capacity,active_instances]`;
+- candidates: eligible rows sorted by species_id, each
+  `[species_id,biomes,weather,day_phases,minimum_purity_bits,weight]`;
+- population IDs are sorted; membership-tag arrays are deduplicated and sorted
+  by ASCII order. Duplicate individual/species records still fail validation;
+- unit-number bits: IEEE 754 binary64, big-endian, lowercase 16-digit hexadecimal.
+  Exact int 0/1 and their float equivalents normalize together; either sign of zero
+  becomes positive zero. Other distinct valid binary64 values remain distinct.
+  Booleans, nonfinite/out-of-range values remain invalid;
+- integer fields use base-10 JSON integers; flags use JSON true/false; strings use
+  JSON quoting. Existing identifier validation allows ASCII characters only;
+- SHA256 lowercase hex of those bytes drives the existing modulo/weight selection.
+  This is a deterministic reference contract, not a network format, a secret
+  capability, a random source suitable for security, or an Unreal NetSerialize contract.
+
+Fixed preimage for the existing fixture with seed 7 (one line, no trailing newline):
+
+```json
+["Echohearts.SpawnProposal",1,["cell:fixture","biome:fixture","clear","day",1,true,true,"3fe999999999999a",2,[]],[["species:fixture",["biome:fixture"],["clear"],["day"],"3fe0000000000000",1]],7]
+```
+
+Expected SHA256: `eabefd2eb1d94a21bff83b8f7ca4838ebb3724d0d995bc5ad4ee3252cc08e5cf`.
+Only changing seed to 8 yields
+`b5c51e831a2de0152ee60a99fdd3c7210861e66a65bb044075c50c90df5b2290`.
+
+Compatibility: earlier unversioned fingerprints intentionally change. Reject pending
+old proposals and regenerate from current host data; never reinterpret old fingerprints
+as v1. No durable proposal store exists in this oracle, so no save migration is claimed.
+A native adapter needs the actual owner's numeric representation, schema handling and
+matching vectors on the target toolchain before cross-language determinism is proven.
+Do not round a native float32 state into an assumed Python binary64 truth.
+
+Evidence: four regression subcases failed before the fix. Six new test methods
+cover equivalent numeric/tag inputs, fixed digests, distinct adjacent binary64 values
+and commit compatibility. 76 encounter/field/matrix methods pass normally and under
+optimization; 24 battle methods pass. These are reference checks only.
+
+
+

@@ -160,3 +160,35 @@ is not yet active, render the actual stage rather than forcing this fixture labe
 5. Keep approach, shelter and escape connections in the existing graybox. No world
    coordinates, hidden-cave route, Viewpoint unlock or new cartography claim follows.
 
+## Quiet return — scene continuation, 2026-10-19
+
+**PROPOSAL / NOT YET VERIFIED.** Continue the same restored channel scene after the
+storm. The environment shows the player's earlier care: water passes under the
+cleared obstruction, a dry shelter path remains open and flattened grass marks the
+withdrawal. Reuse existing location and individual identity; returning must not reroll
+a new rare individual just because a save encoded a number or reordered habitat tags.
+
+| Moment | Interaction / original line | Required feedback |
+| --- | --- | --- |
+| Revisit | Player may inspect the channel without approaching shelter. D.A.H.L.I.A.: “The water is moving. The shelter remains undisturbed.” | Existing restoration state drives the change; avoid fabricated repeat rewards. |
+| Fresh observation | Tracks may show departure or continued sheltering, according to authored host state. | Show “Observation needed” rather than reusing yesterday's willingness. Unknown does not mean absent or consenting. |
+| Safe distance | Mentor: “A clear path gives it a choice. Leave room for that choice.” | Walk away, Observe and Defer stay available; no lure-spam progress or pressure timer. |
+| Optional approach | If the individual independently approaches, allow the existing invitation. If it leaves, do not chase-lock the camera. | Fresh posture/care/consent gates; a restored habitat is not entitlement to partnership. |
+| Review | After Release/Defer: “The channel is restored. Your invitation can wait.” After actual Bond: “Now the care continues together.” | Branch from committed relationship and mission results. Never display the Bond line from a pending invitation. |
+
+Audio/art handoff for the existing M16/M17 workstreams: water trickle with a matching
+environmental caption, optional distant shelter movement cue, readable dry-path
+silhouette and a calm withdrawal pose. Muted audio must preserve all actionable
+information in text/pose. Avoid automatic zoom, flashing consent signals or mandatory
+rhythm accuracy. These are asset requests; no clip, rig, sound, VFX, widget or level
+has been imported by this document.
+
+Acceptance: reload the same host snapshot with reordered membership tags or numeric
+0/1 represented as floats; do not change the encounter proposal solely for that reason.
+A real weather/cell/population revision change must still require revalidation.
+Restore-without-bond persists; first-clear events do not replay; Stage 04 remains
+incomplete until the actual genuine bond event. Unloaded or unknown shelter state
+offers safe waiting/departure and cannot fabricate an encounter.
+
+
+

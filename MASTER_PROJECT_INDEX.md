@@ -336,3 +336,9 @@ The existing twenty-workstream [delivery design](04_Systems/MISSING_SYSTEMS_DELI
 - [Existing encounter reference](09_Technical/Reference/Encounters/README.md): commit recomputation from trusted host candidates/registry/seed; no actor or durable transaction claim.
 - [Existing first encounter scene](05_Levels/FIRST_PLAYABLE_ENCOUNTER_KINDLING_SLICE_2026-10-17.md): storm withdrawal dialogue, accessible cues and explicit safe-lesson versus first-bond Training distinction, all PROPOSAL.
 
+
+
+## 2026-10-19 canonical encounter replay and Quiet Return
+- [Daily continuation/evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-19.md): determinism correction, scoped checks and native foundation blocker.
+- [Existing encounter reference](09_Technical/Reference/Encounters/README.md): versioned canonical fingerprint, fixed vectors and compatibility rules.
+- [Existing scene](05_Levels/FIRST_PLAYABLE_ENCOUNTER_KINDLING_SLICE_2026-10-17.md): Quiet Return environmental storytelling and fresh-consent revisit, PROPOSAL.
