@@ -1,29 +1,58 @@
-# Unreal Engine generated / local-only files
+# =============================================================================
+# Echohearts Rebearth - Systemic Git Exclusion Rules
+
+# Local editor and generated workspace files
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+# Unreal Engine generated folders
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
-.vs/
-.vscode/
-*.VC.db
-*.VC.VC.opendb
-*.sln
-*.suo
+Log/
+PackagedOutput/
+BuildTemplates/
+# Local environment / config
+.env
+.env.local
+config.local.json
+# OS junk
+Thumbs.db
+.DS_Store
+Desktop.ini
+# Node / Python cache
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+# General temporary files
+*.swp
+*.swo
+*~
+*.orig
+# Source-control conflict reconciliation: generated outputs only.
+Build/Receipts/
+BuildArtifacts/
 *.opensdf
 *.sdf
+*.VC.opendb
+*.o
+*.gch
+*.pch
 *.tmp
-*.log
-
-# IDE / OS noise
-.DS_Store
-Thumbs.db
-.idea/
-
-# Local build artifacts
-build/
-BuildArtifacts/
-
-# NOTE:
-# Do not blanket-ignore the project Build/ directory here.
-# Unreal projects may store required packaging resources, icons, platform files,
-# or other source-controlled project data under Build/. Review intentionally.
+*.temp
+*.userprefs
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+# .obj can be authored DCC source and remains governed by the LFS policy.
+# Build icons and DefaultPakFileRules.ini remain trackable.

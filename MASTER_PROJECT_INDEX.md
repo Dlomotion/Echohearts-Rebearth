@@ -18,6 +18,28 @@ This file is the routing map for the existing Echohearts project. It does not re
 12. `11_Publication`
 13. `99_Reference_Retired_Needs_Redesign`
 
+## Canonical directory registry
+
+These folder names are authoritative routing labels and should match the repository README and Copilot routing rules.
+
+| Folder | Required contents / responsibility |
+|---|---|
+| `00_Canon_Lock` | Locked canon, protected terminology, authority decisions, continuity constraints, and rules that downstream files may not silently override. |
+| `01_Story` | Main story, chapters, character/NPC arcs, dialogue/story beats, DLC/expansion narrative, and chronology. |
+| `02_World` | Rebearth regions, biomes, cities, landmarks, ecology, world-state changes, travel/portal geography, and environmental lore. |
+| `03_EcoKin_Dex` | The 125-ID Permanent Eco-Kin Dex, Forms Registry links, ecology/biology, named Eco-Kin records, historical-name review, and Dex governance. |
+| `04_Systems` | Gameplay-system contracts including Anima-Link, Huma-Link, Kindling, combat, Growth Rites, inventory/economy, Sanctuary, missions/progression, traversal, and other systemic rules. |
+| `05_Levels` | Missions, encounters, dungeons, maps, coordinates, puzzles, vertical-slice level implementation plans, and level-specific validation. |
+| `06_UI_UX` | A.E.G.I.S., HUD, EcoDex, mission tracking presentation, menus, accessibility, interaction feedback, and UX contracts. |
+| `07_Art` | Character/Eco-Kin art briefs, rig/animation art requirements, asset manifests, visual provenance, anatomy/identity QA, and technical-art direction. |
+| `08_Audio` | Music, ambience, VO, Eco-Kin audio, combat/resonance audio, implementation cues, and audio-direction contracts. |
+| `09_Technical` | UE5.8/C++ architecture contracts, schemas, networking/save/cloud/security/telemetry requirements, build/tooling standards, and technical audits. Executable UE source itself belongs in the BUILD repository. |
+| `10_Production` | Backlog, dependency maps, QA/evidence requirements, assignments, provenance, intake routing, release gates, and production status. |
+| `11_Publication` | Approved public-facing manuscripts, pitch/marketing material, ebook/publication standards, release manifests, and publication evidence. |
+| `99_Reference_Retired_Needs_Redesign` | Superseded, derivative, contradictory, unsafe, historical, or redesign-required material retained only for traceability/reference. |
+
+Do not substitute alternate folder names such as `05_Art_Direction`, `06_Audio`, `07_UI_UX`, or `08_Narrative_Production` for this routing map. Those labels belong only to historical/proposal material if encountered and must not become a parallel directory authority.
+
 ## Repost / intake rule
 
 Every reposted chat, image, document, code block, Eco-Kin concept, NPC, lore fragment, mechanic, or art reference must be:
@@ -152,4 +174,69 @@ Winning sanctioned Resonance Arena / Harmony Circuit championship fights increas
 
 Current images such as Totemflare Rainforest Strider / Galecrest / Stormbringer, Psylopath Mindcoil / Mirefiend, Marmara Seedling / Verdant / Prime Guardian, Flames Emberling / Cinderstride / Blazewarden, Sandveil Burrowkin / Sandshield / Sandshaper, ZuriStripe variants, Ho-kanko variants and Jazzy & Drako pair art are preserved as visual/source references. They require naming, element, anatomy and story audit before final data lock. Human + Eco-Kin pair imagery represents partnership, never fusion.
 
+## Final universe / creature / PR consolidation: 2026-09-26
+
+This final pass connects the latest project-chat intake to the current repository and open PR/issue dependency chain without creating a new canon track.
+
+- `00_Canon_Lock/FINAL_UNIVERSE_CONSOLIDATION_2026-09-26.md` — final reconciliation for 125-ID creature governance, Aurivelle rename, Geo/Echo interaction tags, Aurelian/Great Somatic Fracture placement, original story/cosmic salvage, faction/trial/automation/growth corrections, infinite-continuation rules, and the technical verification boundary.
+- `10_Production/FINAL_CONSOLIDATION_PR_AND_IMPLEMENTATION_MAP_2026-09-26.md` — maps open PRs #1/#2/#6/#7/#9/#11/#14 and Issues #8/#10/#12/#13 into one execution order from infrastructure through the first UE5.8 body/animation slice and later tactical/online work.
+- `99_Reference_Retired_Needs_Redesign/FINAL_LEGACY_REFERENCE_RETIREMENT_2026-09-26.md` — explicitly retires one-to-one outside-franchise adaptations, forced fusion/ownership drift, unsafe legacy player/body concepts, and unsupported production-ready technical claims while preserving abstract transferable lessons.
+
+### Final naming correction
+
+`Prismana` / `Prusmana` is retired from active Echohearts naming. **Aurivelle Form** is the replacement working name. Current evidence does not establish Hexxin as a permanent 125-ID identity, so `Hexxin — Aurivelle Form` remains a parent-mapping/form candidate and cannot create a 126th permanent species.
+
+### Final element/Essence correction
+
+The current production Essence keys remain **Flora, Torrent, Pyre, Terra, Aero, Glaze, Voltic, Aura, Shade**. `Geo` is a Terra geological specialization and `Echo` is a Harmony-driven Resonance interaction tag. The requested Geo row is preserved: Geo dominates Solar/Aero and is dominated by Flora, Hydro/Torrent, and Echo; Echo retains its authored 1.6× advantage over Geo/Aero and 1.6× weakness to Flora/Hydro-Torrent when the Echo interaction tag applies.
+
+### Final originality rule
+
+Direct Terraria/Digimon/Nexomon/Pokémon/Aniimo/Roots names, plots, creatures, tiers, boss structures, capture/fusion logic, code, art, rigs, and animation are reference-only. Only abstract lessons may be re-authored through original Echohearts identities, mechanics, story, art, and code.
+
+### Final production order
+
+1. Review PR #15 canon/production consolidation.
+2. Validate PR #14 infrastructure and resolve overlap with #11.
+3. Establish the real UE5.8 `.uproject` / `Source` foundation and clone/LFS/build evidence.
+4. Execute Issue #10 as the first evidence-backed NPC + Eco-Kin 3D body/animation slice.
+5. Build the 4–6 Eco-Kin funding vertical slice.
+6. Reconcile/validate PR #2 public Bestiary.
+7. Advance PR #6 story/manuscript content only after current-canon terminology review.
+8. Advance #7/#9 and Issue #8 as bounded tactical/online work after the real-time core is proven.
+9. Scale MassEntity, deep destruction, nested-city streaming, orbital events, and other large R&D systems only after profiling proves the core foundation.
+
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+
+## 2026-10-06 Inventory, Echo Eggs, and Upgrade Highlights
+
+Current design-intake sources:
+- `04_Systems/Inventory/ECHOHEARTS_MASTER_ITEMS_MATERIALS_REGISTRY_2026-10-06.md` — consolidated inventory/material/shop/equipment registry: 737 categorized records, 694 unique named entries, 28 categories. Preserve per-entry canon/legacy/retired status.
+- `04_Systems/ECHO_EGGS_AND_UPGRADE_HIGHLIGHTS_2026-10-06.md` — current Echo Egg variants, incubation/care rules, upgrade-highlight pillars, UI/art direction, repository ownership, and UE5.8 implementation contract.
+- `.github/instructions/echohearts-current-design.instructions.md` — current GitHub Copilot implementation/fix guidance synchronized across the seven Echohearts repositories.
+
+- `09_Technical/LANGUAGE_DIAGNOSTIC_AND_TOOL_SELECTION_STANDARD_2026-10-06.md` — language-aware repair policy: fix the failing layer in its owning language/toolchain instead of mixing unrelated languages into UE code.
+- `04_Systems/MISSION_SYSTEM_ARCHITECTURE_2026-10-06.md` — corrected event-driven mission contract covering stable IDs, server authority, replicated co-op state, typed dialogue mission actions, UMG event refresh, and idempotent completion/reward boundaries.
+
+These additions extend the existing canon/contracts. They do not replace the Master Game Bible, the 125-ID Permanent Dex, or executable runtime evidence requirements.
+
+## 2026-10-06 STARZ* / Saviors universe integration
+
+- `01_Story/STARZ_SAVIORS_UNIVERSE_INTEGRATION_2026-10-06.md` — connects recovered STARZ*/Saviors material to the existing War of Summoning → Star Rewrite expansion lane without creating a second canon, second Dex, or duplicate runtime. It accepts the current original Savior/antagonist/support roster for continued design, quarantines legacy mixed-language build material, routes executable ownership to the BUILD repository, and keeps Summoning Wars → Saviors of the Universe → Ancient Tech Wars behind the established production/runtime gates.
+- `git-ecosystem/git-credential-manager` is recognized only as a workstation credential-helper reference; it is not an Echohearts runtime dependency and no credentials/auth cache belong in source control.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED** until the BUILD repository supplies actual UE5.8 compile/runtime proof.
+
+## 2026-10-06 recovered Unity package inventory
+
+- `09_Technical/RECOVERED_UNITY_PACKAGE_INVENTORY_2026-10-06.md` — byte-level inventory of the uploaded Unity-era Echohearts packages, including SHA-256 hashes, placeholder/empty-package detection, duplicate ProceduralWorld package detection, recoverable procedural-world requirements, dialogue/shader routing, and explicit UE5.8 port boundaries. The recovered Unity/C# code remains reference-only; executable ownership stays in the BUILD repository.
+- Source-control transport guidance for this recovery lane: prefer HTTPS + Git Credential Manager on Windows, use GitHub CLI for auth/PR/workflow operations, and treat SSH as an optional key-based alternative. No credentials or auth caches belong in source control.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## 2026-10-06 Unity gameplay recovery batch 2
+
+- `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
+
+Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
