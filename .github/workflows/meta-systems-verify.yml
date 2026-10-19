@@ -1,0 +1,27 @@
+name: Meta Systems Verify
+
+on:
+  pull_request:
+    paths:
+      - '09_Technical/MetaSystems/**'
+      - '.github/workflows/meta-systems-verify.yml'
+  push:
+    paths:
+      - '09_Technical/MetaSystems/**'
+      - '.github/workflows/meta-systems-verify.yml'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -S 09_Technical/MetaSystems -B build/meta-systems
+
+      - name: Build
+        run: cmake --build build/meta-systems --config Release --parallel
+
+      - name: Test
+        run: ctest --test-dir build/meta-systems --output-on-failure

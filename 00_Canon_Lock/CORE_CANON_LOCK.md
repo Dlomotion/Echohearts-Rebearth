@@ -1,38 +1,57 @@
-# Core Canon Lock
+# Echohearts: Rebearth — Core Canon Lock
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
 
-## Protected Identity
-- Planet: **Rebearth**.
-- Central city: **Echohearts City**.
-- Public continent: **Heartreach Continent**. `Pangrid` is an old Meridian survey name only.
-- Franchise guardian: **Nature**. Nurture is separate. Aevoryn remains the Time Guardian.
-- Primary corruption language: **The Blight / Data Virus**.
-- Core public stats: **Vibrance, Density, Harmony, Purity**.
+## Core Identity
+- Planet: Rebearth.
+- Public continent: Heartreach Continent.
+- Pangrid is an old Meridian survey name only.
+- Central hub: Echohearts City.
+- Player role: Frequency Tamer / Veridian Keeper.
+- Core devices/systems: A.E.G.I.S. and D.A.H.L.I.A.
 
-## Eco-Kin Agency Laws
-- Eco-Kin are autonomous living partners.
-- Recruitment loop: Observe → Protect → Calm → Kindle → Bond / Release / Defer.
-- No capture balls, guaranteed capture, forced containment, sentient inventory, selling Eco-Kin as products, forced labor, or forced breeding.
-- No player/Eco-Kin fusion or identity overwrite.
-- Humanoid-Kin are never mounts.
-- Guardians, Titans, and Celestial Echoes cannot be owned, traded, bred, or stored.
+## Core Stats
+Only these four gameplay stats are primary canon:
+- Vibrance
+- Density
+- Harmony
+- Purity
 
-## Combat
-- Main campaign: real-time Keeper combat.
-- Party: 8 field roster, 3 active.
-- Harmony Circuit / EchoDeck may use turn-based simulation.
+## Canon Elements
+Solar, Lunar, Hydro, Magma, Aero, Flora, Volt, Terra, Iron/Tech, Spirit, Chaos, Radiant.
 
-## Restoration
-- Raw Blight material must be purified before use.
-- Restoration changes the world but does not erase history.
-- No absolute Purity or perfect reset.
+Veridian, Cipher and Hollow are separate Arena attributes, not core elements.
 
-## Ending Structure
-- Heal the Circle.
-- Break the Circle.
-- Balance / Transcend.
-- Secret dangerous outcome: The Purge.
+## Eco-Kin Agency Rules
+- Eco-Kin are autonomous sentient partners.
+- No capture balls/spheres/capsules.
+- No harm-to-capture.
+- No cages as a bonding mechanic.
+- No extracted cores from sentient Eco-Kin.
+- No Eco-Kin as fuel, ammunition, ingredients or forced labor.
+- No player/Eco-Kin fusion.
+- No forced evolution.
+- No ownership override of Guardians, Titans, Celestials or Humanoid-Kin.
+
+Approved encounter path:
+`Observe → Protect → Calm → Kindle → Bond / Release / Defer`
+
+## Main Game Modes
+- Main campaign: real-time action PvE.
+- Harmony Circuit/EchoDeck: tactical or turn-based simulation space.
+- Co-op Kin-Ships: ethical PvE cooperation.
+
+## Sanctuary / Havenlink Rule
+Sanctuary and Havenlink exist to care, restore, relocate, teach, research and rebuild. They are not factories for exploiting Eco-Kin.
+
+## Restoration Rule
+Rebearth can heal, but not through perfect resets that erase history. Recovery should preserve scars, memory and consequences.
+
+## Mini-Game Rule
+Mini-games must support existing Echohearts pillars and systems. They may teach scanning, Kindling, restoration, purification, farming, Sanctuary care, crafting, traversal, Resonance puzzles, seasonal ecology, Academy training, EchoDeck or Arena simulation. They cannot introduce capture/fusion/forced-work mechanics or a parallel progression economy.
+
+## Runtime Rule
+Unreal Engine 5.8 is the sole production runtime target unless explicitly changed. Unity/Godot/generic code examples are reference-only until translated and audited.
 
 ## Verification Rule
-Nothing is labeled VERIFIED without build, test, profile, browser, repo, or equivalent evidence.
+No runtime feature is called VERIFIED without build/test/profile/repository evidence.

@@ -1,0 +1,49 @@
+# =============================================================================
+# Echohearts Rebearth - Systemic Git Exclusion Rules
+# =============================================================================
+
+# Local editor and generated workspace files
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+
+# Unreal Engine generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Log/
+PackagedOutput/
+BuildTemplates/
+
+# Local environment / config
+.env
+.env.local
+config.local.json
+
+# OS junk
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Node / Python cache
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# General temporary files
+*.swp
+*.swo
+*~
+*.orig
