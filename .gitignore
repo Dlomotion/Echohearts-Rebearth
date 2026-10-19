@@ -1,72 +1,58 @@
-# Echohearts: Rebearth — Unreal Engine project ignore rules
-# Based on GitHub's UnrealEngine.gitignore pattern set, adapted for this project.
+# =============================================================================
+# Echohearts Rebearth - Systemic Git Exclusion Rules
 
-# Visual Studio / IDE local files
+# Local editor and generated workspace files
 .vs/
 .idea/
+.vscode/
 *.sln
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+# Unreal Engine generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Log/
+PackagedOutput/
+BuildTemplates/
+# Local environment / config
+.env
+.env.local
+config.local.json
+# OS junk
+Thumbs.db
+.DS_Store
+Desktop.ini
+# Node / Python cache
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+# General temporary files
+*.swp
+*.swo
+*~
+*.orig
+# Source-control conflict reconciliation: generated outputs only.
+Build/Receipts/
+BuildArtifacts/
 *.opensdf
 *.sdf
-*.VC.db
 *.VC.opendb
-*.xcodeproj
-*.xcworkspace
-.vsconfig
-
-# Compiled object / library / executable output
-*.slo
-*.lo
 *.o
-*.obj
 *.gch
 *.pch
-*.so
-*.dylib
-*.dll
-*.lai
-*.la
-*.a
-*.lib
-*.exe
-*.out
-*.app
-*.ipa
-
-# Unreal generated binaries
-Binaries/*
-Plugins/**/Binaries/*
-
-# Unreal generated build output.
-# Preserve project-owned Build subfolders/resources where explicitly whitelisted.
-Build/*
-!Build/*/
-Build/*/**
-!Build/**/*.ico
-!Build/**/DefaultPakFileRules.ini
-
-# Generated map build data
-*_BuiltData.uasset
-
-# Editor/generated state
-Saved/*
-Intermediate/*
-Plugins/**/Intermediate/*
-DerivedDataCache/*
-
-# Local logs / crash / temp output
-*.log
 *.tmp
 *.temp
-*.bak
-*.user
 *.userprefs
-
-# OS noise
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Keep GitHub workflow/configuration files and project documentation tracked.
-!.github/
-!.github/**
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+# .obj can be authored DCC source and remains governed by the LFS policy.
+# Build icons and DefaultPakFileRules.ini remain trackable.
