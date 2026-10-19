@@ -112,3 +112,9 @@ Recipes require approved item registry IDs and cannot assign made-up numeric cra
 - [ ] Actual UE5.8 UHT/compile, PIE placement, save rollback, dedicated server and 60 FPS are evidenced in **BUILD**, not claimed from this design.
 
 **Build evidence state:** JSON placement rectangles validated locally during authoring; actual terrain, collisions, nav, inventories, residents and asset meshes still require real UE5.8 integration and QA. All proposed names require registry/name collision review.
+
+## Owner update — resident quests and the Sky Isles (2026-10-19)
+
+The owner supplied six three-quest resident chains and approved the five-isle Sky Isles direction. See [Sanctuary resident quest prerequisites](SANCTUARY_RESIDENT_QUEST_CHAINS_2026-10-19.md) and [Sky Isles / Skyhold](../02_World/SKY_ISLES_AND_SKYHOLD_2026-10-19.md).
+
+The five geographic isles are separate from this document's three proposed base-layout templates. Skyhold's supplied crafting progression is Warden's Bench → Chordwork Atelier → Sovereign Forge, gated by resource star tiers and shed/gifted materials. The earlier T0–T4 capability proposal does not define additional Skyhold crafting tiers or override those material restrictions. Exact quest objectives, service mappings, star requirements and recipes remain unconfigured in the supplied update; no new numeric requirements or runtime code are implied.
