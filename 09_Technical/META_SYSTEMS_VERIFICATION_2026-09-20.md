@@ -77,3 +77,13 @@ Important architectural correction: cross-region events should use authoritative
 - UI/UX and accessibility playtests
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+## Release-verifier correction — 2026-10-19
+
+The original `assert` checks disappeared under `NDEBUG`. A GCC 13.3.0 compile with `-O2 -DNDEBUG -Wall -Wextra -Werror` failed on unused `ok`, `quote` and `m`; without strict warnings the verifier could report four groups passed without evaluating assertions or the housing operations inside them.
+
+`MetaSystemsVerification.cpp` now uses always-active checks that report the expression/line and exit nonzero. CTest includes an expected-failure self-test. Hosted CI explicitly selects both Debug and Release with `CMAKE_BUILD_TYPE`; the existing `--config Release` alone did not select Release for a single-configuration Unix generator.
+
+Local GCC tests passed all four existing groups in both modes. The deliberate failure self-test and an independent mutated listing-fee expectation both exited 1 in both modes. Exact source hashes and commands/results are retained in [`10_Production/META_SYSTEMS_VERIFICATION_2026-10-19.txt`](../10_Production/META_SYSTEMS_VERIFICATION_2026-10-19.txt).
+
+CMake/CTest were unavailable locally and await CI. MSVC flag selection is present but Windows/MSVC execution remains untested. This repair does not change domain/gameplay rules or establish Unreal integration. BUILD remains the sole executable UE authority; its current contents could not be rechecked because access returned 404. See the existing [public verification matrix](../11_Publication/PUBLIC_VERIFICATION_STATUS.md#verification-matrix--2026-10-19) for the remaining gates.

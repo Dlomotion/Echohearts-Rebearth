@@ -1,6 +1,6 @@
 # Echohearts: Rebearth — Public Verification Status
 
-**Last checked:** 2026-10-06  
+**Last checked:** 2026-10-19 (public repository/local C++ checks only)
 **Public repository:** https://github.com/Dlomotion/Echohearts-Rebearth  
 **Executable runtime/build repository:** https://github.com/Dlomotion/ECHOHEARTS-REBEARTH-BUILD-  
 **Primary public references:**  
@@ -12,15 +12,36 @@
 
 ## Current repository status
 
-PR #17 remains **OPEN** with 35 commits and 28 changed files. At this check it has no submitted reviews and no review threads.
+PR #17 was observed **OPEN** on 2026-10-19. The earlier commit/file/review counts were a 2026-10-06 snapshot and are not current verification evidence.
 
 The project now uses a repository-authority split:
 - `Dlomotion/Echohearts-Rebearth` is the public canon, systems, Dex, production, publication, and coordination authority.
 - `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-` is the executable UE5.8 runtime/build/evidence authority.
 
-The BUILD repository currently exposes a repository-level UE5.8 foundation including `EchoheartsRebearth.uproject`, runtime module `Echohearts`, module rules, and build-driver tooling. That is **repository evidence only**. It does not establish a successful UE5.8 compile, editor session, packaged runtime, gameplay, networking, save, AI, or platform result.
+The 2026-10-06 review recorded a BUILD repository-level UE5.8 foundation including `EchoheartsRebearth.uproject`, runtime module `Echohearts`, module rules, and build-driver tooling. That is **repository evidence only**. It does not establish a successful UE5.8 compile, editor session, packaged runtime, gameplay, networking, save, AI, or platform result.
+
+On 2026-10-19 the BUILD repository returned **404** through both the connected GitHub read and local clone. Its current source, checks and artifacts could not be inspected; the earlier foundation report is historical evidence, not a fresh build result.
 
 The **125-ID Permanent Dex** remains the production identity authority. Forms, seasonal/event additions, historical names, mutations, and proposals do not silently become `DEX-126+`.
+
+## Verification matrix — 2026-10-19
+
+Scope: public `main` baseline `85f653fb66295371bdce4edc73e71ab10725b96d` plus this repair. Exact tested source-file hashes, compiler, commands and exit codes are retained in [`META_SYSTEMS_VERIFICATION_2026-10-19.txt`](../10_Production/META_SYSTEMS_VERIFICATION_2026-10-19.txt).
+
+| Gate / claim | Observed result | Evidence / next required action |
+|---|---|---|
+| Existing standalone C++17 four-group domain harness, Debug | STATIC CHECK PASSED | GCC 13.3.0; normal execution exit 0. Scope is the existing bounded test cases only. |
+| Same harness, Release with `NDEBUG` | STATIC CHECK PASSED | Reproduced three warnings-as-errors before the repair; repaired source compiles and executes all four groups, exit 0. |
+| Failed expectations remain active in both modes | STATIC CHECK PASSED | Failure self-test exits 1; independently changing the expected listing fee from 12 to 13 also exits 1 in each mode. |
+| CMake / CTest and hosted Debug/Release matrix | NOT YET VERIFIED for this repair | CMake is absent locally. Run both CI configurations, including the expected-failure CTest, on this PR. |
+| Current BUILD source / foundation | BLOCKED — NOT YET VERIFIED | Connected GitHub read and clone returned 404. Restore connection access to `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`, then inspect its exact branch/SHA. |
+| UE5.8 UHT/UBT / editor / authored map / PIE | NOT YET VERIFIED | Retain source SHA, engine/toolchain version, commands, complete logs and actual session evidence from BUILD. |
+| Cook/package / packaged launch | NOT YET VERIFIED | Successful package logs and launch/exit evidence for the exact built SHA on target hardware. |
+| Issue #10 humanoid/Eco-Kin animation, input and contact | NOT YET VERIFIED | Complete the bounded benchmark below with original production assets and reproducible tests. |
+| Authority / replication / reconnect / save recovery | NOT YET VERIFIED | Real server/client and persistence test artifacts from BUILD, with failure/recovery cases. |
+| Performance / accessibility / asset provenance / platforms | NOT YET VERIFIED | Claim-specific review, profiles and device/platform evidence. Passing this C++ harness does not satisfy these gates. |
+
+This updates the existing public verification record; no runtime, canon, Dex or parallel matrix authority is created. Historical bootstrap tooling in this repository is not a BUILD execution path.
 
 ## CANON / SYSTEM / TECHNICAL CONTRACTS
 

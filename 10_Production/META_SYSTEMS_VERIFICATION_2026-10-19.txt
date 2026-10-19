@@ -1,0 +1,49 @@
+Meta Systems local verification — 2026-10-19
+Base: 85f653fb66295371bdce4edc73e71ab10725b96d
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+SHA256 fb60213169f1106d2bab43c1ad820c329a741374f282f8b9e6a1ef7b01b15ee7 09_Technical/MetaSystems/MetaSystemsVerification.cpp
+SHA256 38d05dd66104b697478216ed4faf44b6a871ee37abdf9fcdadd62343c6693937 09_Technical/MetaSystems/EchoheartsMetaSystemsCore.hpp
+SHA256 e2e0823ec7033d2d71acfb6fa4fd4aeac5036f9554a503afa2e79bd3915f7748 09_Technical/MetaSystems/CMakeLists.txt
+SHA256 150cf1de14845e800aab66ee479e6d34962c3f7683525852680486b5616eeab0 .github/workflows/meta-systems-verify.yml
+COMMAND: g++ -std=c++17 -Wall -Wextra -Werror -O0 -g /workspace/scratch/27acffaf8b00/echohearts/09_Technical/MetaSystems/MetaSystemsVerification.cpp -o /tmp/echohearts-meta-f3jv61pi/Debug
+EXIT: 0
+
+COMMAND: /tmp/echohearts-meta-f3jv61pi/Debug
+EXIT: 0
+Echohearts Meta Systems verification: 4/4 groups passed
+
+COMMAND: /tmp/echohearts-meta-f3jv61pi/Debug --self-test-failure
+EXIT: 1
+Verification failed at line 21: false
+
+NEGATIVE CONTROL: expected listing fee deliberately changed from 12 to 13
+COMMAND: g++ -std=c++17 -Wall -Wextra -Werror -O0 -g -I /workspace/scratch/27acffaf8b00/echohearts/09_Technical/MetaSystems /tmp/echohearts-meta-f3jv61pi/Mutant.cpp -o /tmp/echohearts-meta-f3jv61pi/Debug
+EXIT: 0
+
+COMMAND: /tmp/echohearts-meta-f3jv61pi/Debug
+EXIT: 1
+Verification failed at line 34: ok.listingFee == 13
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Werror -O2 -DNDEBUG /workspace/scratch/27acffaf8b00/echohearts/09_Technical/MetaSystems/MetaSystemsVerification.cpp -o /tmp/echohearts-meta-f3jv61pi/Release
+EXIT: 0
+
+COMMAND: /tmp/echohearts-meta-f3jv61pi/Release
+EXIT: 0
+Echohearts Meta Systems verification: 4/4 groups passed
+
+COMMAND: /tmp/echohearts-meta-f3jv61pi/Release --self-test-failure
+EXIT: 1
+Verification failed at line 21: false
+
+NEGATIVE CONTROL: expected listing fee deliberately changed from 12 to 13
+COMMAND: g++ -std=c++17 -Wall -Wextra -Werror -O2 -DNDEBUG -I /workspace/scratch/27acffaf8b00/echohearts/09_Technical/MetaSystems /tmp/echohearts-meta-f3jv61pi/Mutant.cpp -o /tmp/echohearts-meta-f3jv61pi/Release
+EXIT: 0
+
+COMMAND: /tmp/echohearts-meta-f3jv61pi/Release
+EXIT: 1
+Verification failed at line 34: ok.listingFee == 13
+
+CMake/CTest: NOT RUN (cmake is not installed in this environment).
+GitHub Actions: NOT RUN LOCALLY; Debug/Release matrix execution pending remote CI.
+Unreal Engine / BUILD repository: NOT VERIFIED; private repository returned 404.
+RESULT: Debug and Release pass all four existing groups; self-test and mutated fee expectation fail with exit 1 in both modes.
