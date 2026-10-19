@@ -10,6 +10,43 @@ from field_loop_contract import (
 
 
 class FieldLoopTests(unittest.TestCase):
+    def test_strain_revision_exhaustion_is_explicit_without_mutation(self):
+        state = StrainSnapshot("fixture.partner", 20, 100, 2**31 - 2)
+        last = apply_strain(state, "last.event", 1, state.revision)
+        self.assertEqual(last.revision, 2**31 - 1)
+        with self.assertRaisesRegex(Rejected, "^revision_exhausted$"):
+            apply_strain(last, "next.event", 1, last.revision)
+        self.assertEqual(last.amount, 21)
+        self.assertNotIn("next.event", last.events)
+
+    def test_boss_revision_exhaustion_never_wraps(self):
+        state = BossSnapshot("fixture.boss", "warning", 2**31 - 2)
+        last = advance_boss(state, "respond", state.revision, True, False, True)
+        with self.assertRaisesRegex(Rejected, "^revision_exhausted$"):
+            advance_boss(last, "stabilize", last.revision, True, True, True)
+        self.assertEqual((last.phase, last.revision), ("response", 2**31 - 1))
+
+    def test_plot_at_max_revision_allows_read_only_retry(self):
+        state = PlotSnapshot("fixture.plot", "fixture.crop", 0, 10, 0, 2**31 - 2)
+        last = advance_plot(state, 1, 10, True, True, False)
+        self.assertIs(advance_plot(last, 1, 10, True, True, False), last)
+        with self.assertRaisesRegex(Rejected, "^revision_exhausted$"):
+            advance_plot(last, 2, 10, True, True, False)
+
+    def test_harvest_at_max_revision_does_not_reserve(self):
+        ripe = PlotSnapshot("fixture.plot", "fixture.crop", 10, 10, 10, 2**31 - 1, "ready")
+        with self.assertRaisesRegex(Rejected, "^revision_exhausted$"):
+            request_harvest(ripe, ripe.revision, True)
+        self.assertEqual(ripe.phase, "ready")
+
+    def test_ceremony_revision_exhaustion_does_not_authorize_bond(self):
+        state = Ceremony("fixture.encounter", "fixture.player", "fixture.individual", "calm", 2**31 - 2)
+        snapshot = Evidence(state.individual_id, state.revision, True, True, True, True, False, True, True)
+        last = transition(state, "invite", snapshot)
+        with self.assertRaisesRegex(Rejected, "^revision_exhausted$"):
+            transition(last, "accept", replace(snapshot, revision=last.revision))
+        self.assertEqual(last.phase, "invited")
+
     def setUp(self):
         self.weather = (WeatherPhase("fair", 10), WeatherPhase("storm", 5, True))
         self.strain = StrainSnapshot("fixture.partner", 20, 100)
@@ -248,3 +285,4 @@ class FieldLoopTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

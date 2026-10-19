@@ -41,3 +41,39 @@ Every context supports keyboard/mouse, controller and accessible touch layout. C
 Screen hosts subscribe to **revisioned events**. On `EncounterInstanceInvalidated`, `WorldCellUnloaded`, `IndividualNeedsCare`, `ConsentWithdrawn`, `PlayerDisconnected` or `TransactionRejected`, close unsafe prompts, show text reason, preserve chosen safe exit. All pending states are read-only after load until confirmed by the authority.
 
 Acceptance: rejoin at all phases, UI rebuild mid-ceremony, lost gamepad, changing touch orientation, muted audio, reduced flash, color-blind cues, no unnecessary camera shake, localized longer text, cancellation immediately before commit, 100 repeated Interact edges without duplicate invitation.
+
+## Quiet Return: pending response and checkpoint cues — 2026-10-19
+
+**PROPOSAL, existing scene/UI workstreams only.** Add these states to the existing
+Outcome, Journal and Ceremony surfaces; no new meter or widget-owned save system.
+
+| State | Original player-facing text | Available action / presentation |
+| --- | --- | --- |
+| Response pending | “A response is pending. Leave room to choose.” | Preserve safe movement/back-away and existing cancellation rules. Do not repeat Confirm or show a Bond result before authority answers. |
+| Reading unavailable | “The reading is unavailable. Observe again from a safe distance.” | Close unsafe confirmation; keep Observe, Defer and departure available. No speculative consent or failure score. |
+| Habitat restored, no bond | “Water is flowing again. The invitation can wait.” | Show the committed restoration outcome and actual relationship state separately. No Stage 04 unlock without first bond. |
+| Checkpoint pending | “Saving progress…” | A restrained text/icon status; no success chime, green Saved badge or repeated reward animation yet. |
+| Checkpoint confirmed | “Progress saved.” | Display only after the existing save owner confirms that exact checkpoint; never from a timer or widget reconstruction. |
+| Checkpoint failed | “Progress could not be saved.” | Offer the existing recovery/retry flow, with clear confirmation before abandoning unsaved progress. No false “Saved” state. |
+
+Optional mentor care line on departure: “The path is open. Give it time in shelter.”
+Keep captions and semantic icons equivalent with sound muted. Announce a state change
+once to assistive output; repeated network/save notifications must not spam narration
+or steal focus. Localized long strings must wrap without hiding Back/Defer. Use existing
+localization-table ownership and context; these are English source candidates, not
+new locked keys or completed translations.
+
+Implementation handoff: read typed model events from the existing authority/save
+owner. Associate completion with the current request/checkpoint identity; ignore a
+late callback from a replaced screen, older request or disconnected session. Dispose
+and rebind subscriptions through the existing widget lifecycle. A revision exhaustion
+or stale snapshot is an internal typed denial, never a player-facing counter or a
+reason to force a ceremony, lock physical escape, fabricate a bond or reset consent.
+Native owner recovery needs an explicitly versioned/epoch-scoped policy; never silently
+wrap a counter or reuse an old event identity.
+
+Acceptance: delay and fail the save callback; deliver an older callback after a newer
+request; reconstruct UI during pending save; withdraw consent during pending response;
+unload the habitat; retry with controller/touch/keyboard and muted narration. No
+duplicate bond/reward, early Saved badge, hidden focused Confirm or blocked safe exit.
+No UMG asset, localization import, save recovery or accessibility execution is claimed.

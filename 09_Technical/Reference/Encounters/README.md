@@ -145,3 +145,19 @@ optimization; 24 battle methods pass. These are reference checks only.
 
 
 
+
+## Revision boundary correction — 2026-10-19 follow-up
+
+The reference state revision domain is 0 through 2^31-1, inclusive. A state emitted at
+the last revision remains valid to inspect; a same-tick growing-plot retry returns the
+same snapshot. Any further changing transition rejects with `revision_exhausted`
+before emitting a snapshot, recording an event or reserving harvest. No wrap or silent
+reset. Shared `next_revision` guards ceremony, Strain, boss and plot/harvest transitions.
+
+Previously the functions emitted 2^31-1 but validated only through 2^31-2 on subsequent
+calls. Five new boundary tests reproduced four failures and one error before correction.
+The full reference suite now passes 81 methods normally and under optimization, plus
+24 battle methods. This is a schema consistency correction, not proof of a native
+integer overflow or executed save recovery. Native care/escape actions must not depend
+on a counter reset; recover the owner's state with a documented epoch/version policy
+and fresh authority/consent, without reusing old transaction identities.

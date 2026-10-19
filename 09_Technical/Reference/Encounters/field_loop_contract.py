@@ -4,7 +4,7 @@ All inputs describe a trusted host snapshot in tests, never client permissions.
 Time uses integer host ticks. Numeric caps are fixture limits, not game balance.
 """
 from dataclasses import dataclass, replace
-from encounter_contract import Rejected, require, ident, integer
+from encounter_contract import Rejected, require, ident, integer, MAX_REVISION, next_revision
 
 
 MAX_TICK = 2**53 - 1
@@ -67,7 +67,7 @@ def apply_strain(state, event_id, delta, expected_revision):
     require(type(state) is StrainSnapshot and ident(state.subject_id) and ident(event_id), "invalid_strain_identity")
     require(integer(state.capacity, 10**6) and state.capacity > 0
             and integer(state.amount, state.capacity), "invalid_strain_bounds")
-    require(integer(state.revision, 2**31 - 2) and integer(expected_revision, 2**31 - 2), "invalid_revision")
+    require(integer(state.revision, MAX_REVISION) and integer(expected_revision, MAX_REVISION), "invalid_revision")
     require(type(state.events) is frozenset and len(state.events) <= 1024
             and all(ident(x) for x in state.events), "invalid_strain_history")
     require(type(delta) is int and -state.capacity <= delta <= state.capacity, "invalid_strain_delta")
@@ -78,7 +78,7 @@ def apply_strain(state, event_id, delta, expected_revision):
     require(len(state.events) < 1024, "strain_history_full")
     next_amount = state.amount + delta
     require(0 <= next_amount <= state.capacity, "strain_budget_exceeded")
-    return replace(state, amount=next_amount, revision=state.revision + 1, events=state.events | {event_id})
+    return replace(state, amount=next_amount, revision=next_revision(state.revision), events=state.events | {event_id})
 
 
 @dataclass(frozen=True)
@@ -124,14 +124,14 @@ class BossSnapshot:
 
 def advance_boss(state, action, expected_revision, safe, objective_complete, telegraph_elapsed):
     require(type(state) is BossSnapshot and ident(state.encounter_id), "invalid_boss")
-    require(integer(state.revision, 2**31 - 2) and integer(expected_revision, 2**31 - 2), "invalid_revision")
+    require(integer(state.revision, MAX_REVISION) and integer(expected_revision, MAX_REVISION), "invalid_revision")
     require(expected_revision == state.revision, "stale_boss_phase")
     flags(safe, objective_complete, telegraph_elapsed)
     require(type(state.phase) is str and state.phase in {"dormant", "warning", "response", "recovery", "resolved", "aborted"}, "invalid_boss_phase")
     require(type(action) is str and action in {"activate", "respond", "stabilize", "resolve", "abort"}, "invalid_boss_action")
     require(state.phase not in {"resolved", "aborted"}, "terminal_boss_phase")
     if action == "abort" or not safe:
-        return replace(state, phase="aborted", revision=state.revision + 1)
+        return replace(state, phase="aborted", revision=next_revision(state.revision))
     required = {"dormant": "activate", "warning": "respond", "response": "stabilize", "recovery": "resolve"}
     require(required.get(state.phase) == action, "wrong_boss_sequence")
     if action == "respond":
@@ -139,7 +139,7 @@ def advance_boss(state, action, expected_revision, safe, objective_complete, tel
     if action in {"stabilize", "resolve"}:
         require(objective_complete, "boss_objective_incomplete")
     next_phase = {"activate": "warning", "respond": "response", "stabilize": "recovery", "resolve": "resolved"}[action]
-    return replace(state, phase=next_phase, revision=state.revision + 1)
+    return replace(state, phase=next_phase, revision=next_revision(state.revision))
 
 
 @dataclass(frozen=True)
@@ -157,7 +157,7 @@ def validate_plot(state):
     require(type(state) is PlotSnapshot and ident(state.plot_id) and ident(state.crop_id), "invalid_plot_identity")
     require(integer(state.duration, MAX_TICK) and state.duration > 0
             and integer(state.elapsed, state.duration) and tick(state.last_tick), "invalid_plot_time")
-    require(integer(state.revision, 2**31 - 2), "invalid_revision")
+    require(integer(state.revision, MAX_REVISION), "invalid_revision")
     require(type(state.phase) is str and state.phase in {"growing", "ready", "harvest_pending"}, "invalid_plot_phase")
     require((state.phase == "growing" and state.elapsed < state.duration)
             or (state.phase in {"ready", "harvest_pending"} and state.elapsed == state.duration), "inconsistent_plot_phase")
@@ -172,18 +172,18 @@ def advance_plot(state, now, offline_cap, soil_ok, water_ok, hazard):
         return state
     delta = min(now - state.last_tick, offline_cap) if soil_ok and water_ok and not hazard else 0
     elapsed = min(state.duration, state.elapsed + delta)
-    return replace(state, elapsed=elapsed, last_tick=now, revision=state.revision + 1,
+    return replace(state, elapsed=elapsed, last_tick=now, revision=next_revision(state.revision),
                    phase="ready" if elapsed == state.duration else "growing")
 
 
 def request_harvest(state, expected_revision, inventory_ready):
     validate_plot(state)
     flags(inventory_ready)
-    require(integer(expected_revision, 2**31 - 2) and expected_revision == state.revision, "stale_plot")
+    require(integer(expected_revision, MAX_REVISION) and expected_revision == state.revision, "stale_plot")
     require(state.phase == "ready", "crop_not_ready")
     require(inventory_ready, "inventory_unavailable")
     # No inventory award: actual owner must atomically persist reservation plus grant.
-    return replace(state, phase="harvest_pending", revision=state.revision + 1)
+    return replace(state, phase="harvest_pending", revision=next_revision(state.revision))
 
 
 def form_readiness(base_id, form_id, registry, required_gates, observed_gates, consent, healing):
@@ -218,3 +218,4 @@ def advice_for(observed_tick, now, max_age, emergency, consent, hazard, known):
     if hazard:
         return "wait_for_safe_approach"
     return "observe_without_pressure"
+

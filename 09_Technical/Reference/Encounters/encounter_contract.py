@@ -6,6 +6,8 @@ import math
 import re
 import struct
 
+MAX_REVISION = 2**31 - 1  # Reference schema bound, not a native storage promise.
+
 
 class Rejected(ValueError):
     pass
@@ -22,6 +24,12 @@ def ident(value):
 
 def integer(value, maximum):
     return type(value) is int and 0 <= value <= maximum
+
+
+def next_revision(value):
+    require(integer(value, MAX_REVISION), "invalid_revision")
+    require(value < MAX_REVISION, "revision_exhausted")
+    return value + 1
 
 
 def unit(value):
@@ -164,7 +172,7 @@ class Ceremony:
 def transition(state, action, evidence):
     require(type(state) is Ceremony and type(evidence) is Evidence, "invalid_ceremony")
     require(all(ident(x) for x in (state.encounter_id, state.owner_id, state.individual_id)), "invalid_identity")
-    require(integer(state.revision, 2**31-2) and integer(evidence.revision, 2**31-2), "invalid_revision")
+    require(integer(state.revision, MAX_REVISION) and integer(evidence.revision, MAX_REVISION), "invalid_revision")
     require(evidence.individual_id == state.individual_id and evidence.revision == state.revision, "stale_evidence")
     require(type(action) is str and action in {"observe", "protect", "calm", "invite", "accept", "refuse", "release", "defer", "interrupt"}, "unknown_action")
     for flag in (evidence.observed, evidence.protected, evidence.calm, evidence.consent,
@@ -173,7 +181,7 @@ def transition(state, action, evidence):
     require(type(state.phase) is str and state.phase in {"encountered", "observed", "protected", "calm", "invited", "bond_ready"}, "terminal_or_invalid_phase")
     if action in {"refuse", "release", "defer", "interrupt"}:
         phase = {"refuse": "refused", "release": "released", "defer": "deferred", "interrupt": "deferred"}[action]
-        return replace(state, phase=phase, revision=state.revision+1)
+        return replace(state, phase=phase, revision=next_revision(state.revision))
     require(evidence.safe and not evidence.healing and evidence.eligible, "not_safe_to_proceed")
     expected = {"encountered": "observe", "observed": "protect", "protected": "calm", "calm": "invite", "invited": "accept"}
     require(expected.get(state.phase) == action, "wrong_sequence")
@@ -186,7 +194,7 @@ def transition(state, action, evidence):
     if action in {"invite", "accept"}:
         require(evidence.consent, "consent_required")
     phase = {"observe": "observed", "protect": "protected", "calm": "calm", "invite": "invited", "accept": "bond_ready"}[action]
-    return replace(state, phase=phase, revision=state.revision+1)
+    return replace(state, phase=phase, revision=next_revision(state.revision))
 
 
 class BondReviewLedger:
