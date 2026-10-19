@@ -284,3 +284,12 @@ The current authority chain and production order above govern these branch docum
 - `99_Reference_Retired_Needs_Redesign/LEONIX_LEGACY_CARD_PROPOSALS.md`
 - `99_Reference_Retired_Needs_Redesign/RESONANCE_MUTATION_LEGACY_NAME_AND_SYSTEM_AUDIT.md`
 - `README.md`
+
+## PR #2 routing retained during conflict reconciliation
+
+The current authority chain and production order above govern these branch documents. This routing record does not promote proposal content or runtime evidence. Legacy paths remain historical references rather than replacement folder authority.
+
+- `10_Marketing_Publication/WEBSITE_ECOKIN_BESTIARY.md`
+- `11_Daily_Assignments/ECHOHEARTS_DAILY_ASSIGNMENT_BOARD.md`
+
+The proposed website has one approved export contract; active public presentation belongs to `Dlomotion/echohearts-web`. A legacy web folder is not another canonical data source or independent project.
