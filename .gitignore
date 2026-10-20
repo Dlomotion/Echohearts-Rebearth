@@ -17,7 +17,7 @@
 
 # Unreal Engine generated folders
 Binaries/
-Build/
+# Build/ may contain authored packaging resources; classify its files before excluding.
 DerivedDataCache/
 Intermediate/
 Saved/
@@ -47,3 +47,4 @@ __pycache__/
 *.swo
 *~
 *.orig
+

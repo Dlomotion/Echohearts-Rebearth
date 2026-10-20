@@ -1,0 +1,453 @@
+{
+  "manifest_id": "ECHOHEARTS-MISSING-SYSTEMS-2026-10-17",
+  "schema_version": 1,
+  "authority": "MASTER_PROJECT_INDEX.md",
+  "source_branch": "feature/encounter-kindling-gap-designs-2026-10-17",
+  "derived_from": "PR #71 Missing System Delivery Design; user-reported 18 existing / 20 missing",
+  "notes": [
+    "Workstream list is derived, not a reproduction of the unavailable original audit rows",
+    "Do not modify 125-ID Permanent Dex",
+    "Draft PR #70 proposes Tamer of Beasts, hip-mounted device, eight bonded links/one active; preserve established Frequency Tamer / Core-Binder and existing device/roster until canon approval",
+    "Vibrance/Density/Harmony/Purity and nine Essences only",
+    "No forced capture or new ownership economy",
+    "No executable UE gameplay is created by this data file"
+  ],
+  "prerequisites": [
+    {
+      "id": "G00",
+      "name": "Clean BUILD checkout + current source/asset provenance + Windows UE5.8 compile",
+      "status": "BLOCKED_SOURCE_ACCESS"
+    }
+  ],
+  "status_summary": {
+    "design": "PROPOSED_PENDING",
+    "reference_oracles": "M02 and M05 present in PR #71; tests reported 23, not rerun by this manifest",
+    "ue_native": "BLOCKED_RUNTIME_REPO_UNAVAILABLE",
+    "art_content": "NOT_AUTHORED_OR_IMPORTED",
+    "windows_compile": "NOT_VERIFIED"
+  },
+  "workstreams": [
+    {
+      "id": "M01",
+      "title": "Player movement, Enhanced Input, interaction",
+      "depends_on": [
+        "G00"
+      ],
+      "artifact_id": "M01_INPUT_CONTEXT",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Keyboard/gamepad move, look, jump, interact and safe cancel in test PIE",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "Wild habitat population and spawn commit",
+      "depends_on": [
+        "M01",
+        "M18"
+      ],
+      "artifact_id": "M02_WORLD_DIRECTOR",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": true,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Approved Dex individual spawns only in authorized cell with nav clearance and population cap",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "Wild tracking signs and A.E.G.I.S. scans",
+      "depends_on": [
+        "M02",
+        "M13"
+      ],
+      "artifact_id": "M03_SIGN_SURFACE",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Readable real signals with source age, uncertainty and no duplicate discovery reward",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "Eco-Kin ecology and approach AI",
+      "depends_on": [
+        "M02",
+        "M16"
+      ],
+      "artifact_id": "M04_BEHAVIOR_PROFILE",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Existing approved species forages, observes, shelters, warns and safely withdraws",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "Voluntary Kindling ceremony presentation",
+      "depends_on": [
+        "M03",
+        "M04",
+        "M13"
+      ],
+      "artifact_id": "M05_CEREMONY_FLOW",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": true,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Bond, Release and Defer all complete without coercion; authoritative relationship commits once",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "Hostile enemy combat AI",
+      "depends_on": [
+        "M01",
+        "M04",
+        "M16"
+      ],
+      "artifact_id": "M06_ENEMY_THREAT_TREE",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Readable startup/recovery, meaningful retreat and no targeting through streamed-out geometry",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "Boss AI and encounter phase director",
+      "depends_on": [
+        "M06",
+        "M14",
+        "M18"
+      ],
+      "artifact_id": "M07_BOSS_PHASES",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Authored phases and ecological outcome avoid softlocks and duplicate rewards",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "Shimmer Form ascension",
+      "depends_on": [
+        "M05",
+        "M09",
+        "M16"
+      ],
+      "artifact_id": "M08_FORM_GATE",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Registry-backed individual form with consent and no identity duplication",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "Resonance Strain and recovery",
+      "depends_on": [
+        "M01",
+        "M13"
+      ],
+      "artifact_id": "M09_STRAIN_RECOVERY",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Bounded single-event strain, existing Anima-Link and care integration",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M10",
+      "title": "Restoration Farming",
+      "depends_on": [
+        "M12",
+        "M18"
+      ],
+      "artifact_id": "M10_FARMING_RESTORATION",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Plant plot, care, harvest and visible watershed change with no forced Eco-Kin labor",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M11",
+      "title": "D.A.H.L.I.A. contextual guidance",
+      "depends_on": [
+        "M03",
+        "M13"
+      ],
+      "artifact_id": "M11_ADVICE_FALLBACK",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Advisor marks inference, allows dismissal, cannot override consent and works offline",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M12",
+      "title": "Regional weather, cloud and hazard model",
+      "depends_on": [
+        "M18"
+      ],
+      "artifact_id": "M12_WEATHER_STATES",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Authoritative forecast and rain/snow/gust warnings match client presentation and saves",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M13",
+      "title": "Encounter HUD, UMG and accessibility",
+      "depends_on": [
+        "M01"
+      ],
+      "artifact_id": "M13_UI_WIDGETS",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Eight state-safe widgets; cancellation, captions, controller and touch focus",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M14",
+      "title": "Campaign quest and first Kindling mission",
+      "depends_on": [
+        "M03",
+        "M05",
+        "M13"
+      ],
+      "artifact_id": "M14_STORY_MISSION",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Complete mission by Bond, Release or Defer; mission events saved once",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M15",
+      "title": "Approved mesh, material and environmental assets",
+      "depends_on": [
+        "G00"
+      ],
+      "artifact_id": "M15_APPROVED_ASSETS",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Issue #10 human and one approved Eco-Kin import with provenance and collision",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M16",
+      "title": "Animation rigs and species behavior motions",
+      "depends_on": [
+        "M15"
+      ],
+      "artifact_id": "M16_CHARACTER_ANIMATION",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Idle, travel, observe, warn, relax, refuse, rest and ceremony motions in editor",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M17",
+      "title": "Gameplay VFX and authored/captioned audio",
+      "depends_on": [
+        "M13",
+        "M16"
+      ],
+      "artifact_id": "M17_AUDIO_FX",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Distinct scan, danger, calm, consent and result cues; reduced-flash and mute parity",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M18",
+      "title": "Playable level, nav, World Partition and streaming",
+      "depends_on": [
+        "M01",
+        "M15"
+      ],
+      "artifact_id": "M18_HABITAT_POCKET",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Navigable Field Academy habitat with clear exit and deterministic load/unload",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M19",
+      "title": "Co-op, duels, PvE raids and sanctioned Arena integration",
+      "depends_on": [
+        "M05",
+        "M07",
+        "M20"
+      ],
+      "artifact_id": "M19_SERVER_INTEGRATION",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Two-client authority, transfer/reconnect, no double rewards and separate Arena season",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    },
+    {
+      "id": "M20",
+      "title": "Save evolution, rollback and end-to-end verification",
+      "depends_on": [
+        "M02",
+        "M05",
+        "M14"
+      ],
+      "artifact_id": "M20_SAVE_RECOVERY",
+      "status": "DESIGNED_NOT_IMPLEMENTED",
+      "engine_verified": false,
+      "source_audit_verified": false,
+      "offline_reference_tests_existing": false,
+      "implementation_authority": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+      "existing_module_audit_required": true,
+      "acceptance": "Crash/rejoin at every Kindling phase, no duplicate individual or bond",
+      "evidence_needed": [
+        "BUILD clean checkout and actual owner-symbol lookup",
+        "UE5.8 UHT/UBT or Editor evidence",
+        "Gameplay PIE and save/network/asset proof as applicable"
+      ]
+    }
+  ]
+}

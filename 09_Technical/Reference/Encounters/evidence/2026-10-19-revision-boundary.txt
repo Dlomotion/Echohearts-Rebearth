@@ -1,0 +1,39 @@
+2026-10-19 follow-up / Codex / local reference boundary regression
+Python 3.12.14 / Linux x86_64
+No Unreal engine, target device or package tested.
+
+python3 -m unittest discover -s 09_Technical/Reference/Encounters
+
+.................................................................................
+----------------------------------------------------------------------
+Ran 81 tests in 0.008s
+
+OK
+
+exit code 0
+
+python3 -O -m unittest discover -s 09_Technical/Reference/Encounters
+
+.................................................................................
+----------------------------------------------------------------------
+Ran 81 tests in 0.009s
+
+OK
+
+exit code 0
+
+python3 -m unittest discover -s 09_Technical/Reference/BattleModes
+
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 0.002s
+
+OK
+
+exit code 0
+
+encounter_contract.py SHA256 736d002111c7023ffffa254e12062180ce9b7afcc7d41f01643079dff0167d29
+
+field_loop_contract.py SHA256 f694f3a7a06d2ea1fb2a4244403a44c29563b836069ca1482a1b691c62f10ac4
+
+test_field_loop_contract.py SHA256 393abc2289d735d3e820b81b3233fd706835579f8e583b0974c3f37b7f96a1e3
