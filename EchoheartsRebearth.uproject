@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "Echohearts: Rebearth UE5 C++ foundation",
+  "Modules": [
+    {
+      "Name": "EchoheartsRebearth",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
