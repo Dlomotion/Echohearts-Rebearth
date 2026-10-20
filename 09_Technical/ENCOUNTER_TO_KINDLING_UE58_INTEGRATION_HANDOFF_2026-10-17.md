@@ -101,3 +101,32 @@ Contexts must explicitly hand off focus; no double action on a single Confirm ed
 7. Representative platform performance (60 FPS target not a claim); controller/mobile and console builds only under supported SDKs/certification.
 
 Never merge/relabel as `VERIFIED` solely because CI ran the Python oracle.
+
+## 2026-10-19 C++ handoff continuation
+
+[Compiled C++ ceremony reference](Reference/Encounters/Cpp/README.md) now extends
+the existing Python oracle. It covers ordered transitions, fresh consent,
+refusal/release/defer, checked revision changes and in-memory review idempotency.
+It does not implement spawning, Anima-Link, Corruption, UE actors or save/RPC
+services. Read the reference symbol/owner table before adapting; no actual BUILD
+symbol was inspectable. Do not copy the exception-based oracle into UE or enable
+exceptions merely to compile it.
+
+Three requested gate steps were attempted: both BUILD metadata locations still
+return 404; Corruption's reported stance/attribute fixes cannot be reproduced
+without source; Windows UE5.8 foundation execution cannot proceed without the
+checkout, engine and logs. The available public tree has no `.uproject`,
+`Source/`, `Build.cs` or target files at the inspected commit. No second runtime
+foundation or replacement build driver was added here.
+
+An existing public historical `Tools/verify_unreal_gate.py` still names
+`UE4Editor.exe` in preflight/automation and defaults to `EchoheartsEditor`, while
+the foundation contract records `EchoheartsRebearthEditor`. It must not be used
+as UE5.8 proof. Audit the actual BUILD driver and discovered target names before
+execution; this continuation does not change that BUILD-owned tooling.
+
+Clarification to the failure path above: Release/Defer may resolve the safe
+handling lesson. Training Stage 04's genuine-first-bond requirement stays
+unsatisfied until an actual relationship transaction succeeds. A review proposal
+or C++ reference test cannot award it. No new map coordinates or roster entries.
+

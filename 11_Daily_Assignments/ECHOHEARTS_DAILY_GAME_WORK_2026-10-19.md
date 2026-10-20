@@ -80,3 +80,55 @@ Fresh [Epic UE5.8 saving/loading documentation](https://dev.epicgames.com/docume
 Rechecked [Epic announcements](https://forums.unrealengine.com/c/general/announcements/49): no newly identified materially actionable UE5.8 development since this morning's watch; no alert or monitored-change-driven edit. Exhaustive release-note/API diff remains unproven. PR #20 head remains `32c7e6df6201f25e96464576ae83ecca0981b609`, mergeable, zero reviews, same one comment updated October 6. No new platform/publication execution evidence; full 18-step production order and Windows/Issue #10 first remain controlling.
 
 **Next exact action:** retain CI at this boundary-correction commit, then obtain readable BUILD source and actual Windows UE5.8 logs to reproduce the claimed Corruption corrections and prove the foundation. Native adapters must use existing owner services, durable versioned transactions and safe recovery; do not install these Python references as a second runtime.
+
+## Requested three gates and C++ continuation
+
+Inspected PR #71 at `0fef8e045a38a8f44581b42e64d183278c14b51c`, its
+current tree, Copilot instructions, master index, development prompt and existing
+integration/foundation contracts. No AGENTS.md or Unreal project/Source tree was
+present in this public snapshot. Both BUILD metadata locations still returned
+404 through the connection; this does not establish why access fails.
+
+| Requested gate | Result this pass | Remaining evidence |
+| --- | --- | --- |
+| Read BUILD source and Windows logs | BLOCKED: neither BUILD location readable; no Windows logs supplied | Actual authorized checkout, source revision and matching logs |
+| Reproduce reported Corruption repairs | NOT REPRODUCED: no owning enum/component source | Inspect concrete symbols, reproduce diagnostics, verify owning attribute access |
+| Complete native foundation gate | NOT VERIFIED: no accessible project or Windows engine | Clean checkout/LFS, exact engine/toolchain, UHT/UBT, Editor/PIE, cook/package and launch |
+
+Added a bounded [C++17 ceremony/review reference](../09_Technical/Reference/Encounters/Cpp/README.md)
+inside the existing encounter reference lane and extended its existing CI; no
+second Unreal foundation or workflow. It ports ordered transitions, voluntary
+exits, fresh evidence, consent, checked revisions and in-memory review
+idempotency. It does not port spawn hashing, field-loop modules, Anima-Link or
+Corruption, and has not been installed in the game. No fabricated BUILD
+class/API names, reflected classes, assets or save protocols were introduced.
+
+Local verification: GCC 13.3.0 / C++17 on Linux, Python 3.12.14. Debug and
+`-O2 -DNDEBUG` builds both pass warnings-as-errors and UBSan behavioral checks;
+each matches the existing Python oracle on **14,600 transition cases**. Existing
+**81 encounter/field/matrix tests** pass normally and optimized; **24 battle
+tests** pass. Commands, scope and hashes are in
+`09_Technical/Reference/Encounters/evidence/2026-10-19-cpp-reference.txt`.
+These results prove the bounded reference behavior only. Hosted CI must be
+checked at the new source commit; no native verification label was upgraded.
+
+The C++ reference intentionally preserves revision exhaustion, including refused
+changing exit intents at the maximum revision. Native care/back-away must not
+depend on a counter reset or successful save write; the existing owner needs a
+reviewed recovery path before integration. The reference uses exceptions/STL
+and must be translated to existing Unreal result/type conventions rather than
+included unchanged or used to enable UE exceptions.
+
+Story continuity: clarified safe handling versus genuine first bond in the same
+handoff. A C++ review result cannot satisfy Training Stage 04 or grant a bond.
+Cartography: no coordinates, regions, POIs or Dex identities changed. Existing
+visual references were not changed/imported in this code pass. The separately
+failed `file_00000000ed0062309c7d3ff2fce23f01.png` remains unavailable.
+
+The historical public `verify_unreal_gate.py` still contains UE4 editor paths
+and a target-name mismatch against the foundation contract. This is recorded in
+the existing handoff; actual BUILD-owned driver repair requires its source.
+No PR merge or main change. Next action remains obtain readable BUILD sources
+and real Windows logs, then adapt the proven rules to existing owners only after
+foundation and Issue #10 gates permit encounter integration.
+

@@ -161,3 +161,13 @@ The full reference suite now passes 81 methods normally and under optimization, 
 integer overflow or executed save recovery. Native care/escape actions must not depend
 on a counter reset; recover the owner's state with a documented epoch/version policy
 and fresh authority/consent, without reusing old transaction identities.
+
+## C++ ceremony reference — 2026-10-19 continuation
+
+[Cpp/README.md](Cpp/README.md) documents the compiled C++17 ceremony/review port,
+behavioral checks and 14,600 Python/C++ differential transition cases. The
+existing reference workflow now checks debug and optimized/NDEBUG builds with
+UBSan. This is a bounded reference implementation, not native UE integration;
+BUILD access and the foundation gate remain required. No workstream is promoted
+to implemented or engine-verified by these checks.
+

@@ -1,0 +1,34 @@
+2026-10-19 America/Chicago; reviewer: Codex
+Base: PR #71, 0fef8e045a38a8f44581b42e64d183278c14b51c
+Environment: Linux, GCC 13.3.0, Python 3.12.14.
+Scope: offline C++17 ceremony/review reference, NOT Unreal/game integration.
+
+Observed successful commands from workspace root:
+g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror -fsanitize=undefined -fno-sanitize-recover=all -g current/09_Technical/Reference/Encounters/Cpp/KindlingContractTests.cpp -o /tmp/echohearts-kindling-check
+/tmp/echohearts-kindling-check
+  Behavioral checks passed; no UBSan diagnostic.
+python3 current/09_Technical/Reference/Encounters/check_cpp_parity.py /tmp/echohearts-kindling-check
+  14600 Python/C++ transition cases agree.
+g++ -std=c++17 -O2 -DNDEBUG -Wall -Wextra -Wpedantic -Werror -fsanitize=undefined -fno-sanitize-recover=all current/09_Technical/Reference/Encounters/Cpp/KindlingContractTests.cpp -o /tmp/echohearts-kindling-release
+/tmp/echohearts-kindling-release
+  Behavioral checks passed; no UBSan diagnostic.
+python3 -O current/09_Technical/Reference/Encounters/check_cpp_parity.py /tmp/echohearts-kindling-release
+  14600 Python/C++ transition cases agree.
+python3 -m unittest discover -s current/09_Technical/Reference/Encounters -v
+  81 tests passed.
+python3 -O -m unittest discover -s current/09_Technical/Reference/Encounters
+  81 tests passed.
+python3 -m unittest discover -s current/09_Technical/Reference/BattleModes
+  24 tests passed; freshly fetched battle source at the inspected base SHA.
+
+BUILD personal and organization metadata reads: 404.
+No actual Corruption source or Windows logs could be inspected/reproduced.
+No .uproject/Source/Build.cs/targets in inspected public tree.
+CMake unavailable locally; direct GCC compilation used.
+No engine/device/package, save/replication, performance or accessibility proof.
+
+SHA-256:
+59669831cf9d80f9666772baa4e8ccbc0f23a5beaf5d7acb3594e75227104a0e  Cpp/KindlingContract.hpp
+80c6093562808593fde1cac71985ed64accade14ee423368a50d9a90970f2b97  Cpp/KindlingContractTests.cpp
+43eaa55d81cdf195bed54449b6272511ed080b5bd0bfdf54e46eb01a97868949  check_cpp_parity.py
+74fdc100c695c8259816e3509e6403d2519d5e30431d0417abeb017c5659be1c  encounter_contract.py

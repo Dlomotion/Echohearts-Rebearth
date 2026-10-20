@@ -340,5 +340,6 @@ The existing twenty-workstream [delivery design](04_Systems/MISSING_SYSTEMS_DELI
 
 ## 2026-10-19 canonical encounter replay and Quiet Return
 - [Daily continuation/evidence](11_Daily_Assignments/ECHOHEARTS_DAILY_GAME_WORK_2026-10-19.md): determinism correction, scoped checks and native foundation blocker.
-- [Existing encounter reference](09_Technical/Reference/Encounters/README.md): versioned canonical fingerprint, fixed vectors and compatibility rules.
+- [Existing encounter reference](09_Technical/Reference/Encounters/README.md): versioned canonical fingerprint, fixed vectors and compatibility rules; compiled C++17 ceremony/review reference with Python parity checks. Native BUILD integration remains pending.
 - [Existing scene](05_Levels/FIRST_PLAYABLE_ENCOUNTER_KINDLING_SLICE_2026-10-17.md): Quiet Return environmental storytelling and fresh-consent revisit, PROPOSAL.
+

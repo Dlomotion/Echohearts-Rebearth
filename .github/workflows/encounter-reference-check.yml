@@ -27,3 +27,16 @@ jobs:
       - name: Existing battle reference regression
         working-directory: 09_Technical/Reference/BattleModes
         run: python3 -m unittest -v
+      - name: C++17 Kindling reference and Python parity (not Unreal)
+        working-directory: 09_Technical/Reference/Encounters
+        run: |
+          g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror -fsanitize=undefined -fno-sanitize-recover=all -g Cpp/KindlingContractTests.cpp -o "$RUNNER_TEMP/kindling-reference"
+          "$RUNNER_TEMP/kindling-reference"
+          python3 check_cpp_parity.py "$RUNNER_TEMP/kindling-reference"
+      - name: Optimized C++17 Kindling reference (not Unreal)
+        working-directory: 09_Technical/Reference/Encounters
+        run: |
+          g++ -std=c++17 -O2 -DNDEBUG -Wall -Wextra -Wpedantic -Werror -fsanitize=undefined -fno-sanitize-recover=all Cpp/KindlingContractTests.cpp -o "$RUNNER_TEMP/kindling-reference-release"
+          "$RUNNER_TEMP/kindling-reference-release"
+          python3 -O check_cpp_parity.py "$RUNNER_TEMP/kindling-reference-release"
+
