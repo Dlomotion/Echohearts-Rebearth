@@ -1,4 +1,19 @@
 # Encounter → Kindling UE5.8 Integration Handoff
+
+## 2026-10-20 current runtime and native patch supersession
+
+Runtime destination is now **IN2Deep-Studios/ECO-KIN-Game**, existing `EchoheartsRebearth.uproject` / `EchoheartsRebearth` module / `ECHOHEARTSREBEARTH_API`, following the current live-runtime routing correction. Older sole-BUILD/Source-Echohearts lines below are historical and superseded for destination/module selection. Do not create a new project or migrate API macros from a retired checkout.
+
+The live main source was inspected at `567677cac5a727653e1fc500e1f40174008d8735`. It contains workstation/network foundation source but no native Kindling, encounter or Corruption/relationship/save implementation. This is a bounded inspected-tree finding, not confirmation that the reported eighteen systems never existed elsewhere. Reported Corruption compile repairs and Windows UE evidence remain unconfirmed.
+
+Native port prepared: shared exception-free phase rules; `UEcoKinKindlingComponent` with authority/game-world and revision/identity guards, replicated snapshot and fresh bond-review checks; placeable `AEcoKinEncounterSite` default-subobject wiring; Automation test source; local/hosted-policy workflow and implementation notes. No bond writes, new species, automatic wildlife spawning, actual UMG/animation/map or durable receipts. Owner ingress/permissions and atomic relationship/save integration still require implementation.
+
+[QA patch review — EcoKin-patch PR #5](https://github.com/Dlomotion/EcoKin-patch/pull/5) stores the isolated ten-file patch and detailed record, not another runtime tree. Local GCC13 C++17/UBSan and optimized NDEBUG runs each passed 45 policy checks; existing repository/LFS gate and patch application/readback checks passed. These checks compile the actual shared native policy header, not the Unreal component. Automation source is added but not run. UHT/UBT, Editor/PIE, replication, save and package evidence remain pending.
+
+**Destination write blocker:** GitHub returned `403 Resource not accessible by integration` when creating the live repository tree. Read access works. No runtime branch, PR, installation, merge or game build was created. Grant the connected integration write access to the live game repository for a normal destination review; do not route runtime code back into this canon repository. Downloadable apply-ready bundle: `EcoKin_Native_Kindling_2026-10-20.zip`, SHA-256 `0106b2015a7190eae2ba86ef362081d1fe2b0915a0c3f4cfd698a9c9b9f625c6`.
+
+The following October17/19 handoff remains useful for behavior/evidence requirements but its old repository/module pointers must not override this current destination.
+
 **Date:** 2026-10-17  
 **Status:** Contract and code handoff; executable implementation blocked on BUILD access and Windows compilation  
 **Extends:** `04_Systems/MISSING_SYSTEMS_DELIVERY_DESIGN_2026-10-17.md` (M01–M20), `05_Levels/FIRST_PLAYABLE_ENCOUNTER_KINDLING_SLICE_2026-10-17.md`, and `09_Technical/Reference/Encounters/encounter_contract.py`. These are the **existing PR #71** workstreams, not new overlapping owners.
