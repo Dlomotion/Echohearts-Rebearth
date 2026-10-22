@@ -1,6 +1,7 @@
 #pragma once
 // Additive regional mission expansion; C++17 data only.
-// Names/regions/Essences in this intake remain subject to canon review.
+// Intake reconciled to canon 2026-10-22 (Love, per Tay's authorization): locked nine Essences,
+// canonical names only (rejected draft names removed).
 #include "EchoheartsMissionRegistry.hpp"
 #include <set>
 namespace Echohearts::Missions {
@@ -18,12 +19,12 @@ inline std::vector<RegionalOperation> BuildRegionalExpansion() {
     std::vector<RegionalOperation> out;
     out.reserve(54);
     const char* titles[] = {
-      "The Frozen Valley","Shattered Sanctuary","The Spire Assault","The Sound-Well Mandate",
-      "The Obsidian Breach","The Magma Warden","The Sand-Scorched Outpost",
-      "Expedition to the Glacial Shelf","The Frost Sovereign","The Submerged Vault",
+      "The Frozen Valley","Shattered Sanctuary","The Spire Assault","The Sanctuary Mandate",
+      "The Obsidian Breach","The Obsidian Warden","The Sand-Scorched Outpost",
+      "Expedition to the Glacial Peaks","The Frost Monarch","The Submerged Vault",
       "The Archivist Promotion","The Cloud-Grid Ascension","Awakening the Sages",
-      "The Citadel Inversion","The Gateway Alignment","The Matrix Intervention",
-      "The Grand Unification Symphony"
+      "The Citadel Inversion","The Gateway Alignment","The Array Intervention",
+      "The Sovereign Resonance"
     };
     const char* objectives[] = {
       "Stabilize a frozen cavern and support a research team",
@@ -40,7 +41,7 @@ inline std::vector<RegionalOperation> BuildRegionalExpansion() {
       "Restore sky-watchers' communications and secure a safe ascent",
       "Align nine acoustic monoliths through cooperative field puzzles",
       "Protect the ancient stronghold from frequency discordance",
-      "Align ridge prisms to open the route to the Core Matrix",
+      "Align ridge prisms to open the route to the Heartroot Array",
       "Free Eco-Kin from an artificial alignment engine",
       "Synchronize Vibrance, Density, Harmony and Purity to restore the stream"
     };
@@ -53,14 +54,14 @@ inline std::vector<RegionalOperation> BuildRegionalExpansion() {
     add(501,OperationKind::Community,"A Basic Resonance","Help an injured surveyor regulate distress using Harmony",1,false);
     add(502,OperationKind::Community,"The Lost Frequencies","Recover misplaced tuning forks through field scanning",0,false);
     add(503,OperationKind::Community,"Canopy Repair","Gather fallen resin to repair a frequency dampener",3,false);
-    const char* essences[]={"Flora","Magma","Frost","Marine","Aero","Geo","Static","Umbral","Astral"};
+    const char* essences[]={"Flora","Torrent","Pyre","Terra","Aero","Glaze","Voltic","Aura","Shade"};
     for(unsigned n=504;n<=512;++n) add(n,OperationKind::Vault,std::string(essences[n-504])+" Vault Calibration","Reach and align a unique Essence vault using approved traversal and resonance skills",0,false);
     for(unsigned n=513;n<=515;++n) add(n,OperationKind::Vault,"Vault Network Stabilization "+std::to_string(n-512),"Rebalance linked vault nodes after the nine calibrations",0,false);
     add(516,OperationKind::Stabilization,"Cleansing the Coastlines","Remove pollution from a coastal habitat without harming Eco-Kin",1,false);
     add(517,OperationKind::Stabilization,"The Geologist's Riddle","Recover naturally shed mineral samples for equipment calibration",2,false);
     for(unsigned n=518;n<=530;++n) add(n,OperationKind::ArchiveTrial,"Archive Alignment Trial "+std::to_string(n-517),"Complete a nonlethal regional frequency challenge",0,false);
     for(unsigned n=531;n<=536;++n) add(n,OperationKind::Shrine,"Shrine Resonance "+std::to_string(n-530),"Restore a dormant shrine and earn voluntary guardian trust",n%2?10u:11u,true);
-    add(537,OperationKind::Finale,"Absolute Inception","Document the approved Permanent Dex and resolve the optional origin encounter",13,true);
+    add(537,OperationKind::Finale,"The Restoration Record","Document the approved Permanent Dex and resolve the optional origin encounter",13,true);
     return out;
 }
 inline bool CanStartRegional(const RegionalOperation& op,
