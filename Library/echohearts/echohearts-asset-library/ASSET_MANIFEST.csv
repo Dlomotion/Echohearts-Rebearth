@@ -1,0 +1,935 @@
+library_path,filename,dex_id,dex_name,kind,status,platforms,source,notes
+shared/ecokin/dex_293_abyssola/EK_ART_Abyssola_v1.jpg,EK_ART_Abyssola_v1.jpg,DEX-293,Abyssola,base,filed,all,manifest,
+shared/ecokin/dex_363_aeroherd/EK_ART_Aeroherd_v1.jpg,EK_ART_Aeroherd_v1.jpg,DEX-363,Aeroherd,base,filed,all,manifest,
+shared/ecokin/dex_428_afterglow/EK_ART_Afterglow_v1.jpg,EK_ART_Afterglow_v1.jpg,DEX-428,Afterglow,base,filed,all,manifest,
+shared/ecokin/dex_136_ambergrain/EK_ART_Ambergrain_v1.jpg,EK_ART_Ambergrain_v1.jpg,DEX-136,Ambergrain,base,filed,all,manifest,
+shared/ecokin/dex_280_ambersail/EK_ART_Ambersail_v1.jpg,EK_ART_Ambersail_v1.jpg,DEX-280,Ambersail,base,filed,all,manifest,
+shared/ecokin/dex_466_ankhvixen/EK_ART_Ankhvixen_v1.jpg,EK_ART_Ankhvixen_v1.jpg,DEX-466,Ankhvixen,base,filed,all,manifest,
+shared/ecokin/dex_377_apollo/EK_ART_Apollo_v1.jpg,EK_ART_Apollo_v1.jpg,DEX-377,Apollo,base,filed,all,manifest,
+shared/ecokin/dex_176_applehorn/EK_ART_Applehorn_v1.jpg,EK_ART_Applehorn_v1.jpg,DEX-176,Applehorn,base,filed,all,manifest,
+shared/ecokin/dex_447_aquashell/EK_ART_Aqua-Shell_v1.jpg,EK_ART_Aqua-Shell_v1.jpg,DEX-447,Aqua-Shell,base,filed,all,manifest,
+shared/ecokin/dex_447_aquashell/EK_ART_Aqua-Shell_v2.jpg,EK_ART_Aqua-Shell_v2.jpg,DEX-447,Aqua-Shell,base,filed,all,manifest,
+shared/ecokin/dex_447_aquashell/EK_ART_Aqua-Shell_v3.jpg,EK_ART_Aqua-Shell_v3.jpg,DEX-447,Aqua-Shell,base,filed,all,manifest,
+shared/ecokin/dex_447_aquashell/EK_ART_AquaShell_USER_v1.png,EK_ART_AquaShell_USER_v1.png,DEX-447,Aqua-Shell,base,filed,all,manifest,
+shared/ecokin/dex_317_aqualith/EK_ART_Aqualith_USER_v1.jpg,EK_ART_Aqualith_USER_v1.jpg,DEX-317,Aqualith,base,filed,all,manifest,
+shared/ecokin/dex_405_aqualoom/EK_ART_Aqualoom_v1.jpg,EK_ART_Aqualoom_v1.jpg,DEX-405,Aqualoom,base,filed,all,manifest,
+shared/ecokin/dex_415_aqualume/EK_ART_Aqualume_v1.png,EK_ART_Aqualume_v1.png,DEX-415,Aqualume,base,filed,all,manifest,
+shared/ecokin/dex_284_aquareef/EK_ART_Aquareef_v1.jpg,EK_ART_Aquareef_v1.jpg,DEX-284,Aquareef,base,filed,all,manifest,
+shared/ecokin/dex_395_aquareo/EK_ART_Aquareo_v1.jpg,EK_ART_Aquareo_v1.jpg,DEX-395,Aquareo,base,filed,all,manifest,
+shared/ecokin/dex_468_aquilor/EK_ART_Aquilor_v1.jpg,EK_ART_Aquilor_v1.jpg,DEX-468,Aquilor,base,filed,all,manifest,
+shared/ecokin/dex_416_auraglider/EK_ART_Auraglider_v1.png,EK_ART_Auraglider_v1.png,DEX-416,Auraglider,base,filed,all,manifest,
+shared/ecokin/dex_475_auralark/EK_ART_Auralark_Card_v1.png,EK_ART_Auralark_Card_v1.png,DEX-475,Auralark,base,filed,all,manifest,
+shared/ecokin/dex_475_auralark/EK_ART_Auralark_HaloHerald_v1.png,EK_ART_Auralark_HaloHerald_v1.png,DEX-475,Auralark,base,filed,all,manifest,
+shared/ecokin/dex_444_auralyss/EK_ART_Auralyss_v1.jpg,EK_ART_Auralyss_v1.jpg,DEX-444,Auralyss,base,filed,all,manifest,
+shared/ecokin/dex_274_auraplate/EK_ART_Auraplate_v1.jpg,EK_ART_Auraplate_v1.jpg,DEX-274,Auraplate,base,filed,all,manifest,
+shared/ecokin/dex_467_auriscarab/EK_ART_Auriscarab_v1.jpg,EK_ART_Auriscarab_v1.jpg,DEX-467,Auriscarab,base,filed,all,manifest,
+shared/ecokin/dex_163_aurorynx/EK_ART_Aurorynx_v1.jpg,EK_ART_Aurorynx_v1.jpg,DEX-163,Aurorynx,base,filed,all,manifest,
+shared/ecokin/dex_206_autumnwyrm/EK_ART_Autumnwyrm_v1.jpg,EK_ART_Autumnwyrm_v1.jpg,DEX-206,Autumnwyrm,base,filed,all,manifest,
+shared/ecokin/dex_205_axolily/EK_ART_Axolily_v1.jpg,EK_ART_Axolily_v1.jpg,DEX-205,Axolily,base,filed,all,manifest,
+shared/ecokin/dex_341_azurane/EK_ART_Azurane_v1.jpg,EK_ART_Azurane_v1.jpg,DEX-341,Azurane,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_369_azurelia/EK_ART_Azurelia_v1.jpg,EK_ART_Azurelia_v1.jpg,DEX-369,Azurelia,base,filed,all,manifest,
+shared/ecokin/dex_234_azurmane/EK_ART_Azurmane_v1.jpg,EK_ART_Azurmane_v1.jpg,DEX-234,Azurmane,base,filed,all,manifest,
+shared/ecokin/dex_189_basalithwarden/EK_ART_BasalithWarden_v1.jpg,EK_ART_BasalithWarden_v1.jpg,DEX-189,Basalith Warden,base,filed,all,manifest,
+shared/ecokin/dex_167_basilisk/EK_ART_Basilisk_v1.jpg,EK_ART_Basilisk_v1.jpg,DEX-167,Basilisk,base,filed,all,manifest,
+shared/ecokin/dex_183_bellhorn/EK_ART_Bellhorn_v1.jpg,EK_ART_Bellhorn_v1.jpg,DEX-183,Bellhorn,base,filed,all,manifest,
+shared/ecokin/dex_171_billstalk/EK_ART_Billstalk_v1.jpg,EK_ART_Billstalk_v1.jpg,DEX-171,Billstalk,base,filed,all,manifest,
+shared/ecokin/dex_488_blightjaw/EK_ART_Blightjaw_Card_v1.png,EK_ART_Blightjaw_Card_v1.png,DEX-488,Blightjaw,base,filed,all,manifest,
+shared/ecokin/dex_488_blightjaw/EK_ART_Blightjaw_Form_MireHowler_v1.png,EK_ART_Blightjaw_Form_MireHowler_v1.png,DEX-488,Blightjaw,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_488_blightjaw/EK_ART_Blightjaw_Form_RotbloomHowler_v1.png,EK_ART_Blightjaw_Form_RotbloomHowler_v1.png,DEX-488,Blightjaw,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_488_blightjaw/EK_ART_Blightjaw_Form_StormHowler_v1.png,EK_ART_Blightjaw_Form_StormHowler_v1.png,DEX-488,Blightjaw,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_142_bloodmoonhowler/EK_ART_BloodmoonHowler_v1.jpg,EK_ART_BloodmoonHowler_v1.jpg,DEX-142,Bloodmoon Howler,base,filed,all,manifest,
+shared/ecokin/dex_219_bloomtide/EK_ART_Bloomtide_v1.jpg,EK_ART_Bloomtide_v1.jpg,DEX-219,Bloomtide,base,filed,all,manifest,
+shared/ecokin/dex_295_bogloom/EK_ART_Bogloom_v1.jpg,EK_ART_Bogloom_v1.jpg,DEX-295,Bogloom,base,filed,all,manifest,
+shared/ecokin/dex_254_bogsnout/EK_ART_Bogsnout_v1.jpg,EK_ART_Bogsnout_v1.jpg,DEX-254,Bogsnout,base,filed,all,manifest,
+shared/ecokin/dex_324_bogthistle/EK_ART_Bogthistle_v1.jpg,EK_ART_Bogthistle_v1.jpg,DEX-324,Bogthistle,base,filed,all,manifest,
+shared/ecokin/dex_314_bonefin/EK_ART_Bonefin_v1.jpg,EK_ART_Bonefin_v1.jpg,DEX-314,Bonefin,base,filed,all,manifest,
+shared/ecokin/dex_313_boulderbeetle/EK_ART_Boulderbeetle_v1.jpg,EK_ART_Boulderbeetle_v1.jpg,DEX-313,Boulderbeetle,base,filed,all,manifest,
+shared/ecokin/dex_186_brambletusk/EK_ART_Brambletusk_v1.jpg,EK_ART_Brambletusk_v1.jpg,DEX-186,Brambletusk,base,filed,all,manifest,
+shared/group_art/EK_ART_Brazilian_v1.png,EK_ART_Brazilian_v1.png,,,base,filed,all,manifest,multi-depict: 2 names
+shared/ecokin/dex_439_brightstart/EK_ART_Brightstart_v1.jpg,EK_ART_Brightstart_v1.jpg,DEX-439,Brightstart,base,filed,all,manifest,
+shared/ecokin/dex_148_bromebruin/EK_ART_Bromebruin_v1.jpg,EK_ART_Bromebruin_v1.jpg,DEX-148,Bromebruin,base,filed,all,manifest,
+shared/ecokin/dex_230_brookwing/EK_ART_Brookwing_v1.jpg,EK_ART_Brookwing_v1.jpg,DEX-230,Brookwing,base,filed,all,manifest,
+shared/ecokin/dex_366_bubba/EK_ART_Bubba_v1.png,EK_ART_Bubba_v1.png,DEX-366,Bubba,base,filed,all,manifest,
+shared/ecokin/dex_126_canopyreign/EK_ART_Canopyreign_v1.jpg,EK_ART_Canopyreign_v1.jpg,DEX-126,Canopyreign,base,filed,all,manifest,
+shared/ecokin/dex_218_canopywyrm/EK_ART_Canopywyrm_v1.jpg,EK_ART_Canopywyrm_v1.jpg,DEX-218,Canopywyrm,base,filed,all,manifest,
+shared/ecokin/dex_438_carrioncrone/EK_ART_Carrion-Crone_v1.jpg,EK_ART_Carrion-Crone_v1.jpg,DEX-438,Carrion-Crone,base,filed,all,manifest,
+shared/ecokin/dex_312_cascadrake/EK_ART_Cascadrake_v1.jpg,EK_ART_Cascadrake_v1.jpg,DEX-312,Cascadrake,base,filed,all,manifest,
+shared/ecokin/dex_443_celestara/EK_ART_Celestara_v1.jpg,EK_ART_Celestara_v1.jpg,DEX-443,Celestara,base,filed,all,manifest,
+shared/ecokin/dex_367_chrismamoth/EK_ART_ChrismaMoth_Alt_v1.jpg,EK_ART_ChrismaMoth_Alt_v1.jpg,DEX-367,Chrisma Moth,render,Duplicate Review,all,manifest,
+shared/ecokin/dex_367_chrismamoth/EK_ART_ChrismaMoth_USER_v1.png,EK_ART_ChrismaMoth_USER_v1.png,DEX-367,Chrisma Moth,base,filed,all,manifest,
+shared/ecokin/dex_367_chrismamoth/EK_ART_ChrismaMoth_crop_v1.jpg,EK_ART_ChrismaMoth_crop_v1.jpg,DEX-367,Chrisma Moth,base,filed,all,manifest,
+shared/ecokin/dex_367_chrismamoth/EK_ART_ChrismaMoth_v1.jpg,EK_ART_ChrismaMoth_v1.jpg,DEX-367,Chrisma Moth,base,Duplicate Review,all,manifest,
+shared/ecokin/dex_367_chrismamoth/EK_ART_Chrisma_Moth_v1.jpg,EK_ART_Chrisma_Moth_v1.jpg,DEX-367,Chrisma Moth,base,filed,all,manifest,
+shared/ecokin/dex_373_chrismoth/EK_ART_Chrismoth_USER_v1.png,EK_ART_Chrismoth_USER_v1.png,DEX-373,Chrismoth,base,filed,all,manifest,
+shared/ecokin/dex_373_chrismoth/EK_ART_Chrismoth_v1.jpg,EK_ART_Chrismoth_v1.jpg,DEX-373,Chrismoth,base,filed,all,manifest,
+shared/ecokin/dex_435_cindervault/EK_ART_Cindervault_v1.jpg,EK_ART_Cindervault_v1.jpg,DEX-435,Cindervault,base,filed,all,manifest,
+shared/ecokin/dex_226_cinderwing/EK_ART_Cinderwing_v1.jpg,EK_ART_Cinderwing_v1.jpg,DEX-226,Cinderwing,base,filed,all,manifest,
+shared/ecokin/dex_162_cindralisk/EK_ART_Cindralisk_v1.jpg,EK_ART_Cindralisk_v1.jpg,DEX-162,Cindralisk,base,filed,all,manifest,
+shared/group_art/EK_ART_CirqueZero_v1.png,EK_ART_CirqueZero_v1.png,,,base,filed,all,manifest,multi-depict: 2 names
+shared/ecokin/dex_329_composhell/EK_ART_Composhell_v1.jpg,EK_ART_Composhell_v1.jpg,DEX-329,Composhell,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_478_corebloom/EK_ART_Corebloom_Card_v1.png,EK_ART_Corebloom_Card_v1.png,DEX-478,Corebloom,base,filed,all,manifest,
+shared/ecokin/dex_478_corebloom/EK_ART_Corebloom_SeedBastion_v1.png,EK_ART_Corebloom_SeedBastion_v1.png,DEX-478,Corebloom,base,filed,all,manifest,
+shared/ecokin/dex_187_corncrest/EK_ART_Corncrest_v1.jpg,EK_ART_Corncrest_v1.jpg,DEX-187,Corncrest,base,filed,all,manifest,
+shared/group_art/EK_ART_Creature_Collage_10_A_USER.jpg,EK_ART_Creature_Collage_10_A_USER.jpg,,,group,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_ART_Creature_Collage_10_B_USER.jpg,EK_ART_Creature_Collage_10_B_USER.jpg,,,group,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_ART_Creature_Collage_10_Forms_C_USER.png,EK_ART_Creature_Collage_10_Forms_C_USER.png,,,group,filed,all,manifest,multi-depict: 10 names
+shared/ecokin/dex_210_crestbill/EK_ART_Crestbill_v1.jpg,EK_ART_Crestbill_v1.jpg,DEX-210,Crestbill,base,filed,all,manifest,
+shared/ecokin/dex_203_crestwing/EK_ART_Crestwing_v1.jpg,EK_ART_Crestwing_v1.jpg,DEX-203,Crestwing,base,filed,all,manifest,
+shared/ecokin/dex_235_croakfin/EK_ART_Croakfin_v1.jpg,EK_ART_Croakfin_v1.jpg,DEX-235,Croakfin,base,filed,all,manifest,
+shared/ecokin/dex_139_crownlight/EK_ART_Crownlight_v1.jpg,EK_ART_Crownlight_v1.jpg,DEX-139,Crownlight,base,filed,all,manifest,
+shared/ecokin/dex_129_cryptwing/EK_ART_Cryptwing_v1.jpg,EK_ART_Cryptwing_v1.jpg,DEX-129,Cryptwing,base,filed,all,manifest,
+shared/ecokin/dex_323_crysteedle/EK_ART_Crysteedle_v1.jpg,EK_ART_Crysteedle_v1.jpg,DEX-323,Crysteedle,base,filed,all,manifest,
+shared/ecokin/dex_005_dandelion/EK_ART_Dandelion_USER_v1.jpg,EK_ART_Dandelion_USER_v1.jpg,DEX-005,Dandelion,base,filed,all,manifest,
+shared/ecokin/dex_306_danteinferno/EK_ART_DanteInferno_v1.jpg,EK_ART_DanteInferno_v1.jpg,DEX-306,DanteInferno,base,filed,all,manifest,
+shared/group_art/EK_ART_Dawnkeeper_v1.jpg,EK_ART_Dawnkeeper_v1.jpg,,,base,filed,all,manifest,multi-depict: 2 names
+shared/ecokin/dex_252_dawnwing/EK_ART_Dawnwing_v1.jpg,EK_ART_Dawnwing_v1.jpg,DEX-252,Dawnwing,base,filed,all,manifest,
+shared/ecokin/dex_172_dewdrop/EK_ART_Dewdrop_v1.jpg,EK_ART_Dewdrop_v1.jpg,DEX-172,Dewdrop,base,filed,all,manifest,
+shared/ecokin/dex_197_draketh/EK_ART_Draketh_v1.jpg,EK_ART_Draketh_v1.jpg,DEX-197,Draketh,base,filed,all,manifest,
+shared/ecokin/dex_412_dreadcore/EK_ART_Dreadcore_v1.jpg,EK_ART_Dreadcore_v1.jpg,DEX-412,Dreadcore,base,filed,all,manifest,
+shared/ecokin/dex_470_dryad/EK_ART_Dryad_v1.jpg,EK_ART_Dryad_v1.jpg,DEX-470,Dryad,base,filed,all,manifest,
+shared/ecokin/dex_315_dunasylph/EK_ART_Dunasylph_USER_v1.jpg,EK_ART_Dunasylph_USER_v1.jpg,DEX-315,Dunasylph,base,filed,all,manifest,
+shared/ecokin/dex_381_duneflick/EK_ART_Duneflick_v1.jpg,EK_ART_Duneflick_v1.jpg,DEX-381,Duneflick,base,filed,all,manifest,
+shared/ecokin/dex_334_duneskimmer/EK_ART_Duneskimmer_USER_v1.jpg,EK_ART_Duneskimmer_USER_v1.jpg,DEX-334,Duneskimmer,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_453_dunespak/EK_ART_Dunespak_v1.jpg,EK_ART_Dunespak_v1.jpg,DEX-453,Dunespak,base,filed,all,manifest,
+shared/ecokin/dex_321_dunethorn/EK_ART_Dunethorn_v1.jpg,EK_ART_Dunethorn_v1.jpg,DEX-321,Dunethorn,base,filed,all,manifest,
+shared/ecokin/dex_145_dunetrunk/EK_ART_Dunetrunk_v1.jpg,EK_ART_Dunetrunk_v1.jpg,DEX-145,Dunetrunk,base,filed,all,manifest,
+shared/ecokin/dex_292_dunewell/EK_ART_Dunewell_v1.jpg,EK_ART_Dunewell_v1.jpg,DEX-292,Dunewell,base,filed,all,manifest,
+shared/ecokin/dex_229_dunewing/EK_ART_Dunewing_v1.jpg,EK_ART_Dunewing_v1.jpg,DEX-229,Dunewing,base,filed,all,manifest,
+shared/ecokin/dex_270_duskfin/EK_ART_Duskfin_v1.jpg,EK_ART_Duskfin_v1.jpg,DEX-270,Duskfin,base,filed,all,manifest,
+shared/ecokin/dex_256_duskprong/EK_ART_Duskprong_v1.jpg,EK_ART_Duskprong_v1.jpg,DEX-256,Duskprong,base,filed,all,manifest,
+shared/ecokin/dex_204_duskwyrm/EK_ART_Duskwyrm_v1.jpg,EK_ART_Duskwyrm_v1.jpg,DEX-204,Duskwyrm,base,filed,all,manifest,
+shared/group_art/EK_ART_Echohearts_Collage_A_USER.jpg,EK_ART_Echohearts_Collage_A_USER.jpg,,,group,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_ART_Echohearts_Collage_B_USER.jpg,EK_ART_Echohearts_Collage_B_USER.jpg,,,group,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_ART_EcoKinBranding_TransitionBoard_v1.jpg,EK_ART_EcoKinBranding_TransitionBoard_v1.jpg,,,base,filed,all,manifest,multi-depict: 5 names
+shared/ecokin/dex_023_eerie/EK_ART_Eerie_RENDER_v2.png,EK_ART_Eerie_RENDER_v2.png,DEX-023,Eerie,render,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_023_eerie/EK_ART_Eerie_USER_v1.png,EK_ART_Eerie_USER_v1.png,DEX-023,Eerie,base,filed,all,manifest,
+shared/ecokin/dex_374_emberatlas/EK_ART_Emberatlas_USER_v1.png,EK_ART_Emberatlas_USER_v1.png,DEX-374,Emberatlas,base,filed,all,manifest,
+shared/ecokin/dex_374_emberatlas/EK_ART_Emberatlas_v1.jpg,EK_ART_Emberatlas_v1.jpg,DEX-374,Emberatlas,base,filed,all,manifest,
+shared/ecokin/dex_279_emberplate/EK_ART_Emberplate_v1.jpg,EK_ART_Emberplate_v1.jpg,DEX-279,Emberplate,base,filed,all,manifest,
+shared/ecokin/dex_368_emperormoth/EK_ART_EmperorMoth_Alt_v1.jpg,EK_ART_EmperorMoth_Alt_v1.jpg,DEX-368,Emperor Moth,render,Duplicate Review,all,manifest,
+shared/ecokin/dex_368_emperormoth/EK_ART_EmperorMoth_USER_v1.png,EK_ART_EmperorMoth_USER_v1.png,DEX-368,Emperor Moth,base,filed,all,manifest,
+shared/ecokin/dex_368_emperormoth/EK_ART_Emperor_Moth_v1.jpg,EK_ART_Emperor_Moth_v1.jpg,DEX-368,Emperor Moth,base,filed,all,manifest,
+shared/ecokin/dex_372_emperyx/EK_ART_Emperyx_v1.jpg,EK_ART_Emperyx_v1.jpg,DEX-372,Emperyx,base,filed,all,manifest,
+shared/ecokin/dex_375_endeavor/EK_ART_Endeavor_USER_v1.png,EK_ART_Endeavor_USER_v1.png,DEX-375,Endeavor,base,filed,all,manifest,
+shared/ecokin/dex_375_endeavor/EK_ART_Endeavor_v1.jpg,EK_ART_Endeavor_v1.jpg,DEX-375,Endeavor,base,filed,all,manifest,
+shared/ecokin/dex_337_eyejester/EK_ART_Eyejester_v1.jpg,EK_ART_Eyejester_v1.jpg,DEX-337,Eyejester,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_155_fenixflare/EK_ART_Fenixflare_v1.jpg,EK_ART_Fenixflare_v1.jpg,DEX-155,Fenixflare,base,filed,all,manifest,
+shared/ecokin/dex_276_fenturtle/EK_ART_Fenturtle_v1.jpg,EK_ART_Fenturtle_v1.jpg,DEX-276,Fenturtle,base,filed,all,manifest,
+shared/ecokin/dex_004_floauwer/EK_ART_Floauwer_RENDER_v2.png,EK_ART_Floauwer_RENDER_v2.png,DEX-004,Floauwer,render,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_004_floauwer/EK_ART_Floauwer_USER_v1.png,EK_ART_Floauwer_USER_v1.png,DEX-004,Floauwer,base,filed,all,manifest,
+shared/ecokin/dex_222_flutterpaw/EK_ART_Flutterpaw_v1.jpg,EK_ART_Flutterpaw_v1.jpg,DEX-222,Flutterpaw,base,filed,all,manifest,
+shared/ecokin/dex_316_forgemire/EK_ART_Forgemire_USER_v1.jpg,EK_ART_Forgemire_USER_v1.jpg,DEX-316,Forgemire,base,filed,all,manifest,
+shared/ecokin/dex_300_frogggleaf/EK_ART_Frogggleaf_v1.jpg,EK_ART_Frogggleaf_v1.jpg,DEX-300,Frogggleaf,base,filed,all,manifest,
+shared/ecokin/dex_191_frostlion/EK_ART_FrostLion_v1.jpg,EK_ART_FrostLion_v1.jpg,DEX-191,Frost Lion,base,filed,all,manifest,
+shared/ecokin/dex_452_frostelixir/EK_ART_Frostelixir_v1.jpg,EK_ART_Frostelixir_v1.jpg,DEX-452,Frostelixir,base,filed,all,manifest,
+shared/ecokin/dex_328_frostwindstagel/EK_ART_Frostwind_Stagel_USER_v1.jpg,EK_ART_Frostwind_Stagel_USER_v1.jpg,DEX-328,Frostwind Stagel,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_408_galecrestwisp/EK_ART_GalecrestWisp_v1.jpg,EK_ART_GalecrestWisp_v1.jpg,DEX-408,Galecrest Wisp,base,filed,all,manifest,
+shared/ecokin/dex_228_galefan/EK_ART_Galefan_v1.jpg,EK_ART_Galefan_v1.jpg,DEX-228,Galefan,base,filed,all,manifest,
+shared/ecokin/dex_128_garudon/EK_ART_Garudon_v1.jpg,EK_ART_Garudon_v1.jpg,DEX-128,Garudon,base,filed,all,manifest,
+shared/ecokin/dex_250_gemspine/EK_ART_Gemspine_v1.jpg,EK_ART_Gemspine_v1.jpg,DEX-250,Gemspine,base,filed,all,manifest,
+shared/ecokin/dex_364_geoloom/EK_ART_Geoloom_v1.jpg,EK_ART_Geoloom_v1.jpg,DEX-364,Geoloom,base,filed,all,manifest,
+shared/ecokin/dex_140_gerenreach/EK_ART_Gerenreach_v1.jpg,EK_ART_Gerenreach_v1.jpg,DEX-140,Gerenreach,base,filed,all,manifest,
+shared/ecokin/dex_277_giltspike/EK_ART_Giltspike_v1.jpg,EK_ART_Giltspike_v1.jpg,DEX-277,Giltspike,base,filed,all,manifest,
+shared/ecokin/dex_255_giltwing/EK_ART_Giltwing_v1.jpg,EK_ART_Giltwing_v1.jpg,DEX-255,Giltwing,base,filed,all,manifest,
+shared/ecokin/dex_269_giltwyrm/EK_ART_Giltwyrm_v1.jpg,EK_ART_Giltwyrm_v1.jpg,DEX-269,Giltwyrm,base,filed,all,manifest,
+shared/ecokin/dex_209_girafarion/EK_ART_Girafarion_v1.jpg,EK_ART_Girafarion_v1.jpg,DEX-209,Girafarion,base,filed,all,manifest,
+shared/ecokin/dex_462_glacefang/EK_ART_Glacefang_v1.jpg,EK_ART_Glacefang_v1.jpg,DEX-462,Glacefang,base,filed,all,manifest,
+shared/ecokin/dex_436_glacierune/EK_ART_Glacierune_v1.jpg,EK_ART_Glacierune_v1.jpg,DEX-436,Glacierune,base,filed,all,manifest,
+shared/ecokin/dex_327_glacisprout/EK_ART_Glacisprout_v1.jpg,EK_ART_Glacisprout_v1.jpg,DEX-327,Glacisprout,base,filed,all,manifest,
+shared/ecokin/dex_247_glasswing/EK_ART_Glasswing_v1.jpg,EK_ART_Glasswing_v1.jpg,DEX-247,Glasswing,base,filed,all,manifest,
+shared/ecokin/dex_258_glazewing/EK_ART_Glazewing_v1.jpg,EK_ART_Glazewing_v1.jpg,DEX-258,Glazewing,base,filed,all,manifest,
+shared/ecokin/dex_215_glimmerhorn/EK_ART_Glimmerhorn_v1.jpg,EK_ART_Glimmerhorn_v1.jpg,DEX-215,Glimmerhorn,base,filed,all,manifest,
+shared/ecokin/dex_179_glimmider/EK_ART_Glimmider_v1.jpg,EK_ART_Glimmider_v1.jpg,DEX-179,Glimmider,base,filed,all,manifest,
+shared/ecokin/dex_303_gloombell/EK_ART_Gloombell_v1.jpg,EK_ART_Gloombell_v1.jpg,DEX-303,Gloombell,base,filed,all,manifest,
+shared/ecokin/dex_290_gloomspire/EK_ART_Gloomspire_v1.jpg,EK_ART_Gloomspire_v1.jpg,DEX-290,Gloomspire,base,filed,all,manifest,
+shared/ecokin/dex_424_glowflake/EK_ART_Glowflake_v1.jpg,EK_ART_Glowflake_v1.jpg,DEX-424,Glowflake,base,filed,all,manifest,
+shared/ecokin/dex_343_glowlith/EK_ART_Glowlith_v1.jpg,EK_ART_Glowlith_v1.jpg,DEX-343,Glowlith,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_322_glowmire/EK_ART_Glowmire_v1.jpg,EK_ART_Glowmire_v1.jpg,DEX-322,Glowmire,base,filed,all,manifest,
+shared/ecokin/dex_402_glyssent/EK_ART_Glyssent_v1.jpg,EK_ART_Glyssent_v1.jpg,DEX-402,Glyssent,base,filed,all,manifest,
+shared/ecokin/dex_245_goldcrest/EK_ART_Goldcrest_v1.jpg,EK_ART_Goldcrest_v1.jpg,DEX-245,Goldcrest,base,filed,all,manifest,
+shared/ecokin/dex_414_goldleaf/EK_ART_Goldleaf_v1.jpg,EK_ART_Goldleaf_v1.jpg,DEX-414,Goldleaf,base,filed,all,manifest,
+shared/ecokin/dex_476_gorravine/EK_ART_Gorravine_CanopyLifter_v1.png,EK_ART_Gorravine_CanopyLifter_v1.png,DEX-476,Gorravine,base,filed,all,manifest,
+shared/ecokin/dex_476_gorravine/EK_ART_Gorravine_Card_v1.png,EK_ART_Gorravine_Card_v1.png,DEX-476,Gorravine,base,filed,all,manifest,
+shared/ecokin/dex_476_gorravine/EK_ART_Gorravine_ModelSheet_v1.jpg,EK_ART_Gorravine_ModelSheet_v1.jpg,DEX-476,Gorravine,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_476_gorravine/EK_ART_Gorravine_Turnaround_v1.png,EK_ART_Gorravine_Turnaround_v1.png,DEX-476,Gorravine,base,filed,all,manifest,
+shared/ecokin/dex_476_gorravine/EK_ART_Gorravine_Warden_v1.png,EK_ART_Gorravine_Warden_v1.png,DEX-476,Gorravine,base,filed,all,manifest,
+shared/ecokin/dex_138_gracewing/EK_ART_Gracewing_v1.jpg,EK_ART_Gracewing_v1.jpg,DEX-138,Gracewing,base,filed,all,manifest,
+shared/ecokin/dex_496_grimbristle/EK_ART_Grimbristle_Card_v1.png,EK_ART_Grimbristle_Card_v1.png,DEX-496,Grimbristle,base,filed,all,manifest,
+shared/ecokin/dex_241_grovemaw/EK_ART_Grovemaw_v1.jpg,EK_ART_Grovemaw_v1.jpg,DEX-241,Grovemaw,base,filed,all,manifest,
+shared/ecokin/dex_240_haloplume/EK_ART_Haloplume_v1.jpg,EK_ART_Haloplume_v1.jpg,DEX-240,Haloplume,base,filed,all,manifest,
+shared/ecokin/dex_305_hammertide/EK_ART_Hammertide_v1.jpg,EK_ART_Hammertide_v1.jpg,DEX-305,Hammertide,base,filed,all,manifest,
+shared/ecokin/dex_433_harmoniel/EK_ART_Harmoniel_v1.jpg,EK_ART_Harmoniel_v1.jpg,DEX-433,Harmoniel,base,filed,all,manifest,
+shared/ecokin/dex_421_heavencrest/EK_ART_Heavencrest_v1.png,EK_ART_Heavencrest_v1.png,DEX-421,Heavencrest,base,filed,all,manifest,
+shared/group_art/EK_ART_HiddenEcoKin_EK126-135_USER_v1.png,EK_ART_HiddenEcoKin_EK126-135_USER_v1.png,,,group,filed,all,manifest,multi-depict: 10 names
+shared/ecokin/dex_185_hollowfang/EK_ART_Hollowfang_v1.jpg,EK_ART_Hollowfang_v1.jpg,DEX-185,Hollowfang,base,filed,all,manifest,
+shared/ecokin/dex_174_hollyhorn/EK_ART_Hollyhorn_v1.jpg,EK_ART_Hollyhorn_v1.jpg,DEX-174,Hollyhorn,base,filed,all,manifest,
+shared/ecokin/dex_441_holyleon/EK_ART_HolyLeon_v1.jpg,EK_ART_HolyLeon_v1.jpg,DEX-441,Holy Leon,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_441_holyleon/EK_ART_HolyLeon_v2.jpg,EK_ART_HolyLeon_v2.jpg,DEX-441,Holy Leon,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_442_hydroserpentis/EK_ART_Hydro-Serpentis_v1.jpg,EK_ART_Hydro-Serpentis_v1.jpg,DEX-442,Hydro-Serpentis,base,filed,all,manifest,
+shared/ecokin/dex_401_hydroris/EK_ART_Hydroris_v1.jpg,EK_ART_Hydroris_v1.jpg,DEX-401,Hydroris,base,filed,all,manifest,
+shared/ecokin/dex_407_ignisaur/EK_ART_Ignisaur_v1.jpg,EK_ART_Ignisaur_v1.jpg,DEX-407,Ignisaur,base,filed,all,manifest,
+shared/ecokin/dex_214_iriswyrm/EK_ART_Iriswyrm_v1.jpg,EK_ART_Iriswyrm_v1.jpg,DEX-214,Iriswyrm,base,filed,all,manifest,
+shared/ecokin/dex_484_jestrelux/EK_ART_Jestrelux_Card_v1.png,EK_ART_Jestrelux_Card_v1.png,DEX-484,Jestrelux,base,filed,all,manifest,
+shared/ecokin/dex_484_jestrelux/EK_ART_Jestrelux_Form_BloomRevel_v1.png,EK_ART_Jestrelux_Form_BloomRevel_v1.png,DEX-484,Jestrelux,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_484_jestrelux/EK_ART_Jestrelux_Form_EmberRevel_v1.png,EK_ART_Jestrelux_Form_EmberRevel_v1.png,DEX-484,Jestrelux,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_484_jestrelux/EK_ART_Jestrelux_Form_TidecallRevel_v1.png,EK_ART_Jestrelux_Form_TidecallRevel_v1.png,DEX-484,Jestrelux,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_238_keelback/EK_ART_Keelback_v1.jpg,EK_ART_Keelback_v1.jpg,DEX-238,Keelback,base,filed,all,manifest,
+shared/ecokin/dex_335_kelparc/EK_ART_Kelparc_USER_v1.jpg,EK_ART_Kelparc_USER_v1.jpg,DEX-335,Kelparc,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_170_kharuvane/EK_ART_Kharuvane_v1.jpg,EK_ART_Kharuvane_v1.jpg,DEX-170,Kharuvane,base,filed,all,manifest,
+shared/ecokin/dex_485_khepralya/EK_ART_Khepralya_Card_v1.png,EK_ART_Khepralya_Card_v1.png,DEX-485,Khepralya,base,filed,all,manifest,
+shared/ecokin/dex_485_khepralya/EK_ART_Khepralya_Form_Emberscroll_v1.png,EK_ART_Khepralya_Form_Emberscroll_v1.png,DEX-485,Khepralya,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_485_khepralya/EK_ART_Khepralya_Form_Frostscroll_v1.png,EK_ART_Khepralya_Form_Frostscroll_v1.png,DEX-485,Khepralya,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_485_khepralya/EK_ART_Khepralya_Form_Windscroll_v1.png,EK_ART_Khepralya_Form_Windscroll_v1.png,DEX-485,Khepralya,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_485_khepralya/EK_ART_Khepralya_Forms_v1.jpg,EK_ART_Khepralya_Forms_v1.jpg,DEX-485,Khepralya,base,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_485_khepralya/EK_ART_Khepralya_Turnaround_v1.png,EK_ART_Khepralya_Turnaround_v1.png,DEX-485,Khepralya,base,filed,all,manifest,
+shared/ecokin/dex_360_kizunari/EK_ART_Kizunari_v1.jpg,EK_ART_Kizunari_v1.jpg,DEX-360,Kizunari,base,filed,all,manifest,
+shared/ecokin/dex_493_kongrove/EK_ART_Kongrove_Card_v1.png,EK_ART_Kongrove_Card_v1.png,DEX-493,Kongrove,base,filed,all,manifest,
+shared/ecokin/dex_220_lagoondrake/EK_ART_Lagoondrake_v1.jpg,EK_ART_Lagoondrake_v1.jpg,DEX-220,Lagoondrake,base,filed,all,manifest,
+shared/ecokin/dex_427_lagooner/EK_ART_Lagooner_v1.jpg,EK_ART_Lagooner_v1.jpg,DEX-427,Lagooner,base,filed,all,manifest,
+shared/ecokin/dex_357_leafinch/EK_ART_Leafinch_v1.jpg,EK_ART_Leafinch_v1.jpg,DEX-357,Leafinch,base,filed,all,manifest,
+shared/ecokin/dex_259_leafpaw/EK_ART_Leafpaw_v1.jpg,EK_ART_Leafpaw_v1.jpg,DEX-259,Leafpaw,base,filed,all,manifest,
+shared/ecokin/dex_294_leafstrider/EK_ART_Leafstrider_v1.jpg,EK_ART_Leafstrider_v1.jpg,DEX-294,Leafstrider,base,filed,all,manifest,
+shared/ecokin/dex_384_leecross/EK_ART_LeeCross_v1.jpg,EK_ART_LeeCross_v1.jpg,DEX-384,Lee Cross,base,filed,all,manifest,
+shared/ecokin/dex_012_leonix/EK_ART_Leonix_v1.jpg,EK_ART_Leonix_v1.jpg,DEX-012,Leonix,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_012_leonix/EK_ART_Leonix_v2.jpg,EK_ART_Leonix_v2.jpg,DEX-012,Leonix,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_014_lioness/EK_ART_Lioness_USER_v1.png,EK_ART_Lioness_USER_v1.png,DEX-014,Lioness,base,filed,all,manifest,
+shared/ecokin/dex_391_lollipop/EK_ART_Lollipop_v1.jpg,EK_ART_Lollipop_v1.jpg,DEX-391,Lollipop,base,filed,all,manifest,
+shared/ecokin/dex_494_lotundra/EK_ART_Lotundra_Card_v1.png,EK_ART_Lotundra_Card_v1.png,DEX-494,Lotundra,base,filed,all,manifest,
+shared/ecokin/dex_464_lukama/EK_ART_LukaMa_USER_v1.png,EK_ART_LukaMa_USER_v1.png,DEX-464,Luka-Ma,base,filed,all,manifest,
+shared/ecokin/dex_464_lukama/EK_ART_LukaMa_v1.jpg,EK_ART_LukaMa_v1.jpg,DEX-464,Luka-Ma,base,filed,all,manifest,
+shared/ecokin/dex_320_lumafinn/EK_ART_Lumafinn_v1.jpg,EK_ART_Lumafinn_v1.jpg,DEX-320,Lumafinn,base,filed,all,manifest,
+shared/ecokin/dex_011_lumi/EK_ART_Lumi_OwlCollision_v1.png,EK_ART_Lumi_OwlCollision_v1.png,DEX-011,Lumi,base,Duplicate Review,all,manifest,descriptor-stripped match
+shared/ecokin/dex_011_lumi/EK_ART_Lumi_Titled_v1.jpg,EK_ART_Lumi_Titled_v1.jpg,DEX-011,Lumi,base,filed,all,manifest,
+shared/ecokin/dex_011_lumi/EK_ART_Lumi_Variant_v1.jpg,EK_ART_Lumi_Variant_v1.jpg,DEX-011,Lumi,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_349_lumicorn/EK_ART_Lumicorn_v1.jpg,EK_ART_Lumicorn_v1.jpg,DEX-349,Lumicorn,base,Duplicate Review,all,manifest,
+shared/group_art/EK_ART_Lumicorn_v1.png,EK_ART_Lumicorn_v1.png,,,base,filed,all,manifest,multi-depict: 2 names
+shared/ecokin/dex_451_lumiheron/EK_ART_Lumiheron_v1.jpg,EK_ART_Lumiheron_v1.jpg,DEX-451,Lumiheron,base,filed,all,manifest,
+shared/ecokin/dex_400_luminaptera/EK_ART_Luminaptera_v1.jpg,EK_ART_Luminaptera_v1.jpg,DEX-400,Luminaptera,base,filed,all,manifest,
+shared/ecokin/dex_431_luminaura/EK_ART_Luminaura_v1.jpg,EK_ART_Luminaura_v1.jpg,DEX-431,Luminaura,base,filed,all,manifest,
+shared/ecokin/dex_338_lumiosecapital/EK_ART_LumioseCapital_v1.jpg,EK_ART_LumioseCapital_v1.jpg,DEX-338,Lumiose Capital,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_286_lumirill/EK_ART_Lumirill_v1.jpg,EK_ART_Lumirill_v1.jpg,DEX-286,Lumirill,base,filed,all,manifest,
+shared/ecokin/dex_361_lumivor/EK_ART_Lumivor_v1.jpg,EK_ART_Lumivor_v1.jpg,DEX-361,Lumivor,base,filed,all,manifest,
+shared/ecokin/dex_144_lunafowl/EK_ART_Lunafowl_v1.jpg,EK_ART_Lunafowl_v1.jpg,DEX-144,Lunafowl,base,filed,all,manifest,
+shared/ecokin/dex_449_lyravine/EK_ART_Lyravine_v1.jpg,EK_ART_Lyravine_v1.jpg,DEX-449,Lyravine,base,filed,all,manifest,
+shared/ecokin/dex_419_magmoraforgeback/EK_ART_Magmora_Forgeback_v1.png,EK_ART_Magmora_Forgeback_v1.png,DEX-419,Magmora Forgeback,base,filed,all,manifest,
+shared/ecokin/dex_387_magna/EK_ART_Magna_v1.jpg,EK_ART_Magna_v1.jpg,DEX-387,Magna,base,filed,all,manifest,
+shared/ecokin/dex_413_majestik/EK_ART_Majestik_v1.jpg,EK_ART_Majestik_v1.jpg,DEX-413,Majestik,base,filed,all,manifest,
+shared/ecokin/dex_190_maplewing/EK_ART_Maplewing_v1.jpg,EK_ART_Maplewing_v1.jpg,DEX-190,Maplewing,base,filed,all,manifest,
+shared/ecokin/dex_393_marisquill/EK_ART_Marisquill_v1.jpg,EK_ART_Marisquill_v1.jpg,DEX-393,Marisquill,base,filed,all,manifest,
+shared/ecokin/dex_028_marmara/EK_ART_Marmara_FracturedBurrow_USER_v1.png,EK_ART_Marmara_FracturedBurrow_USER_v1.png,DEX-028,Marmara,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_028_marmara/EK_ART_Marmara_PrimeGuardia_USER_v1.png,EK_ART_Marmara_PrimeGuardia_USER_v1.png,DEX-028,Marmara,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_028_marmara/EK_ART_Marmara_Seedling_USER_v1.png,EK_ART_Marmara_Seedling_USER_v1.png,DEX-028,Marmara,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_028_marmara/EK_ART_Marmara_Verdant_USER_v1.png,EK_ART_Marmara_Verdant_USER_v1.png,DEX-028,Marmara,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_465_marmolith/EK_ART_Marmolith_USER_v1.png,EK_ART_Marmolith_USER_v1.png,DEX-465,Marmolith,base,filed,all,manifest,
+shared/ecokin/dex_465_marmolith/EK_ART_Marmolith_v2.jpg,EK_ART_Marmolith_v2.jpg,DEX-465,Marmolith,base,filed,all,manifest,
+shared/ecokin/dex_266_marshbill/EK_ART_Marshbill_v1.jpg,EK_ART_Marshbill_v1.jpg,DEX-266,Marshbill,base,filed,all,manifest,
+shared/ecokin/dex_272_marshpaw/EK_ART_Marshpaw_v1.jpg,EK_ART_Marshpaw_v1.jpg,DEX-272,Marshpaw,base,filed,all,manifest,
+shared/ecokin/dex_236_marshwyrm/EK_ART_Marshwyrm_v1.jpg,EK_ART_Marshwyrm_v1.jpg,DEX-236,Marshwyrm,base,filed,all,manifest,
+shared/ecokin/dex_307_maverox/EK_ART_Maverox_v1.jpg,EK_ART_Maverox_v1.jpg,DEX-307,Maverox,base,filed,all,manifest,
+shared/ecokin/dex_261_meadowwing/EK_ART_Meadowwing_v1.jpg,EK_ART_Meadowwing_v1.jpg,DEX-261,Meadowwing,base,filed,all,manifest,
+shared/ecokin/dex_486_mekaloom/EK_ART_Mekaloom_Card_v1.png,EK_ART_Mekaloom_Card_v1.png,DEX-486,Mekaloom,base,filed,all,manifest,
+shared/ecokin/dex_486_mekaloom/EK_ART_Mekaloom_Form_ForgeReactor_v1.png,EK_ART_Mekaloom_Form_ForgeReactor_v1.png,DEX-486,Mekaloom,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_486_mekaloom/EK_ART_Mekaloom_Form_StoneReactor_v1.png,EK_ART_Mekaloom_Form_StoneReactor_v1.png,DEX-486,Mekaloom,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_486_mekaloom/EK_ART_Mekaloom_Form_TideReactor_v1.png,EK_ART_Mekaloom_Form_TideReactor_v1.png,DEX-486,Mekaloom,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_486_mekaloom/EK_ART_Mekaloom_Forms_v1.png,EK_ART_Mekaloom_Forms_v1.png,DEX-486,Mekaloom,base,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_486_mekaloom/EK_ART_Mekaloom_Turnaround_v1.png,EK_ART_Mekaloom_Turnaround_v1.png,DEX-486,Mekaloom,base,filed,all,manifest,
+shared/ecokin/dex_154_mirestalker/EK_ART_MireStalker_v1.jpg,EK_ART_MireStalker_v1.jpg,DEX-154,Mire-Stalker,base,filed,all,manifest,
+shared/ecokin/dex_392_mireloris/EK_ART_Mireloris_DUP_v1.jpg,EK_ART_Mireloris_DUP_v1.jpg,DEX-392,Mireloris,base,Duplicate Review,all,manifest,
+shared/ecokin/dex_392_mireloris/EK_ART_Mireloris_v1.jpg,EK_ART_Mireloris_v1.jpg,DEX-392,Mireloris,base,filed,all,manifest,
+shared/ecokin/dex_296_mirevell/EK_ART_Mirevell_v1.jpg,EK_ART_Mirevell_v1.jpg,DEX-296,Mirevell,base,filed,all,manifest,
+shared/ecokin/dex_169_mirthleaf/EK_ART_Mirthleaf_v1.jpg,EK_ART_Mirthleaf_v1.jpg,DEX-169,Mirthleaf,base,filed,all,manifest,
+shared/ecokin/dex_445_miserymime/EK_ART_Misery-Mime_v1.jpg,EK_ART_Misery-Mime_v1.jpg,DEX-445,Misery Mime,base,filed,all,manifest,
+shared/ecokin/dex_221_moonscythe/EK_ART_Moonscythe_v1.jpg,EK_ART_Moonscythe_v1.jpg,DEX-221,Moonscythe,base,filed,all,manifest,
+shared/ecokin/dex_370_morphazure/EK_ART_Morphazure_v1.jpg,EK_ART_Morphazure_v1.jpg,DEX-370,Morphazure,base,filed,all,manifest,
+shared/ecokin/dex_207_mossback/EK_ART_Mossback_v1.jpg,EK_ART_Mossback_v1.jpg,DEX-207,Mossback,base,filed,all,manifest,
+shared/ecokin/dex_353_mossmask/EK_ART_Mossmask_v1.jpg,EK_ART_Mossmask_v1.jpg,DEX-353,Mossmask,base,filed,all,manifest,
+shared/ecokin/dex_353_mossmask/EK_ART_Mossmask_v2.jpg,EK_ART_Mossmask_v2.jpg,DEX-353,Mossmask,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_446_mossmunch/EK_ART_Mossmunch_v1.jpg,EK_ART_Mossmunch_v1.jpg,DEX-446,Mossmunch,base,filed,all,manifest,
+shared/ecokin/dex_227_mosswyrm/EK_ART_Mosswyrm_v1.jpg,EK_ART_Mosswyrm_v1.jpg,DEX-227,Mosswyrm,base,filed,all,manifest,
+shared/ecokin/dex_309_moth/EK_ART_Moth_CelestialForm_v1.jpg,EK_ART_Moth_CelestialForm_v1.jpg,DEX-309,Moth,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_309_moth/EK_ART_Moth_GuardianForm_v1.jpg,EK_ART_Moth_GuardianForm_v1.jpg,DEX-309,Moth,base,filed,all,manifest,descriptor-stripped match
+shared/group_art/EK_ART_Moth_Lineup_USER_v1.jpg,EK_ART_Moth_Lineup_USER_v1.jpg,,,group,filed,all,manifest,multi-depict: 8 names
+shared/ecokin/dex_309_moth/EK_ART_Moth_MoonlitForm_v1.jpg,EK_ART_Moth_MoonlitForm_v1.jpg,DEX-309,Moth,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_309_moth/EK_ART_Moth_v1.jpg,EK_ART_Moth_v1.jpg,DEX-309,Moth,base,filed,all,manifest,
+shared/ecokin/dex_146_mottlit/EK_ART_Mottlit_v1.jpg,EK_ART_Mottlit_v1.jpg,DEX-146,Mottlit,base,filed,all,manifest,
+shared/ecokin/dex_168_moundseer/EK_ART_Moundseer_v1.jpg,EK_ART_Moundseer_v1.jpg,DEX-168,Moundseer,base,filed,all,manifest,
+shared/ecokin/dex_340_mubariki/EK_ART_Mubariki_USER_v1.jpg,EK_ART_Mubariki_USER_v1.jpg,DEX-340,Mubariki,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_153_muckstalker/EK_ART_MuckStalker_v1.jpg,EK_ART_MuckStalker_v1.jpg,DEX-153,Muck-Stalker,base,filed,all,manifest,
+shared/ecokin/dex_202_mudskipper/EK_ART_Mudskipper_v1.jpg,EK_ART_Mudskipper_v1.jpg,DEX-202,Mudskipper,base,filed,all,manifest,
+shared/ecokin/dex_490_murrilix/EK_ART_Murrilix_Card_v1.png,EK_ART_Murrilix_Card_v1.png,DEX-490,Murrilix,base,filed,all,manifest,
+shared/ecokin/dex_490_murrilix/EK_ART_Murrilix_Form_Canopy_v1.png,EK_ART_Murrilix_Form_Canopy_v1.png,DEX-490,Murrilix,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_490_murrilix/EK_ART_Murrilix_Form_Ember_v1.png,EK_ART_Murrilix_Form_Ember_v1.png,DEX-490,Murrilix,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_490_murrilix/EK_ART_Murrilix_Form_Frost_v1.png,EK_ART_Murrilix_Form_Frost_v1.png,DEX-490,Murrilix,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_342_mycelorn/EK_ART_Mycelorn_v1.jpg,EK_ART_Mycelorn_v1.jpg,DEX-342,Mycelorn,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_298_mycoraft/EK_ART_Mycoraft_v1.jpg,EK_ART_Mycoraft_v1.jpg,DEX-298,Mycoraft,base,filed,all,manifest,
+shared/ecokin/dex_318_mycrostal/EK_ART_Mycrostal_USER_v1.jpg,EK_ART_Mycrostal_USER_v1.jpg,DEX-318,Mycrostal,base,filed,all,manifest,
+shared/ecokin/dex_002_nature/EK_ART_Nature_RENDER_v2.png,EK_ART_Nature_RENDER_v2.png,DEX-002,Nature,render,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_002_nature/EK_ART_Nature_USER_v1.png,EK_ART_Nature_USER_v1.png,DEX-002,Nature,base,filed,all,manifest,
+shared/ecokin/dex_231_nightshard/EK_ART_Nightshard_v1.jpg,EK_ART_Nightshard_v1.jpg,DEX-231,Nightshard,base,filed,all,manifest,
+shared/ecokin/dex_160_nightveil/EK_ART_Nightveil_v1.jpg,EK_ART_Nightveil_v1.jpg,DEX-160,Nightveil,base,filed,all,manifest,
+shared/ecokin/dex_188_nullclaw/EK_ART_Nullclaw_v1.jpg,EK_ART_Nullclaw_v1.jpg,DEX-188,Nullclaw,base,filed,all,manifest,
+shared/ecokin/dex_482_nyalone/EK_ART_Nyalone_Card_v1.png,EK_ART_Nyalone_Card_v1.png,DEX-482,Nyalone,base,filed,all,manifest,
+shared/ecokin/dex_497_nyalune/EK_ART_Nyalune_Dex_v1.png,EK_ART_Nyalune_Dex_v1.png,DEX-497,Nyalune,base,filed,all,manifest,
+shared/ecokin/dex_497_nyalune/EK_ART_Nyalune_HeldRef_v1.png,EK_ART_Nyalune_HeldRef_v1.png,DEX-497,Nyalune,base,filed,all,manifest,
+shared/ecokin/dex_497_nyalune/EK_ART_Nyalune_Turnaround_HeldRef_v1.png,EK_ART_Nyalune_Turnaround_HeldRef_v1.png,DEX-497,Nyalune,base,filed,all,manifest,
+shared/ecokin/dex_332_nzalaqua/EK_ART_Nzalaqua_USER_v1.jpg,EK_ART_Nzalaqua_USER_v1.jpg,DEX-332,Nzalaqua,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_379_okavine/EK_ART_Okavine_v1.jpg,EK_ART_Okavine_v1.jpg,DEX-379,Okavine,base,filed,all,manifest,
+shared/ecokin/dex_248_onyxwing/EK_ART_Onyxwing_v1.jpg,EK_ART_Onyxwing_v1.jpg,DEX-248,Onyxwing,base,filed,all,manifest,
+shared/ecokin/dex_376_opalis/EK_ART_Opalis_v1.jpg,EK_ART_Opalis_v1.jpg,DEX-376,Opalis,base,filed,all,manifest,
+shared/ecokin/dex_265_opalwing/EK_ART_Opalwing_v1.jpg,EK_ART_Opalwing_v1.jpg,DEX-265,Opalwing,base,filed,all,manifest,
+shared/ecokin/dex_463_orcaglyph/EK_ART_Orcaglyph_v1.jpg,EK_ART_Orcaglyph_v1.jpg,DEX-463,Orcaglyph,base,filed,all,manifest,
+shared/ecokin/dex_181_orchardram/EK_ART_Orchardram_v1.jpg,EK_ART_Orchardram_v1.jpg,DEX-181,Orchardram,base,filed,all,manifest,
+shared/ecokin/dex_383_paddlune/EK_ART_Paddlune_v1.jpg,EK_ART_Paddlune_v1.jpg,DEX-383,Paddlune,base,filed,all,manifest,
+shared/ecokin/dex_348_pampara/EK_ART_Pampara_v1.jpg,EK_ART_Pampara_v1.jpg,DEX-348,Pampara,base,Duplicate Review,all,manifest,
+shared/ecokin/dex_348_pampara/EK_ART_Pampara_v1.png,EK_ART_Pampara_v1.png,DEX-348,Pampara,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_283_pandarook/EK_ART_Pandarook_v1.jpg,EK_ART_Pandarook_v1.jpg,DEX-283,Pandarook,base,filed,all,manifest,
+shared/ecokin/dex_308_parrite/EK_ART_Parrite_v1.jpg,EK_ART_Parrite_v1.jpg,DEX-308,Parrite,base,filed,all,manifest,
+shared/ecokin/dex_358_pavilurk/EK_ART_Pavilurk_v1.jpg,EK_ART_Pavilurk_v1.jpg,DEX-358,Pavilurk,base,filed,all,manifest,
+shared/ecokin/dex_420_peacockochu/EK_ART_Peacockochu_v1.png,EK_ART_Peacockochu_v1.png,DEX-420,Peacockochu,base,filed,all,manifest,
+shared/ecokin/dex_354_pebblegill/EK_ART_Pebblegill_v1.jpg,EK_ART_Pebblegill_v1.jpg,DEX-354,Pebblegill,base,filed,all,manifest,
+shared/ecokin/dex_159_perronix/EK_ART_Perronix_v1.jpg,EK_ART_Perronix_v1.jpg,DEX-159,Perronix,base,filed,all,manifest,
+shared/ecokin/dex_257_petalback/EK_ART_Petalback_v1.jpg,EK_ART_Petalback_v1.jpg,DEX-257,Petalback,base,filed,all,manifest,
+shared/ecokin/dex_397_petalorion/EK_ART_Petalorion_v1.jpg,EK_ART_Petalorion_v1.jpg,DEX-397,Petalorion,base,filed,all,manifest,
+shared/ecokin/dex_223_petalpaw/EK_ART_Petalpaw_v1.jpg,EK_ART_Petalpaw_v1.jpg,DEX-223,Petalpaw,base,filed,all,manifest,
+shared/ecokin/dex_394_pharaoh/EK_ART_Pharaoh_v1.jpg,EK_ART_Pharaoh_v1.jpg,DEX-394,Pharaoh,base,filed,all,manifest,
+shared/group_art/EK_ART_Pig_Lineage_Collage_USER.jpg,EK_ART_Pig_Lineage_Collage_USER.jpg,,,group,filed,all,manifest,multi-depict: 10 names
+shared/ecokin/dex_273_plumefane/EK_ART_Plumefane_v1.jpg,EK_ART_Plumefane_v1.jpg,DEX-273,Plumefane,base,filed,all,manifest,
+shared/ecokin/dex_264_plumegriff/EK_ART_Plumegriff_v1.jpg,EK_ART_Plumegriff_v1.jpg,DEX-264,Plumegriff,base,filed,all,manifest,
+shared/ecokin/dex_249_plumewyrm/EK_ART_Plumewyrm_v1.jpg,EK_ART_Plumewyrm_v1.jpg,DEX-249,Plumewyrm,base,filed,all,manifest,
+shared/ecokin/dex_301_pollenwing/EK_ART_Pollenwing_v1.jpg,EK_ART_Pollenwing_v1.jpg,DEX-301,Pollenwing,base,filed,all,manifest,
+shared/ecokin/dex_291_pollinzoa/EK_ART_Pollinzoa_v1.jpg,EK_ART_Pollinzoa_v1.jpg,DEX-291,Pollinzoa,base,filed,all,manifest,
+shared/ecokin/dex_135_prismfox/EK_ART_PrismFox_v1.jpg,EK_ART_PrismFox_v1.jpg,DEX-135,Prism-Fox,base,filed,all,manifest,
+shared/ecokin/dex_371_prismavex/EK_ART_Prismavex_v1.jpg,EK_ART_Prismavex_v1.jpg,DEX-371,Prismavex,base,filed,all,manifest,
+shared/ecokin/dex_310_prismpard/EK_ART_Prismpard_v1.jpg,EK_ART_Prismpard_v1.jpg,DEX-310,Prismpard,base,filed,all,manifest,
+shared/ecokin/dex_217_prismwing/EK_ART_Prismwing_v1.jpg,EK_ART_Prismwing_v1.jpg,DEX-217,Prismwing,base,filed,all,manifest,
+shared/ecokin/dex_173_pumpkinpaw/EK_ART_Pumpkinpaw_v1.jpg,EK_ART_Pumpkinpaw_v1.jpg,DEX-173,Pumpkinpaw,base,filed,all,manifest,
+shared/ecokin/dex_278_pyrefin/EK_ART_Pyrefin_v1.jpg,EK_ART_Pyrefin_v1.jpg,DEX-278,Pyrefin,base,filed,all,manifest,
+shared/ecokin/dex_287_pyrolith/EK_ART_Pyrolith_v1.jpg,EK_ART_Pyrolith_v1.jpg,DEX-287,Pyrolith,base,filed,all,manifest,
+shared/ecokin/dex_480_pyrolup/EK_ART_Pyrolup_Card_v1.png,EK_ART_Pyrolup_Card_v1.png,DEX-480,Pyrolup,base,filed,all,manifest,
+shared/ecokin/dex_365_pyroterra/EK_ART_Pyroterra_v1.jpg,EK_ART_Pyroterra_v1.jpg,DEX-365,Pyroterra,base,filed,all,manifest,
+shared/ecokin/dex_151_quetzari/EK_ART_Quetzari_v1.jpg,EK_ART_Quetzari_v1.jpg,DEX-151,Quetzari,base,filed,all,manifest,
+shared/ecokin/dex_380_quillburrow/EK_ART_Quillburrow_v1.jpg,EK_ART_Quillburrow_v1.jpg,DEX-380,Quillburrow,base,filed,all,manifest,
+shared/group_art/EK_ART_RadiantCoast_RegionBoard_v1.jpg,EK_ART_RadiantCoast_RegionBoard_v1.jpg,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_ART_RadiantCoast_RegionBoard_v2.jpg,EK_ART_RadiantCoast_RegionBoard_v2.jpg,,,base,filed,all,manifest,multi-depict: 8 names
+shared/group_art/EK_ART_RadiantCoast_RegionBoard_v3.jpg,EK_ART_RadiantCoast_RegionBoard_v3.jpg,,,base,filed,all,manifest,multi-depict: 7 names
+shared/ecokin/dex_243_rampart/EK_ART_Rampart_v1.jpg,EK_ART_Rampart_v1.jpg,DEX-243,Rampart,base,filed,all,manifest,
+shared/ecokin/dex_429_rebirthwing/EK_ART_Rebirthwing_v1.jpg,EK_ART_Rebirthwing_v1.jpg,DEX-429,Rebirthwing,base,filed,all,manifest,
+shared/ecokin/dex_299_reefledge/EK_ART_Reefledge_v1.jpg,EK_ART_Reefledge_v1.jpg,DEX-299,Reefledge,base,filed,all,manifest,
+shared/ecokin/dex_403_reeflorn/EK_ART_Reeflorn_v1.jpg,EK_ART_Reeflorn_v1.jpg,DEX-403,Reeflorn,base,filed,all,manifest,
+shared/ecokin/dex_192_reefrunner/EK_ART_Reefrunner_v1.jpg,EK_ART_Reefrunner_v1.jpg,DEX-192,Reefrunner,base,filed,all,manifest,
+shared/ecokin/dex_326_resinoko/EK_ART_Resinoko_v1.jpg,EK_ART_Resinoko_v1.jpg,DEX-326,Resinoko,base,filed,all,manifest,
+shared/ecokin/dex_479_rhexor/EK_ART_Rhexor_Card_v1.png,EK_ART_Rhexor_Card_v1.png,DEX-479,Rhexor,base,filed,all,manifest,
+shared/ecokin/dex_479_rhexor/EK_ART_Rhexor_Ironheart_v1.png,EK_ART_Rhexor_Ironheart_v1.png,DEX-479,Rhexor,base,filed,all,manifest,
+shared/group_art/EK_ART_RhinoZebra_SavannaPhoto_v1.jpg,EK_ART_RhinoZebra_SavannaPhoto_v1.jpg,,,base,Reference-Inspiration Only,all,manifest,multi-depict: 2 names
+shared/ecokin/dex_242_ribbonhorn/EK_ART_Ribbonhorn_v1.jpg,EK_ART_Ribbonhorn_v1.jpg,DEX-242,Ribbonhorn,base,filed,all,manifest,
+shared/ecokin/dex_271_ridgeplate/EK_ART_Ridgeplate_v1.jpg,EK_ART_Ridgeplate_v1.jpg,DEX-271,Ridgeplate,base,filed,all,manifest,
+shared/ecokin/dex_333_riftspine/EK_ART_Riftspine_USER_v1.jpg,EK_ART_Riftspine_USER_v1.jpg,DEX-333,Riftspine,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_362_rillumbrre/EK_ART_Rillumbrre_v1.jpg,EK_ART_Rillumbrre_v1.jpg,DEX-362,Rillumbrre,base,filed,all,manifest,
+shared/ecokin/dex_430_roseheart/EK_ART_Roseheart_v1.jpg,EK_ART_Roseheart_v1.jpg,DEX-430,Roseheart,base,filed,all,manifest,
+shared/ecokin/dex_262_roseshard/EK_ART_Roseshard_v1.jpg,EK_ART_Roseshard_v1.jpg,DEX-262,Roseshard,base,filed,all,manifest,
+shared/ecokin/dex_182_rotfang/EK_ART_Rotfang_v1.jpg,EK_ART_Rotfang_v1.jpg,DEX-182,Rotfang,base,filed,all,manifest,
+shared/ecokin/dex_246_sailback/EK_ART_Sailback_v1.jpg,EK_ART_Sailback_v1.jpg,DEX-246,Sailback,base,filed,all,manifest,
+shared/ecokin/dex_325_sandbloom/EK_ART_Sandbloom_v1.jpg,EK_ART_Sandbloom_v1.jpg,DEX-325,Sandbloom,base,filed,all,manifest,
+shared/ecokin/dex_268_sandfen/EK_ART_Sandfen_v1.jpg,EK_ART_Sandfen_v1.jpg,DEX-268,Sandfen,base,filed,all,manifest,
+shared/ecokin/dex_175_sandsprint/EK_ART_Sandsprint_v1.jpg,EK_ART_Sandsprint_v1.jpg,DEX-175,Sandsprint,base,filed,all,manifest,
+shared/ecokin/dex_288_sandvire/EK_ART_Sandvire_v1.jpg,EK_ART_Sandvire_v1.jpg,DEX-288,Sandvire,base,filed,all,manifest,
+shared/ecokin/dex_237_scorchmane/EK_ART_Scorchmane_v1.jpg,EK_ART_Scorchmane_v1.jpg,DEX-237,Scorchmane,base,filed,all,manifest,
+shared/ecokin/dex_417_seaplume/EK_ART_Seaplume_v1.png,EK_ART_Seaplume_v1.png,DEX-417,Seaplume,base,filed,all,manifest,
+shared/ecokin/dex_213_shadehoof/EK_ART_Shadehoof_v1.jpg,EK_ART_Shadehoof_v1.jpg,DEX-213,Shadehoof,base,filed,all,manifest,
+shared/ecokin/dex_132_shadepaw/EK_ART_Shadepaw_v1.jpg,EK_ART_Shadepaw_v1.jpg,DEX-132,Shadepaw,base,filed,all,manifest,
+shared/ecokin/dex_132_shadepaw/EK_ART_Shadepaw_v2.jpg,EK_ART_Shadepaw_v2.jpg,DEX-132,Shadepaw,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_347_shadowpaw/EK_ART_Shadowpaw_v1.jpg,EK_ART_Shadowpaw_v1.jpg,DEX-347,Shadowpaw,base,Duplicate Review,all,manifest,
+shared/group_art/EK_ART_Shadowpaw_v1.png,EK_ART_Shadowpaw_v1.png,,,base,filed,all,manifest,multi-depict: 3 names
+shared/ecokin/dex_131_shardback/EK_ART_ShardBack_v1.jpg,EK_ART_ShardBack_v1.jpg,DEX-131,Shard-Back,base,filed,all,manifest,
+shared/ecokin/dex_282_shardbill/EK_ART_Shardbill_v1.jpg,EK_ART_Shardbill_v1.jpg,DEX-282,Shardbill,base,filed,all,manifest,
+shared/ecokin/dex_267_shardpang/EK_ART_Shardpang_v1.jpg,EK_ART_Shardpang_v1.jpg,DEX-267,Shardpang,base,filed,all,manifest,
+shared/ecokin/dex_481_shellumi/EK_ART_Shellumi_Card_v1.png,EK_ART_Shellumi_Card_v1.png,DEX-481,Shellumi,base,filed,all,manifest,
+shared/ecokin/dex_356_shoebastionmarshwarden/EK_ART_Shoebastion_Marshwarden_v1.png,EK_ART_Shoebastion_Marshwarden_v1.png,DEX-356,Shoebastion Marshwarden,base,filed,all,manifest,
+shared/ecokin/dex_156_shoebastion/EK_ART_Shoebastion_v1.jpg,EK_ART_Shoebastion_v1.jpg,DEX-156,Shoebastion,base,filed,all,manifest,
+shared/ecokin/dex_474_shorelisk/EK_ART_Shorelisk_Card_v1.png,EK_ART_Shorelisk_Card_v1.png,DEX-474,Shorelisk,base,filed,all,manifest,
+shared/ecokin/dex_474_shorelisk/EK_ART_Shorelisk_Tidebreak_v1.png,EK_ART_Shorelisk_Tidebreak_v1.png,DEX-474,Shorelisk,base,filed,all,manifest,
+shared/ecokin/dex_474_shorelisk/EK_ART_Shorelisk_Turnaround_v1.png,EK_ART_Shorelisk_Turnaround_v1.png,DEX-474,Shorelisk,base,filed,all,manifest,
+shared/ecokin/dex_275_siltbill/EK_ART_Siltbill_v1.jpg,EK_ART_Siltbill_v1.jpg,DEX-275,Siltbill,base,filed,all,manifest,
+shared/ecokin/dex_331_siltrex/EK_ART_Siltrex_USER_v1.jpg,EK_ART_Siltrex_USER_v1.jpg,DEX-331,Siltrex,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_253_siltwing/EK_ART_Siltwing_v1.jpg,EK_ART_Siltwing_v1.jpg,DEX-253,Siltwing,base,filed,all,manifest,
+shared/ecokin/dex_448_skyrend/EK_ART_Skyrend_USER_v1.png,EK_ART_Skyrend_USER_v1.png,DEX-448,Skyrend,base,filed,all,manifest,
+shared/ecokin/dex_448_skyrend/EK_ART_Skyrend_v2.jpg,EK_ART_Skyrend_v2.jpg,DEX-448,Skyrend,base,filed,all,manifest,
+shared/ecokin/dex_352_skyrhapsody/EK_ART_Skyrhapsody_v1.jpg,EK_ART_Skyrhapsody_v1.jpg,DEX-352,Skyrhapsody,base,filed,all,manifest,
+shared/ecokin/dex_352_skyrhapsody/EK_ART_Skyrhapsody_v2.jpg,EK_ART_Skyrhapsody_v2.jpg,DEX-352,Skyrhapsody,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_211_skytalon/EK_ART_Skytalon_v1.jpg,EK_ART_Skytalon_v1.jpg,DEX-211,Skytalon,base,filed,all,manifest,
+shared/ecokin/dex_196_snapjaw/EK_ART_Snapjaw_v1.jpg,EK_ART_Snapjaw_v1.jpg,DEX-196,Snapjaw,base,filed,all,manifest,
+shared/ecokin/dex_165_snoutap/EK_ART_Snoutap_v1.jpg,EK_ART_Snoutap_v1.jpg,DEX-165,Snoutap,base,filed,all,manifest,
+shared/ecokin/dex_143_snoutzip/EK_ART_Snoutzip_v1.jpg,EK_ART_Snoutzip_v1.jpg,DEX-143,Snoutzip,base,filed,all,manifest,
+shared/ecokin/dex_410_snowglimmer/EK_ART_Snowglimmer_v1.jpg,EK_ART_Snowglimmer_v1.jpg,DEX-410,Snowglimmer,base,filed,all,manifest,
+shared/ecokin/dex_097_solara/EK_ART_Solara_Sunbride_USER_v1.png,EK_ART_Solara_Sunbride_USER_v1.png,DEX-097,Solara,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_195_solarfang/EK_ART_Solarfang_v1.jpg,EK_ART_Solarfang_v1.jpg,DEX-195,Solarfang,base,filed,all,manifest,
+shared/ecokin/dex_133_solmane/EK_ART_Solmane_v1.jpg,EK_ART_Solmane_v1.jpg,DEX-133,Solmane,base,filed,all,manifest,
+shared/group_art/EK_ART_Soltrion_Warrior_Group_v1_USER.jpg,EK_ART_Soltrion_Warrior_Group_v1_USER.jpg,,,group,filed,all,manifest,multi-depict: 5 names
+shared/group_art/EK_ART_Soltrion_Warrior_Group_v2_USER.jpg,EK_ART_Soltrion_Warrior_Group_v2_USER.jpg,,,group,filed,all,manifest,multi-depict: 5 names
+shared/ecokin/dex_378_solunara/EK_ART_Solunara_USER_v1.png,EK_ART_Solunara_USER_v1.png,DEX-378,Solunara,base,filed,all,manifest,
+shared/ecokin/dex_378_solunara/EK_ART_Solunara_v1.jpg,EK_ART_Solunara_v1.jpg,DEX-378,Solunara,base,filed,all,manifest,
+shared/ecokin/dex_426_spectraauroraempero/EK_ART_SpectraAuroraEmpero_v1.jpg,EK_ART_SpectraAuroraEmpero_v1.jpg,DEX-426,Spectra Aurora Empero,base,filed,all,manifest,
+shared/ecokin/dex_344_spectraauroraemperor/EK_ART_SpectraAuroraEmperor_v1.jpg,EK_ART_SpectraAuroraEmperor_v1.jpg,DEX-344,Spectra Aurora Emperor,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_440_spectrachick/EK_ART_SpectraChick_v1.jpg,EK_ART_SpectraChick_v1.jpg,DEX-440,Spectra Chick,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_147_spectraglidefin/EK_ART_SpectraGlidefin_v1.jpg,EK_ART_SpectraGlidefin_v1.jpg,DEX-147,Spectra Glidefin,base,filed,all,manifest,
+shared/ecokin/dex_147_spectraglidefin/EK_ART_SpectraGlidefin_v2.jpg,EK_ART_SpectraGlidefin_v2.jpg,DEX-147,Spectra Glidefin,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_232_sporedrake/EK_ART_Sporedrake_v1.jpg,EK_ART_Sporedrake_v1.jpg,DEX-232,Sporedrake,base,filed,all,manifest,
+shared/ecokin/dex_201_spotscale/EK_ART_Spotscale_v1.jpg,EK_ART_Spotscale_v1.jpg,DEX-201,Spotscale,base,filed,all,manifest,
+shared/ecokin/dex_141_springhorn/EK_ART_Springhorn_v1.jpg,EK_ART_Springhorn_v1.jpg,DEX-141,Springhorn,base,filed,all,manifest,
+shared/ecokin/dex_157_sproutneck/EK_ART_Sproutneck_v1.jpg,EK_ART_Sproutneck_v1.jpg,DEX-157,Sproutneck,base,filed,all,manifest,
+shared/ecokin/dex_491_squealith/EK_ART_Squealith_Card_v1.png,EK_ART_Squealith_Card_v1.png,DEX-491,Squealith,base,filed,all,manifest,
+shared/ecokin/dex_418_starblessed/EK_ART_Starblessed_v1.png,EK_ART_Starblessed_v1.png,DEX-418,Starblessed,base,filed,all,manifest,
+shared/ecokin/dex_432_starfisheron/EK_ART_Starfisheron_v1.jpg,EK_ART_Starfisheron_v1.jpg,DEX-432,Starfisheron,base,filed,all,manifest,
+shared/ecokin/dex_149_stormcrowndrakyr/EK_ART_StormcrownDrakyr_v1.jpg,EK_ART_StormcrownDrakyr_v1.jpg,DEX-149,Stormcrown Drakyr,base,filed,all,manifest,
+shared/ecokin/dex_225_stormplume/EK_ART_Stormplume_v1.jpg,EK_ART_Stormplume_v1.jpg,DEX-225,Stormplume,base,filed,all,manifest,
+shared/ecokin/dex_239_sundisc/EK_ART_Sundisc_v1.jpg,EK_ART_Sundisc_v1.jpg,DEX-239,Sundisc,base,filed,all,manifest,
+shared/ecokin/dex_423_sunhalo/EK_ART_Sunhalo_v1.png,EK_ART_Sunhalo_v1.png,DEX-423,Sunhalo,base,filed,all,manifest,
+shared/ecokin/dex_409_sunpetal/EK_ART_Sunpetal_v1.jpg,EK_ART_Sunpetal_v1.jpg,DEX-409,Sunpetal,base,filed,all,manifest,
+shared/ecokin/dex_260_sunplume/EK_ART_Sunplume_v1.jpg,EK_ART_Sunplume_v1.jpg,DEX-260,Sunplume,base,filed,all,manifest,
+shared/ecokin/dex_216_sunspear/EK_ART_Sunspear_v1.jpg,EK_ART_Sunspear_v1.jpg,DEX-216,Sunspear,base,filed,all,manifest,
+shared/ecokin/dex_437_sunspire/EK_ART_Sunspire_v1.jpg,EK_ART_Sunspire_v1.jpg,DEX-437,Sunspire,base,filed,all,manifest,
+shared/ecokin/dex_251_sunwheel/EK_ART_Sunwheel_v1.jpg,EK_ART_Sunwheel_v1.jpg,DEX-251,Sunwheel,base,filed,all,manifest,
+shared/ecokin/dex_425_sylvalynx/EK_ART_Sylva-Lynx_v1.jpg,EK_ART_Sylva-Lynx_v1.jpg,DEX-425,Sylva-Lynx,base,filed,all,manifest,
+shared/ecokin/dex_385_sylvarion/EK_ART_Sylvarion_v1.jpg,EK_ART_Sylvarion_v1.jpg,DEX-385,Sylvarion,base,filed,all,manifest,
+shared/ecokin/dex_152_sylvornith/EK_ART_Sylvornith_v1.jpg,EK_ART_Sylvornith_v1.jpg,DEX-152,Sylvornith,base,filed,all,manifest,
+shared/ecokin/dex_477_taffivex/EK_ART_Taffivex_Card_v1.png,EK_ART_Taffivex_Card_v1.png,DEX-477,Taffivex,base,filed,all,manifest,
+shared/ecokin/dex_477_taffivex/EK_ART_Taffivex_Mirage_v1.png,EK_ART_Taffivex_Mirage_v1.png,DEX-477,Taffivex,base,filed,all,manifest,
+shared/ecokin/dex_382_tarzuri/EK_ART_Tarzuri_v1.jpg,EK_ART_Tarzuri_v1.jpg,DEX-382,Tarzuri,base,filed,all,manifest,
+shared/ecokin/dex_304_tentara/EK_ART_Tentara_v1.jpg,EK_ART_Tentara_v1.jpg,DEX-304,Tentara,base,filed,all,manifest,
+shared/ecokin/dex_150_termitune/EK_ART_Termitune_v1.jpg,EK_ART_Termitune_v1.jpg,DEX-150,Termitune,base,filed,all,manifest,
+shared/ecokin/dex_177_terratusk/EK_ART_TerraTusk_v1.jpg,EK_ART_TerraTusk_v1.jpg,DEX-177,Terra Tusk,base,filed,all,manifest,
+shared/ecokin/dex_177_terratusk/EK_ART_Terra_Tusk_v1.png,EK_ART_Terra_Tusk_v1.png,DEX-177,Terra Tusk,base,filed,all,manifest,
+shared/ecokin/dex_355_terralume/EK_ART_Terralume_v1.png,EK_ART_Terralume_v1.png,DEX-355,Terralume,base,filed,all,manifest,
+shared/ecokin/dex_492_thalvyrn/EK_ART_Thalvyrn_Card_v1.png,EK_ART_Thalvyrn_Card_v1.png,DEX-492,Thalvyrn,base,filed,all,manifest,
+shared/ecokin/dex_297_thermogale/EK_ART_Thermogale_v1.jpg,EK_ART_Thermogale_v1.jpg,DEX-297,Thermogale,base,filed,all,manifest,
+shared/ecokin/dex_200_thornback/EK_ART_Thornback_v1.jpg,EK_ART_Thornback_v1.jpg,DEX-200,Thornback,base,filed,all,manifest,
+shared/ecokin/dex_263_thornbill/EK_ART_Thornbill_v1.jpg,EK_ART_Thornbill_v1.jpg,DEX-263,Thornbill,base,filed,all,manifest,
+shared/ecokin/dex_031_thrillazombie/EK_ART_ThrillaZombie_USER_v1.png,EK_ART_ThrillaZombie_USER_v1.png,DEX-031,Thrilla Zombie,base,filed,all,manifest,
+shared/ecokin/dex_161_thundrak/EK_ART_Thundrak_v1.jpg,EK_ART_Thundrak_v1.jpg,DEX-161,Thundrak,base,filed,all,manifest,
+shared/ecokin/dex_398_tidalgaur/EK_ART_Tidalgaur_v1.jpg,EK_ART_Tidalgaur_v1.jpg,DEX-398,Tidalgaur,base,filed,all,manifest,
+shared/ecokin/dex_336_tidalorm/EK_ART_Tidalorm_v1.jpg,EK_ART_Tidalorm_v1.jpg,DEX-336,Tidalorm,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_289_tidebranch/EK_ART_Tidebranch_v1.jpg,EK_ART_Tidebranch_v1.jpg,DEX-289,Tidebranch,base,filed,all,manifest,
+shared/ecokin/dex_285_tideclasp/EK_ART_Tideclasp_v1.jpg,EK_ART_Tideclasp_v1.jpg,DEX-285,Tideclasp,base,filed,all,manifest,
+shared/ecokin/dex_184_tideclawmyrmander/EK_ART_TideclawMyrmander_v1.jpg,EK_ART_TideclawMyrmander_v1.jpg,DEX-184,Tideclaw Myrmander,base,filed,all,manifest,
+shared/ecokin/dex_166_tidecoilseran/EK_ART_TidecoilSeran_v1.jpg,EK_ART_TidecoilSeran_v1.jpg,DEX-166,Tidecoil Seran,base,filed,all,manifest,
+shared/ecokin/dex_208_tidefin/EK_ART_Tidefin_v1.jpg,EK_ART_Tidefin_v1.jpg,DEX-208,Tidefin,base,filed,all,manifest,
+shared/ecokin/dex_208_tidefin/EK_ART_Tidefin_v2.jpg,EK_ART_Tidefin_v2.jpg,DEX-208,Tidefin,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_281_tideglide/EK_ART_Tideglide_v1.jpg,EK_ART_Tideglide_v1.jpg,DEX-281,Tideglide,base,filed,all,manifest,
+shared/ecokin/dex_411_tideglow/EK_ART_Tideglow_v1.jpg,EK_ART_Tideglow_v1.jpg,DEX-411,Tideglow,base,filed,all,manifest,
+shared/ecokin/dex_483_tinkrail/EK_ART_Tinkrail_Card_v1.png,EK_ART_Tinkrail_Card_v1.png,DEX-483,Tinkrail,base,filed,all,manifest,
+shared/ecokin/dex_386_torturecannon/EK_ART_Torturecannon_v1.jpg,EK_ART_Torturecannon_v1.jpg,DEX-386,Torturecannon,base,filed,all,manifest,
+shared/ecokin/dex_134_tropiclaw/EK_ART_Tropiclaw_v1.jpg,EK_ART_Tropiclaw_v1.jpg,DEX-134,Tropiclaw,base,filed,all,manifest,
+shared/ecokin/dex_489_trunkindle/EK_ART_Trunkindle_Card_v1.png,EK_ART_Trunkindle_Card_v1.png,DEX-489,Trunkindle,base,filed,all,manifest,
+shared/ecokin/dex_489_trunkindle/EK_ART_Trunkindle_Form_DawnTusk_v1.png,EK_ART_Trunkindle_Form_DawnTusk_v1.png,DEX-489,Trunkindle,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_489_trunkindle/EK_ART_Trunkindle_Form_EmberTusk_v1.png,EK_ART_Trunkindle_Form_EmberTusk_v1.png,DEX-489,Trunkindle,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_489_trunkindle/EK_ART_Trunkindle_Form_FrostTusk_v1.png,EK_ART_Trunkindle_Form_FrostTusk_v1.png,DEX-489,Trunkindle,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_233_tuskmere/EK_ART_Tuskmere_v1.jpg,EK_ART_Tuskmere_v1.jpg,DEX-233,Tuskmere,base,filed,all,manifest,
+shared/ecokin/dex_199_umbraclaw/EK_ART_Umbraclaw_v1.jpg,EK_ART_Umbraclaw_v1.jpg,DEX-199,Umbraclaw,base,filed,all,manifest,
+shared/ecokin/dex_311_umbrashard/EK_ART_Umbrashard_v1.jpg,EK_ART_Umbrashard_v1.jpg,DEX-311,Umbrashard,base,filed,all,manifest,
+shared/ecokin/dex_495_vaeluun/EK_ART_Vaeluun_Card_v1.png,EK_ART_Vaeluun_Card_v1.png,DEX-495,Vaeluun,base,filed,all,manifest,
+shared/ecokin/dex_396_vaylumi/EK_ART_Vaylumi_v1.jpg,EK_ART_Vaylumi_v1.jpg,DEX-396,Vaylumi,base,filed,all,manifest,
+shared/ecokin/dex_351_veldorin/EK_ART_Veldorin_USER_v1.jpg,EK_ART_Veldorin_USER_v1.jpg,DEX-351,Veldorin,base,filed,all,manifest,
+shared/ecokin/dex_193_verdanok/EK_ART_Verdanok_v1.jpg,EK_ART_Verdanok_v1.jpg,DEX-193,Verdanok,base,filed,all,manifest,
+shared/ecokin/dex_137_verdantapir/EK_ART_Verdantapir_v1.jpg,EK_ART_Verdantapir_v1.jpg,DEX-137,Verdantapir,base,filed,all,manifest,
+shared/ecokin/dex_158_verdantis/EK_ART_Verdantis_v1.jpg,EK_ART_Verdantis_v1.jpg,DEX-158,Verdantis,base,filed,all,manifest,
+shared/ecokin/dex_399_verdaxil/EK_ART_Verdaxil_v1.jpg,EK_ART_Verdaxil_v1.jpg,DEX-399,Verdaxil,base,filed,all,manifest,
+shared/ecokin/dex_302_verdelune/EK_ART_Verdelune_v1.jpg,EK_ART_Verdelune_v1.jpg,DEX-302,Verdelune,base,filed,all,manifest,
+shared/ecokin/dex_319_vermilith/EK_ART_Vermilith_USER_v1.jpg,EK_ART_Vermilith_USER_v1.jpg,DEX-319,Vermilith,base,filed,all,manifest,
+shared/ecokin/dex_194_vesperwingparallax/EK_ART_VesperwingParallax_v1.jpg,EK_ART_VesperwingParallax_v1.jpg,DEX-194,Vesperwing Parallax,base,filed,all,manifest,
+shared/ecokin/dex_180_veylugo/EK_ART_Veylugo_v1.jpg,EK_ART_Veylugo_v1.jpg,DEX-180,Veylugo,base,filed,all,manifest,
+shared/ecokin/dex_164_vharomaw/EK_ART_Vharomaw_v1.jpg,EK_ART_Vharomaw_v1.jpg,DEX-164,Vharomaw,base,filed,all,manifest,
+shared/ecokin/dex_224_violetwing/EK_ART_Violetwing_v1.jpg,EK_ART_Violetwing_v1.jpg,DEX-224,Violetwing,base,filed,all,manifest,
+shared/ecokin/dex_330_virelily/EK_ART_Virelily_USER_v1.jpg,EK_ART_Virelily_USER_v1.jpg,DEX-330,Virelily,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_487_vixyra/EK_ART_Vixyra_Card_v1.png,EK_ART_Vixyra_Card_v1.png,DEX-487,Vixyra,base,filed,all,manifest,
+shared/ecokin/dex_487_vixyra/EK_ART_Vixyra_Form_FrostTail_v1.png,EK_ART_Vixyra_Form_FrostTail_v1.png,DEX-487,Vixyra,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_487_vixyra/EK_ART_Vixyra_Form_SeedTail_v1.png,EK_ART_Vixyra_Form_SeedTail_v1.png,DEX-487,Vixyra,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_487_vixyra/EK_ART_Vixyra_Form_StormTail_v1.png,EK_ART_Vixyra_Form_StormTail_v1.png,DEX-487,Vixyra,form,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_487_vixyra/EK_ART_Vixyra_Forms_PyreAeroShade_v1.png,EK_ART_Vixyra_Forms_PyreAeroShade_v1.png,DEX-487,Vixyra,base,Approved Form Art,all,manifest,descriptor-stripped match
+shared/ecokin/dex_487_vixyra/EK_ART_Vixyra_Turnaround_v1.png,EK_ART_Vixyra_Turnaround_v1.png,DEX-487,Vixyra,base,filed,all,manifest,
+shared/ecokin/dex_406_voidshade/EK_ART_Voidshade_v1.jpg,EK_ART_Voidshade_v1.jpg,DEX-406,Voidshade,base,filed,all,manifest,
+shared/ecokin/dex_422_voltkit/EK_ART_Voltkit_v1.png,EK_ART_Voltkit_v1.png,DEX-422,Voltkit,base,filed,all,manifest,
+shared/ecokin/dex_339_vuyamba/EK_ART_Vuyamba_USER_v1.jpg,EK_ART_Vuyamba_USER_v1.jpg,DEX-339,Vuyamba,base,filed,all,manifest,descriptor-stripped match
+shared/ecokin/dex_212_waderwing/EK_ART_Waderwing_v1.jpg,EK_ART_Waderwing_v1.jpg,DEX-212,Waderwing,base,filed,all,manifest,
+shared/ecokin/dex_450_wetlily/EK_ART_Wetlily_v1.jpg,EK_ART_Wetlily_v1.jpg,DEX-450,Wetlily,base,filed,all,manifest,
+shared/ecokin/dex_244_whiskermaw/EK_ART_Whiskermaw_v1.jpg,EK_ART_Whiskermaw_v1.jpg,DEX-244,Whiskermaw,base,filed,all,manifest,
+shared/ecokin/dex_198_windrider/EK_ART_Windrider_v1.jpg,EK_ART_Windrider_v1.jpg,DEX-198,Windrider,base,filed,all,manifest,
+shared/ecokin/dex_127_xochiprowl/EK_ART_Xochiprowl_v1.jpg,EK_ART_Xochiprowl_v1.jpg,DEX-127,Xochiprowl,base,filed,all,manifest,
+shared/ecokin/dex_178_zangoroseedling/EK_ART_ZangoroSeedling_v1.jpg,EK_ART_ZangoroSeedling_v1.jpg,DEX-178,Zangoro Seedling,base,filed,all,manifest,
+shared/ecokin/dex_178_zangoroseedling/EK_ART_ZangoroSeedling_v2.jpg,EK_ART_ZangoroSeedling_v2.jpg,DEX-178,Zangoro Seedling,base,filed,all,manifest,
+shared/ecokin/dex_026_zebraska/EK_ART_Zebraska_USER_v1.png,EK_ART_Zebraska_USER_v1.png,DEX-026,ZebraskA,base,filed,all,manifest,
+shared/ecokin/dex_388_zephlume/EK_ART_Zephlume_USER_v1.png,EK_ART_Zephlume_USER_v1.png,DEX-388,Zephlume,base,filed,all,manifest,
+shared/ecokin/dex_130_zephyrahn/EK_ART_Zephyrahn_v1.jpg,EK_ART_Zephyrahn_v1.jpg,DEX-130,Zephyrahn,base,filed,all,manifest,
+shared/ecokin/dex_359_zephyrel/EK_ART_Zephyrel_v1.jpg,EK_ART_Zephyrel_v1.jpg,DEX-359,Zephyrel,base,filed,all,manifest,
+shared/ecokin/dex_350_zora/EK_ART_Zora_v1.jpg,EK_ART_Zora_v1.jpg,DEX-350,Zora,base,Duplicate Review,all,manifest,
+shared/ecokin/dex_350_zora/EK_ART_Zora_v1.png,EK_ART_Zora_v1.png,DEX-350,Zora,base,filed,all,manifest,descriptor-stripped match
+shared/group_art/EK_BOARD_AfricanizedBeeEvolution.jpg,EK_BOARD_AfricanizedBeeEvolution.jpg,,,base,filed,all,manifest,multi-depict: 3 names
+shared/group_art/EK_BOARD_AzurbuzzEvolution.jpg,EK_BOARD_AzurbuzzEvolution.jpg,,,base,filed,all,manifest,multi-depict: 3 names
+shared/group_art/EK_BOARD_DiscoveryBatch046-055.png,EK_BOARD_DiscoveryBatch046-055.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_DiscoveryBatch056-065.png,EK_BOARD_DiscoveryBatch056-065.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_DiscoveryBatch076-085.png,EK_BOARD_DiscoveryBatch076-085.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_EcoKin01-10.png,EK_BOARD_EcoKin01-10.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_EcoKin026-035.jpg,EK_BOARD_EcoKin026-035.jpg,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_EcoKin066-075.png,EK_BOARD_EcoKin066-075.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_EcoKinCollection.png,EK_BOARD_EcoKinCollection.png,,,base,filed,all,manifest,multi-depict: 30 names
+shared/group_art/EK_BOARD_GuardiansOfRebearth.png,EK_BOARD_GuardiansOfRebearth.png,,,base,filed,all,manifest,multi-depict: 60 names
+shared/group_art/EK_BOARD_NewDiscoveries036-045.png,EK_BOARD_NewDiscoveries036-045.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_NewEcoKinDiscoveries026-035.png,EK_BOARD_NewEcoKinDiscoveries026-035.png,,,base,filed,all,manifest,multi-depict: 10 names
+shared/group_art/EK_BOARD_SpecialCollector.png,EK_BOARD_SpecialCollector.png,,,base,filed,all,manifest,multi-depict: 13 names
+shared/group_art/EK_BOARD_UltraRare.png,EK_BOARD_UltraRare.png,,,base,filed,all,manifest,multi-depict: 12 names
+shared/group_art/EK_BOARD_batch98_250.jpg,EK_BOARD_batch98_250.jpg,,,base,filed,all,manifest,multi-depict: 7 names
+shared/ecokin/dex_488_blightjaw/media-generation-ek-art-blightjaw-form-mirehowler-v1-1792001513.json,media-generation-ek-art-blightjaw-form-mirehowler-v1-1792001513.json,DEX-488,Blightjaw,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_488_blightjaw/media-generation-ek-art-blightjaw-form-rotbloomhowler-v1-1792001511.json,media-generation-ek-art-blightjaw-form-rotbloomhowler-v1-1792001511.json,DEX-488,Blightjaw,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_488_blightjaw/media-generation-ek-art-blightjaw-form-stormhowler-v1-1792001506.json,media-generation-ek-art-blightjaw-form-stormhowler-v1-1792001506.json,DEX-488,Blightjaw,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_488_blightjaw/media-generation-ek-art-blightjaw-form-stormhowler-v1-1792001565.json,media-generation-ek-art-blightjaw-form-stormhowler-v1-1792001565.json,DEX-488,Blightjaw,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_484_jestrelux/media-generation-ek-art-jestrelux-form-bloomrevel-v1-1792001498.json,media-generation-ek-art-jestrelux-form-bloomrevel-v1-1792001498.json,DEX-484,Jestrelux,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_484_jestrelux/media-generation-ek-art-jestrelux-form-emberrevel-v1-1792001515.json,media-generation-ek-art-jestrelux-form-emberrevel-v1-1792001515.json,DEX-484,Jestrelux,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_484_jestrelux/media-generation-ek-art-jestrelux-form-tidecallrevel-v1-1792001499.json,media-generation-ek-art-jestrelux-form-tidecallrevel-v1-1792001499.json,DEX-484,Jestrelux,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_485_khepralya/media-generation-ek-art-khepralya-form-emberscroll-v1-1792001505.json,media-generation-ek-art-khepralya-form-emberscroll-v1-1792001505.json,DEX-485,Khepralya,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_485_khepralya/media-generation-ek-art-khepralya-form-frostscroll-v1-1792001506.json,media-generation-ek-art-khepralya-form-frostscroll-v1-1792001506.json,DEX-485,Khepralya,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_485_khepralya/media-generation-ek-art-khepralya-form-windscroll-v1-1792001512.json,media-generation-ek-art-khepralya-form-windscroll-v1-1792001512.json,DEX-485,Khepralya,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_486_mekaloom/media-generation-ek-art-mekaloom-form-forgereactor-v1-1792001524.json,media-generation-ek-art-mekaloom-form-forgereactor-v1-1792001524.json,DEX-486,Mekaloom,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_486_mekaloom/media-generation-ek-art-mekaloom-form-stonereactor-v1-1792001507.json,media-generation-ek-art-mekaloom-form-stonereactor-v1-1792001507.json,DEX-486,Mekaloom,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_486_mekaloom/media-generation-ek-art-mekaloom-form-tidereactor-v1-1792001509.json,media-generation-ek-art-mekaloom-form-tidereactor-v1-1792001509.json,DEX-486,Mekaloom,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_490_murrilix/media-generation-ek-art-murrilix-form-canopy-v1-1792001501.json,media-generation-ek-art-murrilix-form-canopy-v1-1792001501.json,DEX-490,Murrilix,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_490_murrilix/media-generation-ek-art-murrilix-form-ember-v1-1792001501.json,media-generation-ek-art-murrilix-form-ember-v1-1792001501.json,DEX-490,Murrilix,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_490_murrilix/media-generation-ek-art-murrilix-form-frost-v1-1792001511.json,media-generation-ek-art-murrilix-form-frost-v1-1792001511.json,DEX-490,Murrilix,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_497_nyalune/media-generation-ek-art-nyalune-dex-v1-1792002277.json,media-generation-ek-art-nyalune-dex-v1-1792002277.json,DEX-497,Nyalune,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_489_trunkindle/media-generation-ek-art-trunkindle-form-dawntusk-v1-1792001510.json,media-generation-ek-art-trunkindle-form-dawntusk-v1-1792001510.json,DEX-489,Trunkindle,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_489_trunkindle/media-generation-ek-art-trunkindle-form-embertusk-v1-1792001525.json,media-generation-ek-art-trunkindle-form-embertusk-v1-1792001525.json,DEX-489,Trunkindle,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_489_trunkindle/media-generation-ek-art-trunkindle-form-frosttusk-v1-1792001502.json,media-generation-ek-art-trunkindle-form-frosttusk-v1-1792001502.json,DEX-489,Trunkindle,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_487_vixyra/media-generation-ek-art-vixyra-form-frosttail-v1-1792001514.json,media-generation-ek-art-vixyra-form-frosttail-v1-1792001514.json,DEX-487,Vixyra,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_487_vixyra/media-generation-ek-art-vixyra-form-seedtail-v1-1792001497.json,media-generation-ek-art-vixyra-form-seedtail-v1-1792001497.json,DEX-487,Vixyra,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/ecokin/dex_487_vixyra/media-generation-ek-art-vixyra-form-stormtail-v1-1792001497.json,media-generation-ek-art-vixyra-form-stormtail-v1-1792001497.json,DEX-487,Vixyra,sidecar,unmanifested,all,filename-derived,not in art manifest
+shared/unsorted/EK_ART_Abysscarve_USER_v1.jpg,EK_ART_Abysscarve_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Abysscarve'
+shared/unsorted/EK_ART_Abyssilia_USER_v1.jpg,EK_ART_Abyssilia_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Abyssilia'
+shared/unsorted/EK_ART_Aeravolt_USER_v1.png,EK_ART_Aeravolt_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aeravolt'
+shared/unsorted/EK_ART_Aeravolt_v1.jpg,EK_ART_Aeravolt_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aeravolt'
+shared/unsorted/EK_ART_Aerion_v1.jpg,EK_ART_Aerion_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aerion'
+shared/unsorted/EK_ART_Ambermaw_USER_v1.png,EK_ART_Ambermaw_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ambermaw'
+shared/unsorted/EK_ART_Aqualithen_USER_v1.jpg,EK_ART_Aqualithen_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aqualithen'
+shared/unsorted/EK_ART_Aquilune_USER_v1.jpg,EK_ART_Aquilune_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aquilune'
+shared/unsorted/EK_ART_Ash_Brawler_USER_v1.jpg,EK_ART_Ash_Brawler_USER_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Ash-Brawler'"
+shared/unsorted/EK_ART_Aural_USER_v1.png,EK_ART_Aural_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aural'
+shared/unsorted/EK_ART_Auravine_USER_v1.jpg,EK_ART_Auravine_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Auravine'
+shared/unsorted/EK_ART_Aurimane_USER_v1.png,EK_ART_Aurimane_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aurimane'
+shared/unsorted/EK_ART_Auroraqua_USER_v1.jpg,EK_ART_Auroraqua_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Auroraqua'
+shared/unsorted/EK_ART_Aurorion_USER_v1.png,EK_ART_Aurorion_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Aurorion'
+shared/unsorted/EK_ART_Azurithor_USER_v1.jpg,EK_ART_Azurithor_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Azurithor (The Tidal Oracle)'
+shared/unsorted/EK_ART_Bananaza_USER_v1.png,EK_ART_Bananaza_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Bananaza'
+shared/unsorted/EK_ART_Batilynx_USER_v1.jpg,EK_ART_Batilynx_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Batilynx'
+shared/unsorted/EK_ART_BeesGees_RENDER_v2.png,EK_ART_BeesGees_RENDER_v2.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'BeesGees_RENDER'
+shared/unsorted/EK_ART_BeesGees_USER_v1.png,EK_ART_BeesGees_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'BeesGees'
+shared/unsorted/EK_ART_BlackSwan_USER_v1.png,EK_ART_BlackSwan_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Black Swan'"
+shared/unsorted/EK_ART_BlackSwan_v1.png,EK_ART_BlackSwan_v1.png,,,base,Duplicate Review,all,manifest,"known name, no Dex number assigned: 'Black Swan'"
+shared/unsorted/EK_ART_BlossomFox_UNNAMED_v1.png,EK_ART_BlossomFox_UNNAMED_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Unnamed blossom fox'
+shared/unsorted/EK_ART_BlueJester_unnamed_v1.jpg,EK_ART_BlueJester_unnamed_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed blue jester warrior)'
+shared/unsorted/EK_ART_BoneyBone_DarkShowman_v1.jpg,EK_ART_BoneyBone_DarkShowman_v1.jpg,,,base,superseded,all,manifest,depicted name not in registry/ledger: 'Boney Bone (dark showman design)'
+shared/unsorted/EK_ART_BoneyBone_MidnightEncore_v1.jpg,EK_ART_BoneyBone_MidnightEncore_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Boney Bone — Midnight Encore form'
+shared/unsorted/EK_ART_BoneyBone_USER_v1.jpg,EK_ART_BoneyBone_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Boney Bone'
+shared/unsorted/EK_ART_Bravado_USER_v1.jpg,EK_ART_Bravado_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Bravado'
+shared/unsorted/EK_ART_Brisquill_USER_v1.png,EK_ART_Brisquill_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Brisquill'
+shared/unsorted/EK_ART_Bubblit_USER_v1.png,EK_ART_Bubblit_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Bubblit'
+shared/unsorted/EK_ART_Buttafly_USER_v1.png,EK_ART_Buttafly_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Buttafly'"
+shared/unsorted/EK_ART_Chimpanzion_USER_v1.png,EK_ART_Chimpanzion_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Chimpanzion'
+shared/unsorted/EK_ART_Chimpanzion_v2.jpg,EK_ART_Chimpanzion_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Chimpanzion'
+shared/unsorted/EK_ART_Cinderclaw_v1.jpg,EK_ART_Cinderclaw_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Cinderclaw'"
+shared/unsorted/EK_ART_Cindergnarl_USER_v1.png,EK_ART_Cindergnarl_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cindergnarl'
+shared/unsorted/EK_ART_Cindergnarl_USER_v2.png,EK_ART_Cindergnarl_USER_v2.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cindergnarl'
+shared/unsorted/EK_ART_Cinderlynx_USER_v1.png,EK_ART_Cinderlynx_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cinderlynx'
+shared/unsorted/EK_ART_Cindersly_USER_v1.png,EK_ART_Cindersly_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cindersly'
+shared/unsorted/EK_ART_Coralith_USER_v1.jpg,EK_ART_Coralith_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Coralith'
+shared/unsorted/EK_ART_Corallune_USER_v1.jpg,EK_ART_Corallune_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Corallune'
+shared/unsorted/EK_ART_Coralyx_CARD_v1.jpg,EK_ART_Coralyx_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Coralyx_CARD'
+shared/unsorted/EK_ART_Coralyx_USER_v1.png,EK_ART_Coralyx_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Coralyx'
+shared/unsorted/EK_ART_Cowmule_USER_v1.png,EK_ART_Cowmule_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cowmule'
+shared/unsorted/EK_ART_Crownflare_USER_v1.png,EK_ART_Crownflare_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Crownflare'
+shared/unsorted/EK_ART_Cryolithix_CARD_v1.jpg,EK_ART_Cryolithix_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cryolithix_CARD'
+shared/unsorted/EK_ART_Cryolithix_RENDER_v2.jpg,EK_ART_Cryolithix_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Cryolithix_RENDER'
+shared/unsorted/EK_ART_Cryolithix_USER_v1.png,EK_ART_Cryolithix_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cryolithix'
+shared/unsorted/EK_ART_Cryopip_USER_v1.png,EK_ART_Cryopip_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cryopip'
+shared/unsorted/EK_ART_Cryovitrix_USER_v1.jpg,EK_ART_Cryovitrix_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cryovitrix'
+shared/unsorted/EK_ART_CrystalFigure_UNNAMED_v1.png,EK_ART_CrystalFigure_UNNAMED_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Unnamed crystal figure'
+shared/unsorted/EK_ART_CrystalGorilla_UNNAMED_v1.png,EK_ART_CrystalGorilla_UNNAMED_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Gorilla (crystal form - name pending)'
+shared/unsorted/EK_ART_Cygnaturis_v2.jpg,EK_ART_Cygnaturis_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cygnaturis — The Wetland Guardian'
+shared/unsorted/EK_ART_Cygnoris_v2.jpg,EK_ART_Cygnoris_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Cygnoris — The Serenade Sovereign'
+shared/unsorted/EK_ART_DFrog_USER_v1.png,EK_ART_DFrog_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'D. Frog'"
+shared/unsorted/EK_ART_Dammaker_v1.jpg,EK_ART_Dammaker_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Dammaker'
+shared/unsorted/EK_ART_DeerDon_USER_v1.png,EK_ART_DeerDon_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Deer Don'"
+shared/unsorted/EK_ART_Dikiri_v1.jpg,EK_ART_Dikiri_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Dikiri'
+shared/unsorted/EK_ART_Drogon_USER_v1.png,EK_ART_Drogon_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Drogon'
+shared/unsorted/EK_ART_Dunefang_USER_v1.png,EK_ART_Dunefang_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Dunefang'
+shared/unsorted/EK_ART_Dunescale_USER_v1.jpg,EK_ART_Dunescale_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Dunescale'
+shared/unsorted/EK_ART_EcoKinWorm_Base_USER_v1.png,EK_ART_EcoKinWorm_Base_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Eco-Kin Worm (base)'
+shared/unsorted/EK_ART_Eerie_Duskform_USER_v1.png,EK_ART_Eerie_Duskform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Eerie_Duskform'
+shared/unsorted/EK_ART_Eerie_Wraithform_USER_v1.png,EK_ART_Eerie_Wraithform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Eerie_Wraithform'
+shared/unsorted/EK_ART_ElephantShrew_unnamed_v1.jpg,EK_ART_ElephantShrew_unnamed_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed elephant shrew)'
+shared/unsorted/EK_ART_Emberclaw_USER_v1.png,EK_ART_Emberclaw_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Emberclaw'
+shared/unsorted/EK_ART_Eyomitor_USER_v1.png,EK_ART_Eyomitor_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Eyomitor'
+shared/unsorted/EK_ART_Fanatic_Seedling_USER_v1.png,EK_ART_Fanatic_Seedling_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Fanatic — Seedling'
+shared/unsorted/EK_ART_Fanatic_Surge_USER_v1.png,EK_ART_Fanatic_Surge_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Fanatic — Surge'
+shared/unsorted/EK_ART_Fanatic_Tempest_USER_v1.png,EK_ART_Fanatic_Tempest_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Fanatic — Tempest'
+shared/unsorted/EK_ART_Ferrixis_RENDER_v2.jpg,EK_ART_Ferrixis_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Ferrixis_RENDER'
+shared/unsorted/EK_ART_Ferrixis_USER_v1.jpg,EK_ART_Ferrixis_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ferrixis'
+shared/unsorted/EK_ART_Ferronix_USER_v1.png,EK_ART_Ferronix_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Ferronix'"
+shared/unsorted/EK_ART_Ferronix_v1.jpg,EK_ART_Ferronix_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Ferronix'"
+shared/unsorted/EK_ART_Ferronix_v2.jpg,EK_ART_Ferronix_v2.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Ferronix'"
+shared/unsorted/EK_ART_Flames_Blazewarden_USER_v1.png,EK_ART_Flames_Blazewarden_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Flames — Blazewarden'
+shared/unsorted/EK_ART_Flames_Cinderstride_USER_v1.png,EK_ART_Flames_Cinderstride_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Flames — Cinderstride'
+shared/unsorted/EK_ART_Flames_Emberling_USER_v1.png,EK_ART_Flames_Emberling_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Flames — Emberling'
+shared/unsorted/EK_ART_Flashhorn_v1.jpg,EK_ART_Flashhorn_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Flashhorn'
+shared/unsorted/EK_ART_Floauwer_Faeform_USER_v1.png,EK_ART_Floauwer_Faeform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Floauwer_Faeform'
+shared/unsorted/EK_ART_Floauwer_Skyform_USER_v1.png,EK_ART_Floauwer_Skyform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Floauwer_Skyform'
+shared/unsorted/EK_ART_Florivant_USER_v1.jpg,EK_ART_Florivant_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Florivant'
+shared/unsorted/EK_ART_Foamora_USER_v1.png,EK_ART_Foamora_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Foamora'
+shared/unsorted/EK_ART_FoxFur_Tideform_v1.jpg,EK_ART_FoxFur_Tideform_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Fox Fur'"
+shared/unsorted/EK_ART_FoxFur_USER_v1.png,EK_ART_FoxFur_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Fox Fur'"
+shared/unsorted/EK_ART_Fox_Fur_Fiery_USER_v1.jpg,EK_ART_Fox_Fur_Fiery_USER_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Fox Fur'"
+shared/unsorted/EK_ART_Fox_Fur_Orange_USER_v1.jpg,EK_ART_Fox_Fur_Orange_USER_v1.jpg,,,base,superseded,all,manifest,"known name, no Dex number assigned: 'Fox Fur'"
+shared/unsorted/EK_ART_Frostwarden_USER_v1.jpg,EK_ART_Frostwarden_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Frostwarden'
+shared/unsorted/EK_ART_Galactorra_USER_v1.png,EK_ART_Galactorra_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'GALACTORRA'"
+shared/unsorted/EK_ART_Gatoryx_v1.jpg,EK_ART_Gatoryx_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Gatoryx'
+shared/unsorted/EK_ART_Geargnaw_USER_v1.png,EK_ART_Geargnaw_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Geargnaw'
+shared/unsorted/EK_ART_Geluren_USER_v1.jpg,EK_ART_Geluren_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Geluren'
+shared/unsorted/EK_ART_Ghostfang_USER_v1.png,EK_ART_Ghostfang_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ghostfang'
+shared/unsorted/EK_ART_Glacelume_USER_v1.png,EK_ART_Glacelume_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Glacelume'
+shared/unsorted/EK_ART_Glidara_v1.jpg,EK_ART_Glidara_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Glidara'
+shared/unsorted/EK_ART_Glimmeron_USER_v1.jpg,EK_ART_Glimmeron_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Glimmeron'
+shared/unsorted/EK_ART_Glimmertail_USER_v1.png,EK_ART_Glimmertail_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Glimmertail'
+shared/unsorted/EK_ART_Glintailo_USER_v1.jpg,EK_ART_Glintailo_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Glintailo'
+shared/unsorted/EK_ART_GlowlOTL_v1.jpg,EK_ART_GlowlOTL_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'GlowlOTL'
+shared/unsorted/EK_ART_Glowloth_USER_v1.png,EK_ART_Glowloth_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Glowloth'
+shared/unsorted/EK_ART_GoD_Chart_IPAvoidRef_v1.png,EK_ART_GoD_Chart_IPAvoidRef_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: '(Dragon Ball Gods-of-Destruction chart)'
+shared/unsorted/EK_ART_GoldenFish_USER_v1.png,EK_ART_GoldenFish_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'GoldenFish'
+shared/unsorted/EK_ART_GoogleyEyes_USER_v1.png,EK_ART_GoogleyEyes_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Googley Eyes'"
+shared/unsorted/EK_ART_GorillaRig_VFS_Ad_Reference_v1.jpg,EK_ART_GorillaRig_VFS_Ad_Reference_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(other)'
+shared/unsorted/EK_ART_Gorilla_USER_v1.png,EK_ART_Gorilla_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Gorilla'
+shared/unsorted/EK_ART_Gorumbra_USER_v1.png,EK_ART_Gorumbra_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Gorilla (Gorumbra Form)'
+shared/unsorted/EK_ART_Gravemaw_v1.jpg,EK_ART_Gravemaw_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Gravemaw'
+shared/unsorted/EK_ART_GrimStone_Monumentform_USER_v1.png,EK_ART_GrimStone_Monumentform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'GrimStone_Monumentform'
+shared/unsorted/EK_ART_GrimStone_RENDER_v2.png,EK_ART_GrimStone_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'GRIM STONE'"
+shared/unsorted/EK_ART_GrimStone_Titanform_USER_v1.png,EK_ART_GrimStone_Titanform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'GrimStone_Titanform'
+shared/unsorted/EK_ART_GrimStone_USER_v1.png,EK_ART_GrimStone_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'GRIM STONE'"
+shared/unsorted/EK_ART_Grizmor_v1.jpg,EK_ART_Grizmor_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Grizmor'
+shared/unsorted/EK_ART_Grovantis_USER_v1.jpg,EK_ART_Grovantis_USER_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Grovantis'"
+shared/unsorted/EK_ART_Hammerwake_EK073_USER_v1.png,EK_ART_Hammerwake_EK073_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Hammerwake_EK073'
+shared/unsorted/EK_ART_Handimon_Artisanform_USER_v1.png,EK_ART_Handimon_Artisanform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Handimon_Artisanform'
+shared/unsorted/EK_ART_Handimon_Forgeform_USER_v1.png,EK_ART_Handimon_Forgeform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Handimon_Forgeform'
+shared/unsorted/EK_ART_Handimon_RENDER_v2.png,EK_ART_Handimon_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'HANDIMoN'"
+shared/unsorted/EK_ART_Handimon_USER_v1.png,EK_ART_Handimon_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'HANDIMoN'"
+shared/unsorted/EK_ART_HandsShake_USER_v1.png,EK_ART_HandsShake_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'HandsShake'
+shared/unsorted/EK_ART_Hokanko_ChildOfTheSun_USER_v1.png,EK_ART_Hokanko_ChildOfTheSun_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ho-kanko — Child of the Sun'
+shared/unsorted/EK_ART_Hydravera_USER_v1.jpg,EK_ART_Hydravera_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Hydravera'
+shared/unsorted/EK_ART_Hydraxol_USER_v1.jpg,EK_ART_Hydraxol_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Hydraxol'
+shared/unsorted/EK_ART_JellyJellyfish_USER_v1.png,EK_ART_JellyJellyfish_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'JellyJellyfish'
+shared/unsorted/EK_ART_Jesterov_USER_v1.png,EK_ART_Jesterov_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Jesterov'
+shared/unsorted/EK_ART_Jesterov_USER_v2.png,EK_ART_Jesterov_USER_v2.png,,,base,duplicate-member,all,manifest,depicted name not in registry/ledger: 'Jesterov'
+shared/unsorted/EK_ART_Jesteroy_USER_v1.jpg,EK_ART_Jesteroy_USER_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'JESTEROY'"
+shared/unsorted/EK_ART_Jordane_DivineAscendant_raw_v1.jpg,EK_ART_Jordane_DivineAscendant_raw_v1.jpg,,,base,superseded,all,manifest,depicted name not in registry/ledger: 'Jordane the Sky-Ace (angel design)'
+shared/unsorted/EK_ART_Jordane_DivineAscendant_v1.jpg,EK_ART_Jordane_DivineAscendant_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Jordane the Sky-Ace — Divine Ascendant form'
+shared/unsorted/EK_ART_Jordane_SkyAce_v1.jpg,EK_ART_Jordane_SkyAce_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Jordane the Sky-Ace (eagle form)'
+shared/unsorted/EK_ART_Justica_USER_v1.jpg,EK_ART_Justica_USER_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'JUSTICA'"
+shared/unsorted/EK_ART_Justica_USER_v1.png,EK_ART_Justica_USER_v1.png,,,base,unmanifested,all,filename-derived,"known name, no Dex number assigned: 'JUSTICA'"
+shared/unsorted/EK_ART_Karushade_USER_v1.jpg,EK_ART_Karushade_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Karushade'
+shared/unsorted/EK_ART_Kendo_RENDER_v2.png,EK_ART_Kendo_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'KENDO'"
+shared/unsorted/EK_ART_Kendo_Stormform_USER_v1.png,EK_ART_Kendo_Stormform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Kendo_Stormform'
+shared/unsorted/EK_ART_Kendo_USER_v1.png,EK_ART_Kendo_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'KENDO'"
+shared/unsorted/EK_ART_Kethrava_USER_v1.png,EK_ART_Kethrava_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Kethrava'
+shared/unsorted/EK_ART_Kifaruon_USER_v1.png,EK_ART_Kifaruon_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Kifaruon'
+shared/unsorted/EK_ART_Kitty_RENDER_v2.png,EK_ART_Kitty_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'Kitty'"
+shared/unsorted/EK_ART_Kitty_USER_v1.png,EK_ART_Kitty_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Kitty'"
+shared/unsorted/EK_ART_Korallux_USER_v1.jpg,EK_ART_Korallux_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Korallux'
+shared/unsorted/EK_ART_Koralume_USER_v1.png,EK_ART_Koralume_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Koralume'
+shared/unsorted/EK_ART_LadyWhispers_USER_v1.png,EK_ART_LadyWhispers_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'LadyWhispers'
+shared/unsorted/EK_ART_Leopaerd_USER_v1.png,EK_ART_Leopaerd_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Leopaerd'"
+shared/unsorted/EK_ART_Leviacrest_USER_v1.png,EK_ART_Leviacrest_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Leviacrest'"
+shared/unsorted/EK_ART_Leviacrest_v1.jpg,EK_ART_Leviacrest_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Leviacrest'"
+shared/unsorted/EK_ART_Lilirayrn_USER_v1.jpg,EK_ART_Lilirayrn_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lilirayrn'
+shared/unsorted/EK_ART_Lionblaze_USER_v1.png,EK_ART_Lionblaze_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lionblaze'
+shared/unsorted/EK_ART_Litty_RENDER_v2.png,EK_ART_Litty_RENDER_v2.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Litty_RENDER'
+shared/unsorted/EK_ART_LolLama_USER_v1.png,EK_ART_LolLama_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'LolLama'
+shared/unsorted/EK_ART_LollLama_USER_v1.png,EK_ART_LollLama_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'LollLama'
+shared/unsorted/EK_ART_Lukarai_USER_v1.png,EK_ART_Lukarai_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lukarai'
+shared/unsorted/EK_ART_Lumeli_USER_v1.png,EK_ART_Lumeli_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumeli'
+shared/unsorted/EK_ART_Luminash_USER_v1.jpg,EK_ART_Luminash_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminash'
+shared/unsorted/EK_ART_Luminelle_v1.jpg,EK_ART_Luminelle_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminelle'
+shared/unsorted/EK_ART_Luminemone_USER_v1.png,EK_ART_Luminemone_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminemone'
+shared/unsorted/EK_ART_Luminexis_USER_v1.jpg,EK_ART_Luminexis_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminexis'
+shared/unsorted/EK_ART_Luminspire_USER_v1.jpg,EK_ART_Luminspire_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminspire'
+shared/unsorted/EK_ART_Luminspire_USER_v1.png,EK_ART_Luminspire_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminspire'
+shared/unsorted/EK_ART_Luminwyrd_USER_v1.jpg,EK_ART_Luminwyrd_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luminwyrd'
+shared/unsorted/EK_ART_Lumirique_USER_v1.jpg,EK_ART_Lumirique_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumirique'
+shared/unsorted/EK_ART_Lumistalker_USER_v1.jpg,EK_ART_Lumistalker_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumistalker'
+shared/unsorted/EK_ART_Lumistalker_USER_v1.png,EK_ART_Lumistalker_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumistalker'
+shared/unsorted/EK_ART_Lumitherox_USER_v1.jpg,EK_ART_Lumitherox_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumitherox'
+shared/unsorted/EK_ART_Lumivern_USER_v1.jpg,EK_ART_Lumivern_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumivern'
+shared/unsorted/EK_ART_Lumivine_USER_v1.jpg,EK_ART_Lumivine_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lumivine'
+shared/unsorted/EK_ART_Luphantom_v1.jpg,EK_ART_Luphantom_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luphantom'
+shared/unsorted/EK_ART_Luphyr_USER_v1.png,EK_ART_Luphyr_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luphyr'
+shared/unsorted/EK_ART_Luphyr_v1.jpg,EK_ART_Luphyr_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Luphyr'
+shared/unsorted/EK_ART_Lutravale_USER_v1.png,EK_ART_Lutravale_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Lutravale'
+shared/unsorted/EK_ART_Magnetaur_v1.jpg,EK_ART_Magnetaur_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Magnetaur'
+shared/unsorted/EK_ART_Mangrovix_USER_v1.jpg,EK_ART_Mangrovix_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mangrovix'
+shared/unsorted/EK_ART_Mangrovyx_CARD_v1.jpg,EK_ART_Mangrovyx_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mangrovyx_CARD'
+shared/unsorted/EK_ART_Mangrovyx_USER_v1.png,EK_ART_Mangrovyx_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mangrovyx'
+shared/unsorted/EK_ART_Maxwells_RENDER_v2.png,EK_ART_Maxwells_RENDER_v2.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Maxwells_RENDER'
+shared/unsorted/EK_ART_Maxwells_USER_v1.png,EK_ART_Maxwells_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Maxwells'
+shared/unsorted/EK_ART_Meregrow_USER_v1.jpg,EK_ART_Meregrow_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Meregrow'
+shared/unsorted/EK_ART_Mirejaw_v1.jpg,EK_ART_Mirejaw_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mirejaw'
+shared/unsorted/EK_ART_Mirenza_USER_v1.jpg,EK_ART_Mirenza_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mirenza'
+shared/unsorted/EK_ART_Miryah_USER_v1.png,EK_ART_Miryah_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Miryah'
+shared/unsorted/EK_ART_Misteon_USER_v1.png,EK_ART_Misteon_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Misteon'
+shared/unsorted/EK_ART_Misteon_v1.jpg,EK_ART_Misteon_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Misteon'
+shared/unsorted/EK_ART_Mistoris_RENDER_v2.jpg,EK_ART_Mistoris_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Mistoris_RENDER'
+shared/unsorted/EK_ART_Mistoris_USER_v1.jpg,EK_ART_Mistoris_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mistoris'
+shared/unsorted/EK_ART_Moonshell_USER_v1.png,EK_ART_Moonshell_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Moonshell'
+shared/unsorted/EK_ART_Mossbruin_USER_v1.png,EK_ART_Mossbruin_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mossbruin'
+shared/unsorted/EK_ART_Mosscout_USER_v1.jpg,EK_ART_Mosscout_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mosscout'
+shared/unsorted/EK_ART_Mosscout_v2.jpg,EK_ART_Mosscout_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mosscout'
+shared/unsorted/EK_ART_Mossjaw_USER_v1.png,EK_ART_Mossjaw_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mossjaw'
+shared/unsorted/EK_ART_Mournscribe_USER_v1.png,EK_ART_Mournscribe_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Mournscribe'
+shared/unsorted/EK_ART_Mousier_USER_v1.png,EK_ART_Mousier_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Mousier'"
+shared/unsorted/EK_ART_Mustang_USER_v1.png,EK_ART_Mustang_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Mustang'"
+shared/unsorted/EK_ART_Myceliris_CARD_v1.jpg,EK_ART_Myceliris_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Myceliris_CARD'
+shared/unsorted/EK_ART_Myceliris_RENDER_v2.jpg,EK_ART_Myceliris_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Myceliris_RENDER'
+shared/unsorted/EK_ART_Myceliris_USER_v1.png,EK_ART_Myceliris_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Myceliris'
+shared/unsorted/EK_ART_Myceluren_USER_v1.jpg,EK_ART_Myceluren_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Myceluren'
+shared/unsorted/EK_ART_Myconidrift_USER_v1.jpg,EK_ART_Myconidrift_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Myconidrift'
+shared/unsorted/EK_ART_Nature_Wildform_USER_v1.png,EK_ART_Nature_Wildform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nature_Wildform'
+shared/unsorted/EK_ART_Ndegora_USER_v1.png,EK_ART_Ndegora_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ndegora'
+shared/unsorted/EK_ART_Nekharos_USER_v1.png,EK_ART_Nekharos_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nekharos'
+shared/unsorted/EK_ART_Nesqari_USER_v2.png,EK_ART_Nesqari_USER_v2.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nesqari'
+shared/unsorted/EK_ART_Nevoruna_USER_v1.jpg,EK_ART_Nevoruna_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nevoruna'
+shared/unsorted/EK_ART_NightAngel_USER_v1.png,EK_ART_NightAngel_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Night Angel'"
+shared/unsorted/EK_ART_Nivalor_USER_v1.png,EK_ART_Nivalor_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nivalor'
+shared/unsorted/EK_ART_Noctelyra_USER_v1.png,EK_ART_Noctelyra_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Noctelyra'
+shared/unsorted/EK_ART_Noctivyre_USER_v1.png,EK_ART_Noctivyre_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Noctivyre'
+shared/unsorted/EK_ART_Noctuff_v1.jpg,EK_ART_Noctuff_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Noctuff'
+shared/unsorted/EK_ART_Noctursa_v1.jpg,EK_ART_Noctursa_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Noctursa'
+shared/unsorted/EK_ART_Nymbrik_USER_v1.png,EK_ART_Nymbrik_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nymbrik'
+shared/unsorted/EK_ART_Nyxfang_USER_v1.png,EK_ART_Nyxfang_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Nyxfang'
+shared/unsorted/EK_ART_Obeliram_USER_v1.png,EK_ART_Obeliram_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Obeliram'
+shared/unsorted/EK_ART_Oriveth_USER_v2.png,EK_ART_Oriveth_USER_v2.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Oriveth'
+shared/unsorted/EK_ART_Palmatyr_v1.jpg,EK_ART_Palmatyr_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Palmatyr'
+shared/unsorted/EK_ART_Palworld_MapUI_Ref_v2.jpg,EK_ART_Palworld_MapUI_Ref_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(other game)'
+shared/unsorted/EK_ART_Parish_RENDER_Fox_v1.png,EK_ART_Parish_RENDER_Fox_v1.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Parish_RENDER_Fox'
+shared/unsorted/EK_ART_Parish_USER_v1.png,EK_ART_Parish_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Parish'
+shared/unsorted/EK_ART_Pearluddle_USER_v1.png,EK_ART_Pearluddle_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pearluddle'
+shared/unsorted/EK_ART_Pelagonis_CARD_v1.jpg,EK_ART_Pelagonis_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pelagonis_CARD'
+shared/unsorted/EK_ART_Pelagonis_USER_v1.png,EK_ART_Pelagonis_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pelagonis'
+shared/unsorted/EK_ART_Phoenixess_USER_v1.png,EK_ART_Phoenixess_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Phoenixess'
+shared/unsorted/EK_ART_Pigcasso_RENDER_v2.png,EK_ART_Pigcasso_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'Pigcasso'"
+shared/unsorted/EK_ART_Pigcasso_USER_v2.png,EK_ART_Pigcasso_USER_v2.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Pigcasso'"
+shared/unsorted/EK_ART_Pigcasso_USER_v3.png,EK_ART_Pigcasso_USER_v3.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Pigcasso'"
+shared/unsorted/EK_ART_Pinguin_USER_v1.jpg,EK_ART_Pinguin_USER_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Pinguin'"
+shared/unsorted/EK_ART_Pink_Poodle_Butterfly_UNNAMED_USER.jpg,EK_ART_Pink_Poodle_Butterfly_UNNAMED_USER.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed)'
+shared/unsorted/EK_ART_PinkyBear_USER_v1.png,EK_ART_PinkyBear_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Pinky Bear'"
+shared/unsorted/EK_ART_Pipglow_v1.jpg,EK_ART_Pipglow_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pipglow'
+shared/unsorted/EK_ART_Plainsman_USER_v1.png,EK_ART_Plainsman_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Plainsman'"
+shared/unsorted/EK_ART_Plainsman_USER_v2.png,EK_ART_Plainsman_USER_v2.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Plainsman'"
+shared/unsorted/EK_ART_Plainsman_USER_v3.png,EK_ART_Plainsman_USER_v3.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Plainsman'"
+shared/unsorted/EK_ART_Plainsman_USER_v4.png,EK_ART_Plainsman_USER_v4.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Plainsman'"
+shared/unsorted/EK_ART_Plainsman_USER_v5.png,EK_ART_Plainsman_USER_v5.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Plainsman'"
+shared/unsorted/EK_ART_PoisonIvy_Dryadform_USER_v1.png,EK_ART_PoisonIvy_Dryadform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'PoisonIvy_Dryadform'
+shared/unsorted/EK_ART_PoisonIvy_RENDER_v2.png,EK_ART_PoisonIvy_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'Poison Ivy'"
+shared/unsorted/EK_ART_PoisonIvy_Serpentform_USER_v1.png,EK_ART_PoisonIvy_Serpentform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'PoisonIvy_Serpentform'
+shared/unsorted/EK_ART_PoisonIvy_USER_v1.png,EK_ART_PoisonIvy_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Poison Ivy'"
+shared/unsorted/EK_ART_PoodleD_USER_v1.png,EK_ART_PoodleD_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Poodle d.'"
+shared/unsorted/EK_ART_Prismadrift_USER_v1.png,EK_ART_Prismadrift_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Prismadrift'
+shared/unsorted/EK_ART_Prismhorn_USER_v1.png,EK_ART_Prismhorn_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Prismhorn'
+shared/unsorted/EK_ART_Prismhorn_v1.jpg,EK_ART_Prismhorn_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Prismhorn'
+shared/unsorted/EK_ART_Psylopath_Mindcoil_USER_v1.png,EK_ART_Psylopath_Mindcoil_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Psylopath — Mindcoil'
+shared/unsorted/EK_ART_Psylopath_Mirefiend_USER_v1.png,EK_ART_Psylopath_Mirefiend_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Psylopath — Mirefiend'
+shared/unsorted/EK_ART_Psylopath_Shadowsoul_USER_v1.png,EK_ART_Psylopath_Shadowsoul_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Psylopath — Shadowsoul'
+shared/unsorted/EK_ART_Ptah_USER_v1.jpg,EK_ART_Ptah_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ptah'
+shared/unsorted/EK_ART_Puddlepeep_v1.jpg,EK_ART_Puddlepeep_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Puddlepeep'
+shared/unsorted/EK_ART_Puddleswan_USER_v1.png,EK_ART_Puddleswan_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Puddleswan'
+shared/unsorted/EK_ART_Pumaris_v1.jpg,EK_ART_Pumaris_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pumaris'
+shared/unsorted/EK_ART_Pyranox_USER_v1.jpg,EK_ART_Pyranox_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pyranox'
+shared/unsorted/EK_ART_Pyrephra_USER_v1.png,EK_ART_Pyrephra_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pyrephra'
+shared/unsorted/EK_ART_Pyrixis_v1.jpg,EK_ART_Pyrixis_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Pyrixis'"
+shared/unsorted/EK_ART_Pyrogaleon_USER_v1.jpg,EK_ART_Pyrogaleon_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Pyrogaleon'
+shared/unsorted/EK_ART_Quarrynx_USER_v1.png,EK_ART_Quarrynx_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Quarrynx'
+shared/unsorted/EK_ART_QueenCorgi_USER_v1.png,EK_ART_QueenCorgi_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Queen Corgi'"
+shared/unsorted/EK_ART_Rabbit_USER_v1.png,EK_ART_Rabbit_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Rabbit'"
+shared/unsorted/EK_ART_RadiantTyphoon_Stormdancer_v1.png,EK_ART_RadiantTyphoon_Stormdancer_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RadiantTyphoon_Stormdancer'
+shared/unsorted/EK_ART_RadiantTyphoon_Triptych_v1.png,EK_ART_RadiantTyphoon_Triptych_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RadiantTyphoon_Triptych'
+shared/unsorted/EK_ART_Ragwail_USER_v1.png,EK_ART_Ragwail_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ragwail'
+shared/unsorted/EK_ART_Ramos_USER_v1.png,EK_ART_Ramos_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Ramos'
+shared/unsorted/EK_ART_ReaperSkull_USER_v1.png,EK_ART_ReaperSkull_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Reaper-Skull'"
+shared/unsorted/EK_ART_RedPanda_USER_v1.png,EK_ART_RedPanda_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RedPanda'
+shared/unsorted/EK_ART_Rhizovex_USER_v1.jpg,EK_ART_Rhizovex_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Rhizovex'
+shared/unsorted/EK_ART_Riluwisp_USER_v1.jpg,EK_ART_Riluwisp_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Riluwisp'
+shared/unsorted/EK_ART_Riluwisp_v2.jpg,EK_ART_Riluwisp_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Riluwisp'
+shared/unsorted/EK_ART_RinoRhino_USER_v1.png,EK_ART_RinoRhino_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RinoRhino'
+shared/unsorted/EK_ART_Riparion_USER_v1.jpg,EK_ART_Riparion_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Riparion'
+shared/unsorted/EK_ART_Rivastyr_USER_v1.png,EK_ART_Rivastyr_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Rivastyr'
+shared/unsorted/EK_ART_Riverglow_USER_v1.jpg,EK_ART_Riverglow_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Riverglow'
+shared/unsorted/EK_ART_Riverlance_v1.jpg,EK_ART_Riverlance_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Riverlance'
+shared/unsorted/EK_ART_Rivetail_v1.jpg,EK_ART_Rivetail_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Rivetail'
+shared/unsorted/EK_ART_Rivetide_USER_v1.png,EK_ART_Rivetide_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Rivetide'
+shared/unsorted/EK_ART_Robin_USER_v1.png,EK_ART_Robin_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Robin'
+shared/unsorted/EK_ART_Roottide_USER_v1.jpg,EK_ART_Roottide_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Roottide'
+shared/unsorted/EK_ART_Roselune_USER_v1.png,EK_ART_Roselune_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Roselune'
+shared/unsorted/EK_ART_RosterWave_AbyssalAuras_EK074-077_USER_v1.png,EK_ART_RosterWave_AbyssalAuras_EK074-077_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_AbyssalAuras_EK074-077'
+shared/unsorted/EK_ART_RosterWave_AdventureRelics_EK057-060_USER_v1.png,EK_ART_RosterWave_AdventureRelics_EK057-060_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_AdventureRelics_EK057-060'
+shared/unsorted/EK_ART_RosterWave_BedrockMystery_EK049-052_USER_v1.png,EK_ART_RosterWave_BedrockMystery_EK049-052_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_BedrockMystery_EK049-052'
+shared/unsorted/EK_ART_RosterWave_CelestialFrontier_EK086-089_USER_v1.png,EK_ART_RosterWave_CelestialFrontier_EK086-089_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_CelestialFrontier_EK086-089'
+shared/unsorted/EK_ART_RosterWave_ClassicTricksters_USER_v1.png,EK_ART_RosterWave_ClassicTricksters_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_ClassicTricksters'
+shared/unsorted/EK_ART_RosterWave_CosmicClassics_EK053-056_USER_v1.png,EK_ART_RosterWave_CosmicClassics_EK053-056_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_CosmicClassics_EK053-056'
+shared/unsorted/EK_ART_RosterWave_LegacySparks_EK045-048_USER_v1.png,EK_ART_RosterWave_LegacySparks_EK045-048_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_LegacySparks_EK045-048'
+shared/unsorted/EK_ART_RosterWave_PrismWardens_EK078-081_USER_v1.png,EK_ART_RosterWave_PrismWardens_EK078-081_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_PrismWardens_EK078-081'
+shared/unsorted/EK_ART_RosterWave_RelicWilds_EK082-085_USER_v1.png,EK_ART_RosterWave_RelicWilds_EK082-085_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_RelicWilds_EK082-085'
+shared/unsorted/EK_ART_RosterWave_RetroLegends_EK041-044_USER_v1.png,EK_ART_RosterWave_RetroLegends_EK041-044_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_RetroLegends_EK041-044'
+shared/unsorted/EK_ART_RosterWave_SaturdayStarlight_EK061-064_USER_v1.png,EK_ART_RosterWave_SaturdayStarlight_EK061-064_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_SaturdayStarlight_EK061-064'
+shared/unsorted/EK_ART_RosterWave_SkylineMythics_EK069-072_USER_v1.png,EK_ART_RosterWave_SkylineMythics_EK069-072_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_SkylineMythics_EK069-072'
+shared/unsorted/EK_ART_RosterWave_ToonforgeHeroes_EK065-068_USER_v1.png,EK_ART_RosterWave_ToonforgeHeroes_EK065-068_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_ToonforgeHeroes_EK065-068'
+shared/unsorted/EK_ART_RosterWave_TwilightReforge_EK094-097_USER_v1.png,EK_ART_RosterWave_TwilightReforge_EK094-097_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_TwilightReforge_EK094-097'
+shared/unsorted/EK_ART_RosterWave_VerdantCircuits_EK090-093_USER_v1.png,EK_ART_RosterWave_VerdantCircuits_EK090-093_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_VerdantCircuits_EK090-093'
+shared/unsorted/EK_ART_RosterWave_WildFrontiers_USER_v1.png,EK_ART_RosterWave_WildFrontiers_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'RosterWave_WildFrontiers'
+shared/unsorted/EK_ART_Rustbyte9_USER_v1.png,EK_ART_Rustbyte9_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Rustbyte9'
+shared/unsorted/EK_ART_Sandveil_Burrowkin_USER_v1.png,EK_ART_Sandveil_Burrowkin_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Sandveil — Burrowkin'
+shared/unsorted/EK_ART_Sandveil_Sandshaper_USER_v1.png,EK_ART_Sandveil_Sandshaper_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Sandveil — Sandshaper'
+shared/unsorted/EK_ART_Sandveil_Sandshield_USER_v1.png,EK_ART_Sandveil_Sandshield_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Sandveil — Sandshield'
+shared/unsorted/EK_ART_Savarn_USER_v1.jpg,EK_ART_Savarn_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Savarn'
+shared/unsorted/EK_ART_Seahorse_USER_v1.png,EK_ART_Seahorse_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Seahorse'
+shared/unsorted/EK_ART_Seravu_USER_v1.png,EK_ART_Seravu_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Seravu'
+shared/unsorted/EK_ART_Shardrax_USER_v1.png,EK_ART_Shardrax_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Shardrax'
+shared/unsorted/EK_ART_ShimmerForm_Archetype_USER_v1.png,EK_ART_ShimmerForm_Archetype_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'ShimmerForm_Archetype'
+shared/unsorted/EK_ART_ShimmerForms_4_USER_v1.png,EK_ART_ShimmerForms_4_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'ShimmerForms_4'
+shared/unsorted/EK_ART_Shroom_USER_v1.png,EK_ART_Shroom_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Shroom'
+shared/unsorted/EK_ART_Silvanthris_USER_v1.jpg,EK_ART_Silvanthris_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Silvanthris'
+shared/unsorted/EK_ART_Silvanya_USER_v1.png,EK_ART_Silvanya_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Silvanya'
+shared/unsorted/EK_ART_Silvatrill_RENDER_v2.jpg,EK_ART_Silvatrill_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Silvatrill_RENDER'
+shared/unsorted/EK_ART_Silvatrill_USER_v1.jpg,EK_ART_Silvatrill_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Silvatrill'
+shared/unsorted/EK_ART_SkyGuardian_CONCEPT_v1.png,EK_ART_SkyGuardian_CONCEPT_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'SkyGuardian'
+shared/unsorted/EK_ART_Skycrest_USER_v1.png,EK_ART_Skycrest_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Skycrest'
+shared/unsorted/EK_ART_Skyspark_USER_v1.jpg,EK_ART_Skyspark_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Skyspark'
+shared/unsorted/EK_ART_SlymThicke_Gelform_USER_v1.png,EK_ART_SlymThicke_Gelform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'SlymThicke_Gelform'
+shared/unsorted/EK_ART_SlymThicke_RENDER_v2.png,EK_ART_SlymThicke_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'SLYM THICKE'"
+shared/unsorted/EK_ART_SlymThicke_Slimeform_USER_v1.png,EK_ART_SlymThicke_Slimeform_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'SlymThicke_Slimeform'
+shared/unsorted/EK_ART_SlymThicke_USER_v1.png,EK_ART_SlymThicke_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'SLYM THICKE'"
+shared/unsorted/EK_ART_SnowBird_Doll_USER_v1.png,EK_ART_SnowBird_Doll_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'SnowBird_Doll'
+shared/unsorted/EK_ART_Solar_Lioness_Warrior_UNNAMED_USER_v1.png,EK_ART_Solar_Lioness_Warrior_UNNAMED_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed solar lioness warrior)'
+shared/unsorted/EK_ART_Solareign_USER_v1.png,EK_ART_Solareign_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Solareign'
+shared/unsorted/EK_ART_Solarion_CARD_v1.jpg,EK_ART_Solarion_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Solarion_CARD'
+shared/unsorted/EK_ART_Solarion_RENDER_v2.jpg,EK_ART_Solarion_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Solarion_RENDER'
+shared/unsorted/EK_ART_Solcarion_USER_v1.png,EK_ART_Solcarion_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Solcarion'
+shared/unsorted/EK_ART_Solcub_USER_v1.png,EK_ART_Solcub_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Solcub'
+shared/unsorted/EK_ART_Solmorra_SunHorror_USER_v1.png,EK_ART_Solmorra_SunHorror_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Solmorra — Sun Horror'
+shared/unsorted/EK_ART_Sparkyle_v1.jpg,EK_ART_Sparkyle_v1.jpg,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Sparkyle'"
+shared/unsorted/EK_ART_Spiralshell_USER_v1.png,EK_ART_Spiralshell_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Spiralshell'
+shared/unsorted/EK_ART_Sporevank_USER_v1.jpg,EK_ART_Sporevank_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Sporevank'
+shared/unsorted/EK_ART_StarfishBoxer_unnamed_v1.jpg,EK_ART_StarfishBoxer_unnamed_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed starfish boxer)'
+shared/unsorted/EK_ART_Steinherd_USER_v1.jpg,EK_ART_Steinherd_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Steinherd'
+shared/unsorted/EK_ART_StingWreck_RENDER_v2.png,EK_ART_StingWreck_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'Sting Wreck'"
+shared/unsorted/EK_ART_StingWreck_USER_v1.png,EK_ART_StingWreck_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Sting Wreck'"
+shared/unsorted/EK_ART_Stonehorn_USER_v1.png,EK_ART_Stonehorn_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Stonehorn'
+shared/unsorted/EK_ART_Stratovine_USER_v1.jpg,EK_ART_Stratovine_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Stratovine'
+shared/unsorted/EK_ART_SunseTa_USER_v1.png,EK_ART_SunseTa_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'SunseTa'
+shared/unsorted/EK_ART_Swamphage_USER_v1.jpg,EK_ART_Swamphage_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Swamphage'
+shared/unsorted/EK_ART_Swamps_RENDER_BogTitan_v1.png,EK_ART_Swamps_RENDER_BogTitan_v1.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Swamps_RENDER_BogTitan'
+shared/unsorted/EK_ART_Swamps_RENDER_Mossy_v1.png,EK_ART_Swamps_RENDER_Mossy_v1.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Swamps_RENDER_Mossy'
+shared/unsorted/EK_ART_Swamps_RENDER_v2.png,EK_ART_Swamps_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'Swamps'"
+shared/unsorted/EK_ART_Swamps_USER_v1.png,EK_ART_Swamps_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Swamps'"
+shared/unsorted/EK_ART_Swan_USER_v1.png,EK_ART_Swan_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Swan'"
+shared/unsorted/EK_ART_Sylvarune_USER_v1.png,EK_ART_Sylvarune_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Sylvarune'
+shared/unsorted/EK_ART_Sylvornis_USER_v1.jpg,EK_ART_Sylvornis_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Sylvornis'
+shared/unsorted/EK_ART_Tazhir_USER_v2.png,EK_ART_Tazhir_USER_v2.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Tazhir'
+shared/unsorted/EK_ART_Terranox_USER_v1.jpg,EK_ART_Terranox_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Terranox'
+shared/unsorted/EK_ART_Terravon_USER_v1.jpg,EK_ART_Terravon_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Terravon'
+shared/unsorted/EK_ART_Terravox_v2.jpg,EK_ART_Terravox_v2.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Terravox — The Earthsong Protector'
+shared/unsorted/EK_ART_TexRex_USER_v1.png,EK_ART_TexRex_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Tex Rex'"
+shared/unsorted/EK_ART_Thalasshelon_RENDER_v2.jpg,EK_ART_Thalasshelon_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Thalasshelon_RENDER'
+shared/unsorted/EK_ART_Thalasshelon_USER_v1.jpg,EK_ART_Thalasshelon_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thalasshelon'
+shared/unsorted/EK_ART_Thalvorin_RENDER_v2.jpg,EK_ART_Thalvorin_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Thalvorin_RENDER'
+shared/unsorted/EK_ART_Thalvorin_USER_v1.jpg,EK_ART_Thalvorin_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thalvorin'
+shared/unsorted/EK_ART_Thermavine_USER_v1.jpg,EK_ART_Thermavine_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thermavine'
+shared/unsorted/EK_ART_Thermivorx_CARD_v1.jpg,EK_ART_Thermivorx_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thermivorx_CARD'
+shared/unsorted/EK_ART_Thermivorx_USER_v1.png,EK_ART_Thermivorx_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thermivorx'
+shared/unsorted/EK_ART_Thingamajig_USER_v1.png,EK_ART_Thingamajig_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Thingamajig'"
+shared/unsorted/EK_ART_Thornfeline_unnamed_v1.jpg,EK_ART_Thornfeline_unnamed_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed thorn feline)'
+shared/unsorted/EK_ART_Thornursa_USER_v1.png,EK_ART_Thornursa_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thornursa'
+shared/unsorted/EK_ART_Thunderbloom_CARD_v1.jpg,EK_ART_Thunderbloom_CARD_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thunderbloom_CARD'
+shared/unsorted/EK_ART_Thunderbloom_RENDER_v2.jpg,EK_ART_Thunderbloom_RENDER_v2.jpg,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Thunderbloom_RENDER'
+shared/unsorted/EK_ART_Thunderbloom_USER_v1.png,EK_ART_Thunderbloom_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thunderbloom'
+shared/unsorted/EK_ART_Thunderhoof_v1.jpg,EK_ART_Thunderhoof_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thunderhoof'
+shared/unsorted/EK_ART_Thundhoof_v1.jpg,EK_ART_Thundhoof_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Thundhoof'
+shared/unsorted/EK_ART_Tidalshell_Seaform_RENDER_v1.png,EK_ART_Tidalshell_Seaform_RENDER_v1.png,,,render,filed,all,manifest,depicted name not in registry/ledger: 'Tidalshell_Seaform_RENDER'
+shared/unsorted/EK_ART_Tidalshell_USER_v1.png,EK_ART_Tidalshell_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Tidalshell'
+shared/unsorted/EK_ART_Tidelith_USER_v1.jpg,EK_ART_Tidelith_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Tidelith'
+shared/unsorted/EK_ART_Tidemora_USER_v1.jpg,EK_ART_Tidemora_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Tidemora'
+shared/unsorted/EK_ART_Tigress_RENDER_v2.png,EK_ART_Tigress_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'Tigress'"
+shared/unsorted/EK_ART_Tigress_USER_v1.png,EK_ART_Tigress_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Tigress'"
+shared/unsorted/EK_ART_Tillusk_USER_v1.png,EK_ART_Tillusk_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Tillusk'
+shared/unsorted/EK_ART_Totemflare_Galecrest_USER_v1.png,EK_ART_Totemflare_Galecrest_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Totemflare — Galecrest'
+shared/unsorted/EK_ART_Totemflare_RainforestStrider_USER_v1.png,EK_ART_Totemflare_RainforestStrider_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Totemflare — Rainforest Strider'
+shared/unsorted/EK_ART_Totemflare_Stormbringer_USER_v1.png,EK_ART_Totemflare_Stormbringer_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Totemflare — Stormbringer'
+shared/unsorted/EK_ART_Toucan_TV_Screen_REF_v1.jpg,EK_ART_Toucan_TV_Screen_REF_v1.jpg,,,base,Reference-Inspiration Only,all,manifest,depicted name not in registry/ledger: '(real toucan)'
+shared/unsorted/EK_ART_Trex_USER_v1.png,EK_ART_Trex_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'T-Rex'"
+shared/unsorted/EK_ART_TwilightTricker_USER_v1.png,EK_ART_TwilightTricker_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Twilight-Tricker'"
+shared/unsorted/EK_ART_Uldevan_USER_v2.png,EK_ART_Uldevan_USER_v2.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Uldevan'
+shared/unsorted/EK_ART_Umbrapaw_v1.jpg,EK_ART_Umbrapaw_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Umbrapaw'
+shared/unsorted/EK_ART_Umbraquill_USER_v1.png,EK_ART_Umbraquill_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Umbraquill'
+shared/unsorted/EK_ART_Uniquecorn_USER_v1.png,EK_ART_Uniquecorn_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Uniquecorn'
+shared/unsorted/EK_ART_Velorune_USER_v1.png,EK_ART_Velorune_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Velorune'
+shared/unsorted/EK_ART_Velumi_USER_v1.png,EK_ART_Velumi_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Velumi'
+shared/unsorted/EK_ART_Verdalith_USER_v1.png,EK_ART_Verdalith_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdalith'
+shared/unsorted/EK_ART_Verdanelle_USER_v1.png,EK_ART_Verdanelle_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdanelle'
+shared/unsorted/EK_ART_Verdantitan_USER_v1.png,EK_ART_Verdantitan_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdantor (Verdantitan Titan Form)'
+shared/unsorted/EK_ART_Verdantor_USER_v1.jpg,EK_ART_Verdantor_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdantor'
+shared/unsorted/EK_ART_Verdantor_USER_v1.png,EK_ART_Verdantor_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdantor'
+shared/unsorted/EK_ART_Verdantyr_USER_v1.png,EK_ART_Verdantyr_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdantyr'
+shared/unsorted/EK_ART_Verdara_Seedling_USER_v1.png,EK_ART_Verdara_Seedling_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Verdara — Seedling'
+shared/unsorted/EK_ART_Veridell_USER_v1.jpg,EK_ART_Veridell_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridell'
+shared/unsorted/EK_ART_Veridium_USER_v1.jpg,EK_ART_Veridium_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridium'
+shared/unsorted/EK_ART_Veridrach_USER_v1.jpg,EK_ART_Veridrach_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridrach'
+shared/unsorted/EK_ART_Veridran_AridForm_v1.jpg,EK_ART_Veridran_AridForm_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridran — Arid Form (The Oasis Steward)'
+shared/unsorted/EK_ART_Veridran_Oasis_USER_v1.jpg,EK_ART_Veridran_Oasis_USER_v1.jpg,,,base,superseded,all,manifest,depicted name not in registry/ledger: 'Veridran (The Oasis Steward)'
+shared/unsorted/EK_ART_Veridran_Rainforest_USER_v1.jpg,EK_ART_Veridran_Rainforest_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridran — Verdant Form (The Living Rainforest)'
+shared/unsorted/EK_ART_Veridrex_USER_v1.jpg,EK_ART_Veridrex_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridrex'
+shared/unsorted/EK_ART_Veridrift_USER_v1.jpg,EK_ART_Veridrift_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Veridrift'
+shared/unsorted/EK_ART_VolcanoDragon_UNNAMED_v1.png,EK_ART_VolcanoDragon_UNNAMED_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Unnamed volcano dragon'
+shared/unsorted/EK_ART_Vorakhet_USER_v1.png,EK_ART_Vorakhet_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Vorakhet'
+shared/unsorted/EK_ART_Whatchamcallit_USER_v1.png,EK_ART_Whatchamcallit_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Whatchamcallit'
+shared/unsorted/EK_ART_Whisperlop_USER_v1.png,EK_ART_Whisperlop_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Whisperlop'
+shared/unsorted/EK_ART_WhiteGlider_unnamed_v1.jpg,EK_ART_WhiteGlider_unnamed_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: '(unnamed white glider)'
+shared/unsorted/EK_ART_WhiteTiger_RENDER_v2.png,EK_ART_WhiteTiger_RENDER_v2.png,,,render,filed,all,manifest,"known name, no Dex number assigned: 'White Tiger'"
+shared/unsorted/EK_ART_WhiteTiger_USER_v1.png,EK_ART_WhiteTiger_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'White Tiger'"
+shared/unsorted/EK_ART_Yolk_USER_v1.png,EK_ART_Yolk_USER_v1.png,,,base,filed,all,manifest,"known name, no Dex number assigned: 'Yolk'"
+shared/unsorted/EK_ART_Zangoro_Seedling_USER_v1.png,EK_ART_Zangoro_Seedling_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zangoro — Seedling'
+shared/unsorted/EK_ART_Zangoro_Surge_USER_v1.png,EK_ART_Zangoro_Surge_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zangoro — Surge'
+shared/unsorted/EK_ART_Zangoro_Tempest_USER_v1.png,EK_ART_Zangoro_Tempest_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zangoro — Tempest'
+shared/unsorted/EK_ART_Zaphyren_USER_v1.jpg,EK_ART_Zaphyren_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zaphyren'
+shared/unsorted/EK_ART_Zarivun_USER_v1.jpg,EK_ART_Zarivun_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zarivun'
+shared/unsorted/EK_ART_Zephira_USER_v1.png,EK_ART_Zephira_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zephira'
+shared/unsorted/EK_ART_Zhyrinel_USER_v1.jpg,EK_ART_Zhyrinel_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zhyrinel'
+shared/unsorted/EK_ART_ZuriStripe_GlitchTigris_USER_v1.png,EK_ART_ZuriStripe_GlitchTigris_USER_v1.png,,,base,superseded,all,manifest,depicted name not in registry/ledger: 'ZuriStripe — Glitch-Tigris (ORIGINAL)'
+shared/unsorted/EK_ART_ZuriStripe_GlitchTigris_v1.jpg,EK_ART_ZuriStripe_GlitchTigris_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'ZuriStripe — Glitch-Tigris'
+shared/unsorted/EK_ART_ZuriStripe_Prowlguard_USER_v1.png,EK_ART_ZuriStripe_Prowlguard_USER_v1.png,,,base,superseded,all,manifest,depicted name not in registry/ledger: 'ZuriStripe — Prowlguard (ORIGINAL)'
+shared/unsorted/EK_ART_ZuriStripe_Prowlguard_v1.jpg,EK_ART_ZuriStripe_Prowlguard_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'ZuriStripe — Prowlguard'
+shared/unsorted/EK_ART_ZuriStripe_SunclawMatriarch_v1.jpg,EK_ART_ZuriStripe_SunclawMatriarch_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'ZuriStripe — Sunclaw Matriarch'
+shared/unsorted/EK_ART_ZuriStripe_Sunclaw_Matriarch_USER_v1.png,EK_ART_ZuriStripe_Sunclaw_Matriarch_USER_v1.png,,,base,superseded,all,manifest,depicted name not in registry/ledger: 'ZuriStripe — Sunclaw Matriarch (ORIGINAL)'
+shared/unsorted/EK_ART_ZuriStripe_USER_v1.png,EK_ART_ZuriStripe_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'ZuriStripe (base)'
+shared/unsorted/EK_ART_Zyranix_USER_v1.jpg,EK_ART_Zyranix_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zyranix'
+shared/unsorted/EK_ART_Zyravine_USER_v1.jpg,EK_ART_Zyravine_USER_v1.jpg,,,base,filed,all,manifest,depicted name not in registry/ledger: 'Zyravine'
+shared/unsorted/EK_DIAGRAM_MothTransformationTree_v1.png,EK_DIAGRAM_MothTransformationTree_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_DIAGRAM_MothTransformationTree'
+shared/unsorted/EK_REF_ArmoredBeastKinBoard_USER_v1.png,EK_REF_ArmoredBeastKinBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_ArmoredBeastKinBoard'
+shared/unsorted/EK_REF_FrostPolarKinBoard_USER_v1.png,EK_REF_FrostPolarKinBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_FrostPolarKinBoard'
+shared/unsorted/EK_REF_HeroesSeraphsSentinelsBoard_USER_v1.png,EK_REF_HeroesSeraphsSentinelsBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_HeroesSeraphsSentinelsBoard'
+shared/unsorted/EK_REF_HuntersScoutsGuardiansBoard_USER_v1.png,EK_REF_HuntersScoutsGuardiansBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_HuntersScoutsGuardiansBoard'
+shared/unsorted/EK_REF_LockedCanonEcotypesClans_USER_v1.png,EK_REF_LockedCanonEcotypesClans_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_LockedCanonEcotypesClans'
+shared/unsorted/EK_REF_LockedCanonMasterRoster_USER_v1.png,EK_REF_LockedCanonMasterRoster_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_LockedCanonMasterRoster'
+shared/unsorted/EK_REF_PrimeGuardianTitans_USER_v1.png,EK_REF_PrimeGuardianTitans_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_PrimeGuardianTitans'
+shared/unsorted/EK_REF_RosterEcotypeFoundationBoard_USER_v1.png,EK_REF_RosterEcotypeFoundationBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_RosterEcotypeFoundationBoard'
+shared/unsorted/EK_REF_RoyalCourtBoard_USER_v1.png,EK_REF_RoyalCourtBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_RoyalCourtBoard'
+shared/unsorted/EK_REF_SpecialtyKinDivineBoard_USER_v1.png,EK_REF_SpecialtyKinDivineBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_SpecialtyKinDivineBoard'
+shared/unsorted/EK_REF_VerdianWildsBoard_USER_v1.png,EK_REF_VerdianWildsBoard_USER_v1.png,,,base,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_VerdianWildsBoard'
+shared/unsorted/EK_REF_WildsCollageBoard_USER_v1.png,EK_REF_WildsCollageBoard_USER_v1.png,,,group,filed,all,manifest,depicted name not in registry/ledger: 'EK_REF_WildsCollageBoard'
+shared/unsorted/media-generation-ek-art-boneybone-midnightencore-v1-1791223682.json,media-generation-ek-art-boneybone-midnightencore-v1-1791223682.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'boneybone-midnightencore'
+shared/unsorted/media-generation-ek-art-jordane-divineascendant-v1-1791224286.json,media-generation-ek-art-jordane-divineascendant-v1-1791224286.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'jordane-divineascendant'
+shared/unsorted/media-generation-ek-art-radianttyphoon-boss-skyscorch-v1-1791853577.json,media-generation-ek-art-radianttyphoon-boss-skyscorch-v1-1791853577.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'radianttyphoon'
+shared/unsorted/media-generation-ek-art-vorakhet-boss-v1-1791853581.json,media-generation-ek-art-vorakhet-boss-v1-1791853581.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'vorakhet'
+shared/unsorted/media-generation-ek-art-zuristripe-glitchtigris-v1-1791223101.json,media-generation-ek-art-zuristripe-glitchtigris-v1-1791223101.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'zuristripe-glitchtigris'
+shared/unsorted/media-generation-ek-art-zuristripe-prowlguard-v1-1791223079.json,media-generation-ek-art-zuristripe-prowlguard-v1-1791223079.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'zuristripe-prowlguard'
+shared/unsorted/media-generation-ek-art-zuristripe-sunclawmatriarch-v1-1791223077.json,media-generation-ek-art-zuristripe-sunclawmatriarch-v1-1791223077.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'zuristripe-sunclawmatriarch'
+shared/unsorted/media-generation-last-upload-handles.json,media-generation-last-upload-handles.json,,,sidecar,unmanifested,all,filename-derived,name not in registry/ledger: 'media-generation-last-upload-handles'
