@@ -33,25 +33,25 @@ inline std::vector<Definition> BuildRegistry() {
             m.title = title; m.objective = objective; m.status = Status::Draft; return;
         }
     };
-    draft(Category::Chronicle,1,"The First Pulse","Awaken Echoheart and select foundational companion; reconcile Spark terminology");
-    draft(Category::Chronicle,2,"Outlining the Wild Grids","Survey three unstable zones and place three pylons");
-    draft(Category::Chronicle,3,"The Royale Ingress","Register for an arena trial and complete introductory synchronization clash");
-    draft(Category::Chronicle,4,"Hotel Prime Investigations","Locate and dispel the fourth-floor distortion; location provisional");
+    draft(Category::Chronicle,1,"The First Pulse","Awaken the Echoheart and take Piplin as first Kindling");
+    draft(Category::Chronicle,2,"Outlining the Wilds","Survey three unstable zones and place three pylons");
+    draft(Category::Chronicle,3,"The Circuit Ingress","Register for a Duel Circuit trial and complete an introductory duel");
+    draft(Category::Chronicle,4,"The Waystation Investigations","Locate and dispel the fourth-floor distortion");
     draft(Category::Chronicle,5,"Securing the Outskirts","Purify the Zone 3 perimeter threat");
-    draft(Category::Chronicle,9,"Unlocking the Transcendence Ring","Solve refraction puzzle and confront archive guardian; artifact provisional");
-    draft(Category::Chronicle,15,"The Rogue Transcendent Threat","Track and pacify unstable entity");
-    draft(Category::Chronicle,25,"Purifying the Central Core","Escort cleansing device; shield integrity must remain above 40 percent");
-    draft(Category::Chronicle,35,"Climbing the Tournament Ranks","Complete five consecutive arena challenges");
-    draft(Category::Chronicle,36,"The Prism Spire Siege","Defend energy conduit for three waves");
-    draft(Category::Chronicle,40,"Binding the Prime Archons","Resolve dual-force encounter through Binding; entities provisional");
-    draft(Category::Chronicle,42,"The Infinite Inception","Resolve final encounter and unlock postgame bracket");
+    draft(Category::Chronicle,9,"Unlocking the Resonance Ring","Solve the refraction puzzle and face the archive guardian");
+    draft(Category::Chronicle,15,"The Rogue Fractured Threat","Track and purify a fractured entity");
+    draft(Category::Chronicle,25,"Purifying the Heartroot Node","Escort cleansing device; shield integrity must remain above 40 percent");
+    draft(Category::Chronicle,35,"Climbing the Tournament Ranks","Complete five consecutive Duel Circuit challenges");
+    draft(Category::Chronicle,36,"The Prism Spire Siege","Defend the resonance conduit for three waves");
+    draft(Category::Chronicle,40,"Binding the Prime Guardians","Resolve a dual-force encounter through Binding");
+    draft(Category::Chronicle,42,"The Restoration Era","Resolve the final encounter and open the Restoration Era");
     draft(Category::Anomaly,1,"Distant Echoes","Scan fracture and trace acoustic frequency");
-    draft(Category::Anomaly,7,"Lost In Time","Navigate inverted-gravity environment and retrieve keycard");
+    draft(Category::Anomaly,7,"Lost In Time","Navigate an inverted-gravity environment and retrieve the lost survey recorder");
     draft(Category::Anomaly,14,"The Final Rift","Complete final fracture encounter for cosmetics");
-    draft(Category::Eddy,12,"Spark Catalyst Procurement","Collect five shards and deliver to craftsperson; reward requires canon review");
+    draft(Category::Eddy,12,"Catalyst Procurement","Collect five Catalyst shards and deliver them to the Artificer");
     draft(Category::Eddy,45,"The Luminescent Tracker","Safely locate and Bind rare glowing Eco-Kin variant; identity requires Dex review");
     draft(Category::Eddy,199,"The Grand Finale Trials","Complete Eddies 1 through 198 before endurance challenge");
-    draft(Category::Eddy,200,"Absolute Inception","Secret finale unlocked by all Chronicles, Anomalies and Eddies 1-199");
+    draft(Category::Eddy,200,"The Sovereign Cadence","Secret finale unlocked by all Chronicles, Anomalies and Eddies 1-199");
     return result;
 }
 class Progress {
