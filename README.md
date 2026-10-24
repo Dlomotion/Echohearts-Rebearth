@@ -39,3 +39,7 @@ This public repository is the authority for **canon, story, world, systems, the 
 The executable Unreal Engine 5.8 runtime/build/evidence authority is **`Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`**. Active `.uproject`, `Source/`, compiler/build/package drivers, UE CI, and retained runtime evidence belong there. Historical/bootstrap executable files in this public repository must not become a competing runtime source of truth.
 
 The Echohearts compiler/build driver is maintained in the BUILD repository. Public PR #19 must be split/reconciled before merge so executable implementation is not reintroduced here. PR #20 may carry platform/publication contracts, but runtime claims remain downstream of executed BUILD-repository evidence.
+
+## Bootstrap player-experience goals
+
+The initial workflow's heart statement remains: this world needs me; these Eco-Kin are alive; my choices changed Rebearth. These goals guide restoration, care, and the connected vertical slice. The current source-of-truth chain and BUILD ownership above supersede the bootstrap draft's obsolete target names and folder layout.

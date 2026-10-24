@@ -240,3 +240,47 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## PR #1 routing retained during conflict reconciliation
+
+The current authority chain and production order above govern these branch documents. This routing record does not promote proposal content or runtime evidence. Legacy paths remain historical references rather than replacement folder authority.
+
+- `00_Canon_Lock/CHARACTER_UNIVERSE_SCOPE_LOCK.md`
+- `00_Canon_Lock/CORE_CANON_LOCK.md`
+- `01_Game_Bible/CONNECTED_STORY_SYSTEMS_ACT1_TO_CLOCKSPIRE_INTAKE.md`
+- `01_Game_Bible/FULL_SCALE_STORY_PUBLICATION_INTAKE_2026-09-19.md`
+- `01_Game_Bible/PLAYER_EXPERIENCE_PILLARS.md`
+- `02_EcoKin_Dex/AQUATIC_CRYSTALLINE_BATCH_CANON_INTAKE.md`
+- `02_EcoKin_Dex/HISTORICAL_BATCH_INTAKE_MANIFEST_2026-09-19.md`
+- `02_EcoKin_Dex/HISTORICAL_BATCH_REVIEW_TEMPLATE.md`
+- `02_EcoKin_Dex/LEONIX_CANON_INTEGRATION.md`
+- `02_EcoKin_Dex/PUPULAR_CHAOS_WOOF_CANON_INTEGRATION.md`
+- `02_EcoKin_Dex/RESONANCE_KIT_SHARD_ARC_CANON_INTAKE.md`
+- `03_Story_Missions/FIRST_BLIGHT_SIEGE_NEON_SEA_AEVORYN_RECONCILIATION.md`
+- `04_Systems/MINIGAME_PRODUCTION_TRACK.md`
+- `04_Systems/RESONANCE_SHARD_ARC_ADAPTATION_SYSTEM.md`
+- `06_UI_UX/AEGIS_QUICK_WHEEL_SPEC.md`
+- `07_Art_Animation/AQUATIC_CRYSTALLINE_REFERENCE_SHEET_QA.md`
+- `07_Art_Animation/FRANCHISE_CHARACTER_VISUAL_TARGET_AND_QA.md`
+- `07_Art_Animation/HISTORICAL_BATCH_ART_RECOVERY_QUEUE.md`
+- `07_Art_Animation/LEONIX_VISUAL_REFERENCE_AND_QA.md`
+- `07_Art_Animation/PUPULAR_VISUAL_REFERENCE_AND_QA.md`
+- `08_Technical/BCT-001_BUILDING_CRAFTING_TRANSACTION_CONTRACT.md`
+- `08_Technical/CHAT_CODE_INTAKE_AUDIT_2026-09-19.md`
+- `08_Technical/LEGACY_PARTS_215_255_CODE_AUDIT_2026-09-19.md`
+- `08_Technical/UNITY_PROTOTYPE_INTAKE_AUDIT_2026-09-19.md`
+- `08_Technical/UNREAL_RENDERING_INTEGRATION_PLAN.md`
+- `09_QA_Playtests/PLAYER_SATISFACTION_RUBRIC.md`
+- `11_Daily_Assignments/CHARACTER_UNIVERSE_INTAKE_ASSIGNMENTS.md`
+- `11_Daily_Assignments/CONNECTED_STORY_SYSTEMS_ASSIGNMENTS.md`
+- `11_Daily_Assignments/ECHOHEARTS_DAILY_ASSIGNMENT_BOARD.md`
+- `11_Daily_Assignments/FULL_STORY_RECONCILIATION_ASSIGNMENTS.md`
+- `11_Daily_Assignments/HISTORICAL_ECOKIN_BATCH_RECONCILIATION_PLAN.md`
+- `11_Daily_Assignments/LEGACY_PARTS_215_255_HARDENING_ASSIGNMENTS.md`
+- `11_Daily_Assignments/RESONANCE_KIT_SHARD_ARC_ASSIGNMENTS.md`
+- `99_Reference_Retired_Needs_Redesign/CHAOS_WOOF_LEGACY_PROPOSAL.md`
+- `99_Reference_Retired_Needs_Redesign/CONNECTED_STORY_SYSTEMS_LEGACY_TERM_AUDIT.md`
+- `99_Reference_Retired_Needs_Redesign/ECO_KIN_BATCH_COLLISION_AND_LEGACY_AUDIT.md`
+- `99_Reference_Retired_Needs_Redesign/LEONIX_LEGACY_CARD_PROPOSALS.md`
+- `99_Reference_Retired_Needs_Redesign/RESONANCE_MUTATION_LEGACY_NAME_AND_SYSTEM_AUDIT.md`
+- `README.md`
