@@ -39,3 +39,11 @@ Before editing, read `MASTER_PROJECT_INDEX.md`, the nearest source-of-truth docu
 - If retained after review, habitat morphology must use stable base identity plus an explicit mutually-exclusive morphology state, typed Essence/interaction references, Vibrance/Density/Harmony/Purity only, deterministic validation, versioned save migration, server authority, Anima-Link consequences, and reversible failure handling. Surface overlays must remain cosmetic unless an approved gameplay contract says otherwise.
 - Implementation order: approve the data contract/schema first; then validators and fixtures; then C++/DataAsset or DataTable integration; then versioned serialization; finally UE5.8 compile, Editor, PIE, networking, save/load/rollback, cook/package, and performance evidence.
 - COBOL and BASIC remain optional isolated legacy utilities for deterministic conversion, validation, or reporting with pinned compilers and tests. They must not own UE gameplay/runtime, Fab import, MetaHuman, rendering, replication, save, packaging, or web production responsibilities.
+
+## Originality firewall (consolidated 2026-10-15 from PR #21)
+
+Outside games, franchises, creature databases, commercial maps, videos, public repositories and AI-agent experiments are benchmark/reference material only. Never ingest their proper nouns, lore, creatures, maps, quests, progression labels, protected assets, code or proprietary implementations as Echohearts canon. Extract abstract lessons and rebuild them as original Rebearth systems. Quarantine derivative/contaminated drafts under the existing retired/redesign reference lane rather than silently normalizing them.
+
+## Engine baseline — UE 5.8.3 lock (2026-10-15, Tay's decision)
+
+Build target is Unreal Engine 5.8.3 exactly. Do not assume newer hotfixes or 5.9+ APIs when generating or repairing code. Avoid: Mover, UAF/AnimNext, Offset Root Bone, Foot Placement nodes, MetaHuman Collections, Nanite skinned meshes.
