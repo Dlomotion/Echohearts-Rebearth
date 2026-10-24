@@ -1,0 +1,35 @@
+asset_id,name,category,filename,relative_path,intended_blueprint,status,notes
+WALL-001,Sanctuary Wood Wall,walls,ASSET_Wall_SanctuaryWood_v1.jpg,walls/ASSET_Wall_SanctuaryWood_v1.jpg,BP_Wall_SanctuaryWood,CONCEPT,"Warm wooden plank wall, carved leaf motifs, brass trim. Flat front-on swatch."
+WALL-002,Stone Hearth Wall,walls,ASSET_Wall_StoneHearth_v1.jpg,walls/ASSET_Wall_StoneHearth_v1.jpg,BP_Wall_StoneHearth,CONCEPT,Smooth river-stone wall with moss in the seams.
+WALL-003,Crystal Vein Wall,walls,ASSET_Wall_CrystalVein_v1.jpg,walls/ASSET_Wall_CrystalVein_v1.jpg,BP_Wall_CrystalVein,CONCEPT,Dark stone wall veined with glowing blue crystals.
+WALL-004,Bamboo Grove Wall,walls,ASSET_Wall_BambooGrove_v1.jpg,walls/ASSET_Wall_BambooGrove_v1.jpg,BP_Wall_BambooGrove,CONCEPT,Vertical bamboo slat wall with hanging vines.
+WALL-005,Aegis Steel Wall,walls,ASSET_Wall_AegisSteel_v1.jpg,walls/ASSET_Wall_AegisSteel_v1.jpg,BP_Wall_AegisSteel,CONCEPT,"Brushed ancient-tech metal panels, faint circuit inlays."
+WALL-006,Living Moss Wall,walls,ASSET_Wall_LivingMoss_v1.jpg,walls/ASSET_Wall_LivingMoss_v1.jpg,BP_Wall_LivingMoss,CONCEPT,"Living wall of layered moss, ferns and small blooms."
+WALL-007,Glaze Ice Wall,walls,ASSET_Wall_GlazeIce_v1.jpg,walls/ASSET_Wall_GlazeIce_v1.jpg,BP_Wall_GlazeIce,CONCEPT,Pale frosted wall with ice-crystal lattice patterns.
+WALL-008,Pyre Ember Wall,walls,ASSET_Wall_PyreEmber_v1.jpg,walls/ASSET_Wall_PyreEmber_v1.jpg,BP_Wall_PyreEmber,CONCEPT,Dark basalt wall with glowing ember cracks.
+FURN-001,Canopy Bed,furniture,ASSET_Furniture_CanopyBed_v1.jpg,furniture/ASSET_Furniture_CanopyBed_v1.jpg,DT_Furniture,CONCEPT,Wooden canopy bed with leaf-green bedding.
+FURN-002,Round Table,furniture,ASSET_Furniture_RoundTable_v1.jpg,furniture/ASSET_Furniture_RoundTable_v1.jpg,DT_Furniture,CONCEPT,Round wooden table with carved edge.
+FURN-003,Chair Pair,furniture,ASSET_Furniture_ChairPair_v1.jpg,furniture/ASSET_Furniture_ChairPair_v1.jpg,DT_Furniture,CONCEPT,Two matching wooden chairs with woven seats.
+FURN-004,Bookshelf,furniture,ASSET_Furniture_Bookshelf_v1.jpg,furniture/ASSET_Furniture_Bookshelf_v1.jpg,DT_Furniture,CONCEPT,Tall wooden bookshelf with glowing books.
+FURN-005,Aegis Console,furniture,ASSET_Furniture_AegisConsole_v1.jpg,furniture/ASSET_Furniture_AegisConsole_v1.jpg,DT_Furniture,CONCEPT,Ancient-tech desk console with holographic display.
+FURN-006,Planter Box,furniture,ASSET_Furniture_PlanterBox_v1.jpg,furniture/ASSET_Furniture_PlanterBox_v1.jpg,DT_Furniture,CONCEPT,Raised garden planter box with young sprouts. Restoration Farming tie-in.
+FURN-007,Moss Couch,furniture,ASSET_Furniture_MossCouch_v1.jpg,furniture/ASSET_Furniture_MossCouch_v1.jpg,DT_Furniture,CONCEPT,Curved couch with moss-green cushions.
+FURN-008,Star Rug,furniture,ASSET_Furniture_StarRug_v1.jpg,furniture/ASSET_Furniture_StarRug_v1.jpg,DT_Furniture,CONCEPT,Round woven rug with star compass pattern.
+FURN-009,Crystal Lamp,furniture,ASSET_Furniture_CrystalLamp_v1.jpg,furniture/ASSET_Furniture_CrystalLamp_v1.jpg,DT_Furniture,CONCEPT,Standing lamp with glowing crystal shade.
+FURN-010,Storage Chest,furniture,ASSET_Furniture_StorageChest_v1.jpg,furniture/ASSET_Furniture_StorageChest_v1.jpg,DT_Furniture,CONCEPT,Carved wooden storage chest with brass bands.
+ACC-001,Leaf Scarf,accessories,ASSET_Accessory_LeafScarf_v1.jpg,accessories/ASSET_Accessory_LeafScarf_v1.jpg,DT_Accessory,CONCEPT,Flowing leaf-patterned scarf for an EcoKin.
+ACC-002,Trail Saddle,accessories,ASSET_Accessory_TrailSaddle_v1.jpg,accessories/ASSET_Accessory_TrailSaddle_v1.jpg,DT_Accessory,CONCEPT,Leather riding saddle with crystal studs.
+ACC-003,Resonance Collar,accessories,ASSET_Accessory_ResonanceCollar_v1.jpg,accessories/ASSET_Accessory_ResonanceCollar_v1.jpg,DT_Accessory,CONCEPT,Collar with a small glowing resonance gem.
+ACC-004,Explorer Hat,accessories,ASSET_Accessory_ExplorerHat_v1.jpg,accessories/ASSET_Accessory_ExplorerHat_v1.jpg,DT_Accessory,CONCEPT,Wide-brim explorer hat sized for an EcoKin.
+ACC-005,Travel Pack,accessories,ASSET_Accessory_TravelPack_v1.jpg,accessories/ASSET_Accessory_TravelPack_v1.jpg,DT_Accessory,CONCEPT,Small canvas backpack with bedroll.
+ACC-006,Sun Goggles,accessories,ASSET_Accessory_SunGoggles_v1.jpg,accessories/ASSET_Accessory_SunGoggles_v1.jpg,DT_Accessory,CONCEPT,Brass goggles with amber lenses.
+ACC-007,Wing Charms,accessories,ASSET_Accessory_WingCharms_v1.jpg,accessories/ASSET_Accessory_WingCharms_v1.jpg,DT_Accessory,CONCEPT,Set of small dangling wing charms on a cord.
+ACC-008,Harmony Bell,accessories,ASSET_Accessory_HarmonyBell_v1.jpg,accessories/ASSET_Accessory_HarmonyBell_v1.jpg,DT_Accessory,CONCEPT,Small golden bell on a braided cord.
+COS-001,Explorer Outfit,cosmetics,ASSET_Cosmetic_ExplorerOutfit_v1.jpg,cosmetics/ASSET_Cosmetic_ExplorerOutfit_v1.jpg,DT_Cosmetic,CONCEPT,"Full tamer outfit: khaki explorer coat, boots, satchel. Displayed on invisible form."
+COS-002,Guardian Outfit,cosmetics,ASSET_Cosmetic_GuardianOutfit_v1.jpg,cosmetics/ASSET_Cosmetic_GuardianOutfit_v1.jpg,DT_Cosmetic,CONCEPT,Full tamer outfit: green-gold guardian armor set. Displayed on invisible form.
+COS-003,Scholar Outfit,cosmetics,ASSET_Cosmetic_ScholarOutfit_v1.jpg,cosmetics/ASSET_Cosmetic_ScholarOutfit_v1.jpg,DT_Cosmetic,CONCEPT,Full tamer outfit: scholar robes with star charts. Displayed on invisible form.
+COS-004,Festival Outfit,cosmetics,ASSET_Cosmetic_FestivalOutfit_v1.jpg,cosmetics/ASSET_Cosmetic_FestivalOutfit_v1.jpg,DT_Cosmetic,CONCEPT,Full tamer outfit: bright festival garb with ribbons. Displayed on invisible form.
+COS-005,Floral Pattern,cosmetics,ASSET_Cosmetic_FloralPattern_v1.jpg,cosmetics/ASSET_Cosmetic_FloralPattern_v1.jpg,DT_Cosmetic,CONCEPT,EcoKin fur/feather pattern swatch: blooming floral design.
+COS-006,Ember Pattern,cosmetics,ASSET_Cosmetic_EmberPattern_v1.jpg,cosmetics/ASSET_Cosmetic_EmberPattern_v1.jpg,DT_Cosmetic,CONCEPT,EcoKin pattern swatch: ember and ash swirls.
+COS-007,Frost Pattern,cosmetics,ASSET_Cosmetic_FrostPattern_v1.jpg,cosmetics/ASSET_Cosmetic_FrostPattern_v1.jpg,DT_Cosmetic,CONCEPT,EcoKin pattern swatch: frost fern crystals.
+COS-008,Starlight Pattern,cosmetics,ASSET_Cosmetic_StarlightPattern_v1.jpg,cosmetics/ASSET_Cosmetic_StarlightPattern_v1.jpg,DT_Cosmetic,CONCEPT,EcoKin pattern swatch: night-sky star field.

@@ -1,41 +1,34 @@
-# Echohearts: Rebearth
+# Echohearts Game Asset Pack — Sanctuary Building Set
 
-Official development repository for **Echohearts: Rebearth / Echohearts: Resonance Arena / ECO-KIN’S**.
+**Status:** CONCEPT (all 34 assets). Generated 2026-10-05. Pending Tay's review before any engine import.
 
-This repository uses one source-of-truth workflow. Reposted material is **reconciled, corrected, and routed** into the existing project folders instead of creating duplicate canon, Dexes, GDDs, art pipelines, or code systems.
+## Contents
 
-## Production folders
+| Category | Folder | Count | Purpose |
+|---|---|---|---|
+| Walls | `walls/` | 8 | Sanctuary/home-base wall panels — SanctuaryWood, StoneHearth, CrystalVein, BambooGrove, AegisSteel, LivingMoss, GlazeIce, PyreEmber |
+| Furniture | `furniture/` | 10 | Placeable Sanctuary furniture — canopy bed, round table, chair pair, bookshelf, Aegis console, planter box, moss couch, star rug, crystal lamp, storage chest |
+| Accessories | `accessories/` | 8 | EcoKin wearables/gear — leaf scarf, trail saddle, resonance collar, explorer hat, travel pack, sun goggles, wing charms, harmony bell |
+| Cosmetics | `cosmetics/` | 8 | Tamer outfits (explorer, guardian, scholar, festival) + EcoKin pattern swatches (floral, ember, frost, starlight) |
+| **Total** | | **34** | |
 
-- `00_Canon_Lock` — approved canon rules and protected terminology
-- `01_Story` — main story, chapters, characters, NPC arcs, lore
-- `02_World` — regions, cities, landmarks, habitats, world-state changes
-- `03_EcoKin_Dex` — Eco-Kin registry, biology, named Eco-Kin, intake/review
-- `04_Systems` — bonding, combat, Sanctuary, progression, economy, traversal
-- `05_Levels` — missions, encounters, dungeons, vertical-slice level work
-- `06_UI_UX` — A.E.G.I.S., EcoDex, HUD, accessibility, menus
-- `07_Art` — character/Eco-Kin art briefs, manifests, visual QA
-- `08_Audio` — music, VO, creature audio, resonance/VFX audio direction
-- `09_Technical` — Unreal Engine, C++, Blueprint, networking, saves, testing
-- `10_Production` — backlog, QA, provenance, assignments, intake routing
-- `11_Publication` — approved public-facing story, pitch, marketing, release docs
-- `99_Reference_Retired_Needs_Redesign` — historical drafts, unsafe references, retired names/systems
+## Art direction
 
-## Locked development principles
+- Stylized cozy-fantasy, warm soft lighting, clean readable silhouettes.
+- Nature + ancient-tech crystal motifs, green/gold accents — consistent with Echohearts branding.
+- Walls: flat front-on swatches filling the frame. Items: single item centered on light warm-gray studio background, three-quarter view.
+- All designs are original — no outside-game assets copied.
 
-- Eco-Kin are autonomous sentient partners, not inventory objects or forced labor.
-- Core public stats: **Vibrance, Density, Harmony, Purity**.
-- Main bonding loop: **Observe → Protect → Calm → Kindle → Bond / Release / Defer**.
-- Main campaign combat is real-time; tactical/turn-based play belongs to approved Arena/EchoDeck simulation modes.
-- Incoming art and concepts do not overwrite canon until continuity, originality, anatomy, gameplay, and production review are complete.
-- Code is never labeled compiled, verified, production-ready, secure, or optimized without actual repository/build/test/profile evidence.
+## Files
 
-© 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+- `GAME_ASSET_MANIFEST.csv` — per-asset registry: `asset_id, name, category, filename, relative_path, intended_blueprint, status, notes`.
+- Intended Blueprint/data targets: `BP_Wall_*` actors, `DT_Furniture`, `DT_Accessory`, `DT_Cosmetic` data tables.
 
+## Evidence level
 
-## Repository authority split
+**CONCEPT.** These are source images only. They are NOT imported into Unreal, NOT Blueprint-implemented, and NOT runtime-verified. Import into UE5.8 as textures/sprite assets, then promote through the normal evidence chain (IMPLEMENTED → COMPILED → TESTED → RUNTIME VERIFIED).
 
-This public repository is the authority for **canon, story, world, systems, the 125-ID Permanent Dex, production contracts, publication, and public coordination**.
+## Notes
 
-The executable Unreal Engine 5.8 runtime/build/evidence authority is **`Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`**. Active `.uproject`, `Source/`, compiler/build/package drivers, UE CI, and retained runtime evidence belong there. Historical/bootstrap executable files in this public repository must not become a competing runtime source of truth.
-
-The Echohearts compiler/build driver is maintained in the BUILD repository. Public PR #19 must be split/reconciled before merge so executable implementation is not reintroduced here. PR #20 may carry platform/publication contracts, but runtime claims remain downstream of executed BUILD-repository evidence.
+- Folders also contain small `media-generation-*.json` sidecar files from the generation pipeline (provenance bookkeeping); safe to delete.
+- Filenames follow the `ASSET_<Category>_<Name>_v1.jpg` convention — keep this convention for future packs.
