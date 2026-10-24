@@ -1,0 +1,129 @@
+{
+  "schema_version": "0.1.0-proposal",
+  "record_type": "EcoKinCodexDesignIntake",
+  "project": "Echohearts: Rebearth",
+  "intake_key": "PROPOSAL-OPHANIM-20261010",
+  "approval_status": "SOURCE_CONCEPT_PENDING_CANON_REVIEW",
+  "runtime_verification": "NOT_VERIFIED",
+  "working_name": "Ophanim",
+  "name_review": "Historical/cultural-source name; originality and final publication name must be reviewed",
+  "production_eco_kin_id": null,
+  "echoprint_id": null,
+  "prototype_card_id": "A-001 (historical display label only; NOT an EcoKinID)",
+  "candidate_order": "Proto",
+  "order_approved": false,
+  "classification": "Autonomous Eco-Kin candidate; not a celestial order or device by default",
+  "body_plan_proposal": {
+    "name": "Suspended radial lamella-body",
+    "sensor_vanes": 6,
+    "locomotion": "bounded suspended drift; needs authored contact/altitude constraints",
+    "identity_lock": "six articulated mineral-organic vanes, pressure-sensitive living core; no copied eye-filled sacred-wheel motif",
+    "anatomy_verification": "NOT_VERIFIED"
+  },
+  "essence_candidates": [
+    "Aura",
+    "Terra"
+  ],
+  "essence_approved": false,
+  "non_essence_tags": [
+    "AncientTechMaterial",
+    "Survey",
+    "Defender",
+    "HighlandFault"
+  ],
+  "core_attributes": {
+    "Vibrance": 68,
+    "Density": 82,
+    "Harmony": 78,
+    "Purity": 73
+  },
+  "core_attributes_status": "UNAPPROVED_DESIGN_VALUES_0_TO_100",
+  "ecological_role": "Reads bounded terrain pressure fractures, supports safe migration and rescue across unstable slopes",
+  "habitat_proposal": "Heartreach highland fault margins near damaged Meridian survey routes; exact location pending world map review",
+  "combat_role": "Defender / Survey Support",
+  "abilities_proposed": [
+    {
+      "key": "RefractionCanopy",
+      "role": "bounded projectile intercept",
+      "counterplay": "flank, non-projectile attack, cooldown and strain"
+    },
+    {
+      "key": "FaultlineWitness",
+      "role": "survey marker and hazard telegraph",
+      "counterplay": "range and server-validated visibility"
+    },
+    {
+      "key": "CounterArc",
+      "role": "timed single-hit momentum redirection",
+      "counterplay": "bait timing and force recovery"
+    },
+    {
+      "key": "HavenRelay",
+      "role": "temporary safe rescue line",
+      "counterplay": "bounded duration and safe-fall fallback"
+    }
+  ],
+  "anima_link": {
+    "type": "bidirectional_bounded_strain_feedback",
+    "player_cost_values": null,
+    "species_cost_values": null,
+    "consent_and_refusal_required": true,
+    "implementation": "NOT_VERIFIED"
+  },
+  "growth_policy": "VOLUNTARY_GROWTH_RITE_OR_CONTEXTUAL_FORM_ONLY",
+  "forms": [
+    {
+      "name": "Survey Lattice",
+      "type": "Baseline",
+      "trigger_proposal": "first calm documented encounter",
+      "new_species_id": false
+    },
+    {
+      "name": "Rootglass Relay",
+      "type": "ResonantMorphCandidate",
+      "trigger_proposal": "restored linked Heartroot route and stable voluntary partnership",
+      "new_species_id": false
+    },
+    {
+      "name": "Storm-Shear Mantle",
+      "type": "BiomimeticShiftCandidate",
+      "trigger_proposal": "storm-shelter rescue and authored ecological adaptation",
+      "new_species_id": false
+    },
+    {
+      "name": "Blight-Stressed",
+      "type": "RecoverableConditionNotEvolution",
+      "trigger_proposal": "hazardous Blight exposure; never intentionally induced",
+      "new_species_id": false
+    }
+  ],
+  "discovery_pipeline": [
+    "TRACE_ONLY",
+    "OBSERVED",
+    "VERIFIED_IN_WORLD",
+    "CONSENT_OFFERED",
+    "BOND_OR_RELEASE_OR_DEFER"
+  ],
+  "field_use_proposals": [
+    "survey unstable bridge anchors",
+    "signal slope collapse",
+    "guide voluntary evacuation",
+    "document a Heartroot root-wound"
+  ],
+  "originating_source": "User-provided Origin Eco-Kin Codex prototype, 2026-10-10",
+  "authority": {
+    "canon": "Dlomotion/Echohearts-Rebearth",
+    "visual_archive": "Dlomotion/Echohearts-Ecokins",
+    "runtime": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-"
+  },
+  "approval_gates": [
+    "125-Dex and 1120-history collision check",
+    "cultural naming review",
+    "originality and anatomy",
+    "Essence and body-plan approval",
+    "art hashes and provenance",
+    "balance and Anima-Link tests",
+    "UE5.8 UHT/compile/PIE/package evidence"
+  ],
+  "notes": "Do not import to production DataAssets, assign permanent ID, ship art, or expose proposed ability values without review."
+}
