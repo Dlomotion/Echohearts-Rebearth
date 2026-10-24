@@ -1,0 +1,44 @@
+name: Echohearts UE 5.8 manual build gate
+on:
+  workflow_dispatch:
+    inputs:
+      map:
+        description: 'Authored map package (/Game/Maps/Name)'
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: echohearts-ue58-package
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    environment: unreal-packaging
+    runs-on: [self-hosted, Windows, X64, echohearts-ue58]
+    timeout-minutes: 120
+    env:
+      UE_ENGINE_ROOT: 'C:\Program Files\Epic Games\UE_5.8'
+      ECHO_MAP: ${{ inputs.map }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          persist-credentials: false
+      - name: Build, automation gate, and Development package
+        shell: pwsh
+        run: ./package_unreal.ps1 -MapPackage $env:ECHO_MAP
+      - name: Preserve logs and test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: UE58-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: BuildEvidence/
+          if-no-files-found: warn
+      - name: Upload Development package
+        uses: actions/upload-artifact@v4
+        with:
+          name: Echohearts-Win64-${{ github.run_id }}-${{ github.run_attempt }}
+          path: PackagedOutput/
+          if-no-files-found: error
+          retention-days: 30
