@@ -1,0 +1,700 @@
+{
+  "manifest_id": "FRQ-REBEARTH-EXPANSION-20261016",
+  "schema_version": 1,
+  "status": "APPROVED_PENDING_DESIGN_INTAKE",
+  "runtime_proof": "NOT_YET_VERIFIED",
+  "canon_authority": "MASTER_PROJECT_INDEX.md",
+  "engine_target": "UE5.8",
+  "runtime_authority_repo": "Dlomotion/ECHOHEARTS-REBEARTH-BUILD-",
+  "core_attributes": [
+    "Vibrance",
+    "Density",
+    "Harmony",
+    "Purity"
+  ],
+  "approved_essences": [
+    "Flora",
+    "Torrent",
+    "Pyre",
+    "Terra",
+    "Aero",
+    "Glaze",
+    "Voltic",
+    "Aura",
+    "Shade"
+  ],
+  "frequency_conditions": [
+    "Frequency.Harmonic",
+    "Frequency.Discordant",
+    "Frequency.Unstable",
+    "Frequency.Recovering"
+  ],
+  "sanctuary": {
+    "existing_hub": "Echohearts Sanctuary",
+    "registry_version": 1,
+    "required_modules": [
+      "AuraPylon",
+      "TuningStation",
+      "RechargingNode",
+      "EnergyWalls"
+    ],
+    "consent_required": true,
+    "server_authoritative": true,
+    "transaction_ledger": "BCT-001",
+    "wall_must_have_egress": true,
+    "npc_roles": [
+      {
+        "role_handle": "Attuner",
+        "service_id": "research.scan",
+        "defense_action": "field.aura_pulse",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      },
+      {
+        "role_handle": "Chrono-Merchant",
+        "service_id": "market.field_gear",
+        "defense_action": "field.salvage_decoy",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      },
+      {
+        "role_handle": "Vitamist",
+        "service_id": "aegis.integrity",
+        "defense_action": "field.ally_restore",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      },
+      {
+        "role_handle": "Catalyst Specialist",
+        "service_id": "excavation.survey",
+        "defense_action": "field.seismic_dampen",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      },
+      {
+        "role_handle": "Bloom Weaver",
+        "service_id": "restoration.balance",
+        "defense_action": "field.temporary_barrier",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      },
+      {
+        "role_handle": "Scrapwright",
+        "service_id": "gear.modification",
+        "defense_action": "field.retractable_defense",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      },
+      {
+        "role_handle": "Cyber-Mechanic",
+        "service_id": "structures.automation",
+        "defense_action": "field.returning_implement",
+        "status": "PROPOSED",
+        "requires_consent": true,
+        "requires_frequency_sanctuary": true
+      }
+    ]
+  },
+  "atmosphere": {
+    "cloud_assets": [
+      {
+        "cloud_id": "CLD_DRIFT_01",
+        "visual_type": "lowland_drift",
+        "hazard_id": "fair",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      },
+      {
+        "cloud_id": "CLD_CIRRUS_02",
+        "visual_type": "high_ice_strands",
+        "hazard_id": "wind",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      },
+      {
+        "cloud_id": "CLD_MARINEFOG_03",
+        "visual_type": "marine_fog",
+        "hazard_id": "visibility",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      },
+      {
+        "cloud_id": "CLD_THUNDERHEAD_04",
+        "visual_type": "copper_anvil",
+        "hazard_id": "gust_lightning",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      },
+      {
+        "cloud_id": "CLD_BLIGHTFRONT_05",
+        "visual_type": "blight_pressure_cloud",
+        "hazard_id": "frequency_interference",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      },
+      {
+        "cloud_id": "CLD_ICEVEIL_06",
+        "visual_type": "glaze_squall",
+        "hazard_id": "freezing_spray",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      },
+      {
+        "cloud_id": "CLD_AURORA_07",
+        "visual_type": "upper_atmosphere_ribbons",
+        "hazard_id": "lore",
+        "fx_status": "ASSET_NOT_CREATED",
+        "server_hazard_separate": true
+      }
+    ],
+    "weather_profiles": [
+      {
+        "weather_id": "WEA_COPPER_ANVIL",
+        "essences": [
+          "Aero",
+          "Voltic"
+        ],
+        "telegraph_required": true
+      },
+      {
+        "weather_id": "WEA_TIDAL_BRINEVEIL",
+        "essences": [
+          "Torrent",
+          "Aero"
+        ],
+        "telegraph_required": true
+      },
+      {
+        "weather_id": "WEA_VELLUMICE_SQUALL",
+        "essences": [
+          "Glaze",
+          "Aero"
+        ],
+        "telegraph_required": true
+      },
+      {
+        "weather_id": "WEA_ROOTMIST",
+        "essences": [
+          "Flora"
+        ],
+        "telegraph_required": true
+      },
+      {
+        "weather_id": "WEA_BLIGHT_PRESSURE",
+        "essences": [],
+        "blight_related": true,
+        "telegraph_required": true
+      },
+      {
+        "weather_id": "WEA_CHRONO_SURGE",
+        "essences": [],
+        "requires_story_gate": true,
+        "telegraph_required": true
+      }
+    ],
+    "server_hazard_authority": true,
+    "client_render_only": true
+  },
+  "maritime": {
+    "biomes": [
+      {
+        "biome_id": "BIO-FRQ-01",
+        "working_name": "Mirrorglass Littoral",
+        "essence_context": [
+          "Torrent",
+          "Aura"
+        ],
+        "ecology_type": "tidal_surface",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-02",
+        "working_name": "Siltweave Delta",
+        "essence_context": [
+          "Flora",
+          "Torrent"
+        ],
+        "ecology_type": "estuary",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-03",
+        "working_name": "Crownkelp Shelf",
+        "essence_context": [
+          "Flora",
+          "Torrent"
+        ],
+        "ecology_type": "kelp_shelf",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-04",
+        "working_name": "Vellumice Floes",
+        "essence_context": [
+          "Glaze",
+          "Torrent",
+          "Aero"
+        ],
+        "ecology_type": "ice_floes",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-05",
+        "working_name": "Copperwake Shoals",
+        "essence_context": [
+          "Voltic",
+          "Terra"
+        ],
+        "ecology_type": "mineral_reef",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-06",
+        "working_name": "Veinwater Trench",
+        "essence_context": [
+          "Torrent",
+          "Shade"
+        ],
+        "ecology_type": "deep_trench",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-07",
+        "working_name": "Skydrift Breakwater",
+        "essence_context": [
+          "Aero",
+          "Terra"
+        ],
+        "ecology_type": "sea_cliffs",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-08",
+        "working_name": "Hollowtide Caverns",
+        "essence_context": [
+          "Terra",
+          "Torrent"
+        ],
+        "ecology_type": "flooded_caves",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      },
+      {
+        "biome_id": "BIO-FRQ-09",
+        "working_name": "Cinderbrine Mouth",
+        "essence_context": [
+          "Pyre",
+          "Torrent"
+        ],
+        "ecology_type": "geothermal_coast",
+        "geometry_id": null,
+        "canon_status": "PROPOSED"
+      }
+    ],
+    "ship_parts": [
+      {
+        "part_id": "SHIP-FRQ-01",
+        "module_key": "keel",
+        "category": "structural",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-02",
+        "module_key": "hull_panel",
+        "category": "structural",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-03",
+        "module_key": "buoyancy_cell",
+        "category": "floatation",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-04",
+        "module_key": "weather_deck",
+        "category": "structural",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-05",
+        "module_key": "sail_rig",
+        "category": "propulsion",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-06",
+        "module_key": "low_emission_motor",
+        "category": "propulsion",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-07",
+        "module_key": "nav_relay",
+        "category": "electronics",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-08",
+        "module_key": "cargo_hold",
+        "category": "storage",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-09",
+        "module_key": "grounding_conductor",
+        "category": "storm_safety",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-10",
+        "module_key": "pressure_shell",
+        "category": "diving",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-11",
+        "module_key": "rescue_davit",
+        "category": "rescue",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      },
+      {
+        "part_id": "SHIP-FRQ-12",
+        "module_key": "condensation_collector",
+        "category": "resource_conservation",
+        "recipe": {
+          "ingredient_ids": [],
+          "approved": false
+        },
+        "validation_required": true,
+        "status": "PROPOSED"
+      }
+    ],
+    "diving": {
+      "pressure_tiers": "UNBALANCED",
+      "oxygen_supply": "EQUIPMENT_GAUGE_NOT_PUBLIC_ATTRIBUTE",
+      "rescue_required": true,
+      "ascent_safety_required": true
+    },
+    "partner_agency": "VOLUNTARY_KINDLING_ONLY",
+    "blueprint_export": {
+      "schema_version": 1,
+      "allowlist_only": true,
+      "sanitize_paths": true,
+      "server_validation": true
+    },
+    "campaign": {
+      "mode": "OPTIONAL_21_DAY_EXPEDITION_PROPOSAL",
+      "phase_one_days": [
+        1,
+        10
+      ],
+      "phase_two_days": [
+        11,
+        21
+      ],
+      "release_date": null
+    }
+  },
+  "encounters": [
+    {
+      "encounter_id": "ENCP-01",
+      "working_name": "Siltwake Aggregate",
+      "signature_mechanic": "pressure_valves",
+      "essence_context": [
+        "Terra",
+        "Torrent"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-02",
+      "working_name": "Nightglass Cartographer",
+      "signature_mechanic": "sector_mapping",
+      "essence_context": [
+        "Aura",
+        "Aero"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-03",
+      "working_name": "Crimson Archive Choir",
+      "signature_mechanic": "evidence_transcripts",
+      "essence_context": [
+        "Shade",
+        "Flora"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-04",
+      "working_name": "Amberwing Assembly",
+      "signature_mechanic": "conveyor_routes",
+      "essence_context": [
+        "Terra",
+        "Aero"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-05",
+      "working_name": "Memory Gate Clamp",
+      "signature_mechanic": "tile_anchors",
+      "essence_context": [
+        "Terra",
+        "Aura"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-06",
+      "working_name": "Watershed Sentinance",
+      "signature_mechanic": "culvert_rerouting",
+      "essence_context": [
+        "Torrent",
+        "Terra"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-07",
+      "working_name": "Parallax Survey Pair",
+      "signature_mechanic": "interlinked_relay_repair",
+      "essence_context": [
+        "Aero",
+        "Voltic"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-08",
+      "working_name": "Substrate Borer Array",
+      "signature_mechanic": "geothermal_valves",
+      "essence_context": [
+        "Terra",
+        "Pyre"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-09",
+      "working_name": "Rootwake Tangle",
+      "signature_mechanic": "root_salinity",
+      "essence_context": [
+        "Flora",
+        "Torrent"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-10",
+      "working_name": "Spectrum Calibration Field",
+      "signature_mechanic": "light_panel_calibration",
+      "essence_context": [
+        "Aura",
+        "Voltic"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    },
+    {
+      "encounter_id": "ENCP-11",
+      "working_name": "Foldwake Relay Heart",
+      "signature_mechanic": "four_attribute_energy_distribution",
+      "essence_context": [
+        "Aura",
+        "Shade"
+      ],
+      "phase_machine": "design_only",
+      "rewards": {
+        "drop_rates": null,
+        "resistance_coefficients": null,
+        "approved": false
+      },
+      "eco_kin_id": null,
+      "requires_narrative_approval": true,
+      "status": "PROPOSED_ORIGINAL_DESIGN"
+    }
+  ],
+  "city_activity": {
+    "venue_id": "POI-EHC-BOWLING-PROPOSAL",
+    "city": "Echohearts City",
+    "district": null,
+    "name": "Community Bowling Hall",
+    "lanes": 6,
+    "play_modes": [
+      "solo",
+      "coop",
+      "league"
+    ],
+    "check_in_local_world_time": "13:30",
+    "check_in_is_real_world_appointment": false,
+    "utc_schedule": null,
+    "location_approval_required": true,
+    "status": "PROPOSED"
+  },
+  "validation": {
+    "promote_when": [
+      "Canon IP review",
+      "Narrative review",
+      "Game data dictionary merge",
+      "Balance and QA",
+      "UE5.8 runtime evidence"
+    ],
+    "blocked": [
+      "Permanent Dex mutation",
+      "Unreviewed lore edits",
+      "Gameplay implementation claims",
+      "External release dates",
+      "Forced Eco-Kin capture or breeding"
+    ]
+  }
+}
