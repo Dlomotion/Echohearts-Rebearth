@@ -240,3 +240,35 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## PR #17 routing retained during conflict reconciliation
+
+The current authority chain and production order above govern these branch documents. This routing record does not promote proposal content or runtime evidence. Legacy paths remain historical references rather than replacement folder authority.
+
+- `00_Canon_Lock/NATURE_SAVIOR_DESTINY_AND_HOLLOW_CONTINUITY_2026-09-29.md`
+- `00_Canon_Lock/POST_UNITY_INFINITE_EXPANSION_CANON_2026-09-27.md`
+- `00_Canon_Lock/SEASONAL_ECOKIN_AND_EXPANSION_GOVERNANCE_2026-09-27.md`
+- `00_Canon_Lock/UNITY_FINAL_MISSION_AND_ENDINGS_CANON_2026-09-27.md`
+- `00_Canon_Lock/WAR_CONTINUUM_TO_UNITY_CANON_2026-09-27.md`
+- `01_Story/ECHOHEARTS_REBEARTH_FINAL_STORY_CONTINUITY_2026-09-20.md`
+- `01_Story/NATURE_DESTINY_MAIN_STORY_INTEGRATION_2026-09-29.md`
+- `01_Story/SAVIORS_STARZ_ANGELIC_AND_DLC_INTAKE_2026-09-27.md`
+- `01_Story/THE_SHATTERED_RESONANCE_PARADIGM_OLIGARCHS_2026-09-27.md`
+- `01_Story/VOID_WAR_NATURE_AND_HOLLOW_FRONT_2026-09-29.md`
+- `02_World/VEILROOT_HOLLOWS_AND_QUIET_MARKET_2026-09-29.md`
+- `03_EcoKin_Dex/Intake/ONE_TIME_EVENT_SOVEREIGN_ECOKIN_ENCOUNTERS_2026-09-27.md`
+- `04_Systems/CENTRAL_MALL_BOUTIQUE_CATALOG_AND_SAVEGAME_ENTRIES_2026-09-29.md`
+- `04_Systems/CHRONO_SANDBOX_WORLD_STATE_RECONCILIATION_2026-09-27.md`
+- `04_Systems/ECO_KIN_ENVIRONMENTAL_PUZZLES_AND_WEATHER_PULSE_2026-09-29.md`
+- `04_Systems/ECO_KIN_FIELD_TRAPS_HEART_FRUIT_AND_RELEASE_PROTOCOL_2026-09-29.md`
+- `04_Systems/ECO_KIN_GROWTH_RITES_AND_EARTHLINE_PATH_2026-09-27.md`
+- `04_Systems/SEASONAL_CORE_GAMEPLAY_RECONCILIATION_2026-09-27.md`
+- `04_Systems/TECTONIC_ALIGNMENT_AND_RESTORATION_BLOOM_MATRIX_2026-09-29.md`
+- `09_Technical/AEGIS_MENU_OVERLAY_CAMERA_BLUEPRINTS_2026-09-29.md`
+- `09_Technical/AEGIS_UPGRADES_VESSEL_CRAFTING_AND_MULTITARGET_STABILIZATION_2026-09-29.md`
+- `09_Technical/ENGINE_CORE_BOUNDARY_AND_ARCHIVE_REPLICATION_2026-09-29.md`
+- `09_Technical/EVENT_SOVEREIGN_AND_GROWTH_RUNTIME_CONTRACT_2026-09-27.md`
+- `09_Technical/PR17_TRANSACTION_VALIDATION_CODE_REVIEW_2026-09-27.md`
+- `09_Technical/SECTIONS_XXVII_XXXI_NETWORK_REGISTRY_SAVE_UI_AUDIT_2026-09-27.md`
+- `10_Production/FIELD_TRAPS_HEART_FRUIT_VEILROOT_INTAKE_2026-09-29.md`
+- `10_Production/MASTER_INDEX_RESTORE_NOTE_2026-09-29.md`
