@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "id": "EHR_SKYISLAND_BASE_BLUEPRINTS",
+  "status": "PROPOSED_ONLY_NOT_RUNTIME",
+  "authority": "MASTER_PROJECT_INDEX / Sanctuary BCT-001",
+  "grid_units": "abstract cells; final UE world scale pending",
+  "public_attributes": [
+    "Vibrance",
+    "Density",
+    "Harmony",
+    "Purity"
+  ],
+  "prohibited": [
+    "capture spheres",
+    "forced labor",
+    "species breeding",
+    "merging duplicate Eco-Kin",
+    "unbounded resource generation"
+  ],
+  "layouts": [
+    {
+      "layout_id": "SKY_STARTER",
+      "plot_size": [
+        32,
+        32
+      ],
+      "tier": 1,
+      "modules": [
+        {
+          "module_type": "echo_core",
+          "x": 13,
+          "y": 13,
+          "width": 6,
+          "height": 6
+        },
+        {
+          "module_type": "aura_pylon",
+          "x": 8,
+          "y": 12,
+          "width": 3,
+          "height": 3
+        },
+        {
+          "module_type": "tuning_station",
+          "x": 8,
+          "y": 17,
+          "width": 4,
+          "height": 3
+        },
+        {
+          "module_type": "recharge_node",
+          "x": 21,
+          "y": 13,
+          "width": 4,
+          "height": 4
+        },
+        {
+          "module_type": "moss_rest",
+          "x": 4,
+          "y": 4,
+          "width": 6,
+          "height": 5
+        },
+        {
+          "module_type": "feed_water",
+          "x": 4,
+          "y": 9,
+          "width": 5,
+          "height": 3
+        },
+        {
+          "module_type": "recovery_pavilion",
+          "x": 20,
+          "y": 4,
+          "width": 7,
+          "height": 6
+        },
+        {
+          "module_type": "craft_resonance",
+          "x": 5,
+          "y": 22,
+          "width": 7,
+          "height": 5
+        },
+        {
+          "module_type": "living_soil",
+          "x": 21,
+          "y": 22,
+          "width": 7,
+          "height": 6
+        },
+        {
+          "module_type": "safe_egress",
+          "x": 12,
+          "y": 27,
+          "width": 6,
+          "height": 3
+        }
+      ],
+      "power_policy": "BCT-001 authorization + on-site backup",
+      "guardian_registration": "Aura Pylon + Tuning Station + Recharging Node + validated perimeter and egress",
+      "entry_id": "safe_egress"
+    },
+    {
+      "layout_id": "SKY_REFINERY",
+      "plot_size": [
+        48,
+        40
+      ],
+      "tier": 3,
+      "modules": [
+        {
+          "module_type": "echo_core",
+          "x": 3,
+          "y": 15,
+          "width": 6,
+          "height": 6
+        },
+        {
+          "module_type": "aura_pylon",
+          "x": 11,
+          "y": 15,
+          "width": 3,
+          "height": 4
+        },
+        {
+          "module_type": "tuning_station",
+          "x": 13,
+          "y": 21,
+          "width": 5,
+          "height": 4
+        },
+        {
+          "module_type": "recharge_node",
+          "x": 5,
+          "y": 27,
+          "width": 5,
+          "height": 5
+        },
+        {
+          "module_type": "sealed_intake",
+          "x": 21,
+          "y": 4,
+          "width": 8,
+          "height": 6
+        },
+        {
+          "module_type": "quarantine_chamber",
+          "x": 32,
+          "y": 4,
+          "width": 10,
+          "height": 6
+        },
+        {
+          "module_type": "purity_wash",
+          "x": 21,
+          "y": 13,
+          "width": 9,
+          "height": 7
+        },
+        {
+          "module_type": "prismatic_crucible",
+          "x": 34,
+          "y": 14,
+          "width": 9,
+          "height": 9
+        },
+        {
+          "module_type": "cooling_basin",
+          "x": 22,
+          "y": 24,
+          "width": 8,
+          "height": 9
+        },
+        {
+          "module_type": "alloy_storage",
+          "x": 34,
+          "y": 27,
+          "width": 9,
+          "height": 6
+        },
+        {
+          "module_type": "staff_escape",
+          "x": 1,
+          "y": 34,
+          "width": 10,
+          "height": 4
+        },
+        {
+          "module_type": "power_ground",
+          "x": 11,
+          "y": 4,
+          "width": 6,
+          "height": 5
+        },
+        {
+          "module_type": "service_corridor",
+          "x": 19,
+          "y": 10,
+          "width": 2,
+          "height": 24
+        }
+      ],
+      "power_policy": "BCT-001 authorization + on-site backup",
+      "guardian_registration": "Aura Pylon + Tuning Station + Recharging Node + validated perimeter and egress",
+      "entry_id": "staff_escape"
+    },
+    {
+      "layout_id": "SKY_RECOVERY",
+      "plot_size": [
+        42,
+        42
+      ],
+      "tier": 2,
+      "modules": [
+        {
+          "module_type": "echo_core",
+          "x": 16,
+          "y": 3,
+          "width": 7,
+          "height": 6
+        },
+        {
+          "module_type": "aura_pylon",
+          "x": 11,
+          "y": 10,
+          "width": 3,
+          "height": 4
+        },
+        {
+          "module_type": "tuning_station",
+          "x": 15,
+          "y": 10,
+          "width": 5,
+          "height": 4
+        },
+        {
+          "module_type": "recharge_node",
+          "x": 22,
+          "y": 10,
+          "width": 4,
+          "height": 4
+        },
+        {
+          "module_type": "recovery_ward",
+          "x": 4,
+          "y": 16,
+          "width": 10,
+          "height": 10
+        },
+        {
+          "module_type": "glow_spring",
+          "x": 17,
+          "y": 17,
+          "width": 10,
+          "height": 10
+        },
+        {
+          "module_type": "quiet_garden",
+          "x": 29,
+          "y": 16,
+          "width": 9,
+          "height": 11
+        },
+        {
+          "module_type": "species_habitat",
+          "x": 5,
+          "y": 29,
+          "width": 12,
+          "height": 8
+        },
+        {
+          "module_type": "water_filter",
+          "x": 21,
+          "y": 30,
+          "width": 7,
+          "height": 7
+        },
+        {
+          "module_type": "voluntary_rest",
+          "x": 30,
+          "y": 30,
+          "width": 8,
+          "height": 7
+        },
+        {
+          "module_type": "evacuation_route",
+          "x": 17,
+          "y": 28,
+          "width": 4,
+          "height": 12
+        },
+        {
+          "module_type": "public_entry",
+          "x": 17,
+          "y": 0,
+          "width": 4,
+          "height": 3
+        }
+      ],
+      "power_policy": "BCT-001 authorization + on-site backup",
+      "guardian_registration": "Aura Pylon + Tuning Station + Recharging Node + validated perimeter and egress",
+      "entry_id": "public_entry"
+    }
+  ]
+}
