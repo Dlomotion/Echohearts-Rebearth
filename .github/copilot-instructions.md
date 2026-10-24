@@ -39,3 +39,15 @@ Before editing, read `MASTER_PROJECT_INDEX.md`, the nearest source-of-truth docu
 - If retained after review, habitat morphology must use stable base identity plus an explicit mutually-exclusive morphology state, typed Essence/interaction references, Vibrance/Density/Harmony/Purity only, deterministic validation, versioned save migration, server authority, Anima-Link consequences, and reversible failure handling. Surface overlays must remain cosmetic unless an approved gameplay contract says otherwise.
 - Implementation order: approve the data contract/schema first; then validators and fixtures; then C++/DataAsset or DataTable integration; then versioned serialization; finally UE5.8 compile, Editor, PIE, networking, save/load/rollback, cook/package, and performance evidence.
 - COBOL and BASIC remain optional isolated legacy utilities for deterministic conversion, validation, or reporting with pinned compilers and tests. They must not own UE gameplay/runtime, Fab import, MetaHuman, rendering, replication, save, packaging, or web production responsibilities.
+
+
+## 2026-10-12 EcoKin roster/ecosystem synchronization
+
+- Read `03_EcoKin_Dex/ECOKIN_ROSTER_ECOSYSTEM_SYNC_2026-10-12.md` before editing current Eco-Kin roster/ecology work.
+- Preserve **Eco-Kin** as the franchise creature term in prose and **EcoKin** in code/schema/asset identifiers where punctuation is undesirable.
+- Owner-locked current display names must not be silently renamed: **Gorilla, Eyomitor, Nesqari, Uldevan, Oriveth, Kethrava, Velumi, Tazhir**.
+- `Gorumbra` is retired as a mistaken generated label; do not use it as a replacement for **Gorilla**.
+- Hidden Eco-Kin research must connect to A.E.G.I.S., Eco-Device/Eco-Dex research, habitat restoration, observation, and voluntary Kindling. Discovery does not imply ownership.
+- Every roster candidate must carry habitat, ecological function, stressors, restoration response, player consequence, approved Essence mapping, and Vibrance/Density/Harmony/Purity before permanent promotion.
+- Keep recent generated names in proposal/intake state until exact/fuzzy collision, historical-name, originality, anatomy, ecology, provenance, and roster-capacity checks pass.
+- Runtime implementation remains owned by `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-`; no UE5.8 runtime status becomes VERIFIED from documentation alone.
