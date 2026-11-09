@@ -1,0 +1,8 @@
+FROM g++:latest AS build
+WORKDIR /app
+COPY multiplayer/src/server.cpp ./server.cpp
+RUN g++ -std=c++17 -pthread -O2 server.cpp -o echohearts-server
+FROM debian:bookworm-slim
+COPY --from=build /app/echohearts-server /usr/local/bin/echohearts-server
+EXPOSE 7777
+CMD ["echohearts-server", "7777"]

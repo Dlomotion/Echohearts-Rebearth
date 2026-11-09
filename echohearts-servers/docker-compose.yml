@@ -1,0 +1,18 @@
+services:
+  multiplayer:
+    build:
+      context: .
+      dockerfile: Dockerfile.multiplayer
+    ports:
+      - "7777:7777"
+    restart: unless-stopped
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    environment:
+      ECHOHEARTS_MP_HOST: "127.0.0.1"
+      ECHOHEARTS_MP_PORT: "7777"
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
