@@ -1,5 +1,8 @@
 # EchoHearts Rebirth — Unreal Engine 5.8 Edition
 
+> **⚠️ SUPERSEDED PROTOTYPE — kept for reference only.**
+> This chat-built UE project (module `EchoHeartsRebirth`) is **not** the authoritative Echohearts UE project. Development moved to the BUILD repository — **`IN2Deep-Studios/ECHOHEARTS-REBEARTH-BUILD-`** (module `Echohearts`, `EchoheartsRebearth.uproject`) — which owns the executable UE 5.8 build, the companion/Dex/entity systems, and all runtime evidence per `FOUNDATION_STATUS.md` there. Do not build new work on this folder; see assignment EH-CANON-002 in `11_Daily_Assignments/CANON_GAME_AND_ART_FILING_ASSIGNMENT_2026-11-09.md`. (Marked superseded by owner decision, 2026-11-09.)
+
 The UE5 (C++) edition of EchoHearts Rebirth, updated for **Unreal Engine 5.8** (the last planned UE5 release, out June 2026). Original code — Terraria-style generic rules, no Terraria or Epic sample code, art, or text copied.
 
 Collect echo hearts, defeat mischievous imps and void monsters, survive the day/night cycle, and take down the Heartbreaker boss.

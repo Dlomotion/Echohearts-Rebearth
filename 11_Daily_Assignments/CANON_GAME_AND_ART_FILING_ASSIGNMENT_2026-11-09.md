@@ -19,7 +19,7 @@ Status: FILED 2026-11-09 (commits 1ad12eb, 58303fc, a762d2e, 0c0462d). UE5.8-run
 ### EH-CANON-002 — Retire the duplicate UE project in the canon repo
 `echohearts-ue5/` (EchoHeartsRebirth module, created in chat) duplicates the role of the authoritative BUILD project (Echohearts module). Decide: delete it from this repo, or keep it clearly marked as a superseded prototype in its README.
 Acceptance: exactly one authoritative UE project remains — the BUILD repo.
-Status: AWAITING OWNER DECISION (Owens).
+Status: DECIDED 2026-11-09 (Owens) — option B taken: `echohearts-ue5/README.md` now carries a SUPERSEDED PROTOTYPE banner pointing to the BUILD repo; the folder is retained for reference, not deleted.
 
 ### EH-CANON-003 — BUILD integration files filed in the BUILD repo
 File the local-only integration from `A:\ECHOHEARTS-REBEARTH-BUILD-`: `Source/Echohearts/Public/Gameplay/EchoNetworkPayload.h`, `EchoCooperativeWorkstation.h` (+ .cpp), `Private/Tests/EchoNetworkPayloadTests.cpp`, `Public/Storage/EchoPlatformStorageSubsystem.h`, module Build.cs with NetCore, `Docs/CHAT_TO_UE5_INTEGRATION_MANIFEST.md`, `Docs/WINDOWS_PACKAGE_STORAGE.md`, updated `Echohearts-Ecokins/README.md`.
