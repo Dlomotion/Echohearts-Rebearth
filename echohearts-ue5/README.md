@@ -1,12 +1,14 @@
-# EchoHearts Rebirth — Unreal Engine 5 Edition
+# EchoHearts Rebirth — Unreal Engine 5.8 Edition
 
-The UE5 (C++) edition of EchoHearts Rebirth. Original code — Terraria-style generic rules, no Terraria or Epic sample code, art, or text copied.
+The UE5 (C++) edition of EchoHearts Rebirth, updated for **Unreal Engine 5.8** (the last planned UE5 release, out June 2026). Original code — Terraria-style generic rules, no Terraria or Epic sample code, art, or text copied.
 
 Collect echo hearts, defeat mischievous imps and void monsters, survive the day/night cycle, and take down the Heartbreaker boss.
 
 ## Open it
 
-**Requirements:** Unreal Engine **5.4** (Epic Games Launcher) and Visual Studio 2022 with the **Game development with C++** workload.
+**Requirements:** Unreal Engine **5.8** (Epic Games Launcher) and the latest Visual Studio with the **Game development with C++** workload. Migration guides for 5.8 note the preferred MSVC toolchain is the newer v145 (Visual Studio 2026 generation) — VS 2022's v143 may warn that it is not the preferred version.
+
+**Upgrading from the 5.4 version?** See [`UPGRADE-5.8.md`](UPGRADE-5.8.md) — in short: delete `Binaries/`, `Intermediate/`, `Saved/` and `.vs/`, regenerate project files, rebuild. Keep the 5.4 engine installed until the 5.8 build is confirmed.
 
 1. Right-click `EchoHeartsRebirth.uproject` → **Generate Visual Studio project files** (or just double-click it and let Unreal prompt you to build).
 2. Open `EchoHeartsRebirth.sln` in Visual Studio, build **Development Editor | Win64**, then launch the editor.

@@ -20,5 +20,11 @@ Then in the GameMode defaults (or a Blueprint GameMode child), point Enemy Class
 ## 3. HUD (optional, all data is Blueprint-readable)
 A UMG widget reading the character's HP / Mana / Score / Hearts Collected, plus the boss's `BossHealthPercent()` for the boss bar, covers the whole HUD. Everything you need is exposed to Blueprints.
 
+## 4. Enhanced Input (the UE 5.8 way)
+The character supports Enhanced Input first, with the legacy bindings as a fallback:
+1. Create Input Actions in `Content/Input/`: `IA_Move` (Axis2D), `IA_Look` (Axis2D), `IA_Jump` (Digital), `IA_Fire` (Digital), `IA_Burst` (Digital).
+2. Create an Input Mapping Context `IMC_Player`: WASD + arrows → `IA_Move` (W = up / +Y, with the usual modifiers for the other keys), Mouse → `IA_Look`, Space → `IA_Jump`, Left Mouse + F → `IA_Fire`, R → `IA_Burst`.
+3. On `BP_EchoPlayer`, set **Default Mapping Context** = `IMC_Player` and the five Action fields to the actions above. Done — the C++ binds them automatically.
+
 ## Controls
 WASD move · Mouse look · Space jump · Click / F = Echo Pulse · R = Echo Burst (30 mana) · Boss arrives every 3 levels, or call `SummonBoss` on the GameMode from a Blueprint/console for testing.

@@ -7,6 +7,10 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Engine/World.h"
+#include "Engine/LocalPlayer.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
+#include "InputActionValue.h"
 
 AEchoHeartsCharacter::AEchoHeartsCharacter()
 {
@@ -34,11 +38,51 @@ void AEchoHeartsCharacter::BeginPlay()
 	Super::BeginPlay();
 	HP = MaxHP = EchoHeartsStats::PlayerMaxHP;
 	Mana = EchoHeartsStats::PlayerMaxMana;
+
+	// Enhanced Input: add the mapping context if one was assigned in a Blueprint child.
+	if (APlayerController* PC = Cast<APlayerController>(GetController()))
+	{
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PC->GetLocalPlayer()))
+		{
+			if (DefaultMappingContext) Subsystem->AddMappingContext(DefaultMappingContext, 0);
+		}
+	}
+}
+
+void AEchoHeartsCharacter::MoveEnhanced(const FInputActionValue& Value)
+{
+	const FVector2D V = Value.Get<FVector2D>();
+	MoveForward(V.Y);
+	MoveRight(V.X);
+}
+
+void AEchoHeartsCharacter::LookEnhanced(const FInputActionValue& Value)
+{
+	const FVector2D V = Value.Get<FVector2D>();
+	AddControllerYawInput(V.X);
+	AddControllerPitchInput(V.Y);
 }
 
 void AEchoHeartsCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	// UE 5.8 path: Enhanced Input when actions are assigned.
+	if (UEnhancedInputComponent* Enhanced = Cast<UEnhancedInputComponent>(PlayerInputComponent))
+	{
+		if (MoveAction) Enhanced->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AEchoHeartsCharacter::MoveEnhanced);
+		if (LookAction) Enhanced->BindAction(LookAction, ETriggerEvent::Triggered, this, &AEchoHeartsCharacter::LookEnhanced);
+		if (JumpAction)
+		{
+			Enhanced->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
+			Enhanced->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
+		}
+		if (FireAction) Enhanced->BindAction(FireAction, ETriggerEvent::Started, this, &AEchoHeartsCharacter::FirePulse);
+		if (BurstAction) Enhanced->BindAction(BurstAction, ETriggerEvent::Started, this, &AEchoHeartsCharacter::FireBurst);
+		if (MoveAction || JumpAction) return; // Enhanced bindings are live; skip legacy duplicates.
+	}
+
+	// Fallback: legacy bindings from DefaultInput.ini.
 	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &AEchoHeartsCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("MoveRight"), this, &AEchoHeartsCharacter::MoveRight);
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APawn::AddControllerYawInput);

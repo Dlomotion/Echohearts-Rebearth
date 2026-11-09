@@ -6,6 +6,7 @@ public class EchoHeartsRebirth : ModuleRules
 	public EchoHeartsRebirth(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		CppStandard = CppStandardVersion.Cpp20; // UE 5.8 default standard
 
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
