@@ -1,0 +1,13 @@
+# Unreal Engine generated files — standard UE + Git setup
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+.DS_Store
