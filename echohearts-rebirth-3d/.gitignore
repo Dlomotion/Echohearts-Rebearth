@@ -1,0 +1,6 @@
+build/
+out/
+.vs/
+*.user
+.DS_Store
+*.log

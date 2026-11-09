@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoHearts Rebirth</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>❤️ EchoHearts <span>Rebirth</span></h1>
+      <p class="tagline">Collect echo hearts, blast the mischief, and defeat the Heartbreaker boss.</p>
+    </header>
+
+    <section class="hud" aria-label="Game stats">
+      <div>Score <strong id="score">0</strong></div>
+      <div>Hearts <strong id="hearts">0</strong></div>
+      <div>Lives <strong id="lives">3</strong></div>
+      <div>Level <strong id="level">1</strong></div>
+      <div>Best <strong id="best">0</strong></div>
+    </section>
+
+    <div id="bossBar" class="boss-bar hidden">
+      <span>👹 HEARTBREAKER BOSS</span>
+      <div class="bar"><div id="bossFill"></div></div>
+    </div>
+
+    <div class="stage">
+      <canvas id="game" width="880" height="520"></canvas>
+      <div id="overlay" class="overlay">
+        <h2 id="overlayTitle">EchoHearts Rebirth</h2>
+        <p id="overlayText">
+          <b>Terraria-style rules:</b> 100 HP (each ❤ = 20 HP), 100 Mana, damage numbers, crits, knockback, and invincibility frames after a hit.<br/>
+          Move with WASD / Arrow Keys. Shoot with <b>Space</b> / click, use <b>E</b> for Echo Burst.<br/>
+          💛 Hearts heal 20 HP &nbsp;•&nbsp; ★ Stars restore mana &nbsp;•&nbsp; 🌙 Night spawns stronger monsters<br/>
+          👹 Every 3 levels: “Heartbreaker has awoken!” — defeat it to be reborn with +20 Max HP.
+        </p>
+        <button id="startBtn">Start Game</button>
+      </div>
+    </div>
+
+    <section class="controls">
+      <button id="pauseBtn">Pause</button>
+      <button id="restartBtn">Restart</button>
+      <button id="shootBtn">💥 Echo Pulse (Space)</button>
+      <p>On mobile: drag to move, tap Echo Pulse to shoot.</p>
+    </section>
+
+    <section class="legend">
+      <h3>Enemies</h3>
+      <ul>
+        <li><b>😈 Mischievous Imp — 20 HP, 12 contact damage</b> — fast and darting. Drops hearts/stars like in Terraria.</li>
+        <li><b>👾 Void Monster — 60 HP, 20 contact damage, 2 defense</b> — chases you, stronger at night. +25 pts.</li>
+        <li><b>👹 Heartbreaker Boss — 600+ HP, 35 contact damage, 6 defense</b> — awakes every 3 levels, shoots void orbs, spawns imps, enrages below 25% HP. Defeat it for +200 pts, +20 Max HP, +1 defense.</li>
+        <li><b>◆ Void Orb — 15 damage</b> — boss shot. You get brief invincibility frames after any hit, so you won't take damage every frame.</li>
+        <li><b>Weapons:</b> Echo Pulse — 22 damage, 10% crit, strong knockback. Echo Burst (E) — 55 damage, costs 30 mana.</li>
+      </ul>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

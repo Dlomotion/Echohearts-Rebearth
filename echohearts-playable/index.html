@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:," />
+<title>EchoHearts — Terraria-Style Adventure</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f1f16; --panel:#16281c; --panel2:#1e3524; --line:#2f4d35;
+    --text:#eef7ee; --muted:#b9d1ba; --accent:#7ac74f; --accent2:#ffcf3f; --heart:#ff4757; --gold:#f5b041;
+    --card:#1a2e20;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#e8f3e2; --panel:#ffffff; --panel2:#f2f8ee; --line:#cfe3c6; --text:#142317; --muted:#4a5d4c; --card:#ffffff; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}
+  .wrap{max-width:1120px;margin:0 auto;padding:14px 14px 28px}
+  /* HUD BAR */
+  .topbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:10px 12px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .gem{width:42px;height:42px;border-radius:10px;background:#ff4757;display:grid;place-items:center;font-size:22px;box-shadow:inset 0 -4px 0 rgba(0,0,0,.25)}
+  .brand h1{font-family:"Press Start 2P",monospace;font-size:15px;line-height:1.2;margin:0;letter-spacing:.2px}
+  .brand p{margin:2px 0 0;color:var(--muted);font-size:12.5px;font-weight:600}
+  .stats{display:flex;flex-wrap:wrap;gap:8px}
+  .pill{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:7px 10px;font-size:12.5px;font-weight:700;display:flex;gap:6px;align-items:center}
+  .pill b{color:var(--accent2)}
+  /* GAME FRAME */
+  .frame{margin-top:12px;background:#0a120c;border:6px solid #3a2a1a;border-radius:18px;overflow:hidden;position:relative;box-shadow:0 10px 0 #2a1e12, 0 20px 40px rgba(0,0,0,.35)}
+  canvas{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#87ceeb;image-rendering:pixelated;touch-action:none}
+  .overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:14px;background:rgba(5,12,7,.72);backdrop-filter:blur(3px);overflow-y:auto}
+  .overlay.hidden{display:none}
+  .box{background:#12261a;color:#eef7ee;border:2px solid #7ac74f;border-radius:16px;max-width:560px;width:100%;padding:22px;text-align:center;max-height:100%;overflow-y:auto}
+  @media(max-width:640px){ .overlay{position:fixed;inset:0;z-index:60;padding:16px} .box{padding:16px} .box h2{font-size:14px !important} .box p{font-size:13.5px;line-height:1.5;margin:6px 0} .btn{padding:11px 16px;font-size:13px} }
+  .box h2{font-family:"Press Start 2P",monospace;font-size:18px;line-height:1.5;margin:0 0 10px}
+  .box p{color:#cfe8cf;line-height:1.6;font-size:14.5px;margin:8px 0}
+  .btn{appearance:none;border:0;cursor:pointer;border-radius:999px;padding:13px 20px;font-weight:800;font-size:14px}
+  .btn-primary{background:#7ac74f;color:#0f240f;box-shadow:0 4px 0 #4a8a2e}
+  .btn-primary:active{transform:translateY(2px);box-shadow:0 2px 0 #4a8a2e}
+  .btn-gold{background:#ffcf3f;color:#2a1e00;box-shadow:0 4px 0 #c79a12}
+  .btn-ghost{background:transparent;color:#eef7ee;border:1px solid #5a7a5e}
+  .row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+  /* HOTBAR / CONTROLS */
+  .below{display:grid;grid-template-columns:1.25fr .85fr;gap:12px;margin-top:12px}
+  @media(max-width:820px){.below{grid-template-columns:1fr} canvas{aspect-ratio:4/3.4}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+  .card h3{margin:0 0 10px;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+  .hotbar{display:flex;gap:8px;flex-wrap:wrap}
+  .slot{flex:1;min-width:92px;border:2px solid var(--line);background:var(--panel2);border-radius:12px;padding:10px;text-align:center;cursor:pointer}
+  .slot.active{border-color:var(--accent2);background:#fff8d6;color:#1a1a1a}
+  @media(prefers-color-scheme: dark){.slot.active{color:#111}}
+  .slot .ico{font-size:22px;line-height:1}
+  .slot .name{font-size:12px;font-weight:800;margin-top:5px}
+  .slot .key{font-size:11px;opacity:.7;font-weight:700}
+  .keys{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13.5px;line-height:1.5}
+  .keys div{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+  kbd{background:#111;color:#fff;border-radius:6px;padding:2px 6px;font-size:11px;border-bottom:2px solid #555;font-family:monospace}
+  @media(prefers-color-scheme: light){kbd{background:#222}}
+  .touch{display:none;gap:8px;margin-top:10px}
+  @media(max-width:820px){.touch{display:flex}}
+  .tbtn{flex:1;padding:14px 8px;border-radius:12px;border:1px solid var(--line);background:var(--panel);font-weight:800;font-size:18px}
+  .rules{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
+  @media(max-width:900px){.rules{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.rules{grid-template-columns:1fr}}
+  .rule{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .rule .e{font-size:24px}
+  .rule h4{margin:8px 0 6px;font-size:14px}
+  .rule p{margin:0;color:var(--muted);font-size:13px;line-height:1.55}
+  .quest{margin-top:12px;background:#fff3cd;border:1px solid #ffe08a;color:#3d2e00;border-radius:14px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start}
+  @media(prefers-color-scheme: dark){.quest{background:#2a2410;color:#ffe9a8;border-color:#5a4a12}}
+  .quest b{white-space:nowrap}
+  .foot{color:var(--muted);font-size:12.5px;line-height:1.6;margin-top:14px;text-align:center}
+  .bossbar{height:10px;background:#2a0f12;border-radius:999px;overflow:hidden;border:1px solid #5a1a22;margin-top:8px;display:none}
+  .bossbar i{display:block;height:100%;background:#ff4757;width:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">
+      <div class="gem">❤️</div>
+      <div>
+        <h1>ECHOHEARTS</h1>
+        <p>Rebirth • Mine • Build • Fight • Survive the Night</p>
+      </div>
+    </div>
+    <div class="stats">
+      <span class="pill">❤️ <span id="hpText">100 / 100</span></span>
+      <span class="pill">📅 Day <b id="dayText">1</b></span>
+      <span class="pill">🕐 <span id="timeText">Morning</span></span>
+      <span class="pill">🪙 <b id="coinText">0</b> coins</span>
+      <span class="pill">💎 Echo Hearts <b id="echoText">0</b></span>
+    </div>
+  </div>
+
+  <div class="frame" id="frame">
+    <canvas id="game" width="960" height="540"></canvas>
+
+    <div class="overlay" id="startOverlay">
+      <div class="box">
+        <div style="font-size:38px">🌳 ⚔️ 👹</div>
+        <h2>DEFEND THE<br>ECHOHEART</h2>
+        <p>Just like Terraria: chop trees, mine stone &amp; ore, build shelter before dark — then fight slimes, mischievous imps, zombies and flying eyes. When you're ready, summon the boss.</p>
+        <p><b style="color:#ffcf3f">Goal:</b> Collect wood &amp; stone, survive 1 night, then press <b>SUMMON BOSS</b> and defeat <b>The Echo Devourer</b>.</p>
+        <div class="row">
+          <button class="btn btn-primary" id="startBtn">▶ START ADVENTURE</button>
+          <button class="btn btn-ghost" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">How to play ↓</button>
+        </div>
+        <p style="font-size:12px;opacity:.8">Keyboard + mouse recommended • Touch controls appear on mobile</p>
+      </div>
+    </div>
+
+    <div class="overlay hidden" id="endOverlay">
+      <div class="box">
+        <div style="font-size:40px" id="endEmoji">🏆</div>
+        <h2 id="endTitle">YOU DEFEATED THE BOSS!</h2>
+        <p id="endText">The EchoHeart is safe. The forest is peaceful again — until the next night.</p>
+        <div class="row">
+          <button class="btn btn-gold" id="againBtn">↻ PLAY AGAIN</button>
+          <button class="btn btn-primary" id="continueBtn">KEEP EXPLORING</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Boss bar -->
+  <div class="card" style="margin-top:10px;padding:12px 16px" id="bossCard">
+    <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-weight:800;font-size:13px">
+      <span>👁️ BOSS: THE ECHO DEVOURER</span><span id="bossHpText">Summon the boss when you're ready →</span>
+    </div>
+    <div class="bossbar" id="bossBarWrap"><i id="bossBar"></i></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+      <button class="btn btn-gold" id="bossBtn" style="padding:10px 14px">👹 SUMMON BOSS</button>
+      <button class="btn" id="healBtn" style="background:var(--panel2);border:1px solid var(--line);color:var(--text);padding:10px 14px">🍎 Eat Apple (Heal 30) — <span id="appleText">3</span> left</button>
+      <button class="btn" id="pauseBtn" style="background:var(--panel2);border:1px solid var(--line);color:var(--text);padding:10px 14px">⏸ Pause</button>
+    </div>
+  </div>
+
+  <div class="quest">
+    <span style="font-size:22px">🧭</span>
+    <div><b>Current Quest:</b> <span id="questText">Chop 5 wood and mine 5 stone. Build your strength before nightfall!</span><br><span style="font-size:13px;opacity:.85">Wood: <b id="woodText">0</b> • Stone: <b id="stoneText">0</b> • Gel: <b id="gelText">0</b> • Kills: <b id="killText">0</b></span></div>
+  </div>
+
+  <div class="below" id="how">
+    <div class="card">
+      <h3>🎒 Hotbar — tap or press 1-4</h3>
+      <div class="hotbar" id="hotbar">
+        <div class="slot active" data-slot="sword"><div class="ico">🗡️</div><div class="name">Echo Sword</div><div class="key">1 • Attack</div></div>
+        <div class="slot" data-slot="pick"><div class="ico">⛏️</div><div class="name">Pickaxe</div><div class="key">2 • Mine blocks</div></div>
+        <div class="slot" data-slot="axe"><div class="ico">🪓</div><div class="name">Axe</div><div class="key">3 • Chop trees</div></div>
+        <div class="slot" data-slot="block"><div class="ico">🧱</div><div class="name">Place Block</div><div class="key">4 • Build</div></div>
+      </div>
+      <div class="touch">
+        <button class="tbtn" id="tLeft">◀</button>
+        <button class="tbtn" id="tRight">▶</button>
+        <button class="tbtn" id="tJump">⬆ JUMP</button>
+        <button class="tbtn" id="tHit">⚔️ HIT</button>
+      </div>
+      <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:12px 0 0">Aim with your mouse. The glowing tile is in reach. Hold click to mine/chop, click to swing. Right-click (or Place Block + click) to build with dirt/stone you collected.</p>
+    </div>
+    <div class="card">
+      <h3>⌨️ Controls — Terraria rules</h3>
+      <div class="keys">
+        <div><kbd>A</kbd> <kbd>D</kbd> / <kbd>←</kbd> <kbd>→</kbd><br>Move</div>
+        <div><kbd>SPACE</kbd> / <kbd>W</kbd><br>Jump</div>
+        <div><kbd>MOUSE</kbd> Hold<br>Mine / Chop / Attack</div>
+        <div><kbd>1</kbd>–<kbd>4</kbd><br>Switch tool</div>
+        <div><kbd>E</kbd><br>Place block</div>
+        <div><kbd>SHIFT</kbd><br>Run faster</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rules">
+    <div class="rule"><div class="e">⛏️</div><h4>1. Mine &amp; Chop</h4><p>Every block can be broken. Grass, dirt, stone, coal &amp; gold ore drop resources. Trees drop wood + apples.</p></div>
+    <div class="rule"><div class="e">🏠</div><h4>2. Build Shelter</h4><p>Place blocks to make walls, platforms and a safe house. Monsters can't pass through solid blocks.</p></div>
+    <div class="rule"><div class="e">🌙</div><h4>3. Night = Danger</h4><p>Days are calm. At night zombies, eyes &amp; mischievous imps spawn faster and hit harder. Torches of daylight return at dawn.</p></div>
+    <div class="rule"><div class="e">👾</div><h4>4. Fight Mischief</h4><p>Slimes bounce, imps dash &amp; steal coins, eyes fly. Defeat them for gel, coins, hearts &amp; apples.</p></div>
+    <div class="rule"><div class="e">👁️</div><h4>5. Boss Fight</h4><p>The Echo Devourer charges, hovers and spawns minions at 50% HP. Dodge its dash, strike when it pauses. Win = Echo Heart!</p></div>
+  </div>
+
+  <p class="foot">EchoHearts Rebirth — a Terraria-inspired 2D sandbox in your browser. No download needed. Your adventure is ready to push to GitHub as a single project — connect GitHub in Muse and this page can be committed as <b>index.html</b>.</p>
+</div>
+
+<script>
+const cvs=document.getElementById('game'), ctx=cvs.getContext('2d');
+const W=200,H=62,T=28; // world tiles, tile px in world units (render scaled)
+let world=[], trees=[];
+function makeWorld(){
+  world=Array.from({length:H},()=>Array(W).fill(0));
+  let ground=[];
+  for(let x=0;x<W;x++){
+    let gy=Math.floor(28+Math.sin(x*0.11)*3+Math.sin(x*0.031)*4+ (x%17===0?1:0));
+    ground[x]=gy;
+    for(let y=gy;y<H;y++){
+      let t=2; if(y===gy) t=1; else if(y>gy+4) t=3;
+      if(y>gy+8 && Math.random()<0.06) t=7; // coal
+      if(y>gy+14 && Math.random()<0.025) t=8; // gold
+      world[y][x]=t;
+    }
+    // caves
+    if(Math.random()<0.3){ let cy=gy+8+Math.floor(Math.random()*10); for(let k=0;k<6;k++){ if(world[cy] && world[cy][x+k]!==undefined) world[cy][x+k]=0; } }
+    // trees
+    if(x>4 && x<W-4 && Math.random()<0.14){
+      let th=4+Math.floor(Math.random()*2);
+      for(let k=1;k<=th;k++) world[gy-k][x]=4;
+      for(let dx=-2;dx<=2;dx++) for(let dy=-2;dy<=1;dy++){ if(Math.abs(dx)+Math.abs(dy)<4){ let yy=gy-th+dy, xx=x+dx; if(world[yy]&&world[yy][xx]===0) world[yy][xx]=5; } }
+    }
+  }
+  return ground;
+}
+let ground=makeWorld();
+const COLORS={1:'#5dbb4a',2:'#8a5a2b',3:'#7d7d84',4:'#6b3f1d',5:'#2e8b3a',6:'#e6d28a',7:'#2b2b2b',8:'#ffcf3f'};
+const NAMES={1:'Grass',2:'Dirt',3:'Stone',4:'Wood',5:'Leaves',7:'Coal',8:'Gold Ore'};
+
+let player, enemies, drops, particles, boss;
+let keys={}, mouse={x:0,y:0,down:false,right:false};
+let camX=0, time=0.28, day=1, running=false, paused=false, selected='sword';
+let inv={wood:0,stone:0,dirt:0,gel:0,coins:0,echo:0,apples:3,kills:0};
+let swing=0, swingDir=1, message='', msgT=0;
+
+function reset(){
+  makeWorld();
+  player={x:18*T,y:18*T,w:22,h:36,vx:0,vy:0,hp:100,max:100,onGround:false,face:1,invuln:0};
+  enemies=[]; drops=[]; particles=[]; boss=null;
+  time=0.30; day=1; inv={wood:0,stone:0,dirt:0,gel:0,coins:0,echo:0,apples:3,kills:0};
+  selected='sword'; updateHUD(); setQuest();
+}
+function setQuest(){
+  let q=document.getElementById('questText');
+  if(boss) q.textContent='BOSS FIGHT! Dodge the charge, hit the eye when it pauses. Watch its health bar above!';
+  else if(inv.echo>0) q.textContent='You won! Keep exploring, mine gold, and summon the boss again for a rematch.';
+  else if(day>=2) q.textContent='You survived the night! Summon the boss whenever you feel ready.';
+  else if(inv.wood>=5 && inv.stone>=5) q.textContent='Great gathering! Survive until night or summon the boss now if you dare.';
+  else q.textContent='Chop 5 wood and mine 5 stone. Build your strength before nightfall!';
+}
+function spawnEnemy(type,x,y){
+  const base={x:x||player.x+(Math.random()<0.5?-520:520), y:y||player.y-120, vx:0, vy:0, hp:30, max:30, t:0, type};
+  if(type==='slime') Object.assign(base,{w:30,h:22,hp:25,max:25,dmg:8,color:'#59d65d'});
+  if(type==='imp') Object.assign(base,{w:26,h:32,hp:35,max:35,dmg:10,color:'#ff8c42'});
+  if(type==='zombie') Object.assign(base,{w:24,h:38,hp:50,max:50,dmg:12,color:'#6a9a5b'});
+  if(type==='eye') Object.assign(base,{w:34,h:28,hp:40,max:40,dmg:11,color:'#ffffff',fly:true});
+  enemies.push(base);
+}
+function spawnBoss(){
+  if(boss){ showMsg('Boss is already here!'); return; }
+  boss={x:player.x+420,y:player.y-220,w:110,h:90,vx:0,vy:0,hp:650,max:650,t:0,phase:1,charge:0};
+  document.getElementById('bossBarWrap').style.display='block';
+  showMsg('👁️ THE ECHO DEVOURER HAS AWOKEN!'); setQuest();
+}
+function showMsg(s){ message=s; msgT=180; }
+function addDrop(x,y,kind){ drops.push({x,y,vy:-2,vx:(Math.random()-0.5)*2,kind,t:0}); }
+function burst(x,y,col,n=10){ for(let i=0;i<n;i++) particles.push({x,y,vx:(Math.random()-0.5)*6,vy:(Math.random()-0.5)*6,life:24,col}); }
+
+function tileAt(tx,ty){ if(tx<0||tx>=W||ty<0||ty>=H) return 3; return world[ty][tx]; }
+function solid(tx,ty){ return tileAt(tx,ty)!==0; }
+function collide(e){
+  e.onGround=false;
+  // X
+  e.x+=e.vx;
+  let top=Math.floor(e.y/T), bot=Math.floor((e.y+e.h-1)/T), left=Math.floor(e.x/T), right=Math.floor((e.x+e.w-1)/T);
+  if(e.vx>0 && (solid(right,top)||solid(right,bot))) { e.x=right*T-e.w-1; e.vx=0; }
+  if(e.vx<0 && (solid(left,top)||solid(left,bot))) { e.x=(left+1)*T+1; e.vx=0; }
+  // Y
+  e.y+=e.vy;
+  top=Math.floor(e.y/T); bot=Math.floor((e.y+e.h-1)/T); left=Math.floor(e.x/T); right=Math.floor((e.x+e.w-1)/T);
+  if(e.vy>0 && (solid(left,bot)||solid(right,bot))) { e.y=bot*T-e.h; e.vy=0; e.onGround=true; }
+  if(e.vy<0 && (solid(left,top)||solid(right,top))) { e.y=(top+1)*T; e.vy=0; }
+}
+
+function update(){
+  if(!running||paused) return;
+  // time: full cycle ~ 110 seconds
+  time+=0.00016; if(time>=1){ time=0; day++; showMsg('☀️ Day '+day+' — The forest wakes up'); }
+  const isNight = time>0.58 || time<0.05;
+  // player move
+  let speed = keys['shift']?4.2:2.9;
+  player.vx=0;
+  if(keys['a']||keys['arrowleft']) { player.vx=-speed; player.face=-1; }
+  if(keys['d']||keys['arrowright']) { player.vx=speed; player.face=1; }
+  if((keys[' ']||keys['w']||keys['arrowup']) && player.onGround){ player.vy=-11.5; }
+  player.vy=Math.min(14, player.vy+0.55);
+  collide(player);
+  if(player.invuln>0) player.invuln--;
+  if(swing>0) swing--;
+  if(msgT>0) msgT--;
+
+  // spawn logic
+  let spawnRate = isNight? 0.012 : 0.0035;
+  if(Math.random()<spawnRate && enemies.length< (isNight?9:4)){
+    let types = isNight? ['zombie','eye','imp','slime'] : ['slime','imp'];
+    spawnEnemy(types[Math.floor(Math.random()*types.length)]);
+  }
+  // enemies AI
+  enemies.forEach(en=>{
+    en.t++;
+    let dx=player.x-en.x, dir=Math.sign(dx)||1;
+    if(en.fly){
+      en.vx = dir*1.6; en.vy = Math.sin(en.t*0.05)*0.8 + (player.y-en.y)*0.01;
+      en.x+=en.vx; en.y+=en.vy;
+    } else {
+      if(en.type==='slime'){ if(en.onGround && en.t%55===0){ en.vy=-7; en.vx=dir*2.2; } }
+      else if(en.type==='imp'){ en.vx=dir*(en.t%90<12?3.8:1.4); if(en.onGround && Math.random()<0.01) en.vy=-8; }
+      else { en.vx=dir*1.15; }
+      en.vy=Math.min(12,en.vy+0.5); collide(en);
+    }
+    // hit player
+    if(Math.abs(player.x-en.x)<28 && Math.abs(player.y-en.y)<36 && player.invuln<=0){
+      hurt(en.dmg||10, dir);
+      if(en.type==='imp' && inv.coins>0){ inv.coins=Math.max(0,inv.coins-3); showMsg('😈 Imp stole 3 coins! Get it back!'); }
+    }
+  });
+  enemies=enemies.filter(e=>e.hp>0 && Math.abs(e.x-player.x)<1400);
+
+  // boss AI
+  if(boss){
+    boss.t++;
+    let dx=player.x-boss.x, dy=player.y-boss.y;
+    if(boss.hp<boss.max*0.5 && boss.phase===1){ boss.phase=2; showMsg('Boss enraged! It spawns minions!'); for(let i=0;i<3;i++) spawnEnemy('eye',boss.x+i*40,boss.y); }
+    if(boss.t%170<110){ boss.vx=dx*0.012; boss.vy=dy*0.012 + Math.sin(boss.t*0.04)*0.4; }
+    else if(boss.t%170===110){ boss.vx=Math.sign(dx)*7; boss.vy=0.5; showMsg('⚠️ Boss is charging! Jump / move!'); }
+    boss.x+=boss.vx; boss.y+=boss.vy;
+    document.getElementById('bossBar').style.width=Math.max(0,boss.hp/boss.max*100)+'%';
+    document.getElementById('bossHpText').textContent=Math.max(0,Math.ceil(boss.hp))+' / '+boss.max+' HP • Phase '+boss.phase;
+    if(Math.abs(player.x-boss.x)<70 && Math.abs(player.y-boss.y)<60 && player.invuln<=0) hurt(boss.phase===2?18:14, Math.sign(dx)||1);
+    if(boss.hp<=0){
+      burst(boss.x+50,boss.y+40,'#ffcf3f',40); burst(boss.x+50,boss.y+40,'#ff4757',30);
+      inv.echo++; inv.coins+=50; addDrop(boss.x+40,boss.y,'heart'); addDrop(boss.x+60,boss.y,'heart');
+      showMsg('🏆 BOSS DEFEATED! +1 Echo Heart +50 coins'); boss=null;
+      document.getElementById('bossBarWrap').style.display='none';
+      document.getElementById('bossHpText').textContent='Defeated! Summon again for a rematch →';
+      document.getElementById('endOverlay').classList.remove('hidden');
+      setQuest();
+    }
+  }
+
+  // drops
+  drops.forEach(d=>{ d.t++; d.y+=Math.sin(d.t*0.1)*0.3; if(Math.abs(d.x-player.x)<30 && Math.abs(d.y-player.y)<40){ collect(d); d.dead=true; }});
+  drops=drops.filter(d=>!d.dead);
+  particles.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.life--}); particles=particles.filter(p=>p.life>0);
+
+  // mining / attacking continuous
+  if(mouse.down) doAction();
+  camX += ((player.x - cvs.width/2) - camX)*0.12;
+  camX=Math.max(0,Math.min(W*T-cvs.width,camX));
+  updateHUD();
+}
+function collect(d){
+  if(d.kind==='coin'){ inv.coins+=5; showMsg('+5 coins'); }
+  if(d.kind==='gel'){ inv.gel++; }
+  if(d.kind==='heart'){ player.hp=Math.min(player.max,player.hp+25); showMsg('❤️ +25 HP'); }
+  if(d.kind==='apple'){ inv.apples++; showMsg('🍎 +1 Apple'); }
+  burst(d.x,d.y,'#ffcf3f',6);
+}
+function hurt(dmg,dir){ player.hp-=dmg; player.invuln=45; player.vx=dir*4; player.vy=-4; burst(player.x+10,player.y+16,'#ff4757',8); if(player.hp<=0){ player.hp=0; gameOver(false); } updateHUD(); }
+function gameOver(win){
+  document.getElementById('endEmoji').textContent=win?'🏆':'💀';
+  document.getElementById('endTitle').textContent=win?'YOU DEFEATED THE BOSS!':'YOU FELL IN BATTLE';
+  document.getElementById('endText').textContent=win?'The EchoHeart is safe.':'Night got the best of you this time. Your world is still here — try again with a shelter and more apples!';
+  document.getElementById('endOverlay').classList.remove('hidden');
+}
+let mineTarget=null, mineProg=0;
+function doAction(){
+  // world mouse
+  let mx=mouse.x+camX, my=mouse.y;
+  let tx=Math.floor(mx/T), ty=Math.floor(my/T);
+  let dist=Math.hypot(mx-(player.x+11), my-(player.y+18));
+  // attack enemies first if sword and close enemy in direction
+  if(selected==='sword'){
+    if(swing<=0){
+      swing=14; swingDir=player.face;
+      let hit=false;
+      enemies.forEach(en=>{ if(Math.abs(en.x-player.x)<72 && Math.abs(en.y-player.y)<56){ damageEnemy(en, 26+Math.floor(Math.random()*8)); hit=true; }});
+      if(boss && Math.abs(boss.x+40-player.x)<110 && Math.abs(boss.y-player.y)<90){ boss.hp-=28; burst(boss.x+55,boss.y+40,'#ff4757',10); hit=true; if(boss.hp<=0) {} }
+      if(hit) return;
+    }
+    return;
+  }
+  if(dist>110) { mineProg=0; return; }
+  if(selected==='block'){
+    if(tileAt(tx,ty)===0 && (inv.dirt>0||inv.stone>0)){
+      if(inv.dirt>0){ world[ty][tx]=2; inv.dirt--; } else { world[ty][tx]=3; inv.stone--; }
+    }
+    mouse.down=false; return;
+  }
+  // mine / chop
+  let t=tileAt(tx,ty); if(t===0) return;
+  let need = (t===4||t===5)? 'axe' : 'pick';
+  // allow any tool to mine slower, correct tool faster
+  mineProg += (selected===need? 0.22 : 0.10);
+  burst(mx,my,'#ffffff',1);
+  if(mineProg>=1){
+    world[ty][tx]=0; mineProg=0;
+    if(t===1||t===2){ inv.dirt++; addDrop(tx*T+8,ty*T,'coin'); if(Math.random()<0.3) inv.dirt++; }
+    if(t===3){ inv.stone++; }
+    if(t===4){ inv.wood++; if(Math.random()<0.35) addDrop(tx*T,ty*T,'apple'); }
+    if(t===5){ if(Math.random()<0.4) addDrop(tx*T,ty*T,'apple'); }
+    if(t===7){ inv.stone+=2; showMsg('⬛ Coal! +2 stone'); }
+    if(t===8){ inv.coins+=20; inv.stone++; showMsg('✨ GOLD ORE! +20 coins'); }
+    burst(tx*T+14,ty*T+14,'#d2b48c',8); setQuest();
+  }
+}
+function damageEnemy(en,dmg){
+  en.hp-=dmg; en.vx=Math.sign(en.x-player.x)*3; burst(en.x+14,en.y+12,'#ff4757',7);
+  if(en.hp<=0){ inv.kills++; inv.coins+= (en.type==='imp'?12:6); if(en.type==='slime') addDrop(en.x,en.y,'gel'); if(Math.random()<0.28) addDrop(en.x,en.y,'heart'); if(Math.random()<0.22) addDrop(en.x,en.y,'coin'); showMsg('Defeated '+en.type+'! +coins'); setQuest(); }
+}
+
+function draw(){
+  // sky based on time
+  let dayLight = time<0.55 && time>0.05 ? 1 : (time>=0.55&&time<0.68?0.45:0.12);
+  let sky = dayLight>0.8? '#87ceeb' : dayLight>0.3? '#f2a65a' : '#0b1026';
+  ctx.fillStyle=sky; ctx.fillRect(0,0,cvs.width,cvs.height);
+  // sun / moon
+  let sx=time*cvs.width*1.2-80, sy=90-Math.sin(time*Math.PI)*50;
+  ctx.fillStyle= dayLight>0.3? '#ffdf6b':'#e8eef7'; ctx.beginPath(); ctx.arc(Math.max(40,Math.min(920,sx)), Math.max(36,sy), dayLight>0.3?22:16,0,Math.PI*2); ctx.fill();
+  // stars at night
+  if(dayLight<0.4){ ctx.fillStyle='#fff'; for(let i=0;i<40;i++){ let x=(i*97)%960, y=(i*53)%180; ctx.fillRect(x,y,2,2);} }
+  // clouds / hills
+  ctx.fillStyle= dayLight>0.3? 'rgba(255,255,255,.85)':'rgba(255,255,255,.12)';
+  [[120,60],[420,42],[760,70]].forEach(c=>{ ctx.beginPath(); ctx.ellipse(c[0]-(camX*0.2%40),c[1],52,16,0,0,Math.PI*2); ctx.fill(); });
+
+  let x0=Math.floor(camX/T), x1=x0+Math.ceil(cvs.width/T)+2;
+  for(let ty=0;ty<H;ty++) for(let tx=x0;tx<Math.min(W,x1);tx++){
+    let t=world[ty][tx]; if(!t) continue;
+    let x=tx*T-camX, y=ty*T- (28*8) + 180; // offset so surface visible - we render world with camera Y fixed
+    // Actually use world Y directly with offset: surface around y=28*T=784 too low, so shift up
+    y = ty*T - 520;
+    if(y<-T||y>cvs.height+T) continue;
+    ctx.fillStyle=COLORS[t]||'#999'; ctx.fillRect(x,y,T-1,T-1);
+    if(t===1){ ctx.fillStyle='#3f9e2f'; ctx.fillRect(x,y,T-1,7); }
+    if(t===4){ ctx.fillStyle='#4a2c12'; ctx.fillRect(x+10,y,3,T); }
+    if(t===5){ ctx.fillStyle='rgba(255,255,255,.12)'; ctx.fillRect(x+6,y+6,6,6); }
+    if(t===8){ ctx.fillStyle='#fff3a0'; ctx.fillRect(x+7,y+9,5,5); ctx.fillRect(x+16,y+16,4,4); }
+    if(t===7){ ctx.fillStyle='#555'; ctx.fillRect(x+8,y+10,5,5); }
+  }
+  // drops
+  drops.forEach(d=>{ let x=d.x-camX, y=d.y-520; ctx.font='18px serif'; ctx.fillText(d.kind==='heart'?'❤️':d.kind==='apple'?'🍎':d.kind==='gel'?'🟢':'🪙', x, y); });
+  // enemies
+  enemies.forEach(en=>{ let x=en.x-camX, y=en.y-520; ctx.fillStyle=en.color; if(en.type==='eye'){ ctx.beginPath(); ctx.ellipse(x+17,y+14,18,14,0,0,Math.PI*2); ctx.fill(); ctx.fillStyle='#ff4757'; ctx.beginPath(); ctx.arc(x+17,y+14,7,0,Math.PI*2); ctx.fill(); ctx.fillStyle='#111'; ctx.beginPath(); ctx.arc(x+17,y+14,3,0,Math.PI*2); ctx.fill(); } else { ctx.fillRect(x,y,en.w,en.h); ctx.fillStyle='#111'; ctx.fillRect(x+6,y+8,4,4); ctx.fillRect(x+en.w-10,y+8,4,4); if(en.type==='imp'){ ctx.fillStyle='#7c2d12'; ctx.fillRect(x+4,y-6,5,7); ctx.fillRect(x+en.w-9,y-6,5,7);} } hpBar(x,y-8,en.w,en.hp/en.max); });
+  // boss
+  if(boss){ let x=boss.x-camX, y=boss.y-520; ctx.fillStyle='#f1f5f9'; ctx.beginPath(); ctx.ellipse(x+55,y+45,58,44,0,0,Math.PI*2); ctx.fill(); ctx.fillStyle= boss.phase===2?'#7c3aed':'#e11d48'; ctx.beginPath(); ctx.arc(x+55,y+45,26,0,Math.PI*2); ctx.fill(); ctx.fillStyle='#111'; ctx.beginPath(); ctx.arc(x+55,y+45,12,0,Math.PI*2); ctx.fill(); ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(x+50,y+38,4,0,Math.PI*2); ctx.fill(); ctx.font='12px Inter'; ctx.fillStyle='#fff'; ctx.fillText('ECHO DEVOURER', x+2,y-10); }
+  // player - adjust Y rendering: player.y is world, screen y = player.y-520
+  let px=player.x-camX, py=player.y-520;
+  // body
+  if(!(player.invuln>0 && Math.floor(player.invuln/4)%2===0)){
+    ctx.fillStyle='#2563eb'; ctx.fillRect(px+3,py+16,16,16); // shirt
+    ctx.fillStyle='#f2c09a'; ctx.fillRect(px+4,py+2,14,14); // head
+    ctx.fillStyle='#3b2312'; ctx.fillRect(px+4,py+2,14,5); // hair
+    ctx.fillStyle='#1e3a2a'; ctx.fillRect(px+4,py+32,6,6); ctx.fillRect(px+13,py+32,6,6);
+    ctx.fillStyle='#111'; ctx.fillRect(px+ (player.face>0?13:6),py+9,3,3);
+  }
+  // sword swing
+  if(swing>0 && selected==='sword'){ ctx.save(); ctx.translate(px+11,py+18); ctx.rotate(player.face* (0.9 - swing*0.06)); ctx.fillStyle='#e5e7eb'; ctx.fillRect(player.face>0?8:-28,-3,22,5); ctx.fillStyle='#8a5a2b'; ctx.fillRect(player.face>0?4:-8,-2,6,4); ctx.restore(); }
+  else if(selected==='pick'){ ctx.fillStyle='#9ca3af'; ctx.fillRect(px+(player.face>0?16:-8),py+18,10,4); }
+  else if(selected==='axe'){ ctx.fillStyle='#9ca3af'; ctx.fillRect(px+(player.face>0?16:-8),py+14,10,8); }
+
+  // target tile highlight
+  let mx=mouse.x+camX, myWorld=mouse.y+520; let tx=Math.floor(mx/T), ty=Math.floor(myWorld/T);
+  ctx.strokeStyle='rgba(255,207,63,.95)'; ctx.lineWidth=2; ctx.strokeRect(tx*T-camX, ty*T-520, T, T);
+  // particles
+  particles.forEach(p=>{ ctx.fillStyle=p.col; ctx.fillRect(p.x-camX, p.y-520,4,4); });
+  // night darkness vignette (light around player)
+  if(dayLight<0.6){ ctx.fillStyle=`rgba(2,6,18,${0.38-dayLight*0.25})`; ctx.fillRect(0,0,cvs.width,cvs.height); }
+  // message
+  if(msgT>0 && message){ ctx.fillStyle='rgba(0,0,0,.72)'; let w=ctx.measureText(message).width+28; ctx.fillRect(cvs.width/2-w/2,14,w,34); ctx.fillStyle='#ffcf3f'; ctx.font='700 14px Inter'; ctx.textAlign='center'; ctx.fillText(message,cvs.width/2,36); ctx.textAlign='left'; }
+  // coords hint
+  ctx.fillStyle='rgba(0,0,0,.45)'; ctx.fillRect(10,cvs.height-30,300,20); ctx.fillStyle='#fff'; ctx.font='12px Inter'; ctx.fillText(isNightText()+'  •  Tool: '+selected.toUpperCase()+'  •  Reach tile highlighted',16,cvs.height-16);
+}
+function isNightText(){ return (time>0.58||time<0.05)?'🌙 NIGHT — monsters are stronger':'☀️ DAYTIME — gather & build'; }
+function hpBar(x,y,w,ratio){ ctx.fillStyle='#111'; ctx.fillRect(x,y,w,5); ctx.fillStyle='#ff4757'; ctx.fillRect(x+1,y+1,(w-2)*Math.max(0,ratio),3); }
+
+function loop(){ update(); if(player) draw(); requestAnimationFrame(loop); }
+function updateHUD(){
+  document.getElementById('hpText').textContent=Math.ceil(player?player.hp:100)+' / 100';
+  document.getElementById('dayText').textContent=day;
+  document.getElementById('timeText').textContent=(time>0.58||time<0.05)?'Night 🌙': time<0.3?'Morning ☀️':'Afternoon 🌤️';
+  document.getElementById('coinText').textContent=inv.coins;
+  document.getElementById('echoText').textContent=inv.echo;
+  document.getElementById('woodText').textContent=inv.wood;
+  document.getElementById('stoneText').textContent=inv.stone;
+  document.getElementById('gelText').textContent=inv.gel;
+  document.getElementById('killText').textContent=inv.kills;
+  document.getElementById('appleText').textContent=inv.apples;
+}
+// Input
+window.addEventListener('keydown',e=>{ keys[e.key.toLowerCase()]=true; if(e.key==='1') setSlot('sword'); if(e.key==='2') setSlot('pick'); if(e.key==='3') setSlot('axe'); if(e.key==='4') setSlot('block'); if(e.key.toLowerCase()==='e'){ setSlot('block'); doPlace(); } if(e.key===' ') e.preventDefault(); });
+window.addEventListener('keyup',e=>{ keys[e.key.toLowerCase()]=false; });
+function doPlace(){ let mx=mouse.x+camX, my=mouse.y+520; let tx=Math.floor(mx/T), ty=Math.floor(my/T); if(tileAt(tx,ty)===0 && (inv.dirt>0||inv.stone>0)){ if(inv.dirt>0){world[ty][tx]=2; inv.dirt--;} else {world[ty][tx]=3; inv.stone--;} } }
+function setSlot(s){ selected=s; document.querySelectorAll('.slot').forEach(el=>el.classList.toggle('active', el.dataset.slot===s)); }
+document.querySelectorAll('.slot').forEach(el=>el.addEventListener('click',()=>setSlot(el.dataset.slot)));
+function canvasPos(e){ let r=cvs.getBoundingClientRect(); let cx=(e.touches?e.touches[0].clientX:e.clientX), cy=(e.touches?e.touches[0].clientY:e.clientY); return {x:(cx-r.left)*(cvs.width/r.width), y:(cy-r.top)*(cvs.height/r.height)}; }
+cvs.addEventListener('mousemove',e=>{ let p=canvasPos(e); mouse.x=p.x; mouse.y=p.y; });
+cvs.addEventListener('mousedown',e=>{ if(e.button===2){ doPlace(); } else mouse.down=true; });
+window.addEventListener('mouseup',()=>mouse.down=false);
+cvs.addEventListener('contextmenu',e=>e.preventDefault());
+cvs.addEventListener('touchstart',e=>{ let p=canvasPos(e); mouse.x=p.x; mouse.y=p.y; mouse.down=true; e.preventDefault(); },{passive:false});
+cvs.addEventListener('touchend',()=>mouse.down=false);
+// touch buttons
+function bindHold(id,key){ let el=document.getElementById(id); el.addEventListener('touchstart',e=>{keys[key]=true; e.preventDefault();},{passive:false}); el.addEventListener('touchend',()=>keys[key]=false); el.addEventListener('mousedown',()=>keys[key]=true); el.addEventListener('mouseup',()=>keys[key]=false); }
+bindHold('tLeft','a'); bindHold('tRight','d'); bindHold('tJump',' ');
+document.getElementById('tHit').addEventListener('click',()=>{ mouse.down=true; setTimeout(()=>mouse.down=false,180); });
+// Buttons
+document.getElementById('startBtn').addEventListener('click',()=>{ document.getElementById('startOverlay').classList.add('hidden'); running=true; showMsg('🌳 Day 1 — Chop trees & mine stone!'); });
+document.getElementById('bossBtn').addEventListener('click',()=>{ if(!running){ document.getElementById('startOverlay').classList.add('hidden'); running=true; } spawnBoss(); });
+document.getElementById('healBtn').addEventListener('click',()=>{ if(inv.apples>0 && player.hp<player.max){ inv.apples--; player.hp=Math.min(player.max,player.hp+30); showMsg('🍎 +30 HP'); updateHUD(); } else if(inv.apples<=0) showMsg('No apples — chop leaves/trees!'); });
+document.getElementById('pauseBtn').addEventListener('click',e=>{ paused=!paused; e.target.textContent=paused?'▶ Resume':'⏸ Pause'; });
+document.getElementById('againBtn').addEventListener('click',()=>{ document.getElementById('endOverlay').classList.add('hidden'); reset(); running=true; });
+document.getElementById('continueBtn').addEventListener('click',()=>{ document.getElementById('endOverlay').classList.add('hidden'); if(player.hp<=0){ player.hp=60; player.x=18*T; player.y=18*T; } running=true; });
+
+reset(); loop();
+</script>
+</body>
+</html>
