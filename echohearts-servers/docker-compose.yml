@@ -8,10 +8,15 @@ services:
     restart: unless-stopped
   web:
     build:
-      context: .
-      dockerfile: Dockerfile.web
+      # Context is the REPO ROOT: Dockerfile.web copies echohearts-playable/,
+      # echohearts-rebirth-game/ and echohearts-servers/web/server.py, which are
+      # siblings at the root — they are not inside echohearts-servers/.
+      context: ..
+      dockerfile: echohearts-servers/Dockerfile.web
     environment:
-      ECHOHEARTS_MP_HOST: "127.0.0.1"
+      # Inside the compose network the multiplayer server is the "multiplayer"
+      # service — 127.0.0.1 here would point the web container at itself.
+      ECHOHEARTS_MP_HOST: "multiplayer"
       ECHOHEARTS_MP_PORT: "7777"
     ports:
       - "8080:8080"
