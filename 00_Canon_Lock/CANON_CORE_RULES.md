@@ -90,3 +90,7 @@
 No technical implementation is called **VERIFIED**, **compiled**, **production-ready**, **secure**, **optimized**, or **finished** without direct repository/build/test/profile evidence.
 
 © 2026 Into Deep Studios and Donta L. Owens. All rights reserved.
+
+## October 23 owner clarification
+
+[Safehold, Heritage and Presentation rulings](SAFEHOLD_HERITAGE_PRESENTATION_RULINGS_2026-10-23.md) refine rescue containment and chosen reproduction, define eighteen expressions of the nine Essences, and preserve species identity. Apply these specific rulings where older blanket wording conflicts.

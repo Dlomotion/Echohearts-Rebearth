@@ -240,3 +240,9 @@ Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
 - `09_Technical/UNITY_GAMEPLAY_RECOVERY_BATCH2_UE58_PORT_MAP_2026-10-06.md` — audits the uploaded character-creator/customization, dialogue, animation, VFX, multiplayer/netcode, shader, full-demo, foundation and complete-export packages and maps only source-supported behavior into the UE5.8 BUILD lane. BUILD PR #34 carries the bounded C++ port for appearance/customization, dialogue records, VFX cues and battle synchronization contracts. Placeholder boss/multiplayer/VFX/demo claims are not promoted to implemented status.
 
 Verification remains **NOT VERIFIED — UE BUILD/RUNTIME EVIDENCE REQUIRED**.
+
+## Owner rulings and exploration — 2026-10-25
+
+- [Safehold, Heritage, eighteen expressions and presentation](00_Canon_Lock/SAFEHOLD_HERITAGE_PRESENTATION_RULINGS_2026-10-23.md).
+- [World Explorer flight and HUD contract](06_UI_UX/WORLD_EXPLORER_FLIGHT_CONTRACT_2026-10-25.md).
+- [Source reconciliation and unresolved evidence](10_Production/OCT25_SOURCE_RECONCILIATION.md).
