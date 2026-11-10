@@ -70,6 +70,9 @@ Planet: Rebearth. Hub: Echohearts Sanctuary. Player: Frequency Tamer / Echoheart
 - BASIC may be used for isolated utilities and prototypes after choosing a specific dialect (for example FreeBASIC or QB64-PE) and defining a repeatable build/test command. Never assume BASIC executes in Unreal directly.
 - Python/PowerShell may support validation and CI where justified. Prefer one maintained implementation over redundant multi-language rewrites.
 
+## Unreal project entry point
+The approved canonical project filename is `EchoheartsRebearth.uproject` (case-sensitive). Use this exact name in Unreal Build Tool, AutomationTool, CI, and local developer commands. Do not substitute `ProjectEngine.uproject` or the legacy `ECHOHEARTS.uproject`. The target engine family is Unreal Engine 5.8; verify the actual installed version and project EngineAssociation before compiling or packaging. If the project file is absent from a particular repository, report the missing runtime checkout instead of inventing a project path.
+
 ## Git, LFS and build safety
 Use short-lived feature/fix branches and PRs; do not routinely commit directly to main. Inspect diff and tests before scoped commits. Do not force-push, delete branches, merge, or change protection without explicit authorization. Preserve useful project Build/ resources when present. Track Unreal .uasset and .umap with Git LFS; evaluate other binary extensions by size and workflow. LFS is not a binary merge strategy: coordinate locking/asset ownership. Never run untrusted public PR code on a persistent self-hosted runner. Use least-privilege CI permissions. Verify .uproject, actual engine install/version, Build.cs/Target.cs, UBT/UHT compile, cook/package, Git LFS round-trip, rollback, and runtime evidence before marking anything VERIFIED.
 
